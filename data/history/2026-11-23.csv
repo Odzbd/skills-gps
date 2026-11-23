@@ -96,6 +96,7 @@ AU,All roles,Data analysis,50,0.0867
 AU,All roles,Decision making,49,0.0814
 AU,All roles,Forecasting,46,0.0949
 AU,All roles,Time management,45,0.0866
+AU,All roles,MEDDIC,41,0.0898
 AU,All roles,Observability,41,0.0672
 AU,All roles,Kubernetes,41,0.0614
 AU,All roles,Go,40,0.0590
@@ -105,7 +106,6 @@ AU,All roles,Incident management,39,0.0601
 AU,All roles,Business development,38,0.0862
 AU,All roles,CRM,38,0.0857
 AU,All roles,Stakeholder management,38,0.0477
-AU,All roles,MEDDIC,37,0.0839
 AU,All roles,Customer support,37,0.0838
 AU,All roles,Distributed systems,36,0.0518
 AU,All roles,Cybersecurity,34,0.0683
@@ -251,7 +251,7 @@ AU,Sales & account executive,B2B sales,36,0.2417
 AU,Sales & account executive,Ownership,36,0.2314
 AU,Sales & account executive,Negotiation,35,0.2115
 AU,Sales & account executive,Salesforce,33,0.2682
-AU,Sales & account executive,MEDDIC,27,0.1988
+AU,Sales & account executive,MEDDIC,31,0.2215
 AU,Sales & account executive,Forecasting,26,0.1772
 AU,Sales & account executive,Business development,25,0.1722
 AU,Sales & account executive,Adaptability,25,0.1633
@@ -289,82 +289,82 @@ AU,Sales & account executive,Stakeholder management,5,0.0407
 AU,Sales & account executive,Operations management,5,0.0341
 AU,Sales & account executive,Logistics,5,0.0437
 AU,Sales & account executive,Agile,5,0.0249
-All,All roles,Communication,17985,0.5342
-All,All roles,Cross-functional work,12830,0.3817
-All,All roles,Collaboration,11669,0.3630
+All,All roles,Communication,17993,0.5344
+All,All roles,Cross-functional work,12829,0.3816
+All,All roles,Collaboration,11668,0.3629
 All,All roles,Leadership,11508,0.3491
-All,All roles,Mentoring,8262,0.2605
-All,All roles,Problem solving,8030,0.2172
-All,All roles,Python,7424,0.2059
-All,All roles,Process improvement,4583,0.1191
-All,All roles,SQL,4131,0.1209
-All,All roles,Machine learning,4110,0.1234
-All,All roles,Attention to detail,4059,0.1163
-All,All roles,AI assistants,3750,0.1439
-All,All roles,Ownership,3501,0.1012
+All,All roles,Mentoring,8264,0.2605
+All,All roles,Problem solving,8031,0.2172
+All,All roles,Python,7428,0.2060
+All,All roles,Process improvement,4582,0.1191
+All,All roles,SQL,4133,0.1210
+All,All roles,Machine learning,4111,0.1234
+All,All roles,Attention to detail,4060,0.1163
+All,All roles,AI assistants,3751,0.1439
+All,All roles,Ownership,3501,0.1011
 All,All roles,AI agents,3407,0.1143
-All,All roles,AWS,3386,0.1099
-All,All roles,Time management,3349,0.1031
+All,All roles,AWS,3387,0.1099
+All,All roles,Time management,3348,0.1031
 All,All roles,Prototyping,3345,0.0873
-All,All roles,Privacy regulation,3288,0.0548
-All,All roles,Cloud infrastructure,3098,0.0956
-All,All roles,Data analysis,3033,0.0799
+All,All roles,Privacy regulation,3287,0.0548
+All,All roles,Cloud infrastructure,3099,0.0956
+All,All roles,Data analysis,3033,0.0798
 All,All roles,LLMs,2953,0.0949
 All,All roles,Distributed systems,2882,0.0833
 All,All roles,Presentation,2878,0.0883
-All,All roles,Observability,2820,0.0927
-All,All roles,Incident management,2760,0.0855
+All,All roles,Observability,2823,0.0928
+All,All roles,Incident management,2761,0.0855
 All,All roles,Decision making,2760,0.0861
-All,All roles,Kubernetes,2691,0.0875
-All,All roles,Negotiation,2686,0.0805
-All,All roles,Salesforce,2640,0.0942
-All,All roles,Supply chain,2617,0.0536
+All,All roles,Kubernetes,2693,0.0876
+All,All roles,Negotiation,2685,0.0805
+All,All roles,Salesforce,2641,0.0942
+All,All roles,Supply chain,2616,0.0536
 All,All roles,Project management,2538,0.0726
 All,All roles,Go,2492,0.0719
-All,All roles,C++,2487,0.0573
-All,All roles,Logistics,2451,0.0570
-All,All roles,Customer support,2432,0.0683
+All,All roles,C++,2490,0.0574
+All,All roles,Logistics,2451,0.0569
+All,All roles,Customer support,2431,0.0683
 All,All roles,Compensation & benefits,2414,0.0583
 All,All roles,CI/CD,2382,0.0763
 All,All roles,Procurement,2319,0.0585
-All,All roles,Forecasting,2246,0.0710
+All,All roles,Forecasting,2248,0.0711
 All,All roles,Data pipelines,2204,0.0689
-All,All roles,Excel,2163,0.0593
-All,All roles,Google Cloud,2148,0.0685
+All,All roles,Excel,2163,0.0592
+All,All roles,Google Cloud,2150,0.0686
 All,All roles,Root cause analysis,2109,0.0443
-All,All roles,Adaptability,2005,0.0656
-All,All roles,Critical thinking,2002,0.0612
+All,All roles,Adaptability,2005,0.0655
+All,All roles,Critical thinking,2001,0.0612
 All,All roles,CAD,1957,0.0441
 All,All roles,Java,1946,0.0576
 All,All roles,Linux,1938,0.0462
 All,All roles,System design,1921,0.0514
-All,All roles,A/B testing,1912,0.0713
-All,All roles,Solution engineering,1890,0.0600
-All,All roles,Azure,1870,0.0542
-All,All roles,Account management,1802,0.0605
+All,All roles,A/B testing,1912,0.0712
+All,All roles,Solution engineering,1892,0.0601
+All,All roles,Azure,1871,0.0542
+All,All roles,Account management,1802,0.0604
 All,All roles,CRM,1751,0.0642
 All,All roles,Electrical engineering,1749,0.0305
 All,All roles,Code review,1702,0.0553
-All,All roles,Risk management,1647,0.0457
+All,All roles,Risk management,1648,0.0457
 All,All roles,Prospecting,1628,0.0576
-All,All roles,Stakeholder management,1564,0.0467
-All,All roles,Business development,1560,0.0497
-All,All roles,Git,1533,0.0467
+All,All roles,Stakeholder management,1565,0.0467
+All,All roles,Business development,1559,0.0497
+All,All roles,Git,1534,0.0467
 All,All roles,Manufacturing engineering,1524,0.0218
-All,All roles,TypeScript,1497,0.0523
+All,All roles,TypeScript,1498,0.0523
 All,All roles,B2B sales,1492,0.0527
-All,All roles,ERP,1475,0.0308
-All,All roles,Accounting,1460,0.0469
-All,All roles,Agile,1409,0.0467
+All,All roles,ERP,1474,0.0308
+All,All roles,Accounting,1461,0.0469
+All,All roles,Agile,1408,0.0466
 All,All roles,Program management,1398,0.0329
-All,All roles,Docker,1386,0.0429
-All,All roles,Pipeline management,1333,0.0448
+All,All roles,Docker,1386,0.0428
+All,All roles,Pipeline management,1334,0.0448
+All,All roles,Data governance,1325,0.0427
 All,All roles,Mechanical design,1325,0.0195
-All,All roles,Data governance,1324,0.0426
 All,All roles,JavaScript,1306,0.0374
 All,All roles,AI coding tools,1299,0.0497
 All,All roles,Test engineering,1293,0.0187
-All,All roles,Quality assurance,1277,0.0291
+All,All roles,Quality assurance,1276,0.0291
 All,All roles,React,1275,0.0433
 All,All roles,Test automation,1261,0.0349
 All,All roles,Terraform,1240,0.0413
@@ -372,53 +372,53 @@ All,All roles,Cybersecurity,1233,0.0364
 All,All roles,Embedded systems,1220,0.0232
 All,All roles,Jira,1216,0.0328
 All,All roles,Generative AI,1207,0.0370
-All,All roles,Statistics,1205,0.0378
-All,All roles,Data center operations,1198,0.0269
+All,All roles,Statistics,1206,0.0379
+All,All roles,Data center operations,1198,0.0268
 All,All roles,Product strategy,1174,0.0388
 All,All roles,Regulatory compliance,1157,0.0323
 All,All roles,Robotics,1141,0.0208
 All,All roles,People management,1125,0.0366
-All,All roles,Infrastructure as code,1118,0.0375
+All,All roles,Infrastructure as code,1119,0.0375
 All,All roles,HR management,1109,0.0350
 All,All roles,Roadmapping,1105,0.0320
-All,All roles,Revenue operations,1074,0.0391
+All,All roles,Revenue operations,1074,0.0390
 All,All roles,C,1072,0.0226
 All,All roles,Auditing,1067,0.0331
-All,All roles,Identity & access,1034,0.0357
+All,All roles,Identity & access,1035,0.0357
 All,All roles,Systems engineering,1010,0.0208
 All,All roles,Change management,998,0.0283
 All,All roles,PostgreSQL,959,0.0322
-All,All roles,Rust,957,0.0239
+All,All roles,Rust,958,0.0240
 All,All roles,Operations management,946,0.0235
 All,All roles,Networking,904,0.0205
 All,All roles,Strategic planning,902,0.0278
-All,All roles,DevOps,894,0.0312
-All,All roles,Data warehousing,879,0.0266
+All,All roles,DevOps,895,0.0312
+All,All roles,Data warehousing,880,0.0267
 All,All roles,Growth marketing,872,0.0315
 All,All roles,Performance optimization,858,0.0257
 All,All roles,Tableau,849,0.0244
 All,All roles,Workplace safety,836,0.0149
 All,All roles,Customer focus,830,0.0284
 All,All roles,Bash / shell,813,0.0223
-All,All roles,Spark,806,0.0235
-All,All roles,Kafka,797,0.0278
+All,All roles,Spark,807,0.0235
+All,All roles,Kafka,798,0.0278
 All,All roles,Control systems,796,0.0123
+All,All roles,MEDDIC,785,0.0265
 All,All roles,Site reliability,765,0.0233
 All,All roles,Recruiting,753,0.0279
 All,All roles,Technical writing,751,0.0185
 All,All roles,Accessibility,742,0.0205
-All,All roles,Snowflake,729,0.0282
 All,All roles,MATLAB,729,0.0095
-All,All roles,FP&A,717,0.0231
-All,All roles,MEDDIC,697,0.0246
+All,All roles,Snowflake,728,0.0282
+All,All roles,FP&A,718,0.0232
 All,All roles,Data visualization,691,0.0208
 All,All roles,Partnerships,686,0.0209
-All,All roles,Market research,675,0.0214
-All,All roles,Data structures & algorithms,663,0.0211
+All,All roles,Market research,684,0.0219
+All,All roles,Data structures & algorithms,665,0.0212
 All,All roles,Prompt engineering,643,0.0212
 All,All roles,MCP,641,0.0248
 All,All roles,Welding,633,0.0081
-All,All roles,Data modeling,631,0.0221
+All,All roles,Data modeling,632,0.0221
 All,All roles,Ruby,627,0.0230
 All,All roles,Microservices,624,0.0203
 All,All roles,Business intelligence,619,0.0208
@@ -430,7 +430,7 @@ All,All roles,Model evaluation,593,0.0193
 All,All roles,Inventory management,592,0.0111
 All,All roles,Blueprint reading,583,0.0072
 All,All roles,Prometheus,580,0.0180
-All,All roles,dbt,572,0.0203
+All,All roles,dbt,573,0.0203
 All,All roles,CNC machining,571,0.0067
 All,All roles,Contract negotiation,569,0.0135
 All,All roles,PyTorch,566,0.0171
@@ -439,20 +439,20 @@ All,All roles,PCB design,557,0.0079
 All,All roles,Digital marketing,556,0.0234
 All,All roles,Design systems,554,0.0199
 All,All roles,REST APIs,550,0.0185
-All,All roles,SAP,546,0.0129
+All,All roles,SAP,547,0.0129
 All,All roles,C#,542,0.0126
 All,All roles,Cloud security,540,0.0156
 All,All roles,NetSuite,529,0.0164
 All,All roles,Workday,517,0.0165
 All,All roles,Mergers & acquisitions,513,0.0168
 All,All roles,Fine-tuning,508,0.0151
-All,All roles,R,506,0.0141
+All,All roles,R,506,0.0140
 All,All roles,Looker,496,0.0191
 All,All roles,Power BI,493,0.0101
 All,All roles,UX design,492,0.0151
 All,All roles,Kotlin,484,0.0174
 All,All roles,FedRAMP,476,0.0146
-All,All roles,Deep learning,474,0.0147
+All,All roles,Deep learning,475,0.0148
 All,All roles,Vendor management,461,0.0132
 All,All roles,Social media marketing,460,0.0189
 All,All roles,Scala,460,0.0109
@@ -466,18 +466,18 @@ All,All roles,Android,429,0.0153
 All,All roles,Node.js,426,0.0155
 All,All roles,Content marketing,408,0.0150
 All,All roles,Databricks,403,0.0151
-All,All roles,Airflow,400,0.0159
+All,All roles,Airflow,401,0.0160
 All,All roles,User research,395,0.0152
 All,All roles,iOS,394,0.0148
-All,All roles,Zero trust,392,0.0101
+All,All roles,Zero trust,392,0.0100
 All,All roles,MySQL,390,0.0133
 All,All roles,Application security,390,0.0137
-All,All roles,BigQuery,389,0.0153
+All,All roles,BigQuery,389,0.0152
 All,All roles,Therapy & counselling,365,0.0119
 All,All roles,Figma,362,0.0152
 All,All roles,Redis,360,0.0139
 All,All roles,HVAC,358,0.0071
-All,All roles,Pricing strategy,352,0.0112
+All,All roles,Pricing strategy,354,0.0113
 All,All roles,SolidWorks,347,0.0055
 All,All roles,Patient care,343,0.0106
 All,All roles,Materials science,339,0.0043
@@ -494,7 +494,7 @@ All,All roles,NoSQL,308,0.0097
 All,All roles,GraphQL,306,0.0107
 All,All roles,Vulnerability management,302,0.0099
 All,All roles,CSS,300,0.0114
-All,All roles,Financial analysis,297,0.0094
+All,All roles,Financial analysis,298,0.0095
 All,All roles,TensorFlow,297,0.0092
 All,All roles,Computer vision,287,0.0061
 All,All roles,Product analytics,276,0.0118
@@ -506,7 +506,7 @@ All,All roles,ASIC design,265,0.0047
 All,All roles,Penetration testing,263,0.0077
 All,All roles,Intellectual property,257,0.0059
 All,All roles,Adobe Creative Suite,256,0.0101
-All,All roles,Quantitative trading,245,0.0100
+All,All roles,Quantitative trading,249,0.0102
 All,All roles,AutoCAD,241,0.0035
 All,All roles,LangChain,234,0.0074
 All,All roles,Thermal engineering,231,0.0037
@@ -522,8 +522,8 @@ All,All roles,Attribution modeling,201,0.0080
 All,All roles,HubSpot,199,0.0099
 All,All roles,Iceberg,198,0.0056
 All,All roles,Construction management,196,0.0034
+All,All roles,Pandas,196,0.0054
 All,All roles,Event management,195,0.0059
-All,All roles,Pandas,195,0.0054
 All,All roles,.NET,194,0.0047
 All,All roles,Causal inference,193,0.0067
 All,All roles,Angular,191,0.0040
@@ -589,85 +589,85 @@ All,All roles,WebAssembly,19,0.0007
 All,All roles,Svelte,16,0.0007
 All,All roles,Elixir,13,0.0005
 All,All roles,Julia,11,0.0002
-All,Customer success & support,Communication,645,0.6582
-All,Customer success & support,Cross-functional work,474,0.4676
-All,Customer success & support,Account management,469,0.4579
-All,Customer success & support,Collaboration,424,0.4266
-All,Customer success & support,Leadership,339,0.3435
-All,Customer success & support,Problem solving,317,0.3363
-All,Customer success & support,Mentoring,223,0.2276
-All,Customer success & support,Customer support,222,0.2379
-All,Customer success & support,Salesforce,198,0.2152
-All,Customer success & support,Negotiation,190,0.1975
-All,Customer success & support,Ownership,186,0.1767
-All,Customer success & support,CRM,164,0.1780
-All,Customer success & support,Attention to detail,148,0.1466
+All,Customer success & support,Communication,645,0.6592
+All,Customer success & support,Cross-functional work,474,0.4683
+All,Customer success & support,Account management,469,0.4584
+All,Customer success & support,Collaboration,423,0.4261
+All,Customer success & support,Leadership,339,0.3438
+All,Customer success & support,Problem solving,317,0.3366
+All,Customer success & support,Mentoring,223,0.2278
+All,Customer success & support,Customer support,221,0.2370
+All,Customer success & support,Salesforce,198,0.2154
+All,Customer success & support,Negotiation,190,0.1977
+All,Customer success & support,Ownership,186,0.1770
+All,Customer success & support,CRM,164,0.1781
+All,Customer success & support,Attention to detail,148,0.1468
 All,Customer success & support,Process improvement,126,0.1266
-All,Customer success & support,Time management,122,0.1324
+All,Customer success & support,Time management,122,0.1325
 All,Customer success & support,AI assistants,119,0.1373
 All,Customer success & support,Project management,117,0.1131
-All,Customer success & support,Forecasting,113,0.1254
-All,Customer success & support,Presentation,112,0.1195
-All,Customer success & support,Critical thinking,100,0.0974
+All,Customer success & support,Forecasting,113,0.1258
+All,Customer success & support,Presentation,112,0.1196
+All,Customer success & support,Critical thinking,100,0.0975
 All,Customer success & support,Adaptability,99,0.1042
 All,Customer success & support,Business development,92,0.0922
-All,Customer success & support,Customer focus,84,0.0872
+All,Customer success & support,Customer focus,84,0.0873
 All,Customer success & support,Decision making,80,0.0778
 All,Customer success & support,Roadmapping,77,0.0655
-All,Customer success & support,Excel,73,0.0753
-All,Customer success & support,Stakeholder management,72,0.0706
-All,Customer success & support,Logistics,71,0.0515
-All,Customer success & support,Compensation & benefits,65,0.0512
-All,Customer success & support,Solution engineering,63,0.0684
+All,Customer success & support,Excel,73,0.0754
+All,Customer success & support,Stakeholder management,72,0.0707
+All,Customer success & support,Logistics,71,0.0517
+All,Customer success & support,Compensation & benefits,65,0.0513
+All,Customer success & support,Solution engineering,63,0.0685
 All,Customer success & support,People management,63,0.0514
-All,Customer success & support,Data analysis,58,0.0610
-All,Customer success & support,B2B sales,57,0.0526
-All,Customer success & support,Procurement,55,0.0601
-All,Customer success & support,Strategic planning,55,0.0557
+All,Customer success & support,Data analysis,58,0.0612
+All,Customer success & support,B2B sales,57,0.0527
+All,Customer success & support,Procurement,55,0.0603
+All,Customer success & support,Strategic planning,55,0.0558
 All,Customer success & support,Revenue operations,54,0.0668
-All,Customer success & support,SQL,54,0.0551
+All,Customer success & support,SQL,54,0.0553
 All,Customer success & support,Partnerships,50,0.0406
 All,Customer success & support,AI agents,46,0.0515
-All,Customer success & support,Digital marketing,43,0.0440
-All,Customer success & support,Zendesk,41,0.0606
-All,Customer success & support,Change management,40,0.0407
+All,Customer success & support,Digital marketing,43,0.0441
+All,Customer success & support,Zendesk,41,0.0607
+All,Customer success & support,Change management,40,0.0408
 All,Customer success & support,Prospecting,37,0.0453
 All,Customer success & support,LLMs,37,0.0356
 All,Customer success & support,Pipeline management,34,0.0354
-All,Customer success & support,Jira,33,0.0445
+All,Customer success & support,Jira,33,0.0446
 All,Customer success & support,Snowflake,31,0.0236
-All,Customer success & support,Business intelligence,29,0.0253
+All,Customer success & support,MEDDIC,30,0.0301
+All,Customer success & support,Business intelligence,29,0.0254
 All,Customer success & support,Machine learning,28,0.0310
-All,Customer success & support,Cloud infrastructure,28,0.0313
+All,Customer success & support,Cloud infrastructure,28,0.0314
 All,Customer success & support,Growth marketing,27,0.0354
-All,Customer success & support,Risk management,27,0.0324
-All,Customer success & support,Supply chain,27,0.0257
+All,Customer success & support,Risk management,27,0.0325
+All,Customer success & support,Supply chain,27,0.0260
 All,Customer success & support,Privacy regulation,26,0.0346
 All,Customer success & support,Incident management,26,0.0307
-All,Customer success & support,HR management,26,0.0328
+All,Customer success & support,HR management,26,0.0329
 All,Customer success & support,Looker,25,0.0267
 All,Customer success & support,Generative AI,24,0.0306
-All,Customer success & support,Accessibility,24,0.0171
-All,Customer success & support,Regulatory compliance,24,0.0214
+All,Customer success & support,Accessibility,24,0.0172
+All,Customer success & support,Regulatory compliance,24,0.0216
 All,Customer success & support,Program management,24,0.0281
-All,Customer success & support,Social media marketing,23,0.0268
+All,Customer success & support,Social media marketing,23,0.0269
 All,Customer success & support,Tableau,23,0.0221
 All,Customer success & support,Recruiting,22,0.0264
 All,Customer success & support,Gong,21,0.0268
-All,Customer success & support,Investment analysis,21,0.0195
-All,Customer success & support,Quality assurance,20,0.0271
-All,Customer success & support,CAD,19,0.0219
+All,Customer success & support,Investment analysis,21,0.0196
+All,Customer success & support,Quality assurance,20,0.0273
+All,Customer success & support,CAD,19,0.0221
 All,Customer success & support,Agile,19,0.0229
 All,Customer success & support,Contract negotiation,19,0.0168
 All,Customer success & support,DevOps,19,0.0248
 All,Customer success & support,Accounting,19,0.0169
-All,Customer success & support,MEDDIC,18,0.0229
-All,Customer success & support,A/B testing,18,0.0220
+All,Customer success & support,A/B testing,18,0.0221
 All,Customer success & support,Operations management,18,0.0169
 All,Customer success & support,Cybersecurity,16,0.0191
-All,Customer success & support,Pricing strategy,16,0.0178
+All,Customer success & support,Pricing strategy,16,0.0179
 All,Customer success & support,HTML,16,0.0128
-All,Customer success & support,Data governance,15,0.0159
+All,Customer success & support,Data governance,15,0.0160
 All,Customer success & support,Data pipelines,15,0.0151
 All,Customer success & support,AWS,15,0.0172
 All,Customer success & support,Azure,15,0.0187
@@ -675,7 +675,7 @@ All,Customer success & support,JavaScript,14,0.0134
 All,Customer success & support,Root cause analysis,14,0.0155
 All,Customer success & support,Data visualization,14,0.0141
 All,Customer success & support,Identity & access,12,0.0180
-All,Customer success & support,Outreach tools,12,0.0144
+All,Customer success & support,Outreach tools,12,0.0145
 All,Customer success & support,Python,12,0.0116
 All,Customer success & support,ERP,12,0.0126
 All,Customer success & support,NetSuite,11,0.0110
@@ -687,9 +687,9 @@ All,Customer success & support,Databricks,11,0.0085
 All,Customer success & support,Email marketing,10,0.0125
 All,Customer success & support,FP&A,10,0.0095
 All,Customer success & support,Redshift,10,0.0087
-All,Customer success & support,HubSpot,9,0.0114
+All,Customer success & support,HubSpot,9,0.0115
 All,Customer success & support,AML / KYC,9,0.0092
-All,Customer success & support,Linux,9,0.0150
+All,Customer success & support,Linux,9,0.0151
 All,Customer success & support,Observability,9,0.0126
 All,Customer success & support,Google Cloud,9,0.0091
 All,Customer success & support,Content marketing,9,0.0127
@@ -704,14 +704,14 @@ All,Customer success & support,Git,7,0.0115
 All,Customer success & support,AI coding tools,7,0.0049
 All,Customer success & support,MCP,7,0.0095
 All,Customer success & support,iOS,7,0.0088
-All,Customer success & support,Market research,7,0.0070
+All,Customer success & support,Market research,7,0.0071
 All,Customer success & support,Public relations,7,0.0053
 All,Customer success & support,REST APIs,6,0.0050
 All,Customer success & support,Prototyping,6,0.0075
 All,Customer success & support,User research,5,0.0067
 All,Customer success & support,Bioinformatics,5,0.0058
 All,Customer success & support,Molecular biology,5,0.0054
-All,Customer success & support,C,5,0.0075
+All,Customer success & support,C,5,0.0077
 All,Customer success & support,Workday,5,0.0056
 All,Customer success & support,Marketing automation,5,0.0082
 All,Customer success & support,Inventory management,5,0.0071
@@ -810,157 +810,157 @@ All,Data analyst,Hadoop,5,0.0114
 All,Data analyst,Pricing strategy,5,0.0216
 All,Data analyst,Account management,5,0.0184
 All,Data analyst,Workday,5,0.0200
-All,Data engineer,Data pipelines,305,0.7423
-All,Data engineer,Python,300,0.7374
-All,Data engineer,SQL,232,0.5985
-All,Data engineer,Data governance,198,0.5040
-All,Data engineer,Collaboration,175,0.4175
-All,Data engineer,Communication,173,0.4346
-All,Data engineer,Spark,156,0.3490
-All,Data engineer,Cross-functional work,154,0.3803
-All,Data engineer,Data warehousing,153,0.3724
-All,Data engineer,Airflow,150,0.3766
-All,Data engineer,Observability,143,0.3620
-All,Data engineer,AWS,142,0.3575
-All,Data engineer,Mentoring,138,0.3525
-All,Data engineer,dbt,132,0.3731
-All,Data engineer,Machine learning,124,0.2813
-All,Data engineer,Data modeling,123,0.3363
-All,Data engineer,Distributed systems,121,0.2612
-All,Data engineer,Kafka,116,0.2714
-All,Data engineer,CI/CD,111,0.2614
-All,Data engineer,Java,109,0.2307
-All,Data engineer,Snowflake,102,0.2983
-All,Data engineer,Kubernetes,100,0.2571
-All,Data engineer,Leadership,94,0.2278
-All,Data engineer,Google Cloud,88,0.2110
-All,Data engineer,Decision making,88,0.2168
-All,Data engineer,AI agents,85,0.2169
-All,Data engineer,Git,85,0.2000
-All,Data engineer,Problem solving,84,0.2062
-All,Data engineer,Incident management,84,0.1945
-All,Data engineer,Code review,82,0.1966
-All,Data engineer,Go,81,0.1763
-All,Data engineer,Databricks,77,0.1843
-All,Data engineer,Cloud infrastructure,71,0.1816
-All,Data engineer,Data analysis,68,0.1581
-All,Data engineer,Iceberg,68,0.1551
-All,Data engineer,Scala,68,0.1390
-All,Data engineer,Flink,67,0.1507
-All,Data engineer,Terraform,65,0.1799
-All,Data engineer,LLMs,64,0.1583
-All,Data engineer,BigQuery,58,0.1505
-All,Data engineer,Docker,56,0.1436
-All,Data engineer,Infrastructure as code,52,0.1452
-All,Data engineer,C++,50,0.0946
-All,Data engineer,Azure,50,0.1118
-All,Data engineer,Performance optimization,50,0.1214
-All,Data engineer,AI assistants,49,0.1449
-All,Data engineer,Looker,49,0.1415
-All,Data engineer,PostgreSQL,49,0.1184
-All,Data engineer,Privacy regulation,43,0.1028
-All,Data engineer,Tableau,42,0.1080
-All,Data engineer,Data visualization,41,0.0963
-All,Data engineer,AI coding tools,38,0.1123
-All,Data engineer,Business intelligence,38,0.1110
-All,Data engineer,Statistics,36,0.0731
-All,Data engineer,Data structures & algorithms,36,0.0783
-All,Data engineer,A/B testing,35,0.0936
-All,Data engineer,Linux,35,0.0693
-All,Data engineer,Process improvement,33,0.0751
-All,Data engineer,Redshift,33,0.0852
-All,Data engineer,Test automation,32,0.0797
-All,Data engineer,Prometheus,31,0.0693
-All,Data engineer,Compensation & benefits,30,0.0605
-All,Data engineer,System design,29,0.0642
-All,Data engineer,Hadoop,29,0.0572
-All,Data engineer,Ownership,28,0.0776
-All,Data engineer,MCP,26,0.0686
-All,Data engineer,Prototyping,26,0.0461
-All,Data engineer,Time management,26,0.0629
-All,Data engineer,Forecasting,25,0.0508
-All,Data engineer,ClickHouse,24,0.0567
-All,Data engineer,Rust,24,0.0404
-All,Data engineer,Agile,23,0.0525
-All,Data engineer,Power BI,22,0.0453
-All,Data engineer,Attention to detail,22,0.0519
-All,Data engineer,Salesforce,21,0.0555
-All,Data engineer,Product analytics,21,0.0601
-All,Data engineer,CRM,21,0.0615
-All,Data engineer,C#,21,0.0347
-All,Data engineer,Root cause analysis,20,0.0477
-All,Data engineer,DevOps,20,0.0481
-All,Data engineer,MySQL,20,0.0523
-All,Data engineer,React,20,0.0442
-All,Data engineer,Pandas,17,0.0319
-All,Data engineer,Datadog,17,0.0439
-All,Data engineer,Supply chain,17,0.0310
-All,Data engineer,Generative AI,17,0.0486
-All,Data engineer,Revenue operations,16,0.0442
-All,Data engineer,EHR systems,16,0.0497
-All,Data engineer,TypeScript,16,0.0436
+All,Data engineer,Data pipelines,306,0.7421
+All,Data engineer,Python,301,0.7366
+All,Data engineer,SQL,233,0.5986
+All,Data engineer,Data governance,199,0.5037
+All,Data engineer,Communication,175,0.4364
+All,Data engineer,Collaboration,175,0.4160
+All,Data engineer,Spark,157,0.3490
+All,Data engineer,Cross-functional work,154,0.3795
+All,Data engineer,Data warehousing,153,0.3710
+All,Data engineer,Airflow,151,0.3772
+All,Data engineer,Observability,145,0.3634
+All,Data engineer,AWS,142,0.3562
+All,Data engineer,Mentoring,138,0.3511
+All,Data engineer,dbt,133,0.3737
+All,Data engineer,Data modeling,124,0.3363
+All,Data engineer,Machine learning,124,0.2806
+All,Data engineer,Distributed systems,121,0.2601
+All,Data engineer,Kafka,117,0.2716
+All,Data engineer,CI/CD,111,0.2608
+All,Data engineer,Java,109,0.2296
+All,Data engineer,Snowflake,102,0.2976
+All,Data engineer,Kubernetes,101,0.2573
+All,Data engineer,Leadership,94,0.2273
+All,Data engineer,Google Cloud,89,0.2114
+All,Data engineer,Decision making,88,0.2164
+All,Data engineer,Git,86,0.2009
+All,Data engineer,AI agents,85,0.2159
+All,Data engineer,Incident management,85,0.1955
+All,Data engineer,Problem solving,84,0.2057
+All,Data engineer,Code review,82,0.1956
+All,Data engineer,Go,81,0.1760
+All,Data engineer,Databricks,78,0.1853
+All,Data engineer,Cloud infrastructure,71,0.1812
+All,Data engineer,Data analysis,68,0.1577
+All,Data engineer,Iceberg,68,0.1548
+All,Data engineer,Scala,68,0.1386
+All,Data engineer,Flink,67,0.1503
+All,Data engineer,Terraform,65,0.1789
+All,Data engineer,LLMs,64,0.1579
+All,Data engineer,BigQuery,58,0.1497
+All,Data engineer,Docker,56,0.1432
+All,Data engineer,Infrastructure as code,52,0.1443
+All,Data engineer,C++,51,0.0958
+All,Data engineer,Azure,50,0.1116
+All,Data engineer,Performance optimization,50,0.1211
+All,Data engineer,AI assistants,49,0.1440
+All,Data engineer,Looker,49,0.1412
+All,Data engineer,PostgreSQL,49,0.1181
+All,Data engineer,Privacy regulation,43,0.1025
+All,Data engineer,Tableau,42,0.1078
+All,Data engineer,Data visualization,41,0.0961
+All,Data engineer,AI coding tools,38,0.1120
+All,Data engineer,Business intelligence,38,0.1108
+All,Data engineer,Data structures & algorithms,37,0.0795
+All,Data engineer,Statistics,36,0.0729
+All,Data engineer,A/B testing,35,0.0934
+All,Data engineer,Linux,35,0.0691
+All,Data engineer,Process improvement,33,0.0749
+All,Data engineer,Redshift,33,0.0850
+All,Data engineer,Test automation,32,0.0795
+All,Data engineer,Prometheus,31,0.0692
+All,Data engineer,Compensation & benefits,30,0.0603
+All,Data engineer,System design,29,0.0641
+All,Data engineer,Hadoop,29,0.0571
+All,Data engineer,Ownership,28,0.0775
+All,Data engineer,MCP,26,0.0685
+All,Data engineer,Prototyping,26,0.0460
+All,Data engineer,Time management,26,0.0628
+All,Data engineer,Forecasting,25,0.0506
+All,Data engineer,ClickHouse,24,0.0560
+All,Data engineer,Rust,24,0.0403
+All,Data engineer,Agile,23,0.0524
+All,Data engineer,Power BI,22,0.0452
+All,Data engineer,Attention to detail,22,0.0518
+All,Data engineer,Salesforce,21,0.0553
+All,Data engineer,Product analytics,21,0.0600
+All,Data engineer,CRM,21,0.0614
+All,Data engineer,C#,21,0.0346
+All,Data engineer,Root cause analysis,20,0.0476
+All,Data engineer,DevOps,20,0.0480
+All,Data engineer,MySQL,20,0.0521
+All,Data engineer,React,20,0.0441
+All,Data engineer,Pandas,18,0.0332
+All,Data engineer,Datadog,17,0.0438
+All,Data engineer,Supply chain,17,0.0309
+All,Data engineer,Generative AI,17,0.0485
+All,Data engineer,Revenue operations,16,0.0441
+All,Data engineer,EHR systems,16,0.0496
+All,Data engineer,TypeScript,16,0.0435
 All,Data engineer,Logistics,15,0.0300
-All,Data engineer,NoSQL,15,0.0386
-All,Data engineer,Adaptability,14,0.0289
+All,Data engineer,NoSQL,15,0.0385
+All,Data engineer,Adaptability,14,0.0288
 All,Data engineer,RAG,14,0.0334
-All,Data engineer,REST APIs,14,0.0319
+All,Data engineer,REST APIs,14,0.0318
 All,Data engineer,Robotics,14,0.0312
 All,Data engineer,JavaScript,14,0.0181
-All,Data engineer,Workday,13,0.0323
-All,Data engineer,Auditing,13,0.0306
-All,Data engineer,Bash / shell,13,0.0363
-All,Data engineer,gRPC,12,0.0331
-All,Data engineer,Accessibility,12,0.0284
+All,Data engineer,Workday,13,0.0322
+All,Data engineer,Auditing,13,0.0305
+All,Data engineer,Bash / shell,13,0.0362
+All,Data engineer,gRPC,12,0.0330
+All,Data engineer,Accessibility,12,0.0283
 All,Data engineer,Accounting,12,0.0282
-All,Data engineer,Project management,12,0.0218
+All,Data engineer,Project management,12,0.0217
 All,Data engineer,CAD,12,0.0289
-All,Data engineer,HR management,11,0.0265
-All,Data engineer,Redis,11,0.0340
+All,Data engineer,HR management,11,0.0264
+All,Data engineer,Redis,11,0.0339
 All,Data engineer,Operations management,10,0.0220
-All,Data engineer,Jira,10,0.0294
+All,Data engineer,Jira,10,0.0293
 All,Data engineer,People management,10,0.0192
+All,Data engineer,Quantitative trading,10,0.0209
 All,Data engineer,DynamoDB,10,0.0237
-All,Data engineer,Kotlin,10,0.0256
+All,Data engineer,Kotlin,10,0.0255
 All,Data engineer,Quality assurance,9,0.0280
-All,Data engineer,Stakeholder management,9,0.0253
-All,Data engineer,Identity & access,9,0.0206
+All,Data engineer,Stakeholder management,9,0.0252
+All,Data engineer,Identity & access,9,0.0205
 All,Data engineer,Model evaluation,9,0.0259
-All,Data engineer,Site reliability,9,0.0294
-All,Data engineer,MLOps,9,0.0279
-All,Data engineer,Systems engineering,9,0.0185
+All,Data engineer,Site reliability,9,0.0293
+All,Data engineer,MLOps,9,0.0278
+All,Data engineer,Systems engineering,9,0.0184
 All,Data engineer,R,9,0.0191
 All,Data engineer,Elasticsearch,9,0.0242
-All,Data engineer,MongoDB,9,0.0221
-All,Data engineer,Vector databases,9,0.0178
+All,Data engineer,MongoDB,9,0.0220
+All,Data engineer,Vector databases,9,0.0177
 All,Data engineer,Ruby,9,0.0255
-All,Data engineer,Angular,9,0.0080
-All,Data engineer,Procurement,8,0.0130
-All,Data engineer,Prompt engineering,8,0.0162
-All,Data engineer,Electrical engineering,8,0.0249
-All,Data engineer,Change management,8,0.0154
-All,Data engineer,ERP,8,0.0168
-All,Data engineer,Quantitative trading,8,0.0182
+All,Data engineer,Angular,9,0.0079
+All,Data engineer,Procurement,8,0.0129
+All,Data engineer,Prompt engineering,8,0.0161
+All,Data engineer,Electrical engineering,8,0.0248
+All,Data engineer,Change management,8,0.0153
+All,Data engineer,ERP,8,0.0167
 All,Data engineer,Microservices,8,0.0195
 All,Data engineer,C,7,0.0132
 All,Data engineer,Presentation,7,0.0193
 All,Data engineer,Solution engineering,7,0.0129
-All,Data engineer,Risk management,7,0.0184
-All,Data engineer,UX design,7,0.0096
+All,Data engineer,Risk management,7,0.0183
+All,Data engineer,UX design,7,0.0095
 All,Data engineer,LangChain,7,0.0155
-All,Data engineer,Ansible,6,0.0147
-All,Data engineer,Critical thinking,6,0.0166
+All,Data engineer,Ansible,6,0.0146
+All,Data engineer,Critical thinking,6,0.0165
 All,Data engineer,FastAPI,6,0.0084
 All,Data engineer,High-performance computing,6,0.0094
-All,Data engineer,Customer support,6,0.0144
+All,Data engineer,Customer support,6,0.0143
 All,Data engineer,Excel,6,0.0122
 All,Data engineer,Customer focus,6,0.0171
 All,Data engineer,PyTorch,6,0.0113
 All,Data engineer,FedRAMP,5,0.0170
-All,Data engineer,Growth marketing,5,0.0113
+All,Data engineer,Growth marketing,5,0.0112
 All,Data engineer,Data center operations,5,0.0108
 All,Data engineer,Regulatory compliance,5,0.0164
-All,Data engineer,Technical writing,5,0.0108
-All,Data engineer,Helm,5,0.0137
+All,Data engineer,Technical writing,5,0.0107
+All,Data engineer,Helm,5,0.0131
 All,Data engineer,Deep learning,5,0.0091
 All,Data engineer,Embedded systems,5,0.0086
 All,Data scientist,Python,265,0.8620
@@ -1371,87 +1371,87 @@ All,Embedded & firmware engineer,Decision making,5,0.0375
 All,Embedded & firmware engineer,Attention to detail,5,0.0214
 All,Embedded & firmware engineer,FP&A,5,0.0260
 All,Embedded & firmware engineer,Mechanical design,5,0.0144
-All,Finance & accounting,Accounting,588,0.7088
-All,Finance & accounting,Communication,534,0.6500
-All,Finance & accounting,Cross-functional work,381,0.4459
-All,Finance & accounting,Leadership,347,0.4362
-All,Finance & accounting,Excel,298,0.3576
-All,Finance & accounting,Auditing,290,0.3501
-All,Finance & accounting,Attention to detail,276,0.3507
-All,Finance & accounting,FP&A,275,0.3450
-All,Finance & accounting,Process improvement,266,0.3144
-All,Finance & accounting,Collaboration,243,0.3115
-All,Finance & accounting,ERP,241,0.2829
-All,Finance & accounting,Problem solving,219,0.2613
-All,Finance & accounting,Financial modeling,195,0.2315
-All,Finance & accounting,SQL,194,0.2188
-All,Finance & accounting,Forecasting,189,0.2314
-All,Finance & accounting,NetSuite,179,0.2381
-All,Finance & accounting,AI assistants,168,0.2338
-All,Finance & accounting,Financial analysis,154,0.1799
-All,Finance & accounting,Data analysis,147,0.1758
-All,Finance & accounting,Decision making,141,0.1732
-All,Finance & accounting,Mentoring,133,0.1586
-All,Finance & accounting,Critical thinking,114,0.1368
-All,Finance & accounting,Ownership,109,0.1358
-All,Finance & accounting,Time management,105,0.1322
-All,Finance & accounting,Procurement,101,0.1215
-All,Finance & accounting,Python,93,0.1098
-All,Finance & accounting,Tax,92,0.1237
-All,Finance & accounting,Presentation,90,0.1075
-All,Finance & accounting,Risk management,82,0.0951
-All,Finance & accounting,Mergers & acquisitions,75,0.0991
-All,Finance & accounting,Compensation & benefits,73,0.0756
+All,Finance & accounting,Accounting,589,0.7098
+All,Finance & accounting,Communication,535,0.6510
+All,Finance & accounting,Cross-functional work,381,0.4455
+All,Finance & accounting,Leadership,347,0.4358
+All,Finance & accounting,Excel,298,0.3572
+All,Finance & accounting,Auditing,290,0.3498
+All,Finance & accounting,Attention to detail,277,0.3520
+All,Finance & accounting,FP&A,276,0.3463
+All,Finance & accounting,Process improvement,266,0.3141
+All,Finance & accounting,Collaboration,243,0.3112
+All,Finance & accounting,ERP,241,0.2826
+All,Finance & accounting,Problem solving,219,0.2611
+All,Finance & accounting,Financial modeling,195,0.2313
+All,Finance & accounting,SQL,194,0.2186
+All,Finance & accounting,Forecasting,190,0.2328
+All,Finance & accounting,NetSuite,179,0.2379
+All,Finance & accounting,AI assistants,169,0.2352
+All,Finance & accounting,Financial analysis,155,0.1814
+All,Finance & accounting,Data analysis,147,0.1756
+All,Finance & accounting,Decision making,142,0.1747
+All,Finance & accounting,Mentoring,134,0.1601
+All,Finance & accounting,Critical thinking,114,0.1367
+All,Finance & accounting,Ownership,109,0.1357
+All,Finance & accounting,Time management,105,0.1321
+All,Finance & accounting,Procurement,101,0.1214
+All,Finance & accounting,Python,93,0.1090
+All,Finance & accounting,Tax,92,0.1236
+All,Finance & accounting,Presentation,90,0.1074
+All,Finance & accounting,Risk management,83,0.0966
+All,Finance & accounting,Mergers & acquisitions,75,0.0990
+All,Finance & accounting,Compensation & benefits,73,0.0755
 All,Finance & accounting,Supply chain,66,0.0567
-All,Finance & accounting,SAP,65,0.0693
+All,Finance & accounting,SAP,65,0.0692
 All,Finance & accounting,Privacy regulation,64,0.0474
 All,Finance & accounting,Project management,59,0.0714
 All,Finance & accounting,Workday,58,0.0781
-All,Finance & accounting,Regulatory compliance,57,0.0705
+All,Finance & accounting,Regulatory compliance,57,0.0704
 All,Finance & accounting,Adaptability,51,0.0598
 All,Finance & accounting,Tableau,51,0.0555
 All,Finance & accounting,Data governance,49,0.0593
-All,Finance & accounting,Payroll,48,0.0725
+All,Finance & accounting,Payroll,48,0.0724
+All,Finance & accounting,Stakeholder management,48,0.0548
 All,Finance & accounting,Data center operations,47,0.0379
-All,Finance & accounting,Stakeholder management,47,0.0533
 All,Finance & accounting,Logistics,47,0.0397
 All,Finance & accounting,AI agents,44,0.0648
 All,Finance & accounting,Cloud infrastructure,44,0.0462
-All,Finance & accounting,Salesforce,41,0.0528
+All,Finance & accounting,Salesforce,41,0.0527
 All,Finance & accounting,Negotiation,40,0.0439
-All,Finance & accounting,LLMs,40,0.0550
+All,Finance & accounting,LLMs,40,0.0549
 All,Finance & accounting,Operations management,37,0.0500
 All,Finance & accounting,Business intelligence,37,0.0477
-All,Finance & accounting,Data pipelines,34,0.0374
-All,Finance & accounting,People management,32,0.0393
+All,Finance & accounting,Data pipelines,34,0.0373
+All,Finance & accounting,People management,32,0.0392
 All,Finance & accounting,Program management,32,0.0287
 All,Finance & accounting,Machine learning,31,0.0295
 All,Finance & accounting,Looker,31,0.0383
 All,Finance & accounting,Change management,31,0.0383
-All,Finance & accounting,Pricing strategy,30,0.0355
+All,Finance & accounting,Pricing strategy,30,0.0354
 All,Finance & accounting,Investment analysis,30,0.0317
 All,Finance & accounting,Power BI,30,0.0309
 All,Finance & accounting,Customer support,29,0.0373
 All,Finance & accounting,Root cause analysis,28,0.0299
-All,Finance & accounting,Strategic planning,28,0.0405
+All,Finance & accounting,Strategic planning,28,0.0404
 All,Finance & accounting,Cybersecurity,27,0.0335
 All,Finance & accounting,Revenue operations,27,0.0342
 All,Finance & accounting,Generative AI,27,0.0279
 All,Finance & accounting,HR management,26,0.0306
-All,Finance & accounting,Statistics,25,0.0326
+All,Finance & accounting,Statistics,25,0.0322
 All,Finance & accounting,Snowflake,25,0.0286
 All,Finance & accounting,Vendor management,24,0.0295
-All,Finance & accounting,Agile,24,0.0310
+All,Finance & accounting,Agile,24,0.0309
 All,Finance & accounting,Data visualization,24,0.0275
 All,Finance & accounting,CRM,23,0.0269
-All,Finance & accounting,R,17,0.0218
+All,Finance & accounting,R,17,0.0210
 All,Finance & accounting,Account management,17,0.0184
 All,Finance & accounting,Product strategy,17,0.0227
 All,Finance & accounting,Market research,17,0.0177
-All,Finance & accounting,Databricks,16,0.0174
+All,Finance & accounting,Databricks,16,0.0173
 All,Finance & accounting,SOC 2,16,0.0212
 All,Finance & accounting,AWS,15,0.0175
-All,Finance & accounting,Jira,15,0.0185
+All,Finance & accounting,Jira,15,0.0184
 All,Finance & accounting,CAD,14,0.0177
 All,Finance & accounting,Inventory management,14,0.0154
 All,Finance & accounting,AML / KYC,14,0.0143
@@ -1465,16 +1465,16 @@ All,Finance & accounting,AI coding tools,11,0.0165
 All,Finance & accounting,System design,11,0.0167
 All,Finance & accounting,Accessibility,11,0.0103
 All,Finance & accounting,Git,10,0.0134
-All,Finance & accounting,Business development,10,0.0122
+All,Finance & accounting,Business development,10,0.0121
 All,Finance & accounting,Cloud security,10,0.0153
-All,Finance & accounting,CI/CD,9,0.0121
+All,Finance & accounting,CI/CD,9,0.0120
 All,Finance & accounting,Roadmapping,9,0.0134
 All,Finance & accounting,Partnerships,8,0.0121
 All,Finance & accounting,dbt,8,0.0088
 All,Finance & accounting,Recruiting,8,0.0136
 All,Finance & accounting,B2B sales,7,0.0108
 All,Finance & accounting,Prototyping,7,0.0069
-All,Finance & accounting,Quantitative trading,7,0.0086
+All,Finance & accounting,Quantitative trading,7,0.0083
 All,Finance & accounting,A/B testing,6,0.0085
 All,Finance & accounting,Azure,6,0.0057
 All,Finance & accounting,Incident management,6,0.0058
@@ -1553,7 +1553,7 @@ All,Frontend engineer,Salesforce,5,0.0372
 All,Frontend engineer,SEO,5,0.0403
 All,Frontend engineer,Supply chain,5,0.0286
 All,Frontend engineer,Cypress,5,0.0283
-All,Hardware & mechanical engineer,Communication,1316,0.4987
+All,Hardware & mechanical engineer,Communication,1317,0.5020
 All,Hardware & mechanical engineer,Problem solving,1062,0.3945
 All,Hardware & mechanical engineer,Python,966,0.3957
 All,Hardware & mechanical engineer,Cross-functional work,913,0.3810
@@ -1738,12 +1738,12 @@ All,Hardware & mechanical engineer,BigQuery,9,0.0124
 All,Hardware & mechanical engineer,iOS,9,0.0218
 All,Hardware & mechanical engineer,Product strategy,9,0.0066
 All,Hardware & mechanical engineer,Prompt engineering,8,0.0161
+All,Hardware & mechanical engineer,Market research,8,0.0040
 All,Hardware & mechanical engineer,CUDA,8,0.0041
 All,Hardware & mechanical engineer,ClickHouse,8,0.0042
 All,Hardware & mechanical engineer,Scala,8,0.0010
 All,Hardware & mechanical engineer,Spark,7,0.0045
 All,Hardware & mechanical engineer,Haskell,7,0.0008
-All,Hardware & mechanical engineer,Market research,7,0.0008
 All,Hardware & mechanical engineer,Workday,7,0.0119
 All,Hardware & mechanical engineer,Marketing automation,6,0.0108
 All,Hardware & mechanical engineer,Elasticsearch,6,0.0088
@@ -1759,42 +1759,42 @@ All,Hardware & mechanical engineer,Molecular biology,5,0.0058
 All,Hardware & mechanical engineer,Cryptography,5,0.0017
 All,Hardware & mechanical engineer,Pandas,5,0.0006
 All,Hardware & mechanical engineer,Playwright,5,0.0099
-All,Health & life sciences,Mentoring,303,0.3297
-All,Health & life sciences,Patient care,282,0.2574
-All,Health & life sciences,Communication,265,0.4812
-All,Health & life sciences,Collaboration,211,0.3895
-All,Health & life sciences,Therapy & counselling,176,0.1863
-All,Health & life sciences,Leadership,110,0.2658
-All,Health & life sciences,dbt,110,0.0869
-All,Health & life sciences,Process improvement,101,0.1402
-All,Health & life sciences,Problem solving,100,0.1659
-All,Health & life sciences,Privacy regulation,82,0.1498
-All,Health & life sciences,Cross-functional work,79,0.2335
-All,Health & life sciences,Quality assurance,67,0.0956
+All,Health & life sciences,Mentoring,303,0.3299
+All,Health & life sciences,Patient care,282,0.2575
+All,Health & life sciences,Communication,265,0.4814
+All,Health & life sciences,Collaboration,211,0.3897
+All,Health & life sciences,Therapy & counselling,176,0.1865
+All,Health & life sciences,Leadership,110,0.2659
+All,Health & life sciences,dbt,110,0.0870
+All,Health & life sciences,Process improvement,101,0.1403
+All,Health & life sciences,Problem solving,100,0.1660
+All,Health & life sciences,Privacy regulation,81,0.1494
+All,Health & life sciences,Cross-functional work,79,0.2336
 All,Health & life sciences,Phlebotomy,67,0.0639
+All,Health & life sciences,Quality assurance,66,0.0952
 All,Health & life sciences,EHR systems,59,0.1161
 All,Health & life sciences,Customer support,56,0.0682
-All,Health & life sciences,Data analysis,51,0.1211
-All,Health & life sciences,Attention to detail,46,0.0943
-All,Health & life sciences,Time management,43,0.0940
+All,Health & life sciences,Data analysis,51,0.1212
+All,Health & life sciences,Attention to detail,46,0.0944
+All,Health & life sciences,Time management,42,0.0935
 All,Health & life sciences,C,42,0.0407
 All,Health & life sciences,Customer focus,39,0.0248
 All,Health & life sciences,Clinical research,35,0.0925
 All,Health & life sciences,Adaptability,33,0.0363
-All,Health & life sciences,Decision making,29,0.0793
+All,Health & life sciences,Decision making,29,0.0794
 All,Health & life sciences,Compensation & benefits,27,0.0378
 All,Health & life sciences,Excel,26,0.0636
 All,Health & life sciences,Molecular biology,26,0.0529
-All,Health & life sciences,Presentation,26,0.0422
-All,Health & life sciences,Risk management,24,0.0633
+All,Health & life sciences,Presentation,26,0.0423
 All,Health & life sciences,Ownership,23,0.0488
+All,Health & life sciences,Risk management,23,0.0628
 All,Health & life sciences,Project management,23,0.0751
-All,Health & life sciences,Critical thinking,22,0.0544
-All,Health & life sciences,Python,19,0.0901
+All,Health & life sciences,Critical thinking,22,0.0545
+All,Health & life sciences,Python,19,0.0902
 All,Health & life sciences,Bioinformatics,19,0.0642
 All,Health & life sciences,Regulatory compliance,18,0.0496
-All,Health & life sciences,Logistics,17,0.0558
-All,Health & life sciences,People management,16,0.0645
+All,Health & life sciences,Logistics,17,0.0559
+All,Health & life sciences,People management,16,0.0646
 All,Health & life sciences,SQL,16,0.0542
 All,Health & life sciences,Salesforce,16,0.0379
 All,Health & life sciences,R,15,0.0446
@@ -1803,7 +1803,7 @@ All,Health & life sciences,Statistics,15,0.0330
 All,Health & life sciences,Machine learning,14,0.0650
 All,Health & life sciences,FDA regulation,14,0.0334
 All,Health & life sciences,AI assistants,13,0.0677
-All,Health & life sciences,Business development,13,0.0376
+All,Health & life sciences,Business development,12,0.0371
 All,Health & life sciences,HR management,12,0.0458
 All,Health & life sciences,Prototyping,11,0.0472
 All,Health & life sciences,CRM,11,0.0147
@@ -1824,10 +1824,10 @@ All,Health & life sciences,Partnerships,6,0.0169
 All,Health & life sciences,Strategic planning,6,0.0111
 All,Health & life sciences,Tableau,6,0.0129
 All,Health & life sciences,AI agents,5,0.0183
-All,Health & life sciences,Roadmapping,5,0.0217
+All,Health & life sciences,Roadmapping,5,0.0218
 All,Health & life sciences,Electrical engineering,5,0.0355
 All,Health & life sciences,Embedded systems,5,0.0308
-All,Health & life sciences,Program management,5,0.0187
+All,Health & life sciences,Program management,5,0.0188
 All,Health & life sciences,LLMs,5,0.0256
 All,Health & life sciences,A/B testing,5,0.0320
 All,Health & life sciences,Prospecting,5,0.0065
@@ -2215,9 +2215,9 @@ All,Marketing & content,Looker,40,0.0361
 All,Marketing & content,FP&A,38,0.0285
 All,Marketing & content,Technical writing,37,0.0207
 All,Marketing & content,Customer support,37,0.0243
+All,Marketing & content,MEDDIC,36,0.0202
 All,Marketing & content,Operations management,36,0.0242
 All,Marketing & content,Business intelligence,36,0.0274
-All,Marketing & content,MEDDIC,35,0.0196
 All,Marketing & content,Influencer marketing,34,0.0224
 All,Marketing & content,Cybersecurity,33,0.0271
 All,Marketing & content,Recruiting,33,0.0343
@@ -2551,41 +2551,41 @@ All,Operations & strategy,Splunk,5,0.0035
 All,Operations & strategy,Terraform,5,0.0015
 All,Operations & strategy,Public relations,5,0.0026
 All,Operations & strategy,Outreach tools,5,0.0041
-All,Other,Communication,1877,0.5390
-All,Other,Leadership,1629,0.4565
-All,Other,Cross-functional work,1274,0.3878
-All,Other,Collaboration,1190,0.3378
-All,Other,Mentoring,964,0.2821
+All,Other,Communication,1877,0.5392
+All,Other,Leadership,1628,0.4564
+All,Other,Cross-functional work,1273,0.3876
+All,Other,Collaboration,1189,0.3376
+All,Other,Mentoring,964,0.2822
 All,Other,Problem solving,831,0.2111
 All,Other,Customer support,674,0.1251
-All,Other,Process improvement,634,0.1639
+All,Other,Process improvement,634,0.1640
 All,Other,Attention to detail,490,0.1309
 All,Other,Time management,396,0.1139
 All,Other,Ownership,380,0.0923
 All,Other,Project management,371,0.1077
-All,Other,Python,365,0.1138
-All,Other,Presentation,343,0.0974
+All,Other,Python,365,0.1139
+All,Other,Presentation,343,0.0975
 All,Other,Supply chain,339,0.0706
-All,Other,SQL,323,0.1008
+All,Other,SQL,323,0.1009
 All,Other,Excel,301,0.0684
 All,Other,Logistics,299,0.0637
-All,Other,AI assistants,283,0.1148
-All,Other,Decision making,282,0.0897
-All,Other,Negotiation,279,0.0814
+All,Other,AI assistants,283,0.1149
+All,Other,Decision making,282,0.0898
+All,Other,Negotiation,278,0.0812
 All,Other,Privacy regulation,278,0.0591
 All,Other,Salesforce,274,0.0942
-All,Other,AI agents,269,0.0987
-All,Other,Data analysis,264,0.0774
+All,Other,AI agents,269,0.0988
+All,Other,Data analysis,264,0.0775
 All,Other,Machine learning,264,0.0856
 All,Other,Procurement,260,0.0677
-All,Other,Stakeholder management,236,0.0703
+All,Other,Stakeholder management,236,0.0704
 All,Other,Root cause analysis,235,0.0537
 All,Other,Inventory management,234,0.0297
 All,Other,People management,231,0.0709
 All,Other,Quality assurance,224,0.0544
 All,Other,Prototyping,219,0.0679
 All,Other,Critical thinking,205,0.0634
-All,Other,LLMs,203,0.0668
+All,Other,LLMs,203,0.0669
 All,Other,HR management,198,0.0577
 All,Other,Account management,195,0.0611
 All,Other,Incident management,194,0.0637
@@ -2593,28 +2593,28 @@ All,Other,ERP,193,0.0451
 All,Other,Compensation & benefits,192,0.0505
 All,Other,Cloud infrastructure,187,0.0677
 All,Other,Change management,187,0.0578
-All,Other,Forecasting,185,0.0654
+All,Other,Forecasting,185,0.0655
 All,Other,CRM,183,0.0640
-All,Other,Adaptability,182,0.0552
+All,Other,Adaptability,182,0.0553
 All,Other,Risk management,182,0.0574
 All,Other,Workplace safety,180,0.0278
 All,Other,AWS,172,0.0621
 All,Other,Manufacturing engineering,162,0.0261
 All,Other,Program management,160,0.0428
 All,Other,Solution engineering,151,0.0526
-All,Other,CAD,151,0.0361
-All,Other,Business development,150,0.0400
+All,Other,CAD,151,0.0362
+All,Other,Business development,150,0.0401
 All,Other,Auditing,145,0.0483
 All,Other,Jira,143,0.0405
 All,Other,A/B testing,133,0.0583
 All,Other,Cybersecurity,129,0.0360
 All,Other,Regulatory compliance,129,0.0363
 All,Other,Linux,126,0.0321
-All,Other,Azure,121,0.0429
-All,Other,Google Cloud,119,0.0393
+All,Other,Azure,121,0.0430
+All,Other,Google Cloud,119,0.0394
 All,Other,Accounting,118,0.0442
 All,Other,Agile,118,0.0348
-All,Other,Generative AI,117,0.0361
+All,Other,Generative AI,117,0.0362
 All,Other,Data center operations,109,0.0259
 All,Other,System design,105,0.0298
 All,Other,Data pipelines,105,0.0366
@@ -2623,14 +2623,14 @@ All,Other,Observability,103,0.0361
 All,Other,Strategic planning,100,0.0327
 All,Other,SAP,98,0.0230
 All,Other,B2B sales,97,0.0353
-All,Other,CI/CD,95,0.0342
+All,Other,CI/CD,95,0.0343
 All,Other,Kubernetes,94,0.0332
-All,Other,Data governance,93,0.0367
+All,Other,Data governance,93,0.0368
 All,Other,Revenue operations,89,0.0378
 All,Other,Market research,88,0.0263
 All,Other,Identity & access,85,0.0341
 All,Other,Technical writing,85,0.0200
-All,Other,Git,84,0.0275
+All,Other,Git,84,0.0276
 All,Other,Roadmapping,83,0.0287
 All,Other,Product strategy,83,0.0309
 All,Other,Electrical engineering,83,0.0191
@@ -2657,19 +2657,19 @@ All,Other,Docker,63,0.0205
 All,Other,Mergers & acquisitions,62,0.0223
 All,Other,Pipeline management,62,0.0173
 All,Other,Bash / shell,62,0.0187
-All,Other,Payroll,61,0.0227
+All,Other,Payroll,61,0.0228
 All,Other,Data visualization,61,0.0206
 All,Other,Growth marketing,60,0.0257
-All,Other,Power BI,59,0.0136
+All,Other,Power BI,59,0.0137
 All,Other,Control systems,57,0.0106
+All,Other,MEDDIC,56,0.0193
 All,Other,FedRAMP,56,0.0199
-All,Other,MEDDIC,55,0.0192
 All,Other,Go,54,0.0200
 All,Other,FP&A,54,0.0181
 All,Other,Business intelligence,54,0.0210
 All,Other,Recruiting,53,0.0167
 All,Other,Contract negotiation,52,0.0104
-All,Other,Java,51,0.0156
+All,Other,Java,51,0.0157
 All,Other,Infrastructure as code,51,0.0181
 All,Other,NetSuite,51,0.0205
 All,Other,Zendesk,49,0.0195
@@ -2677,9 +2677,9 @@ All,Other,Embedded systems,48,0.0126
 All,Other,Threat modeling,48,0.0146
 All,Other,JavaScript,47,0.0157
 All,Other,Zero trust,46,0.0128
-All,Other,Test automation,45,0.0111
+All,Other,Test automation,45,0.0112
 All,Other,HVAC,44,0.0080
-All,Other,Digital marketing,44,0.0174
+All,Other,Digital marketing,44,0.0175
 All,Other,Looker,44,0.0185
 All,Other,PCB design,44,0.0063
 All,Other,CNC machining,44,0.0051
@@ -2715,7 +2715,7 @@ All,Other,Penetration testing,29,0.0102
 All,Other,dbt,29,0.0130
 All,Other,Ansible,29,0.0068
 All,Other,GMP / GLP,29,0.0054
-All,Other,Marketing automation,28,0.0142
+All,Other,Marketing automation,28,0.0143
 All,Other,C,28,0.0096
 All,Other,AML / KYC,28,0.0119
 All,Other,PyTorch,27,0.0067
@@ -2768,7 +2768,7 @@ All,Other,FPGA,14,0.0023
 All,Other,MLOps,14,0.0047
 All,Other,iOS,14,0.0059
 All,Other,Attribution modeling,14,0.0062
-All,Other,Clinical research,14,0.0021
+All,Other,Clinical research,14,0.0022
 All,Other,CSS,14,0.0041
 All,Other,TensorFlow,13,0.0030
 All,Other,Event management,13,0.0031
@@ -2812,42 +2812,42 @@ All,Other,MongoDB,5,0.0023
 All,Other,PHP,5,0.0015
 All,Other,Pandas,5,0.0009
 All,Other,Next.js,5,0.0019
-All,Product manager,Communication,651,0.5790
-All,Product manager,Cross-functional work,646,0.5783
-All,Product manager,Leadership,498,0.4737
-All,Product manager,Product strategy,496,0.4441
-All,Product manager,Collaboration,367,0.3324
-All,Product manager,AI agents,287,0.2642
-All,Product manager,Time management,257,0.2349
-All,Product manager,Machine learning,245,0.2201
-All,Product manager,Prototyping,223,0.2087
-All,Product manager,A/B testing,214,0.2102
-All,Product manager,AI assistants,182,0.1890
-All,Product manager,Mentoring,181,0.1690
-All,Product manager,Roadmapping,174,0.1473
-All,Product manager,LLMs,152,0.1452
-All,Product manager,SQL,142,0.1257
-All,Product manager,Problem solving,132,0.1189
-All,Product manager,Decision making,129,0.1136
-All,Product manager,User research,118,0.1281
-All,Product manager,Critical thinking,114,0.1105
-All,Product manager,Data analysis,112,0.1084
-All,Product manager,Agile,110,0.0908
-All,Product manager,Observability,97,0.0880
-All,Product manager,Market research,95,0.0842
-All,Product manager,Customer focus,92,0.0866
-All,Product manager,Stakeholder management,84,0.0717
-All,Product manager,Cloud infrastructure,83,0.0694
+All,Product manager,Communication,651,0.5803
+All,Product manager,Cross-functional work,646,0.5795
+All,Product manager,Leadership,498,0.4742
+All,Product manager,Product strategy,496,0.4445
+All,Product manager,Collaboration,366,0.3317
+All,Product manager,AI agents,287,0.2651
+All,Product manager,Time management,257,0.2358
+All,Product manager,Machine learning,245,0.2203
+All,Product manager,Prototyping,223,0.2096
+All,Product manager,A/B testing,214,0.2104
+All,Product manager,AI assistants,182,0.1899
+All,Product manager,Mentoring,181,0.1691
+All,Product manager,Roadmapping,174,0.1475
+All,Product manager,LLMs,152,0.1460
+All,Product manager,SQL,142,0.1265
+All,Product manager,Problem solving,132,0.1197
+All,Product manager,Decision making,128,0.1121
+All,Product manager,User research,118,0.1282
+All,Product manager,Critical thinking,113,0.1089
+All,Product manager,Data analysis,112,0.1092
+All,Product manager,Agile,110,0.0909
+All,Product manager,Observability,97,0.0881
+All,Product manager,Market research,95,0.0843
+All,Product manager,Customer focus,92,0.0874
+All,Product manager,Stakeholder management,84,0.0718
+All,Product manager,Cloud infrastructure,83,0.0695
 All,Product manager,Ownership,83,0.0700
-All,Product manager,Data pipelines,82,0.0666
+All,Product manager,Data pipelines,81,0.0657
 All,Product manager,Presentation,81,0.0766
 All,Product manager,Compensation & benefits,73,0.0634
-All,Product manager,Generative AI,67,0.0623
-All,Product manager,Process improvement,64,0.0625
-All,Product manager,Supply chain,61,0.0595
-All,Product manager,Data governance,61,0.0537
-All,Product manager,MCP,59,0.0582
-All,Product manager,CAD,57,0.0395
+All,Product manager,Generative AI,67,0.0624
+All,Product manager,Process improvement,63,0.0609
+All,Product manager,Data governance,61,0.0538
+All,Product manager,Supply chain,60,0.0586
+All,Product manager,MCP,59,0.0583
+All,Product manager,CAD,57,0.0396
 All,Product manager,Adaptability,57,0.0492
 All,Product manager,Privacy regulation,57,0.0493
 All,Product manager,System design,56,0.0464
@@ -2855,75 +2855,75 @@ All,Product manager,Distributed systems,54,0.0477
 All,Product manager,Identity & access,53,0.0476
 All,Product manager,Attention to detail,52,0.0444
 All,Product manager,Model evaluation,51,0.0496
-All,Product manager,Logistics,49,0.0473
-All,Product manager,Accounting,49,0.0428
+All,Product manager,Logistics,49,0.0474
+All,Product manager,Accounting,49,0.0429
 All,Product manager,Product analytics,47,0.0523
 All,Product manager,CRM,46,0.0319
-All,Product manager,Project management,45,0.0419
-All,Product manager,Python,44,0.0329
+All,Product manager,Project management,45,0.0426
+All,Product manager,Python,44,0.0336
 All,Product manager,Regulatory compliance,43,0.0419
-All,Product manager,Strategic planning,41,0.0311
+All,Product manager,Strategic planning,41,0.0312
 All,Product manager,UX design,41,0.0288
-All,Product manager,Salesforce,40,0.0309
+All,Product manager,Salesforce,40,0.0310
 All,Product manager,AI coding tools,40,0.0442
-All,Product manager,ERP,39,0.0361
-All,Product manager,AWS,39,0.0329
-All,Product manager,Solution engineering,38,0.0380
+All,Product manager,AWS,39,0.0330
+All,Product manager,Solution engineering,38,0.0387
+All,Product manager,ERP,38,0.0351
 All,Product manager,Customer support,37,0.0308
 All,Product manager,Change management,35,0.0302
 All,Product manager,Fine-tuning,35,0.0296
-All,Product manager,Prompt engineering,34,0.0221
-All,Product manager,Jira,32,0.0289
-All,Product manager,Procurement,32,0.0293
+All,Product manager,Prompt engineering,34,0.0229
+All,Product manager,Jira,32,0.0290
+All,Product manager,Procurement,32,0.0300
 All,Product manager,Program management,31,0.0248
 All,Product manager,Auditing,31,0.0232
 All,Product manager,People management,30,0.0311
-All,Product manager,RAG,30,0.0239
+All,Product manager,RAG,30,0.0247
 All,Product manager,Business development,30,0.0274
 All,Product manager,Cybersecurity,29,0.0246
 All,Product manager,Data warehousing,29,0.0265
 All,Product manager,Figma,29,0.0303
 All,Product manager,Azure,29,0.0229
 All,Product manager,Ruby,29,0.0242
-All,Product manager,Account management,28,0.0222
-All,Product manager,Data modeling,27,0.0265
+All,Product manager,Account management,28,0.0223
+All,Product manager,Data modeling,27,0.0272
 All,Product manager,Statistics,27,0.0274
 All,Product manager,Accessibility,27,0.0207
-All,Product manager,Risk management,26,0.0235
+All,Product manager,Risk management,26,0.0236
 All,Product manager,Growth marketing,25,0.0258
-All,Product manager,SAP,24,0.0194
-All,Product manager,Forecasting,23,0.0182
-All,Product manager,Systems engineering,23,0.0210
+All,Product manager,SAP,24,0.0202
+All,Product manager,Forecasting,23,0.0183
+All,Product manager,Systems engineering,23,0.0211
 All,Product manager,Negotiation,23,0.0204
 All,Product manager,NetSuite,22,0.0181
 All,Product manager,Site reliability,22,0.0205
 All,Product manager,Incident management,22,0.0170
-All,Product manager,Snowflake,21,0.0245
 All,Product manager,Excel,20,0.0196
+All,Product manager,Snowflake,20,0.0228
 All,Product manager,Pricing strategy,20,0.0161
 All,Product manager,Google Cloud,20,0.0149
 All,Product manager,Design systems,20,0.0183
-All,Product manager,CI/CD,19,0.0190
+All,Product manager,CI/CD,19,0.0191
 All,Product manager,Embedded systems,19,0.0142
 All,Product manager,Payroll,18,0.0200
 All,Product manager,Robotics,18,0.0144
 All,Product manager,Attribution modeling,17,0.0135
 All,Product manager,Performance optimization,17,0.0164
 All,Product manager,Fraud detection,17,0.0170
-All,Product manager,Data center operations,17,0.0137
+All,Product manager,Data center operations,17,0.0138
 All,Product manager,Revenue operations,17,0.0156
-All,Product manager,iOS,17,0.0166
+All,Product manager,iOS,17,0.0167
 All,Product manager,Kubernetes,16,0.0156
 All,Product manager,FP&A,16,0.0142
 All,Product manager,Quality assurance,16,0.0100
 All,Product manager,Operations management,16,0.0138
 All,Product manager,Content marketing,16,0.0184
-All,Product manager,AML / KYC,16,0.0167
-All,Product manager,Databricks,15,0.0164
+All,Product manager,AML / KYC,16,0.0168
 All,Product manager,Digital marketing,15,0.0146
 All,Product manager,Android,15,0.0160
 All,Product manager,PostgreSQL,14,0.0122
 All,Product manager,Go,14,0.0157
+All,Product manager,Databricks,14,0.0147
 All,Product manager,Marketing automation,14,0.0111
 All,Product manager,Root cause analysis,14,0.0144
 All,Product manager,Recommender systems,14,0.0124
@@ -2933,12 +2933,12 @@ All,Product manager,LangChain,13,0.0071
 All,Product manager,Electrical engineering,13,0.0090
 All,Product manager,Git,13,0.0134
 All,Product manager,Vector databases,13,0.0118
-All,Product manager,HR management,12,0.0115
+All,Product manager,HR management,12,0.0116
 All,Product manager,FedRAMP,12,0.0111
 All,Product manager,TypeScript,12,0.0122
 All,Product manager,SIEM,12,0.0106
 All,Product manager,Looker,11,0.0162
-All,Product manager,Technical writing,11,0.0114
+All,Product manager,Technical writing,11,0.0115
 All,Product manager,BigQuery,11,0.0105
 All,Product manager,Data visualization,11,0.0087
 All,Product manager,Recruiting,11,0.0112
@@ -2948,11 +2948,11 @@ All,Product manager,SOC 2,10,0.0083
 All,Product manager,Threat modeling,10,0.0069
 All,Product manager,JavaScript,10,0.0084
 All,Product manager,DevOps,9,0.0078
-All,Product manager,SEO,9,0.0081
+All,Product manager,SEO,9,0.0082
 All,Product manager,Vendor management,9,0.0094
 All,Product manager,Mergers & acquisitions,9,0.0094
 All,Product manager,Cloud security,9,0.0067
-All,Product manager,B2B sales,9,0.0063
+All,Product manager,B2B sales,9,0.0064
 All,Product manager,EHR systems,9,0.0119
 All,Product manager,Quantitative trading,8,0.0085
 All,Product manager,Social media marketing,8,0.0081
@@ -2961,7 +2961,7 @@ All,Product manager,Kafka,8,0.0099
 All,Product manager,Partnerships,8,0.0066
 All,Product manager,Email marketing,8,0.0073
 All,Product manager,Manufacturing engineering,8,0.0093
-All,Product manager,Brand strategy,8,0.0051
+All,Product manager,Brand strategy,8,0.0052
 All,Product manager,Microservices,8,0.0071
 All,Product manager,Infrastructure as code,7,0.0052
 All,Product manager,PyTorch,7,0.0078
@@ -2981,7 +2981,7 @@ All,Product manager,Test automation,6,0.0074
 All,Product manager,Clinical research,6,0.0036
 All,Product manager,Reinforcement learning,5,0.0037
 All,Product manager,MySQL,5,0.0039
-All,Product manager,Data structures & algorithms,5,0.0048
+All,Product manager,Data structures & algorithms,5,0.0055
 All,Product manager,Prometheus,5,0.0037
 All,Product manager,Deep learning,5,0.0050
 All,Product manager,Tax,5,0.0035
@@ -3255,60 +3255,60 @@ All,QA engineer,Stakeholder management,6,0.0741
 All,QA engineer,Test engineering,5,0.0717
 All,QA engineer,GMP / GLP,5,0.0610
 All,QA engineer,CAD,5,0.0529
-All,Quant researcher & trader,Python,145,0.7277
-All,Quant researcher & trader,Statistics,108,0.5177
-All,Quant researcher & trader,Collaboration,98,0.4391
-All,Quant researcher & trader,Quantitative trading,90,0.4756
-All,Quant researcher & trader,Communication,81,0.4443
-All,Quant researcher & trader,C++,81,0.3670
-All,Quant researcher & trader,Machine learning,80,0.4199
-All,Quant researcher & trader,Data analysis,63,0.3125
-All,Quant researcher & trader,Problem solving,62,0.3309
-All,Quant researcher & trader,Mentoring,42,0.2277
-All,Quant researcher & trader,Risk management,35,0.2306
-All,Quant researcher & trader,Attention to detail,35,0.1729
-All,Quant researcher & trader,SQL,32,0.2377
-All,Quant researcher & trader,Forecasting,25,0.1737
-All,Quant researcher & trader,R,22,0.1015
-All,Quant researcher & trader,Ownership,21,0.1277
-All,Quant researcher & trader,Critical thinking,21,0.1033
-All,Quant researcher & trader,Linux,21,0.0882
-All,Quant researcher & trader,Decision making,17,0.0824
-All,Quant researcher & trader,Deep learning,15,0.0823
-All,Quant researcher & trader,Data pipelines,15,0.0720
-All,Quant researcher & trader,MATLAB,13,0.0471
-All,Quant researcher & trader,Electrical engineering,13,0.0551
-All,Quant researcher & trader,Cross-functional work,12,0.1303
-All,Quant researcher & trader,Prototyping,12,0.0702
-All,Quant researcher & trader,C,11,0.0398
-All,Quant researcher & trader,High-performance computing,10,0.0684
-All,Quant researcher & trader,LLMs,10,0.0759
-All,Quant researcher & trader,Pandas,10,0.0377
-All,Quant researcher & trader,Pricing strategy,9,0.0649
-All,Quant researcher & trader,Process improvement,9,0.0875
-All,Quant researcher & trader,Java,9,0.0370
-All,Quant researcher & trader,Market research,8,0.0378
-All,Quant researcher & trader,Investment analysis,8,0.0364
-All,Quant researcher & trader,Bash / shell,8,0.0309
-All,Quant researcher & trader,Data modeling,8,0.0311
-All,Quant researcher & trader,AI assistants,7,0.0759
-All,Quant researcher & trader,Data governance,7,0.0684
-All,Quant researcher & trader,Leadership,7,0.0556
-All,Quant researcher & trader,Strategic planning,6,0.0422
-All,Quant researcher & trader,Rust,6,0.0477
-All,Quant researcher & trader,Git,6,0.0281
-All,Quant researcher & trader,Data structures & algorithms,6,0.0283
-All,Quant researcher & trader,GPU computing,6,0.0442
-All,Quant researcher & trader,Excel,6,0.0414
-All,Quant researcher & trader,Performance optimization,5,0.0298
-All,Quant researcher & trader,PyTorch,5,0.0210
-All,Quant researcher & trader,Cloud infrastructure,5,0.0337
-All,Quant researcher & trader,CI/CD,5,0.0247
-All,Quant researcher & trader,System design,5,0.0245
-All,Quant researcher & trader,A/B testing,5,0.0262
-All,Quant researcher & trader,Materials science,5,0.0228
-All,Quant researcher & trader,Infrastructure as code,5,0.0179
-All,Quant researcher & trader,Agile,5,0.0337
+All,Quant researcher & trader,Python,147,0.7332
+All,Quant researcher & trader,Statistics,109,0.5181
+All,Quant researcher & trader,Collaboration,99,0.4400
+All,Quant researcher & trader,Quantitative trading,91,0.4735
+All,Quant researcher & trader,Communication,83,0.4501
+All,Quant researcher & trader,C++,82,0.3702
+All,Quant researcher & trader,Machine learning,81,0.4200
+All,Quant researcher & trader,Data analysis,63,0.3094
+All,Quant researcher & trader,Problem solving,63,0.3344
+All,Quant researcher & trader,Mentoring,42,0.2261
+All,Quant researcher & trader,Risk management,36,0.2339
+All,Quant researcher & trader,Attention to detail,35,0.1717
+All,Quant researcher & trader,SQL,33,0.2409
+All,Quant researcher & trader,Forecasting,25,0.1707
+All,Quant researcher & trader,R,22,0.0999
+All,Quant researcher & trader,Ownership,21,0.1268
+All,Quant researcher & trader,Critical thinking,21,0.1008
+All,Quant researcher & trader,Linux,21,0.0876
+All,Quant researcher & trader,Decision making,17,0.0818
+All,Quant researcher & trader,Deep learning,16,0.0875
+All,Quant researcher & trader,Data pipelines,15,0.0714
+All,Quant researcher & trader,MATLAB,13,0.0468
+All,Quant researcher & trader,Electrical engineering,13,0.0547
+All,Quant researcher & trader,Cross-functional work,12,0.1293
+All,Quant researcher & trader,Prototyping,12,0.0697
+All,Quant researcher & trader,Market research,11,0.0569
+All,Quant researcher & trader,C,11,0.0395
+All,Quant researcher & trader,High-performance computing,10,0.0661
+All,Quant researcher & trader,LLMs,10,0.0753
+All,Quant researcher & trader,Pandas,10,0.0374
+All,Quant researcher & trader,Pricing strategy,9,0.0645
+All,Quant researcher & trader,Process improvement,9,0.0869
+All,Quant researcher & trader,Java,9,0.0367
+All,Quant researcher & trader,Investment analysis,8,0.0361
+All,Quant researcher & trader,Bash / shell,8,0.0307
+All,Quant researcher & trader,Data modeling,8,0.0309
+All,Quant researcher & trader,AI assistants,7,0.0754
+All,Quant researcher & trader,Data governance,7,0.0679
+All,Quant researcher & trader,Leadership,7,0.0552
+All,Quant researcher & trader,Strategic planning,6,0.0419
+All,Quant researcher & trader,Rust,6,0.0474
+All,Quant researcher & trader,Git,6,0.0279
+All,Quant researcher & trader,Data structures & algorithms,6,0.0281
+All,Quant researcher & trader,GPU computing,6,0.0439
+All,Quant researcher & trader,Excel,6,0.0402
+All,Quant researcher & trader,Performance optimization,5,0.0296
+All,Quant researcher & trader,PyTorch,5,0.0209
+All,Quant researcher & trader,Cloud infrastructure,5,0.0335
+All,Quant researcher & trader,CI/CD,5,0.0245
+All,Quant researcher & trader,System design,5,0.0243
+All,Quant researcher & trader,A/B testing,5,0.0261
+All,Quant researcher & trader,Materials science,5,0.0226
+All,Quant researcher & trader,Infrastructure as code,5,0.0178
+All,Quant researcher & trader,Agile,5,0.0335
 All,Recruiting & HR,Communication,495,0.6590
 All,Recruiting & HR,Leadership,339,0.4762
 All,Recruiting & HR,Recruiting,322,0.4234
@@ -3465,43 +3465,43 @@ All,Research scientist,Forecasting,5,0.0281
 All,Research scientist,Observability,5,0.0301
 All,Research scientist,Intellectual property,5,0.0257
 All,Research scientist,Ownership,5,0.0362
-All,Sales & account executive,Communication,2074,0.5398
-All,Sales & account executive,Cross-functional work,1562,0.4055
-All,Sales & account executive,Leadership,1369,0.3732
-All,Sales & account executive,Prospecting,1312,0.3293
-All,Sales & account executive,Collaboration,1296,0.3496
-All,Sales & account executive,Salesforce,1254,0.3208
-All,Sales & account executive,Negotiation,1123,0.2860
-All,Sales & account executive,B2B sales,1021,0.2595
-All,Sales & account executive,Pipeline management,1000,0.2387
-All,Sales & account executive,Forecasting,874,0.2120
-All,Sales & account executive,Business development,810,0.2357
-All,Sales & account executive,Ownership,714,0.1749
-All,Sales & account executive,Mentoring,713,0.1809
-All,Sales & account executive,CRM,669,0.1953
+All,Sales & account executive,Communication,2074,0.5396
+All,Sales & account executive,Cross-functional work,1562,0.4054
+All,Sales & account executive,Leadership,1370,0.3732
+All,Sales & account executive,Prospecting,1312,0.3291
+All,Sales & account executive,Collaboration,1296,0.3495
+All,Sales & account executive,Salesforce,1255,0.3208
+All,Sales & account executive,Negotiation,1123,0.2859
+All,Sales & account executive,B2B sales,1021,0.2594
+All,Sales & account executive,Pipeline management,1001,0.2388
+All,Sales & account executive,Forecasting,875,0.2121
+All,Sales & account executive,Business development,810,0.2356
+All,Sales & account executive,Ownership,714,0.1748
+All,Sales & account executive,Mentoring,713,0.1808
+All,Sales & account executive,CRM,669,0.1952
+All,Sales & account executive,MEDDIC,602,0.1299
 All,Sales & account executive,Presentation,593,0.1399
-All,Sales & account executive,MEDDIC,531,0.1214
-All,Sales & account executive,Account management,525,0.1413
+All,Sales & account executive,Account management,525,0.1412
 All,Sales & account executive,Revenue operations,522,0.1372
 All,Sales & account executive,Procurement,458,0.1169
 All,Sales & account executive,Problem solving,411,0.1133
 All,Sales & account executive,Time management,396,0.0996
-All,Sales & account executive,Solution engineering,393,0.1033
+All,Sales & account executive,Solution engineering,394,0.1035
 All,Sales & account executive,AI assistants,377,0.1172
 All,Sales & account executive,Compensation & benefits,348,0.0656
 All,Sales & account executive,Decision making,327,0.0865
 All,Sales & account executive,Adaptability,320,0.0858
-All,Sales & account executive,Partnerships,296,0.0884
-All,Sales & account executive,Attention to detail,292,0.0907
+All,Sales & account executive,Partnerships,296,0.0883
+All,Sales & account executive,Attention to detail,292,0.0906
 All,Sales & account executive,Process improvement,250,0.0708
-All,Sales & account executive,Outreach tools,243,0.0703
+All,Sales & account executive,Outreach tools,243,0.0702
 All,Sales & account executive,Critical thinking,225,0.0674
 All,Sales & account executive,Excel,215,0.0641
 All,Sales & account executive,Logistics,206,0.0459
 All,Sales & account executive,Data analysis,202,0.0521
 All,Sales & account executive,SQL,201,0.0589
-All,Sales & account executive,Cloud infrastructure,195,0.0442
-All,Sales & account executive,Cybersecurity,179,0.0402
+All,Sales & account executive,Cloud infrastructure,196,0.0443
+All,Sales & account executive,Cybersecurity,179,0.0401
 All,Sales & account executive,Roadmapping,177,0.0409
 All,Sales & account executive,Contract negotiation,176,0.0352
 All,Sales & account executive,Growth marketing,173,0.0447
@@ -3512,17 +3512,17 @@ All,Sales & account executive,Accounting,153,0.0471
 All,Sales & account executive,Customer focus,139,0.0361
 All,Sales & account executive,Customer support,138,0.0391
 All,Sales & account executive,Business intelligence,134,0.0326
-All,Sales & account executive,AWS,132,0.0268
+All,Sales & account executive,AWS,133,0.0269
 All,Sales & account executive,Operations management,129,0.0303
 All,Sales & account executive,Project management,125,0.0459
 All,Sales & account executive,Cloud security,116,0.0202
 All,Sales & account executive,LLMs,115,0.0253
-All,Sales & account executive,DevOps,112,0.0294
+All,Sales & account executive,DevOps,113,0.0295
 All,Sales & account executive,Stakeholder management,112,0.0339
-All,Sales & account executive,Google Cloud,109,0.0207
+All,Sales & account executive,Google Cloud,110,0.0208
 All,Sales & account executive,Recruiting,105,0.0293
 All,Sales & account executive,People management,101,0.0249
-All,Sales & account executive,Azure,100,0.0176
+All,Sales & account executive,Azure,101,0.0178
 All,Sales & account executive,Generative AI,98,0.0230
 All,Sales & account executive,Gong,97,0.0315
 All,Sales & account executive,Strategic planning,95,0.0303
@@ -3538,9 +3538,9 @@ All,Sales & account executive,Financial modeling,72,0.0235
 All,Sales & account executive,Looker,71,0.0223
 All,Sales & account executive,Data pipelines,70,0.0158
 All,Sales & account executive,Program management,69,0.0215
+All,Sales & account executive,Data warehousing,69,0.0155
 All,Sales & account executive,HubSpot,68,0.0278
 All,Sales & account executive,A/B testing,68,0.0184
-All,Sales & account executive,Data warehousing,68,0.0154
 All,Sales & account executive,CAD,64,0.0189
 All,Sales & account executive,Social media marketing,62,0.0244
 All,Sales & account executive,Data center operations,62,0.0124
@@ -3555,11 +3555,11 @@ All,Sales & account executive,NetSuite,49,0.0149
 All,Sales & account executive,Digital marketing,48,0.0188
 All,Sales & account executive,Spark,44,0.0055
 All,Sales & account executive,Python,42,0.0151
-All,Sales & account executive,Identity & access,40,0.0094
+All,Sales & account executive,Identity & access,41,0.0095
 All,Sales & account executive,Risk management,38,0.0104
 All,Sales & account executive,Mergers & acquisitions,37,0.0135
 All,Sales & account executive,Marketing automation,34,0.0108
-All,Sales & account executive,Kubernetes,33,0.0092
+All,Sales & account executive,Kubernetes,34,0.0093
 All,Sales & account executive,MCP,32,0.0122
 All,Sales & account executive,Payroll,30,0.0096
 All,Sales & account executive,Financial analysis,30,0.0123
@@ -3570,8 +3570,8 @@ All,Sales & account executive,Content marketing,27,0.0068
 All,Sales & account executive,dbt,26,0.0067
 All,Sales & account executive,Workday,25,0.0085
 All,Sales & account executive,Root cause analysis,24,0.0051
+All,Sales & account executive,SAP,24,0.0061
 All,Sales & account executive,AI coding tools,23,0.0065
-All,Sales & account executive,SAP,23,0.0059
 All,Sales & account executive,Application security,23,0.0032
 All,Sales & account executive,Power BI,22,0.0058
 All,Sales & account executive,BigQuery,21,0.0066
@@ -3592,7 +3592,7 @@ All,Sales & account executive,Systems engineering,16,0.0056
 All,Sales & account executive,Legal drafting,15,0.0046
 All,Sales & account executive,Attribution modeling,15,0.0071
 All,Sales & account executive,Microservices,15,0.0017
-All,Sales & account executive,GMP / GLP,14,0.0041
+All,Sales & account executive,GMP / GLP,14,0.0040
 All,Sales & account executive,PostgreSQL,14,0.0029
 All,Sales & account executive,AML / KYC,14,0.0054
 All,Sales & account executive,Site reliability,14,0.0017
@@ -3775,42 +3775,42 @@ All,Security engineer,Roadmapping,5,0.0074
 All,Security engineer,B2B sales,5,0.0096
 All,Security engineer,Electrical engineering,5,0.0046
 All,Security engineer,Prompt engineering,5,0.0073
-All,Software engineer,Communication,2718,0.4756
-All,Software engineer,Python,2320,0.3984
-All,Software engineer,Collaboration,2216,0.4067
-All,Software engineer,Mentoring,2144,0.4178
-All,Software engineer,Distributed systems,1855,0.3204
-All,Software engineer,Cross-functional work,1845,0.3230
+All,Software engineer,Communication,2719,0.4757
+All,Software engineer,Python,2321,0.3986
+All,Software engineer,Collaboration,2217,0.4069
+All,Software engineer,Mentoring,2144,0.4177
+All,Software engineer,Distributed systems,1855,0.3203
+All,Software engineer,Cross-functional work,1845,0.3229
 All,Software engineer,Leadership,1555,0.2860
-All,Software engineer,Kubernetes,1500,0.2762
-All,Software engineer,Go,1491,0.2583
-All,Software engineer,Observability,1419,0.2765
-All,Software engineer,AWS,1368,0.2772
-All,Software engineer,Problem solving,1353,0.2310
-All,Software engineer,C++,1247,0.1647
-All,Software engineer,Java,1220,0.2231
+All,Software engineer,Kubernetes,1500,0.2761
+All,Software engineer,Go,1491,0.2582
+All,Software engineer,Observability,1420,0.2766
+All,Software engineer,AWS,1368,0.2771
+All,Software engineer,Problem solving,1353,0.2309
+All,Software engineer,C++,1248,0.1649
+All,Software engineer,Java,1220,0.2230
 All,Software engineer,Incident management,1155,0.2139
-All,Software engineer,CI/CD,1151,0.2169
+All,Software engineer,CI/CD,1151,0.2168
 All,Software engineer,Cloud infrastructure,1107,0.2078
-All,Software engineer,Code review,1064,0.1961
+All,Software engineer,Code review,1064,0.1960
 All,Software engineer,AI agents,1022,0.2040
 All,Software engineer,Machine learning,1020,0.1703
-All,Software engineer,TypeScript,914,0.1970
+All,Software engineer,TypeScript,915,0.1973
 All,Software engineer,React,904,0.1841
-All,Software engineer,LLMs,807,0.1566
+All,Software engineer,LLMs,807,0.1565
 All,Software engineer,AI assistants,793,0.1756
-All,Software engineer,Google Cloud,791,0.1542
-All,Software engineer,SQL,790,0.1363
+All,Software engineer,Google Cloud,791,0.1541
+All,Software engineer,SQL,790,0.1362
 All,Software engineer,System design,779,0.1433
-All,Software engineer,Docker,767,0.1406
-All,Software engineer,Prototyping,757,0.1223
-All,Software engineer,Linux,687,0.0953
+All,Software engineer,Docker,767,0.1405
+All,Software engineer,Prototyping,757,0.1222
+All,Software engineer,Linux,687,0.0952
 All,Software engineer,PostgreSQL,650,0.1289
-All,Software engineer,Azure,648,0.1137
+All,Software engineer,Azure,648,0.1136
 All,Software engineer,Data pipelines,607,0.1131
 All,Software engineer,Git,599,0.1089
-All,Software engineer,AI coding tools,596,0.1456
-All,Software engineer,Rust,587,0.0881
+All,Software engineer,AI coding tools,596,0.1455
+All,Software engineer,Rust,588,0.0884
 All,Software engineer,Test automation,573,0.1090
 All,Software engineer,Privacy regulation,568,0.0559
 All,Software engineer,JavaScript,565,0.0941
@@ -3823,7 +3823,7 @@ All,Software engineer,Compensation & benefits,430,0.0571
 All,Software engineer,Microservices,416,0.0835
 All,Software engineer,CAD,412,0.0633
 All,Software engineer,Performance optimization,407,0.0684
-All,Software engineer,Data structures & algorithms,401,0.0762
+All,Software engineer,Data structures & algorithms,402,0.0764
 All,Software engineer,C,399,0.0512
 All,Software engineer,Identity & access,383,0.0751
 All,Software engineer,A/B testing,367,0.0776
@@ -3832,8 +3832,8 @@ All,Software engineer,Data analysis,363,0.0495
 All,Software engineer,Decision making,342,0.0618
 All,Software engineer,Root cause analysis,342,0.0513
 All,Software engineer,Ruby,333,0.0796
-All,Software engineer,Supply chain,333,0.0396
-All,Software engineer,Electrical engineering,330,0.0389
+All,Software engineer,Supply chain,333,0.0395
+All,Software engineer,Electrical engineering,330,0.0388
 All,Software engineer,C#,312,0.0477
 All,Software engineer,Kotlin,302,0.0597
 All,Software engineer,Robotics,294,0.0319
@@ -3852,7 +3852,7 @@ All,Software engineer,Attention to detail,243,0.0389
 All,Software engineer,Data center operations,243,0.0334
 All,Software engineer,Systems engineering,240,0.0321
 All,Software engineer,MCP,232,0.0501
-All,Software engineer,Data modeling,225,0.0480
+All,Software engineer,Data modeling,225,0.0479
 All,Software engineer,REST APIs,224,0.0491
 All,Software engineer,Scala,223,0.0321
 All,Software engineer,NoSQL,223,0.0458
@@ -3879,7 +3879,7 @@ All,Software engineer,Datadog,158,0.0389
 All,Software engineer,Jira,156,0.0257
 All,Software engineer,People management,156,0.0341
 All,Software engineer,Critical thinking,155,0.0263
-All,Software engineer,Presentation,155,0.0205
+All,Software engineer,Presentation,155,0.0204
 All,Software engineer,Regulatory compliance,152,0.0241
 All,Software engineer,High-performance computing,151,0.0201
 All,Software engineer,Elasticsearch,150,0.0354
@@ -3896,7 +3896,7 @@ All,Software engineer,Data visualization,136,0.0227
 All,Software engineer,Cybersecurity,135,0.0232
 All,Software engineer,MATLAB,135,0.0110
 All,Software engineer,Control systems,134,0.0131
-All,Software engineer,Stakeholder management,131,0.0217
+All,Software engineer,Stakeholder management,131,0.0216
 All,Software engineer,Roadmapping,125,0.0201
 All,Software engineer,UX design,125,0.0159
 All,Software engineer,Quality assurance,124,0.0182
@@ -3915,8 +3915,8 @@ All,Software engineer,Solution engineering,106,0.0190
 All,Software engineer,Spring,106,0.0248
 All,Software engineer,Customer focus,105,0.0186
 All,Software engineer,SOC 2,103,0.0222
-All,Software engineer,Product strategy,103,0.0183
-All,Software engineer,BigQuery,100,0.0234
+All,Software engineer,Product strategy,103,0.0182
+All,Software engineer,BigQuery,100,0.0233
 All,Software engineer,Fine-tuning,100,0.0164
 All,Software engineer,Sensor fusion,100,0.0069
 All,Software engineer,Excel,97,0.0121
@@ -3926,7 +3926,7 @@ All,Software engineer,Airflow,94,0.0244
 All,Software engineer,Program management,93,0.0099
 All,Software engineer,Threat modeling,91,0.0152
 All,Software engineer,Auditing,90,0.0160
-All,Software engineer,Vector databases,88,0.0160
+All,Software engineer,Vector databases,88,0.0159
 All,Software engineer,Power systems,87,0.0093
 All,Software engineer,LangChain,86,0.0162
 All,Software engineer,Vue,85,0.0178
@@ -3991,15 +3991,15 @@ All,Software engineer,Workday,37,0.0060
 All,Software engineer,SEO,35,0.0072
 All,Software engineer,Looker,35,0.0053
 All,Software engineer,AutoCAD,34,0.0028
+All,Software engineer,Pricing strategy,34,0.0067
 All,Software engineer,Playwright,33,0.0060
 All,Software engineer,Inventory management,33,0.0040
 All,Software engineer,JAX,33,0.0056
-All,Software engineer,Pricing strategy,33,0.0065
 All,Software engineer,CATIA,33,0.0035
 All,Software engineer,RF engineering,33,0.0029
 All,Software engineer,Payroll,31,0.0067
+All,Software engineer,Quantitative trading,31,0.0068
 All,Software engineer,Mergers & acquisitions,30,0.0039
-All,Software engineer,Quantitative trading,30,0.0066
 All,Software engineer,Flask,29,0.0064
 All,Software engineer,PHP,25,0.0066
 All,Software engineer,Construction management,25,0.0029
@@ -4034,13 +4034,13 @@ All,Software engineer,WebAssembly,14,0.0034
 All,Software engineer,Haskell,13,0.0030
 All,Software engineer,B2B sales,12,0.0031
 All,Software engineer,Hugging Face,12,0.0018
+All,Software engineer,Market research,12,0.0020
 All,Software engineer,Perl,12,0.0016
 All,Software engineer,Digital marketing,11,0.0034
 All,Software engineer,Patient care,11,0.0028
 All,Software engineer,Contract negotiation,11,0.0013
 All,Software engineer,Objective-C,11,0.0021
 All,Software engineer,Email marketing,10,0.0018
-All,Software engineer,Market research,10,0.0014
 All,Software engineer,EHR systems,10,0.0021
 All,Software engineer,Elixir,10,0.0029
 All,Software engineer,Prospecting,9,0.0028
@@ -4059,36 +4059,36 @@ All,Software engineer,Causal inference,5,0.0006
 All,Software engineer,Financial analysis,5,0.0008
 All,Software engineer,Financial modeling,5,0.0007
 All,Software engineer,Investment analysis,5,0.0013
-All,Solutions engineer,Communication,1038,0.5925
-All,Solutions engineer,Solution engineering,912,0.4571
-All,Solutions engineer,Python,752,0.3432
+All,Solutions engineer,Communication,1039,0.5926
+All,Solutions engineer,Solution engineering,913,0.4573
+All,Solutions engineer,Python,752,0.3431
 All,Solutions engineer,Collaboration,649,0.3535
 All,Solutions engineer,Cross-functional work,600,0.3269
-All,Solutions engineer,Leadership,575,0.2925
-All,Solutions engineer,Problem solving,552,0.3261
-All,Solutions engineer,AWS,484,0.2193
-All,Solutions engineer,Cloud infrastructure,468,0.2115
-All,Solutions engineer,Mentoring,457,0.2381
-All,Solutions engineer,Azure,428,0.1923
-All,Solutions engineer,SQL,420,0.1949
-All,Solutions engineer,Google Cloud,393,0.1789
+All,Solutions engineer,Leadership,575,0.2924
+All,Solutions engineer,Problem solving,552,0.3260
+All,Solutions engineer,AWS,484,0.2192
+All,Solutions engineer,Cloud infrastructure,468,0.2114
+All,Solutions engineer,Mentoring,458,0.2382
+All,Solutions engineer,Azure,428,0.1922
+All,Solutions engineer,SQL,420,0.1948
+All,Solutions engineer,Google Cloud,393,0.1788
 All,Solutions engineer,Machine learning,372,0.1365
 All,Solutions engineer,LLMs,319,0.1679
 All,Solutions engineer,Data pipelines,309,0.1198
 All,Solutions engineer,JavaScript,308,0.1518
 All,Solutions engineer,AI agents,300,0.1606
 All,Solutions engineer,Customer support,294,0.1711
-All,Solutions engineer,Presentation,261,0.1588
+All,Solutions engineer,Presentation,261,0.1587
 All,Solutions engineer,Account management,252,0.1198
-All,Solutions engineer,AI assistants,246,0.1545
-All,Solutions engineer,Kubernetes,232,0.1355
+All,Solutions engineer,AI assistants,246,0.1544
+All,Solutions engineer,Kubernetes,232,0.1354
 All,Solutions engineer,Data warehousing,226,0.0704
 All,Solutions engineer,Distributed systems,225,0.0918
 All,Solutions engineer,Prototyping,221,0.1255
 All,Solutions engineer,CI/CD,209,0.1002
 All,Solutions engineer,Java,204,0.0913
 All,Solutions engineer,Linux,203,0.1118
-All,Solutions engineer,Observability,202,0.0965
+All,Solutions engineer,Observability,202,0.0964
 All,Solutions engineer,Time management,182,0.0977
 All,Solutions engineer,Roadmapping,181,0.0963
 All,Solutions engineer,Networking,164,0.0647
@@ -4097,7 +4097,7 @@ All,Solutions engineer,Generative AI,158,0.0621
 All,Solutions engineer,Ownership,154,0.0830
 All,Solutions engineer,Privacy regulation,148,0.0727
 All,Solutions engineer,REST APIs,148,0.0971
-All,Solutions engineer,Project management,145,0.0862
+All,Solutions engineer,Project management,145,0.0861
 All,Solutions engineer,B2B sales,143,0.0658
 All,Solutions engineer,Go,140,0.0613
 All,Solutions engineer,Incident management,138,0.0901
@@ -4107,7 +4107,7 @@ All,Solutions engineer,Data analysis,134,0.0609
 All,Solutions engineer,Spark,132,0.0260
 All,Solutions engineer,Adaptability,131,0.0736
 All,Solutions engineer,Stakeholder management,131,0.0557
-All,Solutions engineer,DevOps,130,0.0763
+All,Solutions engineer,DevOps,130,0.0762
 All,Solutions engineer,RAG,130,0.0481
 All,Solutions engineer,Data governance,122,0.0433
 All,Solutions engineer,Prompt engineering,121,0.0563
@@ -4118,11 +4118,11 @@ All,Solutions engineer,Docker,109,0.0685
 All,Solutions engineer,System design,108,0.0559
 All,Solutions engineer,Compensation & benefits,107,0.0566
 All,Solutions engineer,Cybersecurity,107,0.0589
-All,Solutions engineer,Customer focus,104,0.0473
+All,Solutions engineer,Customer focus,104,0.0472
 All,Solutions engineer,Procurement,102,0.0603
 All,Solutions engineer,Systems engineering,102,0.0432
 All,Solutions engineer,Supply chain,102,0.0521
-All,Solutions engineer,Git,101,0.0623
+All,Solutions engineer,Git,101,0.0622
 All,Solutions engineer,Terraform,99,0.0424
 All,Solutions engineer,Scala,96,0.0157
 All,Solutions engineer,Root cause analysis,92,0.0622
@@ -4131,9 +4131,9 @@ All,Solutions engineer,Salesforce,87,0.0608
 All,Solutions engineer,Zero trust,84,0.0278
 All,Solutions engineer,Cloud security,83,0.0299
 All,Solutions engineer,Logistics,81,0.0460
-All,Solutions engineer,Site reliability,79,0.0450
+All,Solutions engineer,Site reliability,79,0.0449
 All,Solutions engineer,MLOps,79,0.0166
-All,Solutions engineer,Attention to detail,78,0.0562
+All,Solutions engineer,Attention to detail,78,0.0561
 All,Solutions engineer,C++,78,0.0365
 All,Solutions engineer,Ruby,76,0.0451
 All,Solutions engineer,Technical writing,74,0.0503
@@ -4165,11 +4165,11 @@ All,Solutions engineer,Agile,50,0.0298
 All,Solutions engineer,Performance optimization,48,0.0275
 All,Solutions engineer,Data structures & algorithms,48,0.0252
 All,Solutions engineer,C#,48,0.0248
+All,Solutions engineer,MEDDIC,47,0.0326
 All,Solutions engineer,GraphQL,47,0.0210
 All,Solutions engineer,HR management,47,0.0340
 All,Solutions engineer,Fine-tuning,47,0.0232
-All,Solutions engineer,MEDDIC,46,0.0323
-All,Solutions engineer,BigQuery,45,0.0290
+All,Solutions engineer,BigQuery,45,0.0289
 All,Solutions engineer,dbt,42,0.0244
 All,Solutions engineer,Risk management,41,0.0228
 All,Solutions engineer,Business intelligence,40,0.0227
@@ -4186,7 +4186,7 @@ All,Solutions engineer,C,36,0.0189
 All,Solutions engineer,Iceberg,35,0.0065
 All,Solutions engineer,LangChain,34,0.0121
 All,Solutions engineer,Databricks,33,0.0216
-All,Solutions engineer,Redshift,33,0.0179
+All,Solutions engineer,Redshift,33,0.0178
 All,Solutions engineer,Code review,33,0.0222
 All,Solutions engineer,Zendesk,32,0.0201
 All,Solutions engineer,Operations management,32,0.0179
@@ -4208,10 +4208,10 @@ All,Solutions engineer,Market research,26,0.0133
 All,Solutions engineer,Threat modeling,26,0.0087
 All,Solutions engineer,Tableau,25,0.0141
 All,Solutions engineer,Model evaluation,25,0.0153
-All,Solutions engineer,Robotics,25,0.0125
+All,Solutions engineer,Robotics,25,0.0124
 All,Solutions engineer,Revenue operations,24,0.0199
 All,Solutions engineer,Android,23,0.0205
-All,Solutions engineer,Excel,23,0.0180
+All,Solutions engineer,Excel,23,0.0179
 All,Solutions engineer,Splunk,23,0.0171
 All,Solutions engineer,Helm,22,0.0147
 All,Solutions engineer,Rust,22,0.0127
@@ -4553,6 +4553,7 @@ BR,All roles,Auditing,15,0.0266
 BR,All roles,Microservices,15,0.0384
 BR,All roles,Test automation,15,0.0515
 BR,All roles,Git,15,0.0460
+BR,All roles,MEDDIC,14,0.0489
 BR,All roles,Growth marketing,14,0.0610
 BR,All roles,Procurement,14,0.0565
 BR,All roles,Cybersecurity,14,0.0351
@@ -4577,7 +4578,6 @@ BR,All roles,Statistics,10,0.0234
 BR,All roles,Ruby,10,0.0276
 BR,All roles,Spark,10,0.0333
 BR,All roles,Outreach tools,10,0.0292
-BR,All roles,MEDDIC,9,0.0340
 BR,All roles,Root cause analysis,9,0.0208
 BR,All roles,Partnerships,9,0.0367
 BR,All roles,Fraud detection,9,0.0194
@@ -4813,13 +4813,13 @@ CA,All roles,AML / KYC,20,0.0128
 CA,All roles,Financial modeling,19,0.0123
 CA,All roles,Splunk,19,0.0109
 CA,All roles,Inventory management,19,0.0138
+CA,All roles,MEDDIC,18,0.0172
 CA,All roles,Product analytics,18,0.0097
 CA,All roles,Outreach tools,18,0.0162
 CA,All roles,HTML,18,0.0109
 CA,All roles,Reinforcement learning,18,0.0105
 CA,All roles,NLP,18,0.0088
 CA,All roles,Causal inference,18,0.0106
-CA,All roles,MEDDIC,17,0.0143
 CA,All roles,Zero trust,17,0.0120
 CA,All roles,CUDA,17,0.0111
 CA,All roles,Elasticsearch,16,0.0187
@@ -4968,8 +4968,8 @@ CA,Sales & account executive,Attention to detail,15,0.1477
 CA,Sales & account executive,Solution engineering,14,0.1094
 CA,Sales & account executive,Problem solving,14,0.0949
 CA,Sales & account executive,Revenue operations,12,0.1124
+CA,Sales & account executive,MEDDIC,12,0.0893
 CA,Sales & account executive,Accounting,12,0.0931
-CA,Sales & account executive,MEDDIC,11,0.0761
 CA,Sales & account executive,Machine learning,10,0.0705
 CA,Sales & account executive,SQL,9,0.0874
 CA,Sales & account executive,Time management,9,0.0752
@@ -5371,7 +5371,7 @@ DE,All roles,Excel,47,0.0476
 DE,All roles,Data governance,45,0.0444
 DE,All roles,System design,45,0.0497
 DE,All roles,AI coding tools,45,0.0408
-DE,All roles,MEDDIC,42,0.0646
+DE,All roles,MEDDIC,43,0.0676
 DE,All roles,Java,42,0.0462
 DE,All roles,Customer support,41,0.0535
 DE,All roles,JavaScript,41,0.0446
@@ -5587,7 +5587,7 @@ DE,Sales & account executive,Salesforce,38,0.2453
 DE,Sales & account executive,CRM,38,0.2292
 DE,Sales & account executive,Business development,38,0.2312
 DE,Sales & account executive,Procurement,35,0.2098
-DE,Sales & account executive,MEDDIC,32,0.1878
+DE,Sales & account executive,MEDDIC,33,0.1980
 DE,Sales & account executive,Presentation,30,0.1654
 DE,Sales & account executive,Solution engineering,22,0.1202
 DE,Sales & account executive,Account management,22,0.1206
@@ -5779,189 +5779,190 @@ DK,All roles,Risk management,5,0.0227
 DK,All roles,Regulatory compliance,5,0.0315
 DK,All roles,Product strategy,5,0.0227
 DK,All roles,Design systems,5,0.0277
+DK,All roles,MEDDIC,5,0.0523
 DK,All roles,Business development,5,0.0627
 DK,All roles,SAP,5,0.0491
 DK,All roles,Pipeline management,5,0.0680
 DK,All roles,REST APIs,5,0.0261
-ES,All roles,Communication,323,0.6557
-ES,All roles,Collaboration,198,0.4036
-ES,All roles,Leadership,158,0.3174
-ES,All roles,Cross-functional work,157,0.3460
-ES,All roles,Mentoring,145,0.2819
-ES,All roles,Problem solving,98,0.2005
-ES,All roles,Python,92,0.1816
-ES,All roles,SQL,82,0.1476
-ES,All roles,AI agents,71,0.1155
-ES,All roles,Observability,71,0.1458
-ES,All roles,AI assistants,66,0.1179
-ES,All roles,Presentation,57,0.1090
-ES,All roles,Prototyping,56,0.0976
-ES,All roles,Process improvement,55,0.1044
-ES,All roles,Attention to detail,55,0.0972
-ES,All roles,Time management,55,0.0992
-ES,All roles,Salesforce,52,0.1126
-ES,All roles,AWS,51,0.1201
-ES,All roles,Kubernetes,50,0.1329
-ES,All roles,Code review,48,0.0921
-ES,All roles,Machine learning,47,0.0997
-ES,All roles,Distributed systems,46,0.0994
-ES,All roles,A/B testing,45,0.0743
-ES,All roles,Ownership,44,0.0932
-ES,All roles,Cloud infrastructure,44,0.0976
-ES,All roles,Data analysis,43,0.0688
-ES,All roles,LLMs,42,0.0837
-ES,All roles,Data pipelines,42,0.0654
-ES,All roles,Solution engineering,42,0.0889
-ES,All roles,Git,41,0.0697
-ES,All roles,CI/CD,40,0.0755
-ES,All roles,Data governance,39,0.0682
-ES,All roles,CRM,39,0.0731
-ES,All roles,Stakeholder management,39,0.0690
-ES,All roles,TypeScript,39,0.0793
-ES,All roles,Incident management,39,0.0897
-ES,All roles,Critical thinking,38,0.0782
-ES,All roles,Google Cloud,38,0.0927
-ES,All roles,Negotiation,37,0.1059
-ES,All roles,Project management,36,0.0622
-ES,All roles,Go,36,0.0849
-ES,All roles,Adaptability,34,0.0705
-ES,All roles,Decision making,31,0.0563
-ES,All roles,Java,31,0.0610
-ES,All roles,Supply chain,30,0.0503
-ES,All roles,AI coding tools,30,0.0567
-ES,All roles,React,28,0.0607
-ES,All roles,Product strategy,28,0.0475
-ES,All roles,JavaScript,27,0.0563
-ES,All roles,Recruiting,26,0.0619
-ES,All roles,Agile,26,0.0505
-ES,All roles,Forecasting,25,0.0589
-ES,All roles,SAP,25,0.0315
-ES,All roles,Account management,24,0.0614
-ES,All roles,System design,24,0.0631
-ES,All roles,Azure,24,0.0589
-ES,All roles,Customer support,23,0.0475
-ES,All roles,Business development,23,0.0552
-ES,All roles,Excel,22,0.0353
-ES,All roles,PostgreSQL,22,0.0549
-ES,All roles,Snowflake,22,0.0380
-ES,All roles,Risk management,22,0.0402
-ES,All roles,C++,22,0.0480
-ES,All roles,Data structures & algorithms,22,0.0369
-ES,All roles,HR management,21,0.0457
-ES,All roles,Docker,21,0.0558
-ES,All roles,Roadmapping,21,0.0503
-ES,All roles,Procurement,20,0.0335
-ES,All roles,Prospecting,19,0.0470
-ES,All roles,Design systems,19,0.0429
-ES,All roles,Quality assurance,18,0.0274
-ES,All roles,Kotlin,18,0.0399
-ES,All roles,Change management,18,0.0376
-ES,All roles,Customer focus,18,0.0357
-ES,All roles,RAG,18,0.0321
-ES,All roles,DevOps,18,0.0400
-ES,All roles,Generative AI,18,0.0362
-ES,All roles,Revenue operations,17,0.0331
-ES,All roles,B2B sales,17,0.0480
-ES,All roles,Pipeline management,17,0.0406
-ES,All roles,Program management,17,0.0280
-ES,All roles,Infrastructure as code,17,0.0419
-ES,All roles,ERP,17,0.0216
-ES,All roles,Growth marketing,17,0.0286
-ES,All roles,Looker,17,0.0237
-ES,All roles,Prompt engineering,17,0.0274
-ES,All roles,Market research,16,0.0302
-ES,All roles,BigQuery,16,0.0237
-ES,All roles,Terraform,16,0.0368
-ES,All roles,Accounting,16,0.0317
-ES,All roles,C#,16,0.0195
-ES,All roles,Logistics,15,0.0369
-ES,All roles,iOS,15,0.0264
-ES,All roles,Site reliability,15,0.0359
-ES,All roles,Kafka,15,0.0370
-ES,All roles,Cybersecurity,15,0.0318
-ES,All roles,dbt,15,0.0222
-ES,All roles,Linux,15,0.0447
-ES,All roles,Regulatory compliance,15,0.0325
-ES,All roles,Node.js,14,0.0303
-ES,All roles,Redis,14,0.0376
-ES,All roles,Workday,14,0.0285
-ES,All roles,C,14,0.0390
-ES,All roles,Tableau,13,0.0239
-ES,All roles,Data warehousing,13,0.0221
-ES,All roles,UX design,13,0.0220
-ES,All roles,Data visualization,13,0.0292
-ES,All roles,People management,13,0.0212
-ES,All roles,Rust,13,0.0351
-ES,All roles,Digital marketing,13,0.0240
-ES,All roles,Operations management,13,0.0232
-ES,All roles,Test automation,13,0.0184
-ES,All roles,User research,12,0.0206
-ES,All roles,Statistics,12,0.0261
-ES,All roles,Technical writing,12,0.0189
-ES,All roles,Privacy regulation,12,0.0295
-ES,All roles,Data modeling,12,0.0150
-ES,All roles,Airflow,12,0.0150
-ES,All roles,Identity & access,12,0.0177
-ES,All roles,HTML,12,0.0217
-ES,All roles,Android,12,0.0205
-ES,All roles,Adobe Creative Suite,12,0.0138
-ES,All roles,Compensation & benefits,12,0.0288
-ES,All roles,Jira,11,0.0318
-ES,All roles,CSS,11,0.0228
-ES,All roles,Performance optimization,11,0.0223
-ES,All roles,LangChain,11,0.0147
-ES,All roles,MCP,11,0.0178
-ES,All roles,Databricks,11,0.0162
-ES,All roles,PyTorch,11,0.0219
-ES,All roles,Auditing,10,0.0216
-ES,All roles,Marketing automation,10,0.0126
-ES,All roles,Redshift,10,0.0151
-ES,All roles,MySQL,10,0.0190
-ES,All roles,Unity,10,0.0130
-ES,All roles,Fine-tuning,10,0.0139
-ES,All roles,Inventory management,10,0.0133
-ES,All roles,Social media marketing,9,0.0166
-ES,All roles,SOC 2,9,0.0170
-ES,All roles,Pandas,9,0.0120
-ES,All roles,Vector databases,9,0.0127
-ES,All roles,Model evaluation,9,0.0166
-ES,All roles,scikit-learn,9,0.0180
-ES,All roles,Strategic planning,8,0.0193
-ES,All roles,UI design,8,0.0137
-ES,All roles,Cloud security,8,0.0231
-ES,All roles,Threat modeling,8,0.0191
-ES,All roles,Accessibility,8,0.0215
-ES,All roles,Application security,8,0.0202
-ES,All roles,SIEM,8,0.0141
-ES,All roles,Partnerships,8,0.0218
-ES,All roles,MEDDIC,8,0.0213
-ES,All roles,Ruby,8,0.0213
-ES,All roles,R,8,0.0115
-ES,All roles,Outreach tools,8,0.0174
-ES,All roles,Content marketing,8,0.0154
-ES,All roles,Mergers & acquisitions,7,0.0132
-ES,All roles,GraphQL,7,0.0141
-ES,All roles,Vue,7,0.0164
-ES,All roles,FP&A,7,0.0191
-ES,All roles,Spark,7,0.0183
+ES,All roles,Communication,323,0.6605
+ES,All roles,Collaboration,197,0.3992
+ES,All roles,Leadership,157,0.3123
+ES,All roles,Cross-functional work,156,0.3411
+ES,All roles,Mentoring,145,0.2840
+ES,All roles,Problem solving,98,0.2020
+ES,All roles,Python,92,0.1829
+ES,All roles,SQL,82,0.1487
+ES,All roles,AI agents,71,0.1164
+ES,All roles,Observability,71,0.1469
+ES,All roles,AI assistants,66,0.1188
+ES,All roles,Presentation,57,0.1098
+ES,All roles,Prototyping,56,0.0983
+ES,All roles,Process improvement,55,0.1052
+ES,All roles,Attention to detail,55,0.0979
+ES,All roles,Time management,55,0.0999
+ES,All roles,Salesforce,52,0.1134
+ES,All roles,AWS,51,0.1210
+ES,All roles,Kubernetes,50,0.1339
+ES,All roles,Code review,48,0.0928
+ES,All roles,Machine learning,47,0.1005
+ES,All roles,Distributed systems,46,0.1001
+ES,All roles,A/B testing,45,0.0748
+ES,All roles,Ownership,44,0.0939
+ES,All roles,Cloud infrastructure,44,0.0983
+ES,All roles,Data analysis,43,0.0693
+ES,All roles,LLMs,42,0.0843
+ES,All roles,Data pipelines,42,0.0658
+ES,All roles,Solution engineering,42,0.0895
+ES,All roles,Git,41,0.0702
+ES,All roles,CI/CD,40,0.0760
+ES,All roles,Data governance,39,0.0687
+ES,All roles,CRM,39,0.0737
+ES,All roles,Stakeholder management,39,0.0695
+ES,All roles,TypeScript,39,0.0799
+ES,All roles,Incident management,39,0.0904
+ES,All roles,Critical thinking,38,0.0788
+ES,All roles,Google Cloud,38,0.0934
+ES,All roles,Negotiation,36,0.0992
+ES,All roles,Project management,36,0.0627
+ES,All roles,Go,36,0.0856
+ES,All roles,Adaptability,34,0.0710
+ES,All roles,Decision making,31,0.0567
+ES,All roles,Java,31,0.0615
+ES,All roles,Supply chain,30,0.0507
+ES,All roles,AI coding tools,30,0.0571
+ES,All roles,React,28,0.0611
+ES,All roles,Product strategy,28,0.0478
+ES,All roles,JavaScript,27,0.0568
+ES,All roles,Recruiting,26,0.0624
+ES,All roles,Agile,26,0.0509
+ES,All roles,Forecasting,25,0.0594
+ES,All roles,SAP,25,0.0317
+ES,All roles,Account management,24,0.0618
+ES,All roles,System design,24,0.0636
+ES,All roles,Azure,24,0.0594
+ES,All roles,Customer support,23,0.0479
+ES,All roles,Business development,23,0.0556
+ES,All roles,Excel,22,0.0356
+ES,All roles,PostgreSQL,22,0.0553
+ES,All roles,Snowflake,22,0.0383
+ES,All roles,Risk management,22,0.0405
+ES,All roles,C++,22,0.0483
+ES,All roles,Data structures & algorithms,22,0.0372
+ES,All roles,HR management,21,0.0461
+ES,All roles,Docker,21,0.0562
+ES,All roles,Roadmapping,21,0.0507
+ES,All roles,Procurement,20,0.0337
+ES,All roles,Prospecting,19,0.0473
+ES,All roles,Design systems,19,0.0432
+ES,All roles,Quality assurance,18,0.0276
+ES,All roles,Kotlin,18,0.0402
+ES,All roles,Change management,18,0.0378
+ES,All roles,Customer focus,18,0.0360
+ES,All roles,RAG,18,0.0323
+ES,All roles,DevOps,18,0.0403
+ES,All roles,Generative AI,18,0.0365
+ES,All roles,Revenue operations,17,0.0333
+ES,All roles,B2B sales,17,0.0484
+ES,All roles,Pipeline management,17,0.0409
+ES,All roles,Program management,17,0.0282
+ES,All roles,Infrastructure as code,17,0.0423
+ES,All roles,ERP,17,0.0217
+ES,All roles,Growth marketing,17,0.0288
+ES,All roles,Looker,17,0.0239
+ES,All roles,Prompt engineering,17,0.0276
+ES,All roles,Market research,16,0.0305
+ES,All roles,BigQuery,16,0.0239
+ES,All roles,Terraform,16,0.0370
+ES,All roles,Accounting,16,0.0320
+ES,All roles,C#,16,0.0196
+ES,All roles,Logistics,15,0.0371
+ES,All roles,iOS,15,0.0266
+ES,All roles,Site reliability,15,0.0361
+ES,All roles,Kafka,15,0.0373
+ES,All roles,Cybersecurity,15,0.0320
+ES,All roles,dbt,15,0.0223
+ES,All roles,Linux,15,0.0451
+ES,All roles,Regulatory compliance,15,0.0327
+ES,All roles,Node.js,14,0.0305
+ES,All roles,Redis,14,0.0378
+ES,All roles,Workday,14,0.0287
+ES,All roles,C,14,0.0393
+ES,All roles,Tableau,13,0.0241
+ES,All roles,Data warehousing,13,0.0223
+ES,All roles,UX design,13,0.0222
+ES,All roles,Data visualization,13,0.0294
+ES,All roles,People management,13,0.0214
+ES,All roles,Rust,13,0.0354
+ES,All roles,Digital marketing,13,0.0242
+ES,All roles,Operations management,13,0.0234
+ES,All roles,Test automation,13,0.0186
+ES,All roles,User research,12,0.0208
+ES,All roles,Statistics,12,0.0263
+ES,All roles,Technical writing,12,0.0191
+ES,All roles,Privacy regulation,12,0.0297
+ES,All roles,Data modeling,12,0.0151
+ES,All roles,Airflow,12,0.0151
+ES,All roles,Identity & access,12,0.0178
+ES,All roles,HTML,12,0.0219
+ES,All roles,Android,12,0.0206
+ES,All roles,Adobe Creative Suite,12,0.0139
+ES,All roles,Compensation & benefits,12,0.0291
+ES,All roles,Jira,11,0.0320
+ES,All roles,CSS,11,0.0230
+ES,All roles,Performance optimization,11,0.0224
+ES,All roles,LangChain,11,0.0148
+ES,All roles,MCP,11,0.0179
+ES,All roles,Databricks,11,0.0164
+ES,All roles,PyTorch,11,0.0221
+ES,All roles,Auditing,10,0.0218
+ES,All roles,Marketing automation,10,0.0127
+ES,All roles,Redshift,10,0.0152
+ES,All roles,MySQL,10,0.0192
+ES,All roles,Unity,10,0.0131
+ES,All roles,Fine-tuning,10,0.0140
+ES,All roles,Inventory management,10,0.0134
+ES,All roles,Social media marketing,9,0.0167
+ES,All roles,SOC 2,9,0.0171
+ES,All roles,Pandas,9,0.0121
+ES,All roles,Vector databases,9,0.0128
+ES,All roles,Model evaluation,9,0.0167
+ES,All roles,scikit-learn,9,0.0181
+ES,All roles,Strategic planning,8,0.0194
+ES,All roles,UI design,8,0.0138
+ES,All roles,Cloud security,8,0.0233
+ES,All roles,Threat modeling,8,0.0192
+ES,All roles,Accessibility,8,0.0216
+ES,All roles,Application security,8,0.0203
+ES,All roles,SIEM,8,0.0142
+ES,All roles,Partnerships,8,0.0220
+ES,All roles,MEDDIC,8,0.0178
+ES,All roles,Ruby,8,0.0215
+ES,All roles,R,8,0.0116
+ES,All roles,Outreach tools,8,0.0175
+ES,All roles,Content marketing,8,0.0156
+ES,All roles,Mergers & acquisitions,7,0.0133
+ES,All roles,GraphQL,7,0.0142
+ES,All roles,Vue,7,0.0165
+ES,All roles,FP&A,7,0.0192
+ES,All roles,Spark,7,0.0184
 ES,All roles,3D modeling,7,0.0103
-ES,All roles,REST APIs,7,0.0134
-ES,All roles,Pricing strategy,6,0.0118
-ES,All roles,Microservices,6,0.0225
-ES,All roles,Product analytics,6,0.0106
-ES,All roles,Prometheus,6,0.0122
-ES,All roles,Cassandra,6,0.0155
-ES,All roles,GMP / GLP,6,0.0123
-ES,All roles,Unreal Engine,6,0.0080
-ES,All roles,Datadog,5,0.0099
-ES,All roles,Fraud detection,5,0.0129
-ES,All roles,MLOps,5,0.0178
-ES,All roles,Power BI,5,0.0062
-ES,All roles,Helm,5,0.0105
-ES,All roles,Business intelligence,5,0.0082
-ES,All roles,AML / KYC,5,0.0125
-ES,All roles,Intellectual property,5,0.0127
-ES,All roles,Scala,5,0.0113
+ES,All roles,REST APIs,7,0.0135
+ES,All roles,Pricing strategy,6,0.0119
+ES,All roles,Microservices,6,0.0226
+ES,All roles,Product analytics,6,0.0107
+ES,All roles,Prometheus,6,0.0123
+ES,All roles,Cassandra,6,0.0156
+ES,All roles,GMP / GLP,6,0.0124
+ES,All roles,Unreal Engine,6,0.0081
+ES,All roles,Datadog,5,0.0100
+ES,All roles,Fraud detection,5,0.0130
+ES,All roles,MLOps,5,0.0179
+ES,All roles,Power BI,5,0.0063
+ES,All roles,Helm,5,0.0106
+ES,All roles,Business intelligence,5,0.0083
+ES,All roles,AML / KYC,5,0.0126
+ES,All roles,Intellectual property,5,0.0128
+ES,All roles,Scala,5,0.0114
 ES,All roles,Clinical research,5,0.0049
 ES,Software engineer,Communication,85,0.6773
 ES,Software engineer,Collaboration,62,0.4951
@@ -6074,8 +6075,8 @@ FR,All roles,Machine learning,89,0.1190
 FR,All roles,SQL,86,0.1122
 FR,All roles,Process improvement,77,0.1056
 FR,All roles,Account management,72,0.1313
-FR,All roles,Salesforce,71,0.1402
 FR,All roles,AWS,71,0.0870
+FR,All roles,Salesforce,71,0.1402
 FR,All roles,Observability,69,0.0901
 FR,All roles,Attention to detail,65,0.1046
 FR,All roles,Data analysis,64,0.0955
@@ -6123,11 +6124,11 @@ FR,All roles,Code review,28,0.0352
 FR,All roles,Agile,27,0.0340
 FR,All roles,Java,27,0.0455
 FR,All roles,HR management,26,0.0453
+FR,All roles,MEDDIC,26,0.0548
 FR,All roles,JavaScript,26,0.0423
 FR,All roles,Ruby,26,0.0357
 FR,All roles,Git,25,0.0427
 FR,All roles,Distributed systems,25,0.0300
-FR,All roles,MEDDIC,24,0.0526
 FR,All roles,PostgreSQL,24,0.0354
 FR,All roles,C++,24,0.0429
 FR,All roles,Customer focus,23,0.0353
@@ -6160,14 +6161,14 @@ FR,All roles,AML / KYC,17,0.0272
 FR,All roles,Spark,17,0.0199
 FR,All roles,Business intelligence,17,0.0277
 FR,All roles,PyTorch,17,0.0235
-FR,All roles,Tableau,16,0.0208
 FR,All roles,Payroll,16,0.0211
 FR,All roles,Program management,16,0.0220
+FR,All roles,Tableau,16,0.0208
 FR,All roles,Accessibility,16,0.0222
 FR,All roles,Risk management,15,0.0203
 FR,All roles,Mergers & acquisitions,15,0.0116
-FR,All roles,Revenue operations,15,0.0273
 FR,All roles,Model evaluation,15,0.0171
+FR,All roles,Revenue operations,15,0.0273
 FR,All roles,Node.js,15,0.0264
 FR,All roles,People management,15,0.0207
 FR,All roles,DevOps,15,0.0262
@@ -6180,8 +6181,8 @@ FR,All roles,Data visualization,14,0.0269
 FR,All roles,Rust,14,0.0175
 FR,All roles,MCP,14,0.0168
 FR,All roles,Market research,13,0.0159
-FR,All roles,Pricing strategy,13,0.0197
 FR,All roles,ERP,13,0.0172
+FR,All roles,Pricing strategy,13,0.0197
 FR,All roles,iOS,13,0.0176
 FR,All roles,Fine-tuning,13,0.0159
 FR,All roles,Linux,13,0.0176
@@ -6252,126 +6253,126 @@ FR,All roles,Data structures & algorithms,5,0.0077
 FR,All roles,Video production,5,0.0039
 FR,All roles,3D modeling,5,0.0033
 FR,All roles,Unity,5,0.0033
-GB,All roles,Communication,1200,0.5313
-GB,All roles,Collaboration,919,0.3783
-GB,All roles,Cross-functional work,770,0.3509
-GB,All roles,Leadership,759,0.3497
-GB,All roles,Mentoring,588,0.2538
-GB,All roles,Python,545,0.1993
-GB,All roles,Problem solving,527,0.2040
+GB,All roles,Communication,1200,0.5319
+GB,All roles,Collaboration,919,0.3787
+GB,All roles,Cross-functional work,770,0.3514
+GB,All roles,Leadership,759,0.3501
+GB,All roles,Mentoring,588,0.2541
+GB,All roles,Python,545,0.1994
+GB,All roles,Problem solving,527,0.2042
 GB,All roles,Machine learning,331,0.1286
-GB,All roles,AI agents,283,0.1178
-GB,All roles,AI assistants,265,0.1275
+GB,All roles,AI agents,283,0.1179
+GB,All roles,AI assistants,265,0.1276
 GB,All roles,SQL,258,0.0981
 GB,All roles,AWS,248,0.1027
 GB,All roles,Cloud infrastructure,244,0.1016
-GB,All roles,Attention to detail,241,0.1132
+GB,All roles,Attention to detail,241,0.1134
 GB,All roles,Ownership,238,0.1086
 GB,All roles,LLMs,234,0.0914
-GB,All roles,Negotiation,228,0.1070
-GB,All roles,Salesforce,227,0.1265
-GB,All roles,Presentation,217,0.1036
-GB,All roles,Process improvement,217,0.0900
+GB,All roles,Negotiation,228,0.1072
+GB,All roles,Salesforce,227,0.1267
+GB,All roles,Presentation,217,0.1037
+GB,All roles,Process improvement,217,0.0902
 GB,All roles,Observability,203,0.0836
-GB,All roles,B2B sales,201,0.1115
+GB,All roles,B2B sales,201,0.1116
 GB,All roles,Kubernetes,194,0.0828
 GB,All roles,Incident management,190,0.0805
 GB,All roles,Solution engineering,186,0.0986
-GB,All roles,Forecasting,184,0.0891
-GB,All roles,Decision making,180,0.0794
+GB,All roles,Forecasting,184,0.0893
+GB,All roles,Decision making,180,0.0795
 GB,All roles,Prototyping,180,0.0659
-GB,All roles,Project management,180,0.0789
+GB,All roles,Project management,180,0.0791
 GB,All roles,Account management,179,0.0912
 GB,All roles,Go,178,0.0602
 GB,All roles,Distributed systems,177,0.0609
-GB,All roles,Adaptability,169,0.0792
-GB,All roles,CRM,166,0.0818
-GB,All roles,Business development,166,0.0832
+GB,All roles,Adaptability,169,0.0794
+GB,All roles,CRM,166,0.0819
+GB,All roles,Business development,165,0.0826
 GB,All roles,Google Cloud,164,0.0686
 GB,All roles,CI/CD,164,0.0657
-GB,All roles,A/B testing,163,0.0610
+GB,All roles,A/B testing,163,0.0611
 GB,All roles,Prospecting,162,0.0815
-GB,All roles,Time management,161,0.0833
 GB,All roles,C++,161,0.0525
-GB,All roles,Data analysis,153,0.0605
-GB,All roles,Pipeline management,151,0.0817
-GB,All roles,Stakeholder management,144,0.0615
-GB,All roles,Logistics,139,0.0485
+GB,All roles,Time management,160,0.0827
+GB,All roles,Data analysis,153,0.0606
+GB,All roles,Pipeline management,151,0.0818
+GB,All roles,Stakeholder management,144,0.0616
+GB,All roles,Logistics,139,0.0486
 GB,All roles,Data pipelines,138,0.0554
 GB,All roles,TypeScript,136,0.0509
-GB,All roles,Azure,129,0.0576
+GB,All roles,Azure,129,0.0577
 GB,All roles,Java,129,0.0443
 GB,All roles,Procurement,123,0.0599
 GB,All roles,Critical thinking,119,0.0546
-GB,All roles,Customer support,117,0.0480
+GB,All roles,Customer support,117,0.0481
 GB,All roles,Linux,117,0.0390
 GB,All roles,System design,112,0.0437
+GB,All roles,MEDDIC,108,0.0591
 GB,All roles,JavaScript,103,0.0423
-GB,All roles,Git,102,0.0400
-GB,All roles,MEDDIC,102,0.0564
-GB,All roles,Roadmapping,100,0.0438
-GB,All roles,Product strategy,99,0.0350
+GB,All roles,Git,102,0.0401
+GB,All roles,Roadmapping,100,0.0439
+GB,All roles,Product strategy,99,0.0351
 GB,All roles,Code review,98,0.0374
-GB,All roles,React,97,0.0398
+GB,All roles,React,97,0.0399
 GB,All roles,Terraform,96,0.0390
-GB,All roles,Risk management,93,0.0398
+GB,All roles,Risk management,92,0.0391
 GB,All roles,Data governance,92,0.0313
-GB,All roles,DevOps,91,0.0395
+GB,All roles,DevOps,91,0.0396
 GB,All roles,Infrastructure as code,89,0.0357
-GB,All roles,Statistics,89,0.0380
+GB,All roles,Statistics,89,0.0381
 GB,All roles,Cybersecurity,88,0.0409
-GB,All roles,Regulatory compliance,86,0.0381
-GB,All roles,Rust,86,0.0288
+GB,All roles,Regulatory compliance,86,0.0383
+GB,All roles,Rust,86,0.0289
 GB,All roles,AI coding tools,84,0.0334
 GB,All roles,Docker,82,0.0358
-GB,All roles,Privacy regulation,82,0.0414
-GB,All roles,Excel,82,0.0327
+GB,All roles,Excel,82,0.0328
+GB,All roles,Privacy regulation,81,0.0410
 GB,All roles,Recruiting,80,0.0363
 GB,All roles,Revenue operations,77,0.0366
 GB,All roles,People management,77,0.0370
 GB,All roles,Generative AI,75,0.0363
-GB,All roles,Agile,74,0.0319
-GB,All roles,Identity & access,70,0.0322
+GB,All roles,Agile,73,0.0312
+GB,All roles,Identity & access,70,0.0323
 GB,All roles,Customer focus,69,0.0305
 GB,All roles,Supply chain,68,0.0265
-GB,All roles,Program management,68,0.0267
+GB,All roles,Program management,68,0.0268
 GB,All roles,Accounting,68,0.0310
-GB,All roles,HR management,67,0.0325
+GB,All roles,HR management,67,0.0326
 GB,All roles,Data structures & algorithms,67,0.0260
 GB,All roles,Growth marketing,65,0.0296
 GB,All roles,PostgreSQL,64,0.0236
 GB,All roles,Prompt engineering,62,0.0257
 GB,All roles,Root cause analysis,62,0.0232
 GB,All roles,Compensation & benefits,61,0.0314
-GB,All roles,Change management,58,0.0262
+GB,All roles,Change management,58,0.0263
 GB,All roles,Partnerships,57,0.0270
 GB,All roles,PyTorch,56,0.0225
 GB,All roles,Snowflake,55,0.0235
-GB,All roles,Strategic planning,55,0.0254
+GB,All roles,Strategic planning,55,0.0255
 GB,All roles,RAG,55,0.0189
 GB,All roles,C,53,0.0175
 GB,All roles,Ruby,53,0.0191
 GB,All roles,Data center operations,53,0.0152
-GB,All roles,Spark,52,0.0206
+GB,All roles,Spark,52,0.0207
 GB,All roles,Bash / shell,51,0.0187
 GB,All roles,Test automation,51,0.0199
 GB,All roles,Quantitative trading,50,0.0211
-GB,All roles,MCP,49,0.0246
+GB,All roles,MCP,49,0.0247
 GB,All roles,Fine-tuning,47,0.0189
 GB,All roles,Site reliability,45,0.0213
 GB,All roles,Design systems,44,0.0184
 GB,All roles,Data warehousing,44,0.0147
-GB,All roles,Quality assurance,44,0.0186
-GB,All roles,Kafka,44,0.0168
-GB,All roles,Jira,43,0.0229
+GB,All roles,Kafka,44,0.0169
+GB,All roles,Jira,43,0.0230
+GB,All roles,Quality assurance,43,0.0178
 GB,All roles,Technical writing,42,0.0141
 GB,All roles,Model evaluation,42,0.0169
 GB,All roles,Prometheus,42,0.0164
-GB,All roles,Auditing,42,0.0209
+GB,All roles,Auditing,42,0.0210
 GB,All roles,Outreach tools,41,0.0244
-GB,All roles,Market research,41,0.0198
+GB,All roles,Market research,41,0.0200
 GB,All roles,Accessibility,40,0.0182
-GB,All roles,Performance optimization,40,0.0156
+GB,All roles,Performance optimization,40,0.0157
 GB,All roles,Scala,39,0.0105
 GB,All roles,Data modeling,38,0.0161
 GB,All roles,Deep learning,38,0.0132
@@ -6412,24 +6413,24 @@ GB,All roles,Kotlin,27,0.0103
 GB,All roles,C#,26,0.0112
 GB,All roles,SAP,26,0.0099
 GB,All roles,Marketing automation,24,0.0118
-GB,All roles,Workday,24,0.0145
+GB,All roles,Workday,24,0.0146
 GB,All roles,NoSQL,24,0.0073
 GB,All roles,HTML,24,0.0087
 GB,All roles,R,24,0.0103
 GB,All roles,MLOps,24,0.0108
 GB,All roles,Looker,24,0.0099
-GB,All roles,FP&A,23,0.0116
+GB,All roles,FP&A,23,0.0117
 GB,All roles,Figma,23,0.0098
 GB,All roles,Elasticsearch,23,0.0059
 GB,All roles,MySQL,22,0.0066
-GB,All roles,NLP,22,0.0088
+GB,All roles,NLP,22,0.0089
 GB,All roles,Fraud detection,21,0.0102
 GB,All roles,Operations management,21,0.0093
 GB,All roles,Test engineering,21,0.0068
 GB,All roles,UI design,20,0.0074
 GB,All roles,Datadog,20,0.0109
 GB,All roles,Databricks,20,0.0090
-GB,All roles,Payroll,20,0.0125
+GB,All roles,Payroll,20,0.0126
 GB,All roles,Vulnerability management,19,0.0073
 GB,All roles,Ansible,19,0.0092
 GB,All roles,Electrical engineering,19,0.0060
@@ -6440,7 +6441,7 @@ GB,All roles,FPGA,18,0.0052
 GB,All roles,DynamoDB,18,0.0077
 GB,All roles,Financial modeling,18,0.0059
 GB,All roles,Cassandra,18,0.0053
-GB,All roles,Email marketing,17,0.0103
+GB,All roles,Email marketing,17,0.0104
 GB,All roles,Gong,17,0.0118
 GB,All roles,CUDA,17,0.0071
 GB,All roles,Vector databases,17,0.0057
@@ -6448,7 +6449,7 @@ GB,All roles,Penetration testing,17,0.0070
 GB,All roles,FedRAMP,17,0.0082
 GB,All roles,Power BI,17,0.0072
 GB,All roles,Event management,16,0.0066
-GB,All roles,NetSuite,16,0.0083
+GB,All roles,NetSuite,16,0.0084
 GB,All roles,GPU computing,16,0.0057
 GB,All roles,Recommender systems,16,0.0050
 GB,All roles,PCB design,16,0.0030
@@ -6462,13 +6463,13 @@ GB,All roles,Product analytics,14,0.0062
 GB,All roles,Brand strategy,14,0.0077
 GB,All roles,Vue,14,0.0072
 GB,All roles,Adobe Creative Suite,13,0.0056
-GB,All roles,Financial analysis,13,0.0097
+GB,All roles,Financial analysis,13,0.0098
 GB,All roles,gRPC,13,0.0044
 GB,All roles,Swift,12,0.0049
 GB,All roles,Splunk,12,0.0060
 GB,All roles,Helm,12,0.0049
 GB,All roles,SEO,12,0.0054
-GB,All roles,Pandas,12,0.0063
+GB,All roles,Pandas,12,0.0064
 GB,All roles,Zendesk,12,0.0044
 GB,All roles,Next.js,11,0.0066
 GB,All roles,Intellectual property,11,0.0036
@@ -6477,10 +6478,10 @@ GB,All roles,MongoDB,11,0.0046
 GB,All roles,Zero trust,10,0.0040
 GB,All roles,Flink,10,0.0030
 GB,All roles,Legal drafting,10,0.0036
-GB,All roles,Tax,10,0.0057
+GB,All roles,Tax,10,0.0058
 GB,All roles,CAD,10,0.0075
 GB,All roles,Causal inference,10,0.0028
-GB,All roles,Investment analysis,10,0.0032
+GB,All roles,Investment analysis,10,0.0033
 GB,All roles,GMP / GLP,10,0.0026
 GB,All roles,ClickHouse,9,0.0039
 GB,All roles,Redshift,9,0.0050
@@ -6801,7 +6802,7 @@ GB,Sales & account executive,Pipeline management,117,0.2610
 GB,Sales & account executive,Business development,114,0.2731
 GB,Sales & account executive,Forecasting,111,0.2580
 GB,Sales & account executive,Mentoring,102,0.2267
-GB,Sales & account executive,MEDDIC,84,0.1859
+GB,Sales & account executive,MEDDIC,89,0.1951
 GB,Sales & account executive,CRM,77,0.2083
 GB,Sales & account executive,Ownership,76,0.1872
 GB,Sales & account executive,Presentation,61,0.1345
@@ -7277,6 +7278,7 @@ IE,All roles,Business development,53,0.0698
 IE,All roles,Project management,52,0.1046
 IE,All roles,Customer support,51,0.0791
 IE,All roles,Azure,51,0.0738
+IE,All roles,MEDDIC,49,0.0629
 IE,All roles,Decision making,48,0.0707
 IE,All roles,Google Cloud,48,0.0714
 IE,All roles,Compensation & benefits,47,0.0556
@@ -7289,7 +7291,6 @@ IE,All roles,Code review,43,0.0657
 IE,All roles,Site reliability,42,0.0535
 IE,All roles,Critical thinking,41,0.0661
 IE,All roles,CI/CD,41,0.0703
-IE,All roles,MEDDIC,41,0.0533
 IE,All roles,TypeScript,40,0.0578
 IE,All roles,A/B testing,40,0.0466
 IE,All roles,Linux,39,0.0634
@@ -7435,9 +7436,9 @@ IE,Sales & account executive,Negotiation,42,0.2400
 IE,Sales & account executive,Business development,37,0.2192
 IE,Sales & account executive,Time management,33,0.1690
 IE,Sales & account executive,CRM,32,0.2146
+IE,Sales & account executive,MEDDIC,31,0.1872
 IE,Sales & account executive,Adaptability,30,0.1062
 IE,Sales & account executive,AI assistants,29,0.1900
-IE,Sales & account executive,MEDDIC,24,0.1548
 IE,Sales & account executive,Problem solving,22,0.1230
 IE,Sales & account executive,Outreach tools,21,0.1204
 IE,Sales & account executive,Revenue operations,20,0.1499
@@ -7607,6 +7608,7 @@ IL,All roles,Spark,10,0.0385
 IL,All roles,Site reliability,10,0.0578
 IL,All roles,Linux,10,0.0575
 IL,All roles,Risk management,10,0.0411
+IL,All roles,MEDDIC,10,0.0608
 IL,All roles,MCP,9,0.0347
 IL,All roles,Project management,9,0.0434
 IL,All roles,Product analytics,8,0.0374
@@ -7625,7 +7627,6 @@ IL,All roles,Prompt engineering,7,0.0243
 IL,All roles,Ruby,7,0.0397
 IL,All roles,Forecasting,7,0.0468
 IL,All roles,B2B sales,7,0.0300
-IL,All roles,MEDDIC,7,0.0392
 IL,All roles,Customer focus,7,0.0275
 IL,All roles,Vector databases,6,0.0282
 IL,All roles,dbt,6,0.0309
@@ -7651,138 +7652,138 @@ IL,All roles,Vulnerability management,5,0.0316
 IL,All roles,iOS,5,0.0261
 IL,All roles,Logistics,5,0.0186
 IL,All roles,Jira,5,0.0269
-IN,All roles,Communication,684,0.5882
+IN,All roles,Communication,685,0.5889
 IN,All roles,Collaboration,469,0.3849
-IN,All roles,Cross-functional work,464,0.3753
+IN,All roles,Cross-functional work,465,0.3758
 IN,All roles,Problem solving,424,0.3489
-IN,All roles,Python,408,0.3452
-IN,All roles,Leadership,404,0.3284
+IN,All roles,Python,408,0.3453
+IN,All roles,Leadership,405,0.3290
 IN,All roles,Mentoring,394,0.3208
-IN,All roles,AWS,323,0.2363
-IN,All roles,Cloud infrastructure,284,0.2085
+IN,All roles,AWS,323,0.2364
+IN,All roles,Cloud infrastructure,284,0.2086
 IN,All roles,Distributed systems,252,0.1803
-IN,All roles,SQL,248,0.2275
+IN,All roles,SQL,248,0.2276
 IN,All roles,Kubernetes,234,0.1838
 IN,All roles,CI/CD,228,0.1715
-IN,All roles,Google Cloud,221,0.1738
+IN,All roles,Google Cloud,221,0.1739
 IN,All roles,Java,220,0.1584
-IN,All roles,Azure,215,0.1533
-IN,All roles,Process improvement,199,0.1742
-IN,All roles,Machine learning,193,0.1585
-IN,All roles,AI agents,190,0.1510
+IN,All roles,Azure,215,0.1534
+IN,All roles,Process improvement,198,0.1735
+IN,All roles,Machine learning,193,0.1586
+IN,All roles,AI agents,190,0.1511
 IN,All roles,Observability,180,0.1433
 IN,All roles,Go,176,0.1386
 IN,All roles,Docker,174,0.1334
 IN,All roles,AI assistants,171,0.1534
 IN,All roles,Incident management,169,0.1440
-IN,All roles,LLMs,168,0.1417
-IN,All roles,Ownership,144,0.1204
-IN,All roles,Data pipelines,142,0.1159
+IN,All roles,LLMs,168,0.1418
+IN,All roles,Ownership,144,0.1203
+IN,All roles,Attention to detail,142,0.1327
 IN,All roles,Agile,141,0.1046
-IN,All roles,Attention to detail,141,0.1322
+IN,All roles,Data pipelines,141,0.1153
 IN,All roles,Code review,139,0.1049
-IN,All roles,Linux,139,0.1013
+IN,All roles,Linux,139,0.1014
 IN,All roles,Identity & access,120,0.0772
 IN,All roles,Salesforce,117,0.1060
 IN,All roles,Customer support,114,0.0965
-IN,All roles,Decision making,113,0.0920
+IN,All roles,Decision making,112,0.0912
 IN,All roles,Time management,108,0.0914
 IN,All roles,Test automation,105,0.0805
 IN,All roles,JavaScript,104,0.0784
 IN,All roles,Microservices,103,0.0773
 IN,All roles,Terraform,102,0.0738
-IN,All roles,System design,101,0.0769
+IN,All roles,System design,101,0.0768
 IN,All roles,C++,100,0.0698
-IN,All roles,Infrastructure as code,95,0.0718
+IN,All roles,Infrastructure as code,95,0.0719
 IN,All roles,Git,93,0.0752
 IN,All roles,PostgreSQL,91,0.0695
-IN,All roles,TypeScript,91,0.0826
+IN,All roles,TypeScript,91,0.0827
 IN,All roles,DevOps,90,0.0712
 IN,All roles,Stakeholder management,89,0.0838
 IN,All roles,Data analysis,88,0.0765
 IN,All roles,AI coding tools,85,0.0733
-IN,All roles,Prototyping,85,0.0783
-IN,All roles,Generative AI,84,0.0628
-IN,All roles,Data governance,82,0.0786
+IN,All roles,Prototyping,85,0.0784
+IN,All roles,Generative AI,84,0.0629
+IN,All roles,Data governance,82,0.0785
 IN,All roles,React,80,0.0559
 IN,All roles,Excel,80,0.0745
 IN,All roles,Adaptability,79,0.0806
 IN,All roles,Kafka,78,0.0625
-IN,All roles,Presentation,77,0.0666
+IN,All roles,Presentation,77,0.0668
 IN,All roles,Jira,77,0.0686
 IN,All roles,Root cause analysis,76,0.0615
-IN,All roles,Accessibility,75,0.0424
+IN,All roles,Accessibility,75,0.0423
 IN,All roles,Cybersecurity,75,0.0505
-IN,All roles,Project management,75,0.0660
-IN,All roles,Critical thinking,74,0.0785
+IN,All roles,Project management,75,0.0661
 IN,All roles,Accounting,74,0.0545
-IN,All roles,CRM,73,0.0772
-IN,All roles,Solution engineering,71,0.0690
-IN,All roles,Performance optimization,69,0.0500
+IN,All roles,CRM,73,0.0771
+IN,All roles,Critical thinking,73,0.0778
+IN,All roles,Solution engineering,71,0.0691
+IN,All roles,Performance optimization,69,0.0501
 IN,All roles,Site reliability,67,0.0513
 IN,All roles,Auditing,66,0.0569
-IN,All roles,REST APIs,64,0.0573
+IN,All roles,REST APIs,64,0.0574
 IN,All roles,Cloud security,64,0.0334
 IN,All roles,Networking,62,0.0371
 IN,All roles,Data structures & algorithms,60,0.0487
 IN,All roles,Data warehousing,59,0.0471
-IN,All roles,Risk management,59,0.0585
+IN,All roles,Risk management,59,0.0584
 IN,All roles,Account management,57,0.0575
-IN,All roles,C,57,0.0421
+IN,All roles,C,57,0.0420
 IN,All roles,Bash / shell,57,0.0485
-IN,All roles,RAG,54,0.0438
+IN,All roles,RAG,54,0.0439
 IN,All roles,People management,53,0.0496
 IN,All roles,Prometheus,53,0.0426
 IN,All roles,Tableau,52,0.0429
-IN,All roles,Negotiation,51,0.0514
+IN,All roles,Negotiation,51,0.0513
 IN,All roles,Roadmapping,50,0.0355
 IN,All roles,Threat modeling,50,0.0359
 IN,All roles,NoSQL,49,0.0459
 IN,All roles,Forecasting,49,0.0452
-IN,All roles,Snowflake,48,0.0475
 IN,All roles,Spark,48,0.0371
 IN,All roles,Node.js,48,0.0360
 IN,All roles,Prompt engineering,48,0.0363
 IN,All roles,MCP,48,0.0457
 IN,All roles,C#,48,0.0319
-IN,All roles,ERP,47,0.0384
+IN,All roles,Snowflake,47,0.0468
 IN,All roles,Rust,46,0.0353
-IN,All roles,Scala,45,0.0294
+IN,All roles,ERP,46,0.0378
+IN,All roles,Scala,45,0.0293
 IN,All roles,HR management,44,0.0342
 IN,All roles,Ruby,44,0.0379
 IN,All roles,Compensation & benefits,44,0.0345
 IN,All roles,MySQL,43,0.0258
-IN,All roles,Redis,42,0.0310
+IN,All roles,Redis,42,0.0309
 IN,All roles,Data modeling,42,0.0341
 IN,All roles,Technical writing,42,0.0315
 IN,All roles,Business intelligence,41,0.0342
 IN,All roles,Customer focus,40,0.0332
-IN,All roles,Quality assurance,39,0.0381
-IN,All roles,Supply chain,39,0.0417
-IN,All roles,Revenue operations,38,0.0334
-IN,All roles,A/B testing,38,0.0422
+IN,All roles,Quality assurance,39,0.0382
+IN,All roles,Revenue operations,38,0.0333
+IN,All roles,A/B testing,38,0.0423
 IN,All roles,Workday,38,0.0273
 IN,All roles,LangChain,38,0.0289
+IN,All roles,Supply chain,38,0.0411
 IN,All roles,Program management,38,0.0314
 IN,All roles,Procurement,37,0.0317
-IN,All roles,Operations management,37,0.0336
+IN,All roles,Operations management,37,0.0337
 IN,All roles,Payroll,37,0.0249
 IN,All roles,B2B sales,36,0.0360
 IN,All roles,NetSuite,36,0.0295
+IN,All roles,Zero trust,36,0.0180
 IN,All roles,Ansible,36,0.0271
 IN,All roles,Logistics,35,0.0457
 IN,All roles,Change management,35,0.0315
-IN,All roles,Zero trust,35,0.0174
-IN,All roles,Databricks,34,0.0300
 IN,All roles,Prospecting,33,0.0356
 IN,All roles,Systems engineering,33,0.0264
 IN,All roles,Model evaluation,33,0.0318
 IN,All roles,Vector databases,33,0.0250
+IN,All roles,Databricks,33,0.0294
 IN,All roles,Application security,33,0.0234
 IN,All roles,MongoDB,32,0.0270
-IN,All roles,SAP,32,0.0259
+IN,All roles,SAP,32,0.0261
 IN,All roles,Datadog,31,0.0291
-IN,All roles,GraphQL,31,0.0272
+IN,All roles,GraphQL,31,0.0271
 IN,All roles,Product strategy,30,0.0234
 IN,All roles,Privacy regulation,30,0.0257
 IN,All roles,Regulatory compliance,29,0.0281
@@ -7790,7 +7791,7 @@ IN,All roles,Data visualization,28,0.0244
 IN,All roles,Power BI,28,0.0246
 IN,All roles,Elasticsearch,27,0.0201
 IN,All roles,MLOps,27,0.0185
-IN,All roles,Fine-tuning,27,0.0242
+IN,All roles,Fine-tuning,27,0.0243
 IN,All roles,Spring,27,0.0165
 IN,All roles,Pipeline management,26,0.0297
 IN,All roles,UX design,26,0.0141
@@ -7815,6 +7816,7 @@ IN,All roles,Airflow,18,0.0173
 IN,All roles,gRPC,18,0.0136
 IN,All roles,Android,17,0.0151
 IN,All roles,BigQuery,17,0.0157
+IN,All roles,MEDDIC,17,0.0185
 IN,All roles,FedRAMP,17,0.0108
 IN,All roles,SIEM,17,0.0108
 IN,All roles,Growth marketing,16,0.0210
@@ -7822,15 +7824,14 @@ IN,All roles,Design systems,16,0.0111
 IN,All roles,Social media marketing,16,0.0159
 IN,All roles,Hadoop,15,0.0105
 IN,All roles,Partnerships,14,0.0109
-IN,All roles,NLP,14,0.0136
+IN,All roles,NLP,14,0.0135
 IN,All roles,Business development,14,0.0105
 IN,All roles,Marketing automation,14,0.0134
 IN,All roles,Helm,14,0.0082
 IN,All roles,Deep learning,13,0.0132
-IN,All roles,PyTorch,13,0.0110
+IN,All roles,PyTorch,13,0.0111
 IN,All roles,Test engineering,13,0.0130
 IN,All roles,ASIC design,13,0.0125
-IN,All roles,MEDDIC,12,0.0120
 IN,All roles,Electrical engineering,12,0.0111
 IN,All roles,Intellectual property,12,0.0091
 IN,All roles,SOC 2,12,0.0108
@@ -7860,7 +7861,7 @@ IN,All roles,Fraud detection,9,0.0080
 IN,All roles,Pricing strategy,9,0.0077
 IN,All roles,Cassandra,9,0.0038
 IN,All roles,Outreach tools,8,0.0101
-IN,All roles,scikit-learn,8,0.0055
+IN,All roles,scikit-learn,8,0.0056
 IN,All roles,Redshift,7,0.0055
 IN,All roles,Legal drafting,7,0.0059
 IN,All roles,Flink,7,0.0047
@@ -7878,7 +7879,7 @@ IN,All roles,TensorFlow,5,0.0049
 IN,All roles,Vendor management,5,0.0044
 IN,All roles,Digital marketing,5,0.0077
 IN,All roles,Cypress,5,0.0034
-IN,All roles,Inventory management,5,0.0058
+IN,All roles,Inventory management,5,0.0059
 IN,All roles,UI design,5,0.0025
 IN,All roles,Brand strategy,5,0.0049
 IN,Other,Communication,66,0.5837
@@ -8236,6 +8237,7 @@ JP,All roles,Project management,40,0.0767
 JP,All roles,Stakeholder management,40,0.0736
 JP,All roles,Prospecting,40,0.0793
 JP,All roles,Adaptability,39,0.0895
+JP,All roles,MEDDIC,38,0.0704
 JP,All roles,Critical thinking,36,0.0831
 JP,All roles,Process improvement,33,0.0702
 JP,All roles,Roadmapping,32,0.0545
@@ -8246,7 +8248,6 @@ JP,All roles,Customer focus,30,0.0433
 JP,All roles,Data pipelines,30,0.0395
 JP,All roles,LLMs,30,0.0389
 JP,All roles,AI agents,30,0.0499
-JP,All roles,MEDDIC,30,0.0633
 JP,All roles,Cybersecurity,30,0.0546
 JP,All roles,Prototyping,26,0.0362
 JP,All roles,Kubernetes,26,0.0494
@@ -8364,11 +8365,11 @@ JP,Sales & account executive,Salesforce,36,0.2815
 JP,Sales & account executive,Prospecting,34,0.2234
 JP,Sales & account executive,B2B sales,31,0.2498
 JP,Sales & account executive,Mentoring,29,0.1761
+JP,Sales & account executive,MEDDIC,28,0.1788
 JP,Sales & account executive,CRM,27,0.1932
 JP,Sales & account executive,Forecasting,27,0.1741
 JP,Sales & account executive,Account management,23,0.1741
 JP,Sales & account executive,Business development,22,0.1727
-JP,Sales & account executive,MEDDIC,22,0.1602
 JP,Sales & account executive,Presentation,18,0.1039
 JP,Sales & account executive,Solution engineering,18,0.1328
 JP,Sales & account executive,Machine learning,16,0.0679
@@ -8516,6 +8517,7 @@ KR,All roles,Salesforce,15,0.0816
 KR,All roles,Customer focus,14,0.0498
 KR,All roles,Spark,14,0.0427
 KR,All roles,Microservices,14,0.0321
+KR,All roles,MEDDIC,13,0.0642
 KR,All roles,Privacy regulation,13,0.0646
 KR,All roles,Statistics,13,0.0380
 KR,All roles,Jira,13,0.0514
@@ -8533,7 +8535,6 @@ KR,All roles,Risk management,11,0.0225
 KR,All roles,Regulatory compliance,11,0.0435
 KR,All roles,Kafka,11,0.0380
 KR,All roles,Data structures & algorithms,11,0.0480
-KR,All roles,MEDDIC,10,0.0520
 KR,All roles,Accounting,10,0.0222
 KR,All roles,Code review,10,0.0286
 KR,All roles,TypeScript,9,0.0416
@@ -8660,6 +8661,7 @@ MX,All roles,C#,9,0.0309
 MX,All roles,Outreach tools,9,0.0476
 MX,All roles,Root cause analysis,8,0.0248
 MX,All roles,Tableau,8,0.0324
+MX,All roles,MEDDIC,8,0.0330
 MX,All roles,Cloud security,8,0.0405
 MX,All roles,Kafka,7,0.0238
 MX,All roles,Generative AI,7,0.0469
@@ -8682,7 +8684,6 @@ MX,All roles,JavaScript,6,0.0234
 MX,All roles,C++,6,0.0184
 MX,All roles,C,6,0.0184
 MX,All roles,Vector databases,6,0.0215
-MX,All roles,MEDDIC,6,0.0166
 MX,All roles,NetSuite,5,0.0191
 MX,All roles,Git,5,0.0146
 MX,All roles,MCP,5,0.0159
@@ -8748,170 +8749,171 @@ MY,All roles,Incident management,5,0.0375
 MY,All roles,Code review,5,0.0375
 MY,All roles,Contract negotiation,5,0.0600
 MY,All roles,Prospecting,5,0.0399
-NL,All roles,Communication,230,0.5039
-NL,All roles,Collaboration,181,0.3994
-NL,All roles,Leadership,135,0.3032
-NL,All roles,Cross-functional work,134,0.2697
-NL,All roles,Mentoring,127,0.2533
-NL,All roles,Python,100,0.1983
-NL,All roles,Problem solving,94,0.1826
-NL,All roles,SQL,65,0.1124
-NL,All roles,AWS,65,0.1165
-NL,All roles,Kubernetes,64,0.1223
-NL,All roles,Observability,64,0.1089
-NL,All roles,Salesforce,63,0.1908
-NL,All roles,Process improvement,61,0.0991
-NL,All roles,Machine learning,58,0.1021
-NL,All roles,AI agents,55,0.0932
-NL,All roles,Google Cloud,55,0.1019
-NL,All roles,AI assistants,54,0.1169
-NL,All roles,Cloud infrastructure,53,0.1221
-NL,All roles,Azure,52,0.0882
-NL,All roles,Distributed systems,48,0.0673
-NL,All roles,Negotiation,47,0.1405
-NL,All roles,Data pipelines,46,0.0799
-NL,All roles,Attention to detail,45,0.0908
-NL,All roles,Solution engineering,44,0.1086
-NL,All roles,Ownership,42,0.0952
-NL,All roles,C++,42,0.0833
-NL,All roles,Supply chain,42,0.0721
-NL,All roles,LLMs,41,0.0754
-NL,All roles,Presentation,39,0.1024
-NL,All roles,Account management,38,0.1030
-NL,All roles,Java,38,0.0715
-NL,All roles,Stakeholder management,38,0.0607
-NL,All roles,TypeScript,36,0.0590
-NL,All roles,Incident management,36,0.0624
-NL,All roles,Go,36,0.0635
-NL,All roles,CI/CD,36,0.0661
-NL,All roles,Project management,33,0.0605
-NL,All roles,Git,32,0.0587
-NL,All roles,Time management,32,0.0521
-NL,All roles,Risk management,32,0.0512
-NL,All roles,Data analysis,32,0.0742
-NL,All roles,Logistics,31,0.0563
-NL,All roles,B2B sales,30,0.0971
-NL,All roles,Terraform,30,0.0535
-NL,All roles,Prospecting,30,0.1109
-NL,All roles,Forecasting,29,0.0846
-NL,All roles,Decision making,29,0.0596
-NL,All roles,Privacy regulation,28,0.0739
-NL,All roles,Agile,28,0.0457
-NL,All roles,A/B testing,27,0.0465
-NL,All roles,Procurement,27,0.0501
-NL,All roles,PostgreSQL,26,0.0391
-NL,All roles,Linux,25,0.0588
-NL,All roles,Spark,25,0.0352
-NL,All roles,Critical thinking,25,0.0507
-NL,All roles,Prototyping,24,0.0384
-NL,All roles,Generative AI,24,0.0462
-NL,All roles,AI coding tools,23,0.0442
-NL,All roles,DevOps,23,0.0401
-NL,All roles,Site reliability,22,0.0404
-NL,All roles,Change management,22,0.0321
-NL,All roles,JavaScript,22,0.0395
-NL,All roles,Infrastructure as code,22,0.0357
-NL,All roles,Code review,22,0.0441
-NL,All roles,Data governance,22,0.0348
-NL,All roles,Excel,22,0.0424
-NL,All roles,CRM,21,0.0671
-NL,All roles,Adaptability,21,0.0457
-NL,All roles,MEDDIC,21,0.0666
-NL,All roles,Business development,21,0.0906
-NL,All roles,Data warehousing,20,0.0343
-NL,All roles,Identity & access,20,0.0319
-NL,All roles,Roadmapping,20,0.0309
-NL,All roles,Docker,20,0.0370
-NL,All roles,Performance optimization,19,0.0353
-NL,All roles,Rust,19,0.0322
-NL,All roles,Data structures & algorithms,18,0.0340
-NL,All roles,System design,18,0.0352
+NL,All roles,Communication,231,0.5037
+NL,All roles,Collaboration,181,0.3974
+NL,All roles,Leadership,135,0.3017
+NL,All roles,Cross-functional work,134,0.2687
+NL,All roles,Mentoring,128,0.2541
+NL,All roles,Python,100,0.1972
+NL,All roles,Problem solving,94,0.1821
+NL,All roles,AWS,66,0.1197
+NL,All roles,SQL,65,0.1119
+NL,All roles,Kubernetes,65,0.1253
+NL,All roles,Salesforce,64,0.1928
+NL,All roles,Observability,64,0.1083
+NL,All roles,Process improvement,61,0.0987
+NL,All roles,Machine learning,58,0.1018
+NL,All roles,Google Cloud,56,0.1049
+NL,All roles,AI agents,55,0.0929
+NL,All roles,AI assistants,55,0.1181
+NL,All roles,Cloud infrastructure,54,0.1252
+NL,All roles,Azure,53,0.0909
+NL,All roles,Distributed systems,48,0.0670
+NL,All roles,Negotiation,47,0.1401
+NL,All roles,Attention to detail,46,0.0922
+NL,All roles,Data pipelines,46,0.0795
+NL,All roles,Solution engineering,44,0.1078
+NL,All roles,Ownership,42,0.0949
+NL,All roles,C++,42,0.0827
+NL,All roles,Supply chain,42,0.0719
+NL,All roles,LLMs,41,0.0752
+NL,All roles,Presentation,39,0.1020
+NL,All roles,Stakeholder management,39,0.0620
+NL,All roles,Account management,38,0.1027
+NL,All roles,Java,38,0.0711
+NL,All roles,TypeScript,36,0.0588
+NL,All roles,Incident management,36,0.0620
+NL,All roles,Go,36,0.0633
+NL,All roles,CI/CD,36,0.0658
+NL,All roles,Project management,33,0.0602
+NL,All roles,Risk management,33,0.0528
+NL,All roles,Git,32,0.0584
+NL,All roles,Time management,32,0.0519
+NL,All roles,Data analysis,32,0.0734
+NL,All roles,MEDDIC,32,0.0840
+NL,All roles,Logistics,31,0.0560
+NL,All roles,B2B sales,30,0.0963
+NL,All roles,Terraform,30,0.0533
+NL,All roles,Forecasting,30,0.0862
+NL,All roles,Decision making,30,0.0605
+NL,All roles,Prospecting,30,0.1105
+NL,All roles,Privacy regulation,28,0.0736
+NL,All roles,Agile,28,0.0455
+NL,All roles,A/B testing,27,0.0463
+NL,All roles,Procurement,27,0.0500
+NL,All roles,PostgreSQL,26,0.0390
+NL,All roles,Linux,25,0.0586
+NL,All roles,Spark,25,0.0349
+NL,All roles,Critical thinking,25,0.0505
+NL,All roles,DevOps,24,0.0436
+NL,All roles,Prototyping,24,0.0383
+NL,All roles,Generative AI,24,0.0461
+NL,All roles,AI coding tools,23,0.0440
+NL,All roles,Infrastructure as code,23,0.0390
+NL,All roles,Site reliability,22,0.0403
+NL,All roles,Change management,22,0.0320
+NL,All roles,JavaScript,22,0.0394
+NL,All roles,Code review,22,0.0439
+NL,All roles,Data governance,22,0.0345
+NL,All roles,Excel,22,0.0422
+NL,All roles,CRM,21,0.0669
+NL,All roles,Data warehousing,21,0.0377
+NL,All roles,Identity & access,21,0.0348
+NL,All roles,Adaptability,21,0.0449
+NL,All roles,Business development,21,0.0904
+NL,All roles,Roadmapping,20,0.0308
+NL,All roles,Docker,20,0.0368
+NL,All roles,Performance optimization,19,0.0352
+NL,All roles,Rust,19,0.0321
+NL,All roles,Data structures & algorithms,18,0.0337
+NL,All roles,System design,18,0.0350
 NL,All roles,Auditing,17,0.0247
-NL,All roles,Revenue operations,17,0.0343
-NL,All roles,Snowflake,16,0.0304
+NL,All roles,Revenue operations,17,0.0342
+NL,All roles,Snowflake,16,0.0303
 NL,All roles,Quality assurance,16,0.0199
-NL,All roles,Prometheus,16,0.0259
-NL,All roles,Kafka,16,0.0249
-NL,All roles,Customer support,16,0.0311
-NL,All roles,HR management,15,0.0382
-NL,All roles,Product strategy,15,0.0234
-NL,All roles,MCP,15,0.0232
-NL,All roles,Regulatory compliance,15,0.0248
-NL,All roles,Partnerships,15,0.0521
-NL,All roles,React,14,0.0271
-NL,All roles,Accounting,14,0.0191
-NL,All roles,AML / KYC,14,0.0186
-NL,All roles,Statistics,13,0.0320
-NL,All roles,ERP,13,0.0247
-NL,All roles,People management,13,0.0201
-NL,All roles,Cybersecurity,13,0.0431
-NL,All roles,Root cause analysis,13,0.0208
+NL,All roles,Prometheus,16,0.0258
+NL,All roles,Kafka,16,0.0246
+NL,All roles,Customer support,16,0.0310
+NL,All roles,HR management,15,0.0379
+NL,All roles,Product strategy,15,0.0233
+NL,All roles,Accounting,15,0.0208
+NL,All roles,MCP,15,0.0231
+NL,All roles,Regulatory compliance,15,0.0247
+NL,All roles,Partnerships,15,0.0520
+NL,All roles,React,14,0.0270
+NL,All roles,AML / KYC,14,0.0185
+NL,All roles,Pipeline management,13,0.0500
+NL,All roles,Statistics,13,0.0318
+NL,All roles,ERP,13,0.0246
+NL,All roles,People management,13,0.0200
+NL,All roles,Cybersecurity,13,0.0425
+NL,All roles,Root cause analysis,13,0.0207
 NL,All roles,Node.js,12,0.0214
-NL,All roles,Recruiting,12,0.0281
-NL,All roles,Pipeline management,12,0.0471
-NL,All roles,UX design,12,0.0154
-NL,All roles,Data modeling,12,0.0242
-NL,All roles,Outreach tools,12,0.0342
-NL,All roles,Customer focus,12,0.0263
-NL,All roles,RAG,12,0.0236
-NL,All roles,Quantitative trading,12,0.0286
+NL,All roles,Recruiting,12,0.0280
+NL,All roles,UX design,12,0.0153
+NL,All roles,Data modeling,12,0.0239
+NL,All roles,Outreach tools,12,0.0341
+NL,All roles,Customer focus,12,0.0262
+NL,All roles,RAG,12,0.0235
+NL,All roles,Quantitative trading,12,0.0282
 NL,All roles,Workday,11,0.0203
 NL,All roles,Program management,11,0.0230
-NL,All roles,C,11,0.0245
+NL,All roles,C,11,0.0244
 NL,All roles,Ruby,11,0.0170
-NL,All roles,Helm,11,0.0163
+NL,All roles,Helm,11,0.0162
 NL,All roles,SAP,11,0.0257
 NL,All roles,Ansible,10,0.0231
-NL,All roles,Data visualization,9,0.0183
+NL,All roles,Data visualization,9,0.0182
 NL,All roles,Networking,9,0.0248
-NL,All roles,dbt,9,0.0265
-NL,All roles,Airflow,9,0.0132
+NL,All roles,dbt,9,0.0263
+NL,All roles,Airflow,9,0.0131
 NL,All roles,Prompt engineering,9,0.0165
-NL,All roles,Pricing strategy,9,0.0151
-NL,All roles,Growth marketing,9,0.0267
-NL,All roles,Data center operations,9,0.0243
+NL,All roles,Pricing strategy,9,0.0149
+NL,All roles,Growth marketing,9,0.0266
+NL,All roles,Data center operations,9,0.0237
 NL,All roles,Scala,9,0.0112
-NL,All roles,CSS,8,0.0200
+NL,All roles,CSS,8,0.0199
 NL,All roles,Design systems,8,0.0087
 NL,All roles,Model evaluation,8,0.0111
-NL,All roles,PyTorch,8,0.0158
-NL,All roles,Test automation,8,0.0210
-NL,All roles,R,8,0.0171
+NL,All roles,PyTorch,8,0.0157
+NL,All roles,Test automation,8,0.0209
+NL,All roles,R,8,0.0170
 NL,All roles,HTML,8,0.0243
 NL,All roles,SIEM,8,0.0201
-NL,All roles,GraphQL,7,0.0129
+NL,All roles,GraphQL,7,0.0128
 NL,All roles,Datadog,7,0.0103
-NL,All roles,BigQuery,7,0.0124
-NL,All roles,Market research,7,0.0157
+NL,All roles,BigQuery,7,0.0123
+NL,All roles,Market research,7,0.0156
 NL,All roles,Technical writing,7,0.0146
 NL,All roles,REST APIs,7,0.0102
-NL,All roles,C#,7,0.0171
-NL,All roles,Cloud security,7,0.0227
-NL,All roles,Mergers & acquisitions,7,0.0133
-NL,All roles,Bash / shell,7,0.0197
-NL,All roles,Kotlin,6,0.0126
-NL,All roles,SOC 2,6,0.0110
+NL,All roles,C#,7,0.0170
+NL,All roles,Cloud security,7,0.0226
+NL,All roles,Mergers & acquisitions,7,0.0132
+NL,All roles,Bash / shell,7,0.0196
+NL,All roles,Kotlin,6,0.0125
+NL,All roles,SOC 2,6,0.0109
 NL,All roles,High-performance computing,6,0.0134
 NL,All roles,Application security,6,0.0122
-NL,All roles,Threat modeling,6,0.0101
+NL,All roles,Threat modeling,6,0.0100
 NL,All roles,Digital marketing,6,0.0177
 NL,All roles,Hadoop,6,0.0074
-NL,All roles,MLOps,6,0.0105
+NL,All roles,MLOps,6,0.0104
 NL,All roles,Fine-tuning,6,0.0138
 NL,All roles,Gong,5,0.0144
 NL,All roles,Next.js,5,0.0061
-NL,All roles,Marketing automation,5,0.0114
-NL,All roles,Accessibility,5,0.0143
+NL,All roles,Marketing automation,5,0.0109
+NL,All roles,Accessibility,5,0.0142
 NL,All roles,Fraud detection,5,0.0048
 NL,All roles,CUDA,5,0.0107
 NL,All roles,Business intelligence,5,0.0101
 NL,All roles,User research,5,0.0109
+NL,All roles,FP&A,5,0.0124
 NL,All roles,Jira,5,0.0112
 NL,All roles,TensorFlow,5,0.0122
-NL,All roles,Tableau,5,0.0144
+NL,All roles,Tableau,5,0.0138
 NL,All roles,Iceberg,5,0.0065
-NL,All roles,gRPC,5,0.0075
-NL,All roles,MATLAB,5,0.0081
+NL,All roles,gRPC,5,0.0074
+NL,All roles,MATLAB,5,0.0080
 NL,Software engineer,Communication,51,0.5462
 NL,Software engineer,Collaboration,37,0.3863
 NL,Software engineer,Observability,36,0.2844
@@ -9107,6 +9109,7 @@ PL,All roles,Regulatory compliance,6,0.0227
 PL,All roles,Quality assurance,6,0.0160
 PL,All roles,Cloud security,6,0.0190
 PL,All roles,SIEM,6,0.0164
+PL,All roles,MEDDIC,6,0.0317
 PL,All roles,Jira,6,0.0321
 PL,All roles,Figma,6,0.0183
 PL,All roles,Data modeling,6,0.0158
@@ -9128,7 +9131,6 @@ PL,All roles,Data visualization,5,0.0142
 PL,All roles,Partnerships,5,0.0255
 PL,All roles,Roadmapping,5,0.0168
 PL,All roles,Prospecting,5,0.0313
-PL,All roles,MEDDIC,5,0.0216
 PL,All roles,gRPC,5,0.0161
 PL,All roles,MLOps,5,0.0212
 PL,All roles,Deep learning,5,0.0152
@@ -9384,8 +9386,8 @@ RS,All roles,Unreal Engine,5,0.0562
 RS,All roles,Snowflake,5,0.0502
 Remote,All roles,Communication,3103,0.5542
 Remote,All roles,Cross-functional work,2293,0.4136
-Remote,All roles,Leadership,2073,0.3890
-Remote,All roles,Collaboration,2040,0.3677
+Remote,All roles,Leadership,2074,0.3891
+Remote,All roles,Collaboration,2040,0.3676
 Remote,All roles,Mentoring,1483,0.2589
 Remote,All roles,Python,1035,0.1832
 Remote,All roles,Problem solving,944,0.1710
@@ -9398,15 +9400,15 @@ Remote,All roles,Machine learning,652,0.1158
 Remote,All roles,Incident management,636,0.1049
 Remote,All roles,Cloud infrastructure,613,0.1053
 Remote,All roles,Observability,607,0.1003
-Remote,All roles,Ownership,600,0.1086
+Remote,All roles,Ownership,600,0.1085
 Remote,All roles,LLMs,596,0.1016
-Remote,All roles,Time management,587,0.1122
+Remote,All roles,Time management,586,0.1121
 Remote,All roles,Presentation,584,0.1062
 Remote,All roles,Kubernetes,552,0.0945
 Remote,All roles,Process improvement,542,0.1072
-Remote,All roles,Solution engineering,534,0.0997
+Remote,All roles,Solution engineering,535,0.0999
 Remote,All roles,Negotiation,530,0.1044
-Remote,All roles,Forecasting,502,0.0965
+Remote,All roles,Forecasting,503,0.0967
 Remote,All roles,Distributed systems,484,0.0753
 Remote,All roles,Attention to detail,476,0.0875
 Remote,All roles,Google Cloud,473,0.0812
@@ -9415,9 +9417,9 @@ Remote,All roles,Go,472,0.0780
 Remote,All roles,Account management,460,0.0878
 Remote,All roles,Compensation & benefits,460,0.0659
 Remote,All roles,B2B sales,457,0.0900
-Remote,All roles,A/B testing,443,0.0841
+Remote,All roles,A/B testing,443,0.0840
 Remote,All roles,Project management,442,0.0821
-Remote,All roles,Prospecting,436,0.0852
+Remote,All roles,Prospecting,436,0.0851
 Remote,All roles,Prototyping,434,0.0792
 Remote,All roles,Code review,415,0.0642
 Remote,All roles,Adaptability,410,0.0728
@@ -9429,9 +9431,9 @@ Remote,All roles,Azure,359,0.0628
 Remote,All roles,Pipeline management,357,0.0707
 Remote,All roles,CAD,347,0.0505
 Remote,All roles,TypeScript,333,0.0586
-Remote,All roles,Procurement,323,0.0663
-Remote,All roles,Business development,322,0.0629
-Remote,All roles,Privacy regulation,321,0.0544
+Remote,All roles,Procurement,323,0.0662
+Remote,All roles,Business development,321,0.0628
+Remote,All roles,Privacy regulation,320,0.0543
 Remote,All roles,AI coding tools,317,0.0577
 Remote,All roles,Customer support,297,0.0586
 Remote,All roles,Cybersecurity,287,0.0503
@@ -9448,7 +9450,7 @@ Remote,All roles,Infrastructure as code,247,0.0472
 Remote,All roles,Identity & access,243,0.0487
 Remote,All roles,PostgreSQL,242,0.0408
 Remote,All roles,JavaScript,237,0.0422
-Remote,All roles,Agile,235,0.0407
+Remote,All roles,Agile,234,0.0406
 Remote,All roles,Git,233,0.0458
 Remote,All roles,Stakeholder management,233,0.0416
 Remote,All roles,Logistics,233,0.0453
@@ -9456,13 +9458,13 @@ Remote,All roles,Snowflake,227,0.0420
 Remote,All roles,Roadmapping,227,0.0356
 Remote,All roles,Excel,226,0.0455
 Remote,All roles,Regulatory compliance,223,0.0352
-Remote,All roles,Risk management,213,0.0402
+Remote,All roles,Risk management,212,0.0401
 Remote,All roles,System design,211,0.0412
+Remote,All roles,MEDDIC,204,0.0400
 Remote,All roles,DevOps,202,0.0398
 Remote,All roles,Growth marketing,197,0.0424
 Remote,All roles,Change management,194,0.0327
 Remote,All roles,Supply chain,194,0.0446
-Remote,All roles,MEDDIC,188,0.0370
 Remote,All roles,People management,185,0.0326
 Remote,All roles,Data warehousing,184,0.0363
 Remote,All roles,Kotlin,182,0.0263
@@ -9479,12 +9481,12 @@ Remote,All roles,Recruiting,160,0.0321
 Remote,All roles,Spark,160,0.0270
 Remote,All roles,C++,158,0.0272
 Remote,All roles,Prompt engineering,152,0.0263
-Remote,All roles,Quality assurance,152,0.0253
+Remote,All roles,Quality assurance,151,0.0252
 Remote,All roles,Root cause analysis,151,0.0280
 Remote,All roles,Accessibility,148,0.0235
 Remote,All roles,Partnerships,147,0.0277
 Remote,All roles,Program management,146,0.0245
-Remote,All roles,Kafka,146,0.0249
+Remote,All roles,Kafka,146,0.0248
 Remote,All roles,dbt,145,0.0286
 Remote,All roles,Tableau,144,0.0286
 Remote,All roles,Cloud security,139,0.0229
@@ -9554,7 +9556,7 @@ Remote,All roles,Systems engineering,62,0.0112
 Remote,All roles,Swift,62,0.0113
 Remote,All roles,CSS,61,0.0113
 Remote,All roles,AML / KYC,61,0.0105
-Remote,All roles,SAP,60,0.0118
+Remote,All roles,SAP,61,0.0120
 Remote,All roles,Penetration testing,60,0.0132
 Remote,All roles,Vendor management,58,0.0134
 Remote,All roles,SEO,58,0.0111
@@ -9715,6 +9717,7 @@ Remote,Customer success & support,Risk management,6,0.0324
 Remote,Customer success & support,LLMs,6,0.0322
 Remote,Customer success & support,Generative AI,6,0.0385
 Remote,Customer success & support,Tableau,6,0.0277
+Remote,Customer success & support,MEDDIC,6,0.0385
 Remote,Customer success & support,DevOps,6,0.0262
 Remote,Customer success & support,Data governance,5,0.0273
 Remote,Customer success & support,HubSpot,5,0.0314
@@ -9815,41 +9818,41 @@ Remote,Finance & accounting,SAP,5,0.0568
 Remote,Finance & accounting,Vendor management,5,0.0338
 Remote,Finance & accounting,Risk management,5,0.0361
 Remote,Finance & accounting,Product strategy,5,0.0575
-Remote,Health & life sciences,Communication,98,0.5872
-Remote,Health & life sciences,Collaboration,79,0.4808
-Remote,Health & life sciences,Therapy & counselling,67,0.3803
-Remote,Health & life sciences,Mentoring,60,0.3003
-Remote,Health & life sciences,Leadership,45,0.3544
-Remote,Health & life sciences,Patient care,43,0.2473
-Remote,Health & life sciences,Privacy regulation,37,0.2245
-Remote,Health & life sciences,Cross-functional work,31,0.2546
-Remote,Health & life sciences,Quality assurance,29,0.1570
-Remote,Health & life sciences,Data analysis,26,0.1044
-Remote,Health & life sciences,Process improvement,24,0.1796
-Remote,Health & life sciences,Clinical research,23,0.1691
-Remote,Health & life sciences,Attention to detail,22,0.1291
-Remote,Health & life sciences,EHR systems,21,0.1953
-Remote,Health & life sciences,dbt,20,0.1071
-Remote,Health & life sciences,Adaptability,18,0.0849
-Remote,Health & life sciences,Decision making,15,0.1421
-Remote,Health & life sciences,Time management,14,0.0947
-Remote,Health & life sciences,Problem solving,14,0.1247
-Remote,Health & life sciences,Risk management,13,0.1072
-Remote,Health & life sciences,Project management,10,0.0757
-Remote,Health & life sciences,Product strategy,9,0.0801
-Remote,Health & life sciences,Regulatory compliance,9,0.0774
-Remote,Health & life sciences,Business development,9,0.0533
-Remote,Health & life sciences,SQL,8,0.0436
-Remote,Health & life sciences,CRM,7,0.0421
-Remote,Health & life sciences,Presentation,7,0.0438
-Remote,Health & life sciences,Data governance,7,0.0408
-Remote,Health & life sciences,People management,7,0.0398
+Remote,Health & life sciences,Communication,98,0.5891
+Remote,Health & life sciences,Collaboration,79,0.4824
+Remote,Health & life sciences,Therapy & counselling,67,0.3816
+Remote,Health & life sciences,Mentoring,60,0.3018
+Remote,Health & life sciences,Leadership,45,0.3551
+Remote,Health & life sciences,Patient care,43,0.2479
+Remote,Health & life sciences,Privacy regulation,36,0.2222
+Remote,Health & life sciences,Cross-functional work,31,0.2551
+Remote,Health & life sciences,Quality assurance,28,0.1545
+Remote,Health & life sciences,Data analysis,26,0.1051
+Remote,Health & life sciences,Process improvement,24,0.1800
+Remote,Health & life sciences,Clinical research,23,0.1694
+Remote,Health & life sciences,Attention to detail,22,0.1297
+Remote,Health & life sciences,EHR systems,21,0.1957
+Remote,Health & life sciences,dbt,20,0.1077
+Remote,Health & life sciences,Adaptability,18,0.0854
+Remote,Health & life sciences,Decision making,15,0.1423
+Remote,Health & life sciences,Problem solving,14,0.1249
+Remote,Health & life sciences,Time management,13,0.0918
+Remote,Health & life sciences,Risk management,12,0.1042
+Remote,Health & life sciences,Project management,10,0.0759
+Remote,Health & life sciences,Product strategy,9,0.0802
+Remote,Health & life sciences,Regulatory compliance,9,0.0775
+Remote,Health & life sciences,SQL,8,0.0437
+Remote,Health & life sciences,Business development,8,0.0502
+Remote,Health & life sciences,CRM,7,0.0422
+Remote,Health & life sciences,Presentation,7,0.0439
+Remote,Health & life sciences,Data governance,7,0.0409
+Remote,Health & life sciences,People management,7,0.0399
 Remote,Health & life sciences,Medical billing,6,0.0530
-Remote,Health & life sciences,Salesforce,6,0.0563
+Remote,Health & life sciences,Salesforce,6,0.0564
 Remote,Health & life sciences,Statistics,5,0.0313
-Remote,Health & life sciences,Ownership,5,0.0305
-Remote,Health & life sciences,R,5,0.0296
-Remote,Health & life sciences,HR management,5,0.0451
+Remote,Health & life sciences,Ownership,5,0.0306
+Remote,Health & life sciences,R,5,0.0297
+Remote,Health & life sciences,HR management,5,0.0452
 Remote,Legal & compliance,Communication,97,0.6612
 Remote,Legal & compliance,Cross-functional work,95,0.5833
 Remote,Legal & compliance,Collaboration,56,0.3871
@@ -10493,35 +10496,35 @@ Remote,Program & project manager,Snowflake,5,0.0529
 Remote,Program & project manager,Investment analysis,5,0.0456
 Remote,Program & project manager,CAD,5,0.0474
 Remote,Program & project manager,AI coding tools,5,0.0335
-Remote,Sales & account executive,Communication,500,0.5377
-Remote,Sales & account executive,Leadership,376,0.4235
-Remote,Sales & account executive,Cross-functional work,368,0.4224
-Remote,Sales & account executive,Prospecting,359,0.3592
-Remote,Sales & account executive,B2B sales,320,0.3334
-Remote,Sales & account executive,Salesforce,315,0.3313
-Remote,Sales & account executive,Negotiation,306,0.3126
-Remote,Sales & account executive,Collaboration,299,0.3305
-Remote,Sales & account executive,Pipeline management,265,0.2754
-Remote,Sales & account executive,Forecasting,243,0.2566
+Remote,Sales & account executive,Communication,500,0.5374
+Remote,Sales & account executive,Leadership,377,0.4239
+Remote,Sales & account executive,Cross-functional work,368,0.4222
+Remote,Sales & account executive,Prospecting,359,0.3590
+Remote,Sales & account executive,B2B sales,320,0.3331
+Remote,Sales & account executive,Salesforce,315,0.3312
+Remote,Sales & account executive,Negotiation,306,0.3124
+Remote,Sales & account executive,Collaboration,299,0.3303
+Remote,Sales & account executive,Pipeline management,265,0.2753
+Remote,Sales & account executive,Forecasting,244,0.2572
 Remote,Sales & account executive,Business development,173,0.2058
-Remote,Sales & account executive,CRM,163,0.1917
+Remote,Sales & account executive,CRM,163,0.1916
+Remote,Sales & account executive,MEDDIC,156,0.1496
 Remote,Sales & account executive,Ownership,155,0.1723
-Remote,Sales & account executive,Procurement,153,0.1683
-Remote,Sales & account executive,Mentoring,153,0.1509
+Remote,Sales & account executive,Procurement,153,0.1680
+Remote,Sales & account executive,Mentoring,153,0.1508
 Remote,Sales & account executive,Account management,147,0.1567
-Remote,Sales & account executive,MEDDIC,143,0.1383
-Remote,Sales & account executive,Solution engineering,122,0.1161
-Remote,Sales & account executive,Presentation,118,0.1222
-Remote,Sales & account executive,Revenue operations,115,0.1306
+Remote,Sales & account executive,Solution engineering,123,0.1167
+Remote,Sales & account executive,Presentation,118,0.1221
+Remote,Sales & account executive,Revenue operations,115,0.1305
 Remote,Sales & account executive,AI assistants,101,0.1289
-Remote,Sales & account executive,Time management,99,0.0993
+Remote,Sales & account executive,Time management,99,0.0992
 Remote,Sales & account executive,Problem solving,84,0.0838
 Remote,Sales & account executive,Adaptability,79,0.0762
-Remote,Sales & account executive,Partnerships,78,0.1031
+Remote,Sales & account executive,Partnerships,78,0.1030
 Remote,Sales & account executive,Cybersecurity,71,0.0585
 Remote,Sales & account executive,Compensation & benefits,67,0.0554
-Remote,Sales & account executive,AI agents,65,0.0644
-Remote,Sales & account executive,DevOps,64,0.0571
+Remote,Sales & account executive,AI agents,65,0.0643
+Remote,Sales & account executive,DevOps,64,0.0569
 Remote,Sales & account executive,Attention to detail,64,0.0764
 Remote,Sales & account executive,Outreach tools,62,0.0665
 Remote,Sales & account executive,Decision making,61,0.0745
@@ -10529,25 +10532,25 @@ Remote,Sales & account executive,Process improvement,56,0.0614
 Remote,Sales & account executive,Contract negotiation,56,0.0522
 Remote,Sales & account executive,Critical thinking,53,0.0613
 Remote,Sales & account executive,Cloud security,49,0.0358
-Remote,Sales & account executive,Cloud infrastructure,43,0.0409
+Remote,Sales & account executive,Cloud infrastructure,43,0.0407
 Remote,Sales & account executive,SQL,43,0.0504
 Remote,Sales & account executive,Data analysis,42,0.0544
 Remote,Sales & account executive,Excel,39,0.0539
 Remote,Sales & account executive,Accounting,39,0.0495
 Remote,Sales & account executive,LLMs,37,0.0261
 Remote,Sales & account executive,Recruiting,35,0.0361
-Remote,Sales & account executive,Customer focus,35,0.0413
+Remote,Sales & account executive,Customer focus,35,0.0412
 Remote,Sales & account executive,Accessibility,33,0.0217
 Remote,Sales & account executive,Generative AI,31,0.0226
 Remote,Sales & account executive,Growth marketing,30,0.0351
-Remote,Sales & account executive,HubSpot,29,0.0395
+Remote,Sales & account executive,HubSpot,29,0.0394
 Remote,Sales & account executive,Business intelligence,29,0.0311
 Remote,Sales & account executive,Tableau,29,0.0338
-Remote,Sales & account executive,A/B testing,27,0.0259
+Remote,Sales & account executive,A/B testing,27,0.0257
 Remote,Sales & account executive,CAD,26,0.0295
 Remote,Sales & account executive,Market research,26,0.0319
 Remote,Sales & account executive,Project management,26,0.0386
-Remote,Sales & account executive,Stakeholder management,25,0.0338
+Remote,Sales & account executive,Stakeholder management,25,0.0337
 Remote,Sales & account executive,Machine learning,25,0.0230
 Remote,Sales & account executive,Roadmapping,24,0.0236
 Remote,Sales & account executive,Financial modeling,24,0.0228
@@ -10555,7 +10558,7 @@ Remote,Sales & account executive,FP&A,23,0.0342
 Remote,Sales & account executive,Supply chain,23,0.0338
 Remote,Sales & account executive,Customer support,23,0.0333
 Remote,Sales & account executive,AWS,22,0.0229
-Remote,Sales & account executive,Logistics,22,0.0267
+Remote,Sales & account executive,Logistics,22,0.0266
 Remote,Sales & account executive,Observability,21,0.0198
 Remote,Sales & account executive,Gong,20,0.0237
 Remote,Sales & account executive,Data warehousing,19,0.0204
@@ -10568,7 +10571,7 @@ Remote,Sales & account executive,NetSuite,17,0.0257
 Remote,Sales & account executive,People management,17,0.0210
 Remote,Sales & account executive,Root cause analysis,17,0.0115
 Remote,Sales & account executive,Identity & access,16,0.0165
-Remote,Sales & account executive,Strategic planning,15,0.0244
+Remote,Sales & account executive,Strategic planning,15,0.0243
 Remote,Sales & account executive,Data governance,15,0.0180
 Remote,Sales & account executive,Snowflake,15,0.0195
 Remote,Sales & account executive,Azure,15,0.0127
@@ -10586,7 +10589,7 @@ Remote,Sales & account executive,Digital marketing,13,0.0142
 Remote,Sales & account executive,Operations management,11,0.0140
 Remote,Sales & account executive,Program management,11,0.0176
 Remote,Sales & account executive,Python,11,0.0140
-Remote,Sales & account executive,Pricing strategy,11,0.0134
+Remote,Sales & account executive,Pricing strategy,11,0.0133
 Remote,Sales & account executive,Kubernetes,11,0.0115
 Remote,Sales & account executive,Financial analysis,10,0.0129
 Remote,Sales & account executive,Agile,9,0.0119
@@ -10599,8 +10602,8 @@ Remote,Sales & account executive,Go,9,0.0078
 Remote,Sales & account executive,dbt,8,0.0079
 Remote,Sales & account executive,Quality assurance,8,0.0075
 Remote,Sales & account executive,Product strategy,8,0.0121
+Remote,Sales & account executive,SAP,8,0.0077
 Remote,Sales & account executive,Incident management,7,0.0085
-Remote,Sales & account executive,SAP,7,0.0070
 Remote,Sales & account executive,Mergers & acquisitions,7,0.0150
 Remote,Sales & account executive,Iceberg,7,0.0051
 Remote,Sales & account executive,BigQuery,6,0.0067
@@ -10977,11 +10980,11 @@ Remote,Solutions engineer,Kafka,17,0.0218
 Remote,Solutions engineer,Root cause analysis,17,0.0500
 Remote,Solutions engineer,dbt,17,0.0364
 Remote,Solutions engineer,Strategic planning,17,0.0275
+Remote,Solutions engineer,MEDDIC,16,0.0407
 Remote,Solutions engineer,SOC 2,16,0.0244
 Remote,Solutions engineer,Vue,16,0.0233
 Remote,Solutions engineer,Ruby,16,0.0437
 Remote,Solutions engineer,Technical writing,15,0.0423
-Remote,Solutions engineer,MEDDIC,15,0.0394
 Remote,Solutions engineer,SAP,14,0.0373
 Remote,Solutions engineer,C#,14,0.0282
 Remote,Solutions engineer,Decision making,14,0.0320
@@ -11154,9 +11157,9 @@ SE,All roles,C++,12,0.0561
 SE,All roles,Salesforce,12,0.0793
 SE,All roles,Attention to detail,12,0.0599
 SE,All roles,Decision making,12,0.0572
+SE,All roles,MEDDIC,12,0.0724
 SE,All roles,PostgreSQL,11,0.0595
 SE,All roles,ClickHouse,11,0.0221
-SE,All roles,MEDDIC,11,0.0624
 SE,All roles,Time management,10,0.0544
 SE,All roles,JavaScript,10,0.0620
 SE,All roles,Site reliability,9,0.0357
@@ -11258,13 +11261,13 @@ SG,All roles,Statistics,43,0.0450
 SG,All roles,DevOps,43,0.0578
 SG,All roles,Prototyping,42,0.0535
 SG,All roles,Procurement,41,0.0735
+SG,All roles,MEDDIC,39,0.0663
 SG,All roles,Cybersecurity,39,0.0656
 SG,All roles,Risk management,39,0.0427
 SG,All roles,Growth marketing,33,0.0522
 SG,All roles,Performance optimization,33,0.0388
 SG,All roles,Bash / shell,33,0.0421
 SG,All roles,Spark,33,0.0376
-SG,All roles,MEDDIC,33,0.0600
 SG,All roles,People management,33,0.0469
 SG,All roles,Roadmapping,33,0.0399
 SG,All roles,Data governance,32,0.0307
@@ -11406,9 +11409,9 @@ SG,Sales & account executive,B2B sales,44,0.3357
 SG,Sales & account executive,Pipeline management,39,0.2955
 SG,Sales & account executive,Negotiation,39,0.2694
 SG,Sales & account executive,Salesforce,30,0.2428
+SG,Sales & account executive,MEDDIC,30,0.2069
 SG,Sales & account executive,Forecasting,27,0.1800
 SG,Sales & account executive,Business development,25,0.2153
-SG,Sales & account executive,MEDDIC,24,0.1787
 SG,Sales & account executive,Ownership,22,0.1646
 SG,Sales & account executive,Account management,22,0.1627
 SG,Sales & account executive,Solution engineering,20,0.1621
@@ -11569,18 +11572,18 @@ TW,All roles,Construction management,5,0.0093
 TW,All roles,Compensation & benefits,5,0.0432
 TW,All roles,Roadmapping,5,0.0180
 TW,All roles,PCB design,5,0.0485
-US,All roles,Communication,11630,0.5263
+US,All roles,Communication,11635,0.5269
 US,All roles,Cross-functional work,8684,0.4013
-US,All roles,Leadership,7920,0.3751
-US,All roles,Collaboration,7141,0.3436
-US,All roles,Mentoring,5329,0.2623
-US,All roles,Problem solving,5305,0.2048
+US,All roles,Leadership,7921,0.3751
+US,All roles,Collaboration,7141,0.3435
+US,All roles,Mentoring,5330,0.2623
+US,All roles,Problem solving,5305,0.2047
 US,All roles,Python,5056,0.2050
-US,All roles,Process improvement,3176,0.1170
+US,All roles,Process improvement,3176,0.1169
 US,All roles,Machine learning,2851,0.1331
 US,All roles,Privacy regulation,2782,0.0592
-US,All roles,Attention to detail,2775,0.1158
-US,All roles,SQL,2631,0.1154
+US,All roles,Attention to detail,2775,0.1157
+US,All roles,SQL,2631,0.1153
 US,All roles,Prototyping,2585,0.0959
 US,All roles,Time management,2276,0.1107
 US,All roles,Ownership,2259,0.0986
@@ -11600,18 +11603,18 @@ US,All roles,Logistics,1741,0.0564
 US,All roles,Observability,1721,0.0882
 US,All roles,Distributed systems,1716,0.0769
 US,All roles,Project management,1686,0.0728
-US,All roles,Procurement,1653,0.0610
+US,All roles,Procurement,1653,0.0609
 US,All roles,Root cause analysis,1645,0.0469
 US,All roles,Electrical engineering,1620,0.0401
 US,All roles,Kubernetes,1602,0.0774
 US,All roles,Negotiation,1583,0.0769
-US,All roles,Customer support,1575,0.0629
+US,All roles,Customer support,1575,0.0628
 US,All roles,Go,1547,0.0679
 US,All roles,Excel,1525,0.0611
 US,All roles,Salesforce,1461,0.0914
 US,All roles,Data pipelines,1430,0.0723
 US,All roles,Manufacturing engineering,1414,0.0274
-US,All roles,Forecasting,1392,0.0742
+US,All roles,Forecasting,1393,0.0743
 US,All roles,CI/CD,1382,0.0638
 US,All roles,System design,1364,0.0493
 US,All roles,Linux,1314,0.0422
@@ -11623,8 +11626,8 @@ US,All roles,ERP,1225,0.0360
 US,All roles,CAD,1222,0.0304
 US,All roles,Test engineering,1193,0.0233
 US,All roles,Risk management,1173,0.0473
-US,All roles,Google Cloud,1127,0.0600
-US,All roles,Embedded systems,1063,0.0276
+US,All roles,Google Cloud,1127,0.0599
+US,All roles,Embedded systems,1063,0.0275
 US,All roles,Robotics,1059,0.0272
 US,All roles,Program management,1058,0.0370
 US,All roles,Java,1042,0.0476
@@ -11636,12 +11639,12 @@ US,All roles,Code review,990,0.0473
 US,All roles,Azure,979,0.0491
 US,All roles,CRM,943,0.0600
 US,All roles,Data governance,897,0.0454
-US,All roles,Solution engineering,893,0.0530
+US,All roles,Solution engineering,895,0.0531
 US,All roles,TypeScript,886,0.0473
 US,All roles,Business development,867,0.0454
 US,All roles,Statistics,854,0.0407
 US,All roles,Prospecting,844,0.0554
-US,All roles,Jira,834,0.0307
+US,All roles,Jira,834,0.0306
 US,All roles,Account management,833,0.0503
 US,All roles,Systems engineering,824,0.0242
 US,All roles,C,822,0.0236
@@ -11661,7 +11664,7 @@ US,All roles,Terraform,733,0.0358
 US,All roles,Control systems,732,0.0151
 US,All roles,Regulatory compliance,730,0.0311
 US,All roles,JavaScript,714,0.0304
-US,All roles,B2B sales,713,0.0480
+US,All roles,B2B sales,713,0.0479
 US,All roles,Roadmapping,709,0.0355
 US,All roles,MATLAB,690,0.0122
 US,All roles,Operations management,687,0.0252
@@ -11693,7 +11696,7 @@ US,All roles,Data visualization,488,0.0215
 US,All roles,PostgreSQL,485,0.0238
 US,All roles,Snowflake,474,0.0295
 US,All roles,Spark,474,0.0220
-US,All roles,Market research,461,0.0235
+US,All roles,Market research,470,0.0249
 US,All roles,Customer focus,450,0.0264
 US,All roles,DevOps,443,0.0252
 US,All roles,FEA,434,0.0083
@@ -11723,7 +11726,7 @@ US,All roles,Deep learning,361,0.0168
 US,All roles,Mergers & acquisitions,359,0.0181
 US,All roles,C#,357,0.0109
 US,All roles,Power BI,349,0.0091
-US,All roles,SAP,347,0.0119
+US,All roles,SAP,348,0.0120
 US,All roles,Prompt engineering,342,0.0198
 US,All roles,Vendor management,339,0.0146
 US,All roles,Digital marketing,333,0.0243
@@ -11738,6 +11741,7 @@ US,All roles,Materials science,311,0.0052
 US,All roles,RAG,306,0.0182
 US,All roles,PLC programming,303,0.0066
 US,All roles,Patient care,303,0.0120
+US,All roles,MEDDIC,302,0.0213
 US,All roles,FPGA,296,0.0063
 US,All roles,Sensor fusion,288,0.0051
 US,All roles,SOC 2,285,0.0175
@@ -11745,7 +11749,6 @@ US,All roles,Microservices,277,0.0144
 US,All roles,Payroll,277,0.0151
 US,All roles,Cloud security,265,0.0143
 US,All roles,Scala,265,0.0095
-US,All roles,MEDDIC,264,0.0199
 US,All roles,Reinforcement learning,263,0.0108
 US,All roles,Figma,258,0.0164
 US,All roles,User research,258,0.0163
@@ -11922,6 +11925,7 @@ US,Customer success & support,Partnerships,16,0.0289
 US,Customer success & support,Operations management,15,0.0266
 US,Customer success & support,Risk management,15,0.0337
 US,Customer success & support,Incident management,14,0.0337
+US,Customer success & support,MEDDIC,14,0.0295
 US,Customer success & support,Tableau,14,0.0325
 US,Customer success & support,Looker,14,0.0366
 US,Customer success & support,Gong,14,0.0354
@@ -11949,7 +11953,6 @@ US,Customer success & support,Linux,8,0.0245
 US,Customer success & support,Azure,8,0.0230
 US,Customer success & support,Root cause analysis,8,0.0179
 US,Customer success & support,A/B testing,7,0.0176
-US,Customer success & support,MEDDIC,7,0.0194
 US,Customer success & support,BigQuery,7,0.0114
 US,Customer success & support,Outreach tools,7,0.0179
 US,Customer success & support,Databricks,7,0.0109
@@ -11974,8 +11977,8 @@ US,Data engineer,Data pipelines,216,0.7384
 US,Data engineer,SQL,160,0.5780
 US,Data engineer,Data governance,143,0.5039
 US,Data engineer,Collaboration,117,0.3910
+US,Data engineer,Communication,116,0.4088
 US,Data engineer,Cross-functional work,116,0.4152
-US,Data engineer,Communication,115,0.4046
 US,Data engineer,Data warehousing,107,0.3745
 US,Data engineer,Spark,105,0.3396
 US,Data engineer,Observability,97,0.3453
@@ -12545,7 +12548,7 @@ US,Finance & accounting,CI/CD,5,0.0106
 US,Finance & accounting,Observability,5,0.0096
 US,Finance & accounting,FedRAMP,5,0.0135
 US,Finance & accounting,Zendesk,5,0.0071
-US,Hardware & mechanical engineer,Communication,1180,0.4926
+US,Hardware & mechanical engineer,Communication,1181,0.4964
 US,Hardware & mechanical engineer,Problem solving,959,0.3792
 US,Hardware & mechanical engineer,Python,873,0.3798
 US,Hardware & mechanical engineer,Electrical engineering,824,0.2909
@@ -12713,6 +12716,7 @@ US,Hardware & mechanical engineer,Snowflake,8,0.0164
 US,Hardware & mechanical engineer,Perl,8,0.0083
 US,Hardware & mechanical engineer,MCP,8,0.0224
 US,Hardware & mechanical engineer,Datadog,8,0.0144
+US,Hardware & mechanical engineer,Market research,8,0.0047
 US,Hardware & mechanical engineer,CUDA,8,0.0068
 US,Hardware & mechanical engineer,NoSQL,8,0.0047
 US,Hardware & mechanical engineer,Unity,8,0.0011
@@ -12720,7 +12724,6 @@ US,Hardware & mechanical engineer,Scala,8,0.0012
 US,Hardware & mechanical engineer,Zero trust,7,0.0149
 US,Hardware & mechanical engineer,Data modeling,7,0.0060
 US,Hardware & mechanical engineer,Haskell,7,0.0009
-US,Hardware & mechanical engineer,Market research,7,0.0009
 US,Hardware & mechanical engineer,Product strategy,7,0.0033
 US,Hardware & mechanical engineer,Unreal Engine,7,0.0009
 US,Hardware & mechanical engineer,Recruiting,6,0.0064
@@ -13161,7 +13164,7 @@ US,Marketing & content,Cloud infrastructure,20,0.0251
 US,Marketing & content,Agile,20,0.0203
 US,Marketing & content,Python,20,0.0196
 US,Marketing & content,Partnerships,20,0.0250
-US,Marketing & content,MEDDIC,18,0.0179
+US,Marketing & content,MEDDIC,19,0.0190
 US,Marketing & content,Recruiting,18,0.0255
 US,Marketing & content,Roadmapping,18,0.0176
 US,Marketing & content,Prototyping,18,0.0199
@@ -13611,9 +13614,9 @@ US,Other,Materials science,18,0.0047
 US,Other,REST APIs,18,0.0098
 US,Other,Video production,18,0.0069
 US,Other,GMP / GLP,18,0.0086
+US,Other,MEDDIC,17,0.0118
 US,Other,Penetration testing,17,0.0081
 US,Other,Sensor fusion,17,0.0034
-US,Other,MEDDIC,16,0.0114
 US,Other,Zendesk,16,0.0122
 US,Other,ASIC design,16,0.0051
 US,Other,Social media marketing,16,0.0090
@@ -14154,40 +14157,40 @@ US,Research scientist,Agile,5,0.0444
 US,Research scientist,AI coding tools,5,0.0517
 US,Research scientist,Privacy regulation,5,0.0444
 US,Research scientist,Supply chain,5,0.0327
-US,Sales & account executive,Communication,1078,0.5510
-US,Sales & account executive,Cross-functional work,826,0.4355
-US,Sales & account executive,Leadership,764,0.4144
-US,Sales & account executive,Salesforce,655,0.3221
-US,Sales & account executive,Prospecting,636,0.3174
-US,Sales & account executive,Collaboration,623,0.3334
-US,Sales & account executive,Negotiation,512,0.2634
-US,Sales & account executive,B2B sales,473,0.2439
-US,Sales & account executive,Forecasting,423,0.2135
+US,Sales & account executive,Communication,1078,0.5509
+US,Sales & account executive,Cross-functional work,826,0.4354
+US,Sales & account executive,Leadership,765,0.4146
+US,Sales & account executive,Salesforce,655,0.3220
+US,Sales & account executive,Prospecting,636,0.3173
+US,Sales & account executive,Collaboration,623,0.3333
+US,Sales & account executive,Negotiation,512,0.2633
+US,Sales & account executive,B2B sales,473,0.2437
+US,Sales & account executive,Forecasting,424,0.2140
 US,Sales & account executive,Pipeline management,393,0.2052
-US,Sales & account executive,Business development,363,0.2160
-US,Sales & account executive,Ownership,353,0.1706
-US,Sales & account executive,Mentoring,340,0.1725
+US,Sales & account executive,Business development,363,0.2159
+US,Sales & account executive,Ownership,353,0.1705
+US,Sales & account executive,Mentoring,340,0.1723
 US,Sales & account executive,CRM,319,0.1804
 US,Sales & account executive,Presentation,296,0.1373
-US,Sales & account executive,Revenue operations,290,0.1566
-US,Sales & account executive,Compensation & benefits,289,0.0907
-US,Sales & account executive,Procurement,249,0.1213
+US,Sales & account executive,Revenue operations,290,0.1565
+US,Sales & account executive,Compensation & benefits,289,0.0906
+US,Sales & account executive,Procurement,249,0.1211
 US,Sales & account executive,Account management,225,0.1235
+US,Sales & account executive,MEDDIC,223,0.1077
 US,Sales & account executive,Time management,211,0.1102
 US,Sales & account executive,AI assistants,204,0.1255
 US,Sales & account executive,Problem solving,201,0.1081
-US,Sales & account executive,MEDDIC,196,0.1002
-US,Sales & account executive,Solution engineering,185,0.1013
+US,Sales & account executive,Solution engineering,186,0.1017
 US,Sales & account executive,Decision making,183,0.0977
 US,Sales & account executive,Partnerships,165,0.0958
-US,Sales & account executive,Attention to detail,162,0.0890
+US,Sales & account executive,Attention to detail,162,0.0889
 US,Sales & account executive,Process improvement,146,0.0772
 US,Sales & account executive,SQL,138,0.0722
 US,Sales & account executive,Excel,137,0.0755
-US,Sales & account executive,Adaptability,135,0.0787
+US,Sales & account executive,Adaptability,135,0.0786
 US,Sales & account executive,Critical thinking,123,0.0645
 US,Sales & account executive,Accounting,116,0.0656
-US,Sales & account executive,Logistics,115,0.0443
+US,Sales & account executive,Logistics,115,0.0442
 US,Sales & account executive,Outreach tools,114,0.0647
 US,Sales & account executive,AI agents,109,0.0560
 US,Sales & account executive,Data analysis,105,0.0492
@@ -14196,23 +14199,23 @@ US,Sales & account executive,Machine learning,91,0.0420
 US,Sales & account executive,Growth marketing,86,0.0434
 US,Sales & account executive,Operations management,81,0.0329
 US,Sales & account executive,LLMs,80,0.0357
-US,Sales & account executive,Cloud infrastructure,77,0.0425
+US,Sales & account executive,Cloud infrastructure,77,0.0424
 US,Sales & account executive,Cybersecurity,76,0.0388
 US,Sales & account executive,Project management,75,0.0445
 US,Sales & account executive,Customer focus,72,0.0375
-US,Sales & account executive,Customer support,70,0.0319
-US,Sales & account executive,Business intelligence,65,0.0361
+US,Sales & account executive,Customer support,70,0.0318
+US,Sales & account executive,Business intelligence,65,0.0360
 US,Sales & account executive,FP&A,63,0.0433
 US,Sales & account executive,Generative AI,61,0.0289
-US,Sales & account executive,DevOps,59,0.0340
+US,Sales & account executive,DevOps,59,0.0339
 US,Sales & account executive,Contract negotiation,59,0.0339
 US,Sales & account executive,AWS,57,0.0264
 US,Sales & account executive,Tableau,57,0.0300
 US,Sales & account executive,Data governance,56,0.0281
 US,Sales & account executive,Stakeholder management,56,0.0294
 US,Sales & account executive,Strategic planning,55,0.0331
-US,Sales & account executive,Recruiting,55,0.0301
-US,Sales & account executive,HR management,54,0.0278
+US,Sales & account executive,Recruiting,55,0.0300
+US,Sales & account executive,HR management,54,0.0277
 US,Sales & account executive,Financial modeling,53,0.0333
 US,Sales & account executive,Gong,51,0.0307
 US,Sales & account executive,HubSpot,48,0.0298
@@ -14226,7 +14229,7 @@ US,Sales & account executive,People management,44,0.0207
 US,Sales & account executive,Cloud security,43,0.0186
 US,Sales & account executive,Looker,43,0.0256
 US,Sales & account executive,Data center operations,42,0.0159
-US,Sales & account executive,A/B testing,41,0.0206
+US,Sales & account executive,A/B testing,41,0.0205
 US,Sales & account executive,Auditing,41,0.0196
 US,Sales & account executive,ERP,41,0.0232
 US,Sales & account executive,Supply chain,40,0.0294
@@ -14240,7 +14243,7 @@ US,Sales & account executive,Change management,30,0.0159
 US,Sales & account executive,Spark,30,0.0089
 US,Sales & account executive,Product strategy,29,0.0139
 US,Sales & account executive,MCP,28,0.0172
-US,Sales & account executive,Python,28,0.0163
+US,Sales & account executive,Python,28,0.0162
 US,Sales & account executive,Agile,27,0.0158
 US,Sales & account executive,Financial analysis,27,0.0195
 US,Sales & account executive,Risk management,25,0.0123
@@ -14252,7 +14255,7 @@ US,Sales & account executive,Kubernetes,21,0.0109
 US,Sales & account executive,Marketing automation,20,0.0121
 US,Sales & account executive,Payroll,20,0.0107
 US,Sales & account executive,SIEM,20,0.0065
-US,Sales & account executive,FedRAMP,19,0.0089
+US,Sales & account executive,FedRAMP,19,0.0088
 US,Sales & account executive,Regulatory compliance,17,0.0049
 US,Sales & account executive,Prototyping,17,0.0084
 US,Sales & account executive,Investment analysis,17,0.0079
@@ -14260,9 +14263,9 @@ US,Sales & account executive,AI coding tools,16,0.0086
 US,Sales & account executive,Workday,15,0.0093
 US,Sales & account executive,BigQuery,15,0.0089
 US,Sales & account executive,Content marketing,15,0.0074
+US,Sales & account executive,SAP,15,0.0072
 US,Sales & account executive,dbt,14,0.0073
 US,Sales & account executive,Data visualization,14,0.0082
-US,Sales & account executive,SAP,14,0.0067
 US,Sales & account executive,Databricks,13,0.0080
 US,Sales & account executive,Statistics,13,0.0084
 US,Sales & account executive,Incident management,12,0.0087
@@ -14291,7 +14294,7 @@ US,Sales & account executive,Legal drafting,7,0.0047
 US,Sales & account executive,Splunk,7,0.0030
 US,Sales & account executive,Event management,7,0.0036
 US,Sales & account executive,R,7,0.0048
-US,Sales & account executive,Application security,7,0.0026
+US,Sales & account executive,Application security,7,0.0025
 US,Sales & account executive,System design,7,0.0045
 US,Sales & account executive,Data modeling,7,0.0037
 US,Sales & account executive,Technical writing,6,0.0029
@@ -14677,6 +14680,7 @@ US,Software engineer,Haskell,11,0.0037
 US,Software engineer,Product analytics,10,0.0029
 US,Software engineer,Intellectual property,10,0.0021
 US,Software engineer,EHR systems,10,0.0031
+US,Software engineer,Market research,10,0.0037
 US,Software engineer,scikit-learn,10,0.0029
 US,Software engineer,Digital marketing,9,0.0048
 US,Software engineer,Partnerships,9,0.0017
@@ -14684,7 +14688,6 @@ US,Software engineer,Unity,9,0.0033
 US,Software engineer,Objective-C,9,0.0027
 US,Software engineer,Bioinformatics,9,0.0031
 US,Software engineer,Prospecting,8,0.0039
-US,Software engineer,Market research,8,0.0017
 US,Software engineer,Selenium,8,0.0020
 US,Software engineer,Pipeline management,8,0.0038
 US,Software engineer,Solidity,8,0.0026
@@ -14703,40 +14706,40 @@ US,Software engineer,Figma,5,0.0033
 US,Software engineer,FDA regulation,5,0.0021
 US,Software engineer,PHP,5,0.0035
 US,Software engineer,Financial analysis,5,0.0015
-US,Solutions engineer,Communication,464,0.5555
-US,Solutions engineer,Solution engineering,396,0.4372
-US,Solutions engineer,Python,356,0.3482
-US,Solutions engineer,Cross-functional work,312,0.3522
-US,Solutions engineer,Leadership,291,0.3281
-US,Solutions engineer,Collaboration,290,0.3347
-US,Solutions engineer,Problem solving,254,0.2941
-US,Solutions engineer,AWS,229,0.2129
-US,Solutions engineer,Cloud infrastructure,218,0.2027
-US,Solutions engineer,Mentoring,214,0.2366
-US,Solutions engineer,Azure,200,0.1865
-US,Solutions engineer,Google Cloud,185,0.1682
+US,Solutions engineer,Communication,465,0.5558
+US,Solutions engineer,Solution engineering,397,0.4374
+US,Solutions engineer,Python,356,0.3480
+US,Solutions engineer,Cross-functional work,312,0.3520
+US,Solutions engineer,Leadership,291,0.3279
+US,Solutions engineer,Collaboration,290,0.3345
+US,Solutions engineer,Problem solving,254,0.2939
+US,Solutions engineer,AWS,229,0.2126
+US,Solutions engineer,Cloud infrastructure,218,0.2026
+US,Solutions engineer,Mentoring,215,0.2370
+US,Solutions engineer,Azure,200,0.1862
+US,Solutions engineer,Google Cloud,185,0.1680
 US,Solutions engineer,SQL,184,0.1901
-US,Solutions engineer,Machine learning,177,0.1429
-US,Solutions engineer,LLMs,151,0.1870
-US,Solutions engineer,Prototyping,137,0.1523
+US,Solutions engineer,Machine learning,177,0.1428
+US,Solutions engineer,LLMs,151,0.1869
+US,Solutions engineer,Prototyping,137,0.1522
 US,Solutions engineer,Data pipelines,131,0.1157
-US,Solutions engineer,Kubernetes,131,0.1358
-US,Solutions engineer,AI assistants,125,0.1628
-US,Solutions engineer,AI agents,122,0.1727
-US,Solutions engineer,Customer support,122,0.1499
-US,Solutions engineer,JavaScript,121,0.1275
+US,Solutions engineer,Kubernetes,131,0.1356
+US,Solutions engineer,AI assistants,125,0.1626
+US,Solutions engineer,AI agents,122,0.1726
+US,Solutions engineer,Customer support,122,0.1498
+US,Solutions engineer,JavaScript,121,0.1274
 US,Solutions engineer,Data warehousing,112,0.0816
-US,Solutions engineer,Presentation,111,0.1486
-US,Solutions engineer,Linux,106,0.1121
+US,Solutions engineer,Presentation,111,0.1485
+US,Solutions engineer,Linux,106,0.1120
 US,Solutions engineer,Account management,105,0.1140
 US,Solutions engineer,Java,95,0.0928
-US,Solutions engineer,Observability,92,0.1046
-US,Solutions engineer,Roadmapping,90,0.1044
+US,Solutions engineer,Observability,92,0.1044
+US,Solutions engineer,Roadmapping,90,0.1043
 US,Solutions engineer,Time management,88,0.1019
 US,Solutions engineer,Distributed systems,87,0.0797
 US,Solutions engineer,Compensation & benefits,86,0.0810
 US,Solutions engineer,Adaptability,85,0.0929
-US,Solutions engineer,CI/CD,79,0.0816
+US,Solutions engineer,CI/CD,79,0.0815
 US,Solutions engineer,Ownership,78,0.0852
 US,Solutions engineer,Privacy regulation,78,0.0662
 US,Solutions engineer,Process improvement,77,0.1030
@@ -14744,50 +14747,50 @@ US,Solutions engineer,Project management,75,0.0899
 US,Solutions engineer,TypeScript,75,0.0722
 US,Solutions engineer,Incident management,73,0.0927
 US,Solutions engineer,Snowflake,67,0.0618
-US,Solutions engineer,Data governance,63,0.0464
-US,Solutions engineer,Docker,63,0.0712
+US,Solutions engineer,Data governance,63,0.0463
+US,Solutions engineer,Docker,63,0.0711
 US,Solutions engineer,Generative AI,63,0.0627
 US,Solutions engineer,Data analysis,60,0.0613
 US,Solutions engineer,System design,60,0.0543
-US,Solutions engineer,Bash / shell,59,0.0659
+US,Solutions engineer,Bash / shell,59,0.0658
 US,Solutions engineer,Systems engineering,59,0.0414
-US,Solutions engineer,Go,55,0.0564
+US,Solutions engineer,Go,55,0.0563
 US,Solutions engineer,Spark,53,0.0241
 US,Solutions engineer,Identity & access,52,0.0792
 US,Solutions engineer,Logistics,52,0.0488
-US,Solutions engineer,Electrical engineering,51,0.0495
+US,Solutions engineer,Electrical engineering,51,0.0494
 US,Solutions engineer,Networking,50,0.0492
 US,Solutions engineer,Supply chain,50,0.0538
 US,Solutions engineer,REST APIs,49,0.0776
 US,Solutions engineer,Root cause analysis,49,0.0662
-US,Solutions engineer,Mechanical design,47,0.0400
+US,Solutions engineer,Mechanical design,47,0.0399
 US,Solutions engineer,Scala,47,0.0179
 US,Solutions engineer,Procurement,46,0.0649
 US,Solutions engineer,C++,46,0.0430
 US,Solutions engineer,ERP,45,0.0628
-US,Solutions engineer,DevOps,44,0.0568
-US,Solutions engineer,B2B sales,43,0.0527
-US,Solutions engineer,Customer focus,42,0.0426
+US,Solutions engineer,DevOps,44,0.0567
+US,Solutions engineer,B2B sales,43,0.0526
+US,Solutions engineer,Customer focus,42,0.0425
 US,Solutions engineer,MLOps,42,0.0202
-US,Solutions engineer,Decision making,41,0.0495
-US,Solutions engineer,Git,41,0.0492
+US,Solutions engineer,Decision making,41,0.0494
+US,Solutions engineer,Git,41,0.0491
 US,Solutions engineer,Cybersecurity,41,0.0487
 US,Solutions engineer,Technical writing,40,0.0499
-US,Solutions engineer,AI coding tools,40,0.0533
-US,Solutions engineer,Site reliability,39,0.0467
+US,Solutions engineer,AI coding tools,40,0.0532
+US,Solutions engineer,Site reliability,39,0.0466
 US,Solutions engineer,Attention to detail,38,0.0451
 US,Solutions engineer,Regulatory compliance,38,0.0396
 US,Solutions engineer,MCP,36,0.0567
 US,Solutions engineer,Salesforce,36,0.0559
-US,Solutions engineer,Ruby,36,0.0492
+US,Solutions engineer,Ruby,36,0.0491
 US,Solutions engineer,A/B testing,34,0.0398
 US,Solutions engineer,Prompt engineering,34,0.0478
-US,Solutions engineer,Terraform,34,0.0332
+US,Solutions engineer,Terraform,34,0.0331
 US,Solutions engineer,Infrastructure as code,34,0.0302
 US,Solutions engineer,CAD,32,0.0296
 US,Solutions engineer,Jira,32,0.0333
 US,Solutions engineer,Change management,32,0.0365
-US,Solutions engineer,Data structures & algorithms,32,0.0272
+US,Solutions engineer,Data structures & algorithms,32,0.0271
 US,Solutions engineer,Data modeling,31,0.0372
 US,Solutions engineer,React,30,0.0427
 US,Solutions engineer,Microservices,29,0.0322
@@ -14796,16 +14799,16 @@ US,Solutions engineer,High-performance computing,28,0.0258
 US,Solutions engineer,HR management,28,0.0352
 US,Solutions engineer,Critical thinking,27,0.0328
 US,Solutions engineer,BigQuery,26,0.0326
-US,Solutions engineer,CRM,26,0.0442
+US,Solutions engineer,CRM,26,0.0441
 US,Solutions engineer,RAG,26,0.0303
 US,Solutions engineer,Embedded systems,26,0.0293
 US,Solutions engineer,Business development,26,0.0327
 US,Solutions engineer,Accessibility,25,0.0204
 US,Solutions engineer,Agile,24,0.0240
 US,Solutions engineer,Kafka,24,0.0227
-US,Solutions engineer,Data center operations,24,0.0239
+US,Solutions engineer,Data center operations,24,0.0238
 US,Solutions engineer,Control systems,24,0.0216
-US,Solutions engineer,Robotics,24,0.0188
+US,Solutions engineer,Robotics,24,0.0187
 US,Solutions engineer,PostgreSQL,23,0.0335
 US,Solutions engineer,Cloud security,23,0.0200
 US,Solutions engineer,Business intelligence,22,0.0271
@@ -14814,7 +14817,7 @@ US,Solutions engineer,Databricks,21,0.0275
 US,Solutions engineer,Performance optimization,21,0.0291
 US,Solutions engineer,Fine-tuning,21,0.0250
 US,Solutions engineer,SAP,20,0.0280
-US,Solutions engineer,People management,20,0.0254
+US,Solutions engineer,People management,20,0.0253
 US,Solutions engineer,Prometheus,20,0.0223
 US,Solutions engineer,Forecasting,20,0.0279
 US,Solutions engineer,Code review,20,0.0263
@@ -14837,8 +14840,8 @@ US,Solutions engineer,Iceberg,17,0.0071
 US,Solutions engineer,Product strategy,16,0.0261
 US,Solutions engineer,PyTorch,16,0.0150
 US,Solutions engineer,Rust,16,0.0132
-US,Solutions engineer,Market research,15,0.0177
-US,Solutions engineer,Model evaluation,15,0.0191
+US,Solutions engineer,Market research,15,0.0176
+US,Solutions engineer,Model evaluation,15,0.0190
 US,Solutions engineer,R,14,0.0094
 US,Solutions engineer,Revenue operations,14,0.0223
 US,Solutions engineer,C,14,0.0199
@@ -14856,7 +14859,7 @@ US,Solutions engineer,Android,12,0.0185
 US,Solutions engineer,Workday,12,0.0222
 US,Solutions engineer,Vector databases,12,0.0128
 US,Solutions engineer,GPU computing,12,0.0153
-US,Solutions engineer,Workplace safety,12,0.0112
+US,Solutions engineer,Workplace safety,12,0.0111
 US,Solutions engineer,FEA,12,0.0103
 US,Solutions engineer,MATLAB,12,0.0082
 US,Solutions engineer,Zero trust,11,0.0094
@@ -14871,7 +14874,7 @@ US,Solutions engineer,Recruiting,9,0.0149
 US,Solutions engineer,Next.js,9,0.0139
 US,Solutions engineer,Auditing,9,0.0130
 US,Solutions engineer,GD&T,9,0.0095
-US,Solutions engineer,Perl,9,0.0081
+US,Solutions engineer,Perl,9,0.0080
 US,Solutions engineer,Marketing automation,8,0.0131
 US,Solutions engineer,Datadog,8,0.0091
 US,Solutions engineer,Data visualization,8,0.0084
