@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skills GPS</title>
+  <meta name="description" content="Which skill should you learn next, measured from live job postings.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 1 14 15 8 11.5 2 15z' fill='%232a78d6'/></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Skills GPS</h1>
+    <p>Which skill should you learn next? Pick a role, tick what you know, and follow the list.</p>
+  </header>
+
+  <main hidden>
+    <form id="filters">
+      <label>Target role <select id="role"></select></label>
+      <label>Skill type <select id="group"></select></label>
+      <label>Find <input id="search" type="search" placeholder="Python, Figma, SQL"></label>
+    </form>
+
+    <p id="summary" aria-live="polite"></p>
+    <ul id="owned" aria-label="Skills you have"></ul>
+
+    <p id="measure"></p>
+    <ol id="skills"></ol>
+    <button id="more" type="button">Show more</button>
+    <p id="empty" hidden>No skill matches. Try another word or skill type.</p>
+  </main>
+
+  <p id="status">Loading postings…</p>
+
+  <footer>
+    <details>
+      <summary>How this is measured</summary>
+      <p>Every week, postings are read from the public job boards of the employers in
+        the project's list. Company boilerplate, duplicates and self-mentions are removed, then
+        skills are matched against a fixed dictionary.</p>
+      <p><strong>Demand</strong> is the share of postings that ask for a skill. Large employers
+        are damped so a few of them cannot decide the ranking.</p>
+      <p><strong>Priority</strong> is the average of two numbers: demand in the role, and demand
+        in jobs that already use your skills. With nothing ticked, it equals demand.</p>
+      <p><strong>Limits.</strong> The employers are tech-forward and mostly in the US and Europe,
+        and only English postings are read. This is not the whole labour market.</p>
+      <p><strong>Privacy.</strong> Your choices stay in this browser and in the page link.
+        Nothing is sent anywhere.</p>
+    </details>
+    <p id="stamp"></p>
+  </footer>
+</body>
+</html>

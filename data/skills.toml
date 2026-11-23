@@ -1,0 +1,344 @@
+# The skill dictionary.
+#
+#   "Name" = ["alias", ...]
+#   "Name" = { aliases = [...], case = true, context = true, named = false, makers = [...] }
+#
+# Matching ignores case and punctuation, and accepts a plural "s".
+#   case     the name must be spelled exactly like this (aliases stay case-insensitive)
+#   context  counts only when another skill is on the same line
+#   named    set to false when the name itself is too ambiguous to match
+#   makers   employer tokens whose postings never count toward this skill
+
+# Phrases that contain a skill's name but mean something else.
+mask = [
+  "R&D", "C-suite", "C-level", "series C", "class C", "B2C", "vitamin C",
+  "go to market", "go-to", "on the go", "Go live", "ready to go",
+  "excel in", "excel at", "excel as", "excel when", "you excel", "to excel", "and excel",
+  "swift action", "swift response", "react to", "react quickly",
+  "spark joy", "spark curiosity", "the rest", "and rest", "at rest",
+  "Rust Belt", "Rust-proof", "linear algebra", "linear regression", "linear programming",
+  "AWS re:Invent", "sales tax", "privacy policy", "security clearance", "social security",
+  "compliance with", "in compliance", "recruiting process", "recruitment process",
+  "reasonable accommodation", "background check", "communications", "Unity Catalog", "Unity AI Gateway", "Terran R", "C&S",
+  "Spring 2026", "Spring 2027", "Spring 2028", "Spring semester",
+]
+
+[skills.Programming]
+"Python" = []
+"Java" = { case = true }
+"JavaScript" = ["java script", "ES6"]
+"TypeScript" = []
+"Go" = { aliases = ["golang"], case = true, context = true }
+"Rust" = { case = true, context = true }
+"C++" = ["cpp", "C++17", "C++20"]
+"C" = { aliases = ["embedded C"], case = true, context = true }
+"C#" = ["csharp"]
+".NET" = { aliases = ["dotnet", "ASP.NET", ".NET Core"], case = true }
+"Kotlin" = []
+"Swift" = { aliases = ["SwiftUI"], case = true, context = true }
+"Objective-C" = []
+"Scala" = []
+"Ruby" = { aliases = ["Ruby on Rails", "Rails"], case = true }
+"PHP" = ["laravel"]
+"R" = { aliases = ["RStudio", "tidyverse"], case = true, context = true }
+"MATLAB" = ["simulink"]
+"Julia" = { case = true, context = true }
+"Elixir" = []
+"Perl" = []
+"Haskell" = []
+"Bash / shell" = { aliases = ["bash", "shell scripting", "shell script", "powershell"], named = false }
+"SQL" = ["T-SQL", "PL/SQL", "SQL Server"]
+"React" = { aliases = ["react.js", "reactjs"], case = true }
+"React Native" = []
+"Next.js" = ["nextjs"]
+"Vue" = { aliases = ["vue.js", "vuejs"], case = true }
+"Angular" = ["angularjs"]
+"Svelte" = []
+"Node.js" = ["nodejs", "node js"]
+"Django" = []
+"Flask" = { case = true, context = true }
+"FastAPI" = []
+"Spring" = { aliases = ["spring boot", "springboot"], case = true, context = true }
+"HTML" = ["HTML5"]
+"CSS" = ["CSS3", "tailwind", "tailwind css", "sass"]
+"GraphQL" = []
+"REST APIs" = ["REST API", "RESTful", "RESTful API"]
+"gRPC" = ["protobuf", "protocol buffers"]
+"Git" = ["github", "gitlab", "version control"]
+"Microservices" = ["microservice", "micro services"]
+"Distributed systems" = ["distributed system", "distributed computing"]
+"System design" = ["systems design", "software architecture", "system architecture"]
+"Data structures & algorithms" = { aliases = ["data structures", "algorithms and data structures"], named = false }
+"Test automation" = ["automated testing", "automated tests", "unit testing", "unit tests", "integration testing", "integration tests", "test-driven development", "TDD"]
+"Selenium" = []
+"Playwright" = []
+"Cypress" = { case = true, context = true }
+"iOS" = []
+"Android" = []
+"WebAssembly" = ["wasm"]
+"WebGL" = ["three.js", "WebGPU"]
+"Unity" = { aliases = ["unity3d"], case = true, context = true }
+"Unreal Engine" = ["UE5"]
+"Solidity" = ["smart contract", "smart contracts"]
+"CUDA" = []
+"Code review" = ["code reviews"]
+
+[skills."Data & AI"]
+"Machine learning" = ["ML models", "ML model", "machine-learning", "ML engineering", "ML"]
+"Deep learning" = ["neural network", "neural networks"]
+"LLMs" = ["LLM", "large language model", "large language models", "foundation models"]
+"Generative AI" = ["gen AI", "genAI"]
+"AI agents" = ["AI agent", "agentic", "agentic AI", "agentic workflows", "multi-agent", "LLM agents"]
+"AI coding tools" = { aliases = ["Claude Code", "Cursor", "GitHub Copilot", "Cursor IDE", "Codex", "AI coding assistants", "AI-assisted development", "AI coding tools", "AI coding agents"], makers = ["anthropic", "openai", "cursor"] }
+"AI assistants" = { aliases = ["ChatGPT", "Claude", "Gemini", "AI tools", "AI tooling", "AI-powered tools", "Copilot"], makers = ["anthropic", "openai", "gemini"] }
+"Prompt engineering" = ["prompting", "prompt design", "context engineering"]
+"RAG" = { aliases = ["retrieval augmented generation", "retrieval-augmented generation"], case = true }
+"Model evaluation" = ["evals", "LLM evaluation", "model evaluations"]
+"Fine-tuning" = ["fine tuning", "finetuning", "post-training", "RLHF"]
+"MCP" = { aliases = ["model context protocol"], case = true }
+"NLP" = ["natural language processing"]
+"Computer vision" = []
+"Reinforcement learning" = []
+"Recommender systems" = ["recommendation systems", "recommendation system", "recommender system"]
+"PyTorch" = []
+"TensorFlow" = []
+"JAX" = { case = true }
+"scikit-learn" = ["sklearn"]
+"Pandas" = ["numpy"]
+"Hugging Face" = ["huggingface"]
+"LangChain" = ["langgraph", "llamaindex"]
+"Vector databases" = ["vector database", "vector db", "pinecone", "weaviate", "pgvector", "vector search"]
+"MLOps" = ["ML ops", "MLflow", "kubeflow"]
+"Statistics" = ["statistical analysis", "statistical modeling", "statistical methods"]
+"A/B testing" = ["A/B test", "A/B tests", "AB testing", "experimentation", "experiment design", "split testing"]
+"Causal inference" = []
+"Forecasting" = ["time series", "demand forecasting"]
+"Data analysis" = ["data analytics", "analyzing data", "analyze data", "data-driven analysis", "quantitative analysis"]
+"Data visualization" = ["data visualisation", "visualizations", "dashboarding"]
+"Data modeling" = ["data modelling", "dimensional modeling"]
+"Data pipelines" = ["data pipeline", "ETL", "ELT", "data engineering", "ETL/ELT"]
+"Data warehousing" = ["data warehouse", "data lake", "lakehouse"]
+"Data governance" = ["data quality"]
+"Tableau" = []
+"Power BI" = ["powerbi"]
+"Looker" = ["LookML", "looker studio"]
+"Excel" = { aliases = ["microsoft excel", "MS excel", "google sheets", "spreadsheets", "advanced excel", "excel skills"], case = true }
+"dbt" = []
+"Spark" = { aliases = ["apache spark", "pyspark"], case = true }
+"Airflow" = { aliases = ["apache airflow"], case = true }
+"Kafka" = ["apache kafka"]
+"Flink" = ["apache flink"]
+"Snowflake" = []
+"Databricks" = []
+"BigQuery" = []
+"Redshift" = []
+"Hadoop" = ["apache hive", "HDFS"]
+"Iceberg" = { aliases = ["apache iceberg", "delta lake"], case = true, context = true }
+"PostgreSQL" = ["postgres"]
+"MySQL" = []
+"MongoDB" = []
+"Redis" = []
+"Elasticsearch" = { aliases = ["opensearch", "elastic search"], makers = ["elastic"] }
+"DynamoDB" = []
+"Cassandra" = []
+"ClickHouse" = []
+"NoSQL" = []
+
+[skills."Cloud & infrastructure"]
+"AWS" = ["amazon web services", "EC2"]
+"Google Cloud" = ["GCP", "google cloud platform"]
+"Azure" = ["microsoft azure"]
+"Cloud infrastructure" = ["cloud computing", "cloud architecture", "cloud-native", "cloud native", "cloud platforms"]
+"Kubernetes" = ["k8s", "EKS", "GKE"]
+"Docker" = ["containerization", "containerized"]
+"Terraform" = []
+"Infrastructure as code" = ["IaC", "cloudformation", "pulumi"]
+"Ansible" = ["puppet", "chef infra"]
+"Helm" = { case = true, context = true }
+"CI/CD" = ["CI CD", "continuous integration", "continuous delivery", "continuous deployment", "github actions", "jenkins"]
+"DevOps" = []
+"Site reliability" = ["SRE", "site reliability engineering"]
+"Linux" = ["unix"]
+"Networking" = { aliases = ["TCP/IP", "network protocols", "network engineering", "BGP", "DNS"], named = false }
+"Observability" = ["monitoring and alerting", "opentelemetry"]
+"Datadog" = []
+"Prometheus" = ["grafana"]
+"Splunk" = []
+"Incident management" = ["incident response", "on-call"]
+"Performance optimization" = ["performance tuning", "performance engineering"]
+"GPU computing" = ["GPU programming", "GPU clusters", "GPU cluster"]
+"High-performance computing" = ["HPC", "slurm", "high performance computing"]
+"Data center operations" = ["data center", "data centers", "datacenter"]
+
+[skills.Security]
+"Cybersecurity" = ["cyber security", "information security", "infosec"]
+"Application security" = ["appsec", "secure coding", "OWASP"]
+"Cloud security" = []
+"Threat modeling" = ["threat modelling", "threat detection", "threat hunting", "threat intelligence"]
+"Vulnerability management" = ["vulnerability assessment", "vulnerability scanning"]
+"Penetration testing" = ["pen testing", "red teaming", "red team"]
+"Identity & access" = { aliases = ["IAM", "identity and access management", "SSO", "SAML", "OAuth"], named = false }
+"SIEM" = []
+"Cryptography" = []
+"Zero trust" = []
+"SOC 2" = ["SOC2", "ISO 27001"]
+"Privacy regulation" = ["GDPR", "data privacy", "HIPAA", "CCPA"]
+"FedRAMP" = ["NIST"]
+
+[skills."Product & design"]
+"Product strategy" = ["product vision"]
+"Roadmapping" = ["product roadmap"]
+"Product analytics" = ["amplitude", "mixpanel"]
+"User research" = ["UX research", "customer research", "usability testing", "user interviews"]
+"UX design" = ["user experience design", "UX/UI", "UI/UX", "interaction design"]
+"UI design" = ["visual design", "user interface design"]
+"Design systems" = ["design system"]
+"Prototyping" = ["prototype", "wireframing", "wireframes"]
+"Figma" = []
+"Adobe Creative Suite" = ["adobe creative cloud", "photoshop", "illustrator", "adobe illustrator", "indesign", "after effects", "premiere pro"]
+"Motion design" = ["motion graphics"]
+"Video production" = ["video editing"]
+"3D modeling" = ["blender", "autodesk maya", "3D art"]
+"Accessibility" = ["WCAG", "a11y"]
+"Agile" = ["scrum", "kanban", "agile methodologies"]
+"Jira" = ["confluence"]
+"Technical writing" = ["technical documentation", "API documentation"]
+
+[skills."Business & finance"]
+"Project management" = ["PMP", "project planning"]
+"Program management" = ["programme management"]
+"Change management" = []
+"Strategic planning" = ["business strategy", "strategy development"]
+"Business development" = []
+"Operations management" = ["business operations"]
+"Process improvement" = ["process optimization", "six sigma", "lean six sigma", "continuous improvement"]
+"Financial modeling" = ["financial models", "financial model", "financial modelling"]
+"Financial analysis" = ["variance analysis"]
+"FP&A" = ["financial planning and analysis", "budgeting", "budgeting and forecasting"]
+"Accounting" = ["GAAP", "US GAAP", "IFRS", "month-end close", "general ledger"]
+"Auditing" = ["internal audit", "external audit", "internal controls", "SOX"]
+"Tax" = { aliases = ["tax compliance", "tax accounting", "tax planning", "corporate tax", "income tax"], named = false }
+"NetSuite" = []
+"SAP" = { aliases = ["S/4HANA", "SAP S/4HANA"], case = true }
+"ERP" = ["ERP systems", "oracle ERP"]
+"Workday" = { case = true }
+"Procurement" = ["strategic sourcing", "sourcing strategy"]
+"Vendor management" = ["supplier management"]
+"Contract negotiation" = ["contract negotiations", "contract management"]
+"Risk management" = ["risk assessment", "risk analysis"]
+"Regulatory compliance" = ["regulatory requirements", "regulatory affairs"]
+"AML / KYC" = { aliases = ["AML", "KYC", "anti-money laundering", "know your customer"], named = false }
+"Fraud detection" = ["fraud prevention"]
+"Legal drafting" = { aliases = ["contract drafting", "legal research", "drafting and negotiating", "commercial contracts"], named = false }
+"Intellectual property" = ["patent", "patents"]
+"Mergers & acquisitions" = ["M&A", "mergers and acquisitions", "due diligence"]
+"Investment analysis" = ["portfolio management", "equity research"]
+"Quantitative trading" = ["algorithmic trading", "quantitative research", "market making"]
+"Business intelligence" = ["BI tools"]
+"Pricing strategy" = ["pricing strategies", "pricing models"]
+"Recruiting" = { aliases = ["talent acquisition", "full-cycle recruiting", "technical recruiting", "candidate sourcing"], named = false }
+"HR management" = { aliases = ["HRIS", "employee relations", "performance management", "HR policies"], named = false }
+"Compensation & benefits" = ["total rewards", "compensation analysis", "benefits administration"]
+"Payroll" = ["payroll processing"]
+
+[skills."Sales & marketing"]
+"B2B sales" = ["enterprise sales", "SaaS sales", "solution selling", "consultative selling"]
+"Prospecting" = ["lead generation", "cold calling", "outbound sales", "sales prospecting"]
+"Pipeline management" = ["sales pipeline", "pipeline generation"]
+"Account management" = ["key account management", "strategic accounts"]
+"Customer support" = ["customer service", "technical support"]
+"Solution engineering" = ["solutions engineering", "pre-sales", "presales", "technical demos", "product demos"]
+"Partnerships" = { aliases = ["partner management", "channel sales", "strategic partnerships", "partnership development"], named = false }
+"Salesforce" = ["SFDC", "salesforce CRM"]
+"HubSpot" = []
+"CRM" = ["customer relationship management", "CRM software"]
+"MEDDIC" = ["MEDDPICC", "MEDDICC", "challenger sale", "command of the message"]
+"Gong" = { case = true, context = true }
+"Outreach tools" = { aliases = ["outreach.io", "salesloft", "LinkedIn Sales Navigator", "sales navigator", "zoominfo"], named = false }
+"Revenue operations" = ["RevOps", "sales operations"]
+"Digital marketing" = ["performance marketing", "paid media", "paid social", "paid search"]
+"SEO" = ["search engine optimization", "SEM"]
+"Google Ads" = ["google adwords", "meta ads", "facebook ads"]
+"Google Analytics" = ["GA4"]
+"Content marketing" = ["content strategy", "content creation"]
+"Copywriting" = []
+"Email marketing" = ["lifecycle marketing", "CRM marketing"]
+"Marketing automation" = ["marketo", "pardot", "braze", "klaviyo"]
+"Social media marketing" = ["social media management", "social media strategy", "community management", "social media"]
+"Influencer marketing" = ["influencer partnerships"]
+"Brand strategy" = ["brand marketing", "brand management"]
+"Growth marketing" = ["growth strategy", "conversion rate optimization", "demand generation"]
+"Market research" = ["competitive analysis", "competitive intelligence", "market analysis"]
+"Public relations" = ["media relations"]
+"Event management" = ["event planning", "event marketing"]
+"Attribution modeling" = ["marketing attribution", "media mix modeling", "marketing mix modeling", "incrementality"]
+"Zendesk" = []
+
+[skills."Engineering & operations"]
+"CAD" = ["computer-aided design"]
+"SolidWorks" = []
+"NX" = { aliases = ["siemens NX"], case = true, context = true }
+"CATIA" = []
+"AutoCAD" = ["revit", "BIM"]
+"GD&T" = ["geometric dimensioning and tolerancing"]
+"FEA" = ["finite element analysis", "ANSYS", "CFD", "abaqus"]
+"Mechanical design" = ["mechanical engineering"]
+"Electrical engineering" = ["electrical design", "circuit design"]
+"PCB design" = ["altium", "PCB layout", "PCB"]
+"Embedded systems" = ["embedded software", "firmware", "RTOS", "embedded linux", "microcontrollers"]
+"FPGA" = ["verilog", "systemverilog", "VHDL", "RTL design"]
+"ASIC design" = ["ASIC", "physical design", "design verification", "UVM", "chip design"]
+"RF engineering" = ["RF design", "antenna design", "RF systems"]
+"Control systems" = ["control theory", "GNC", "guidance navigation and control"]
+"Robotics" = ["ROS", "ROS2", "SLAM", "motion planning"]
+"Sensor fusion" = ["lidar"]
+"PLC programming" = ["PLC", "SCADA"]
+"Manufacturing engineering" = ["manufacturing processes", "design for manufacturing", "DFM", "lean manufacturing"]
+"CNC machining" = ["CNC", "machining", "CAM software"]
+"Welding" = ["TIG welding", "soldering"]
+"Additive manufacturing" = ["3D printing"]
+"Blueprint reading" = ["engineering drawings", "read blueprints", "mechanical drawings"]
+"Systems engineering" = ["requirements management", "MBSE"]
+"Test engineering" = ["hardware testing", "test equipment", "oscilloscope", "hardware-in-the-loop", "HITL"]
+"Quality assurance" = ["quality control", "quality management", "ISO 9001", "AS9100"]
+"Root cause analysis" = ["FMEA", "failure analysis", "corrective actions", "CAPA"]
+"Supply chain" = ["supply chain management"]
+"Logistics" = ["warehouse management", "warehouse operations"]
+"Inventory management" = ["inventory control"]
+"Construction management" = ["construction project management"]
+"HVAC" = []
+"Power systems" = ["power electronics", "power distribution"]
+"Thermal engineering" = ["thermal design", "thermal management", "thermal analysis"]
+"Materials science" = ["composites", "metallurgy"]
+"Workplace safety" = ["OSHA", "EHS", "safety standards"]
+
+[skills."Health & science"]
+"Clinical research" = ["clinical trials", "clinical trial", "GCP guidelines"]
+"Patient care" = ["direct patient care", "clinical care"]
+"EHR systems" = ["EHR", "EMR", "electronic health records", "epic EHR", "electronic medical records"]
+"Medical billing" = ["medical coding", "revenue cycle management", "revenue cycle", "ICD-10", "CPT codes"]
+"Bioinformatics" = ["computational biology", "genomics"]
+"Molecular biology" = ["PCR", "NGS", "next generation sequencing", "next-generation sequencing", "cell culture"]
+"GMP / GLP" = { aliases = ["GMP", "cGMP", "GLP", "GxP"], named = false }
+"FDA regulation" = ["FDA", "FDA regulations"]
+"Phlebotomy" = ["venipuncture"]
+"Therapy & counselling" = { aliases = ["CBT", "psychotherapy", "counseling", "behavioral health"], named = false }
+
+[skills.People]
+"Communication" = ["communication skills", "verbal communication", "written communication", "communicator"]
+"Leadership" = ["team leadership", "people leadership"]
+"People management" = ["managing people", "managing teams", "team management", "people manager"]
+"Mentoring" = ["mentorship", "coaching", "mentor"]
+"Cross-functional work" = { aliases = ["cross-functional", "cross functional", "cross-functionally", "cross-functional collaboration"], named = false }
+"Stakeholder management" = ["managing stakeholders", "stakeholder engagement", "stakeholder communication"]
+"Problem solving" = ["problem-solving", "problem solver", "troubleshooting"]
+"Critical thinking" = ["analytical skills", "analytical thinking"]
+"Presentation" = { aliases = ["presentation skills", "public speaking", "presenting to", "powerpoint", "storytelling"], named = false }
+"Negotiation" = ["negotiation skills", "negotiating"]
+"Time management" = ["prioritization", "organizational skills"]
+"Attention to detail" = ["detail-oriented", "detail oriented"]
+"Adaptability" = ["adaptable", "navigate ambiguity", "comfortable with ambiguity"]
+"Decision making" = ["decision-making"]
+"Customer focus" = ["customer obsession", "customer-centric", "customer empathy"]
+"Collaboration" = ["teamwork", "team player", "collaborative"]
+"Ownership" = { aliases = ["self-starter", "sense of ownership", "self-motivated", "bias for action"], named = false }

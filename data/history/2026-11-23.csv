@@ -1,0 +1,4208 @@
+role,skill,postings,demand
+All roles,Communication,17982,0.5341
+All roles,Cross-functional work,12832,0.3818
+All roles,Collaboration,11670,0.3631
+All roles,Leadership,11508,0.3492
+All roles,Mentoring,8263,0.2606
+All roles,Problem solving,8030,0.2172
+All roles,Python,7428,0.2061
+All roles,Process improvement,4584,0.1192
+All roles,SQL,4136,0.1211
+All roles,Machine learning,4110,0.1234
+All roles,Attention to detail,4059,0.1163
+All roles,AI assistants,3750,0.1438
+All roles,Ownership,3501,0.1012
+All roles,AI agents,3409,0.1144
+All roles,AWS,3387,0.1099
+All roles,Time management,3349,0.1030
+All roles,Prototyping,3347,0.0873
+All roles,Privacy regulation,3290,0.0549
+All roles,Cloud infrastructure,3096,0.0956
+All roles,Data analysis,3030,0.0797
+All roles,LLMs,2956,0.0950
+All roles,Distributed systems,2881,0.0833
+All roles,Presentation,2877,0.0883
+All roles,Observability,2823,0.0929
+All roles,Decision making,2763,0.0863
+All roles,Incident management,2761,0.0856
+All roles,Kubernetes,2693,0.0877
+All roles,Negotiation,2682,0.0804
+All roles,Salesforce,2638,0.0940
+All roles,Supply chain,2618,0.0537
+All roles,Project management,2539,0.0726
+All roles,Go,2492,0.0720
+All roles,C++,2488,0.0573
+All roles,Logistics,2452,0.0570
+All roles,Customer support,2433,0.0683
+All roles,Compensation & benefits,2415,0.0584
+All roles,CI/CD,2384,0.0764
+All roles,Procurement,2318,0.0585
+All roles,Forecasting,2244,0.0711
+All roles,Data pipelines,2205,0.0690
+All roles,Excel,2163,0.0593
+All roles,Google Cloud,2151,0.0687
+All roles,Root cause analysis,2109,0.0443
+All roles,Adaptability,2006,0.0656
+All roles,Critical thinking,2004,0.0613
+All roles,CAD,1957,0.0441
+All roles,Java,1946,0.0576
+All roles,Linux,1939,0.0463
+All roles,System design,1922,0.0514
+All roles,A/B testing,1913,0.0713
+All roles,Solution engineering,1885,0.0598
+All roles,Azure,1871,0.0542
+All roles,Account management,1801,0.0605
+All roles,CRM,1750,0.0641
+All roles,Electrical engineering,1749,0.0305
+All roles,Code review,1701,0.0553
+All roles,Risk management,1648,0.0457
+All roles,Prospecting,1627,0.0576
+All roles,Stakeholder management,1564,0.0467
+All roles,Business development,1558,0.0496
+All roles,Git,1534,0.0467
+All roles,Manufacturing engineering,1524,0.0218
+All roles,TypeScript,1499,0.0524
+All roles,B2B sales,1489,0.0526
+All roles,ERP,1475,0.0308
+All roles,Accounting,1461,0.0469
+All roles,Agile,1408,0.0466
+All roles,Program management,1398,0.0329
+All roles,Docker,1387,0.0429
+All roles,Pipeline management,1331,0.0447
+All roles,Data governance,1327,0.0427
+All roles,Mechanical design,1325,0.0195
+All roles,JavaScript,1307,0.0374
+All roles,AI coding tools,1301,0.0498
+All roles,Test engineering,1293,0.0187
+All roles,Quality assurance,1278,0.0291
+All roles,React,1275,0.0433
+All roles,Test automation,1262,0.0349
+All roles,Terraform,1241,0.0414
+All roles,Cybersecurity,1233,0.0364
+All roles,Embedded systems,1220,0.0232
+All roles,Jira,1216,0.0328
+All roles,Generative AI,1209,0.0371
+All roles,Statistics,1206,0.0379
+All roles,Data center operations,1198,0.0268
+All roles,Product strategy,1175,0.0388
+All roles,Regulatory compliance,1159,0.0324
+All roles,Robotics,1141,0.0208
+All roles,People management,1125,0.0366
+All roles,Infrastructure as code,1119,0.0375
+All roles,HR management,1110,0.0351
+All roles,Roadmapping,1103,0.0319
+All roles,Revenue operations,1075,0.0391
+All roles,C,1072,0.0226
+All roles,Auditing,1067,0.0331
+All roles,Identity & access,1035,0.0358
+All roles,Systems engineering,1011,0.0208
+All roles,Change management,998,0.0283
+All roles,PostgreSQL,960,0.0323
+All roles,Rust,958,0.0240
+All roles,Operations management,946,0.0235
+All roles,Networking,905,0.0205
+All roles,Strategic planning,904,0.0279
+All roles,DevOps,895,0.0312
+All roles,Data warehousing,879,0.0266
+All roles,Growth marketing,871,0.0314
+All roles,Performance optimization,859,0.0257
+All roles,Tableau,848,0.0244
+All roles,Workplace safety,836,0.0149
+All roles,Customer focus,831,0.0284
+All roles,Bash / shell,814,0.0223
+All roles,Spark,806,0.0235
+All roles,Kafka,797,0.0278
+All roles,Control systems,796,0.0123
+All roles,Site reliability,767,0.0234
+All roles,Recruiting,752,0.0279
+All roles,Technical writing,750,0.0185
+All roles,Accessibility,743,0.0205
+All roles,Snowflake,729,0.0282
+All roles,MATLAB,729,0.0095
+All roles,FP&A,719,0.0232
+All roles,MEDDIC,695,0.0245
+All roles,Data visualization,690,0.0208
+All roles,Partnerships,688,0.0209
+All roles,Market research,675,0.0214
+All roles,Data structures & algorithms,663,0.0211
+All roles,Prompt engineering,644,0.0212
+All roles,MCP,641,0.0248
+All roles,Welding,633,0.0081
+All roles,Data modeling,631,0.0221
+All roles,Ruby,627,0.0230
+All roles,Microservices,623,0.0203
+All roles,Business intelligence,618,0.0207
+All roles,Power systems,611,0.0100
+All roles,RAG,609,0.0197
+All roles,GD&T,599,0.0083
+All roles,NX,598,0.0072
+All roles,Model evaluation,593,0.0193
+All roles,Inventory management,592,0.0111
+All roles,Blueprint reading,583,0.0072
+All roles,Prometheus,580,0.0180
+All roles,dbt,572,0.0203
+All roles,CNC machining,571,0.0067
+All roles,Contract negotiation,569,0.0135
+All roles,PyTorch,566,0.0171
+All roles,Threat modeling,562,0.0168
+All roles,PCB design,557,0.0080
+All roles,Digital marketing,556,0.0234
+All roles,Design systems,555,0.0199
+All roles,REST APIs,550,0.0185
+All roles,SAP,545,0.0128
+All roles,C#,543,0.0127
+All roles,Cloud security,540,0.0156
+All roles,NetSuite,529,0.0164
+All roles,Workday,517,0.0165
+All roles,Mergers & acquisitions,512,0.0167
+All roles,Fine-tuning,508,0.0151
+All roles,R,506,0.0141
+All roles,Looker,495,0.0190
+All roles,UX design,493,0.0152
+All roles,Power BI,493,0.0101
+All roles,Kotlin,484,0.0174
+All roles,FedRAMP,476,0.0146
+All roles,Deep learning,474,0.0147
+All roles,Vendor management,462,0.0132
+All roles,Social media marketing,460,0.0189
+All roles,Scala,459,0.0109
+All roles,SOC 2,458,0.0166
+All roles,FEA,458,0.0065
+All roles,Financial modeling,452,0.0145
+All roles,Ansible,449,0.0110
+All roles,Payroll,445,0.0162
+All roles,High-performance computing,434,0.0113
+All roles,Android,429,0.0153
+All roles,Node.js,427,0.0156
+All roles,Content marketing,408,0.0150
+All roles,Databricks,402,0.0150
+All roles,Airflow,400,0.0159
+All roles,User research,395,0.0152
+All roles,iOS,394,0.0148
+All roles,Zero trust,393,0.0101
+All roles,MySQL,391,0.0134
+All roles,Application security,391,0.0137
+All roles,BigQuery,390,0.0153
+All roles,Therapy & counselling,365,0.0119
+All roles,Figma,363,0.0152
+All roles,Redis,359,0.0139
+All roles,HVAC,358,0.0071
+All roles,Pricing strategy,352,0.0112
+All roles,SolidWorks,347,0.0055
+All roles,Patient care,343,0.0106
+All roles,Materials science,339,0.0043
+All roles,Marketing automation,338,0.0141
+All roles,FPGA,334,0.0054
+All roles,PLC programming,328,0.0051
+All roles,AML / KYC,324,0.0123
+All roles,Datadog,317,0.0132
+All roles,MLOps,317,0.0098
+All roles,Outreach tools,315,0.0132
+All roles,Reinforcement learning,313,0.0088
+All roles,Sensor fusion,313,0.0040
+All roles,NoSQL,308,0.0097
+All roles,GraphQL,306,0.0107
+All roles,Vulnerability management,302,0.0099
+All roles,CSS,301,0.0114
+All roles,Financial analysis,297,0.0094
+All roles,TensorFlow,297,0.0092
+All roles,Computer vision,287,0.0061
+All roles,Product analytics,276,0.0118
+All roles,gRPC,274,0.0078
+All roles,SIEM,273,0.0087
+All roles,HTML,270,0.0100
+All roles,Vector databases,266,0.0082
+All roles,ASIC design,265,0.0047
+All roles,Penetration testing,263,0.0077
+All roles,Intellectual property,257,0.0059
+All roles,Adobe Creative Suite,256,0.0101
+All roles,Quantitative trading,245,0.0100
+All roles,AutoCAD,241,0.0035
+All roles,LangChain,234,0.0075
+All roles,Thermal engineering,231,0.0037
+All roles,Elasticsearch,229,0.0086
+All roles,UI design,228,0.0079
+All roles,Email marketing,223,0.0098
+All roles,Additive manufacturing,220,0.0030
+All roles,SEO,219,0.0089
+All roles,Brand strategy,211,0.0080
+All roles,Zendesk,208,0.0079
+All roles,Fraud detection,206,0.0071
+All roles,Attribution modeling,200,0.0079
+All roles,HubSpot,198,0.0098
+All roles,Iceberg,198,0.0056
+All roles,Construction management,196,0.0034
+All roles,.NET,195,0.0047
+All roles,Event management,195,0.0059
+All roles,Pandas,195,0.0054
+All roles,Causal inference,193,0.0067
+All roles,Angular,192,0.0040
+All roles,Recommender systems,190,0.0073
+All roles,RF engineering,182,0.0023
+All roles,Splunk,181,0.0050
+All roles,ClickHouse,177,0.0053
+All roles,Swift,175,0.0071
+All roles,DynamoDB,171,0.0070
+All roles,NLP,171,0.0064
+All roles,JAX,167,0.0046
+All roles,Flink,167,0.0052
+All roles,Helm,165,0.0056
+All roles,Investment analysis,163,0.0058
+All roles,MongoDB,161,0.0062
+All roles,CUDA,159,0.0046
+All roles,Gong,157,0.0074
+All roles,Legal drafting,157,0.0049
+All roles,CATIA,154,0.0025
+All roles,Tax,150,0.0053
+All roles,GPU computing,145,0.0045
+All roles,Next.js,143,0.0049
+All roles,scikit-learn,140,0.0045
+All roles,Redshift,137,0.0052
+All roles,Cryptography,133,0.0035
+All roles,React Native,130,0.0055
+All roles,Vue,129,0.0045
+All roles,Spring,129,0.0045
+All roles,EHR systems,129,0.0056
+All roles,Unreal Engine,129,0.0039
+All roles,Hadoop,125,0.0030
+All roles,GMP / GLP,123,0.0037
+All roles,Motion design,114,0.0043
+All roles,3D modeling,114,0.0023
+All roles,Public relations,110,0.0037
+All roles,Google Analytics,106,0.0052
+All roles,Video production,105,0.0045
+All roles,Cassandra,102,0.0029
+All roles,Clinical research,95,0.0032
+All roles,Bioinformatics,90,0.0031
+All roles,Molecular biology,89,0.0033
+All roles,PHP,88,0.0036
+All roles,Copywriting,82,0.0033
+All roles,FastAPI,81,0.0026
+All roles,FDA regulation,79,0.0024
+All roles,Phlebotomy,74,0.0021
+All roles,Google Ads,72,0.0035
+All roles,Playwright,72,0.0026
+All roles,Influencer marketing,67,0.0028
+All roles,Perl,66,0.0015
+All roles,Django,61,0.0030
+All roles,Unity,59,0.0015
+All roles,Hugging Face,58,0.0016
+All roles,Selenium,46,0.0014
+All roles,Medical billing,43,0.0017
+All roles,Flask,41,0.0013
+All roles,Solidity,36,0.0011
+All roles,Cypress,32,0.0010
+All roles,Haskell,31,0.0008
+All roles,WebGL,28,0.0008
+All roles,Objective-C,25,0.0008
+All roles,WebAssembly,19,0.0007
+All roles,Svelte,16,0.0007
+All roles,Elixir,13,0.0005
+All roles,Julia,11,0.0002
+Customer success & support,Communication,645,0.6580
+Customer success & support,Cross-functional work,474,0.4684
+Customer success & support,Account management,469,0.4588
+Customer success & support,Collaboration,424,0.4267
+Customer success & support,Leadership,340,0.3456
+Customer success & support,Problem solving,317,0.3358
+Customer success & support,Mentoring,224,0.2299
+Customer success & support,Customer support,222,0.2376
+Customer success & support,Salesforce,198,0.2149
+Customer success & support,Negotiation,189,0.1962
+Customer success & support,Ownership,186,0.1764
+Customer success & support,CRM,164,0.1778
+Customer success & support,Attention to detail,148,0.1464
+Customer success & support,Process improvement,126,0.1264
+Customer success & support,Time management,122,0.1322
+Customer success & support,AI assistants,119,0.1370
+Customer success & support,Project management,117,0.1129
+Customer success & support,Forecasting,114,0.1278
+Customer success & support,Presentation,112,0.1193
+Customer success & support,Critical thinking,100,0.0973
+Customer success & support,Adaptability,99,0.1040
+Customer success & support,Business development,92,0.0920
+Customer success & support,Customer focus,84,0.0871
+Customer success & support,Decision making,80,0.0777
+Customer success & support,Roadmapping,77,0.0654
+Customer success & support,Excel,73,0.0752
+Customer success & support,Stakeholder management,72,0.0705
+Customer success & support,Logistics,71,0.0515
+Customer success & support,Compensation & benefits,65,0.0511
+Customer success & support,Solution engineering,63,0.0683
+Customer success & support,People management,63,0.0513
+Customer success & support,Data analysis,57,0.0590
+Customer success & support,B2B sales,57,0.0533
+Customer success & support,Strategic planning,55,0.0557
+Customer success & support,Revenue operations,54,0.0667
+Customer success & support,Procurement,54,0.0581
+Customer success & support,SQL,54,0.0551
+Customer success & support,Partnerships,50,0.0406
+Customer success & support,AI agents,46,0.0514
+Customer success & support,Digital marketing,43,0.0440
+Customer success & support,Zendesk,41,0.0605
+Customer success & support,Change management,40,0.0406
+Customer success & support,Prospecting,37,0.0452
+Customer success & support,LLMs,37,0.0355
+Customer success & support,Pipeline management,34,0.0354
+Customer success & support,Jira,33,0.0445
+Customer success & support,Snowflake,31,0.0235
+Customer success & support,Business intelligence,29,0.0253
+Customer success & support,Machine learning,28,0.0310
+Customer success & support,Growth marketing,27,0.0353
+Customer success & support,Risk management,27,0.0324
+Customer success & support,Cloud infrastructure,27,0.0294
+Customer success & support,HR management,27,0.0354
+Customer success & support,Supply chain,27,0.0256
+Customer success & support,Privacy regulation,26,0.0345
+Customer success & support,Incident management,26,0.0307
+Customer success & support,Looker,25,0.0266
+Customer success & support,Generative AI,24,0.0305
+Customer success & support,Accessibility,24,0.0171
+Customer success & support,Regulatory compliance,24,0.0214
+Customer success & support,Program management,24,0.0280
+Customer success & support,Social media marketing,23,0.0268
+Customer success & support,Tableau,23,0.0220
+Customer success & support,Recruiting,22,0.0264
+Customer success & support,Gong,21,0.0268
+Customer success & support,Investment analysis,21,0.0195
+Customer success & support,Quality assurance,20,0.0271
+Customer success & support,CAD,19,0.0219
+Customer success & support,Agile,19,0.0229
+Customer success & support,Contract negotiation,19,0.0168
+Customer success & support,DevOps,19,0.0248
+Customer success & support,Accounting,19,0.0169
+Customer success & support,MEDDIC,18,0.0228
+Customer success & support,A/B testing,18,0.0219
+Customer success & support,Operations management,18,0.0168
+Customer success & support,Cybersecurity,16,0.0191
+Customer success & support,Pricing strategy,16,0.0178
+Customer success & support,HTML,16,0.0128
+Customer success & support,Data governance,15,0.0159
+Customer success & support,Data pipelines,15,0.0151
+Customer success & support,AWS,15,0.0171
+Customer success & support,Azure,15,0.0187
+Customer success & support,JavaScript,14,0.0134
+Customer success & support,Root cause analysis,14,0.0155
+Customer success & support,Data visualization,14,0.0141
+Customer success & support,Identity & access,12,0.0180
+Customer success & support,Outreach tools,12,0.0144
+Customer success & support,Python,12,0.0116
+Customer success & support,ERP,12,0.0126
+Customer success & support,NetSuite,11,0.0110
+Customer success & support,BigQuery,11,0.0086
+Customer success & support,CSS,11,0.0091
+Customer success & support,Cloud security,11,0.0106
+Customer success & support,Performance optimization,11,0.0062
+Customer success & support,Databricks,11,0.0085
+Customer success & support,Email marketing,10,0.0124
+Customer success & support,FP&A,10,0.0095
+Customer success & support,Redshift,10,0.0087
+Customer success & support,HubSpot,9,0.0114
+Customer success & support,AML / KYC,9,0.0092
+Customer success & support,Linux,9,0.0150
+Customer success & support,Observability,9,0.0126
+Customer success & support,Google Cloud,9,0.0091
+Customer success & support,Content marketing,9,0.0127
+Customer success & support,Prompt engineering,8,0.0100
+Customer success & support,Technical writing,8,0.0079
+Customer success & support,Product analytics,8,0.0108
+Customer success & support,Android,8,0.0082
+Customer success & support,Payroll,8,0.0096
+Customer success & support,HVAC,8,0.0077
+Customer success & support,Networking,7,0.0097
+Customer success & support,Git,7,0.0115
+Customer success & support,AI coding tools,7,0.0049
+Customer success & support,MCP,7,0.0095
+Customer success & support,iOS,7,0.0088
+Customer success & support,Market research,7,0.0070
+Customer success & support,Public relations,7,0.0053
+Customer success & support,REST APIs,6,0.0050
+Customer success & support,Prototyping,6,0.0075
+Customer success & support,User research,5,0.0067
+Customer success & support,Bioinformatics,5,0.0057
+Customer success & support,Molecular biology,5,0.0054
+Customer success & support,C,5,0.0075
+Customer success & support,Workday,5,0.0056
+Customer success & support,Marketing automation,5,0.0082
+Customer success & support,Inventory management,5,0.0071
+Customer success & support,Power BI,5,0.0030
+Customer success & support,UX design,5,0.0050
+Customer success & support,CI/CD,5,0.0053
+Data analyst,SQL,168,0.8530
+Data analyst,Python,123,0.5903
+Data analyst,Communication,119,0.5915
+Data analyst,Cross-functional work,109,0.5613
+Data analyst,Data analysis,107,0.5511
+Data analyst,Tableau,91,0.4378
+Data analyst,Leadership,78,0.4029
+Data analyst,Statistics,75,0.3525
+Data analyst,Data visualization,72,0.3531
+Data analyst,Decision making,68,0.3008
+Data analyst,Problem solving,68,0.3245
+Data analyst,Data pipelines,67,0.3388
+Data analyst,Collaboration,66,0.3712
+Data analyst,Business intelligence,47,0.2686
+Data analyst,A/B testing,46,0.2114
+Data analyst,Looker,46,0.2737
+Data analyst,Data governance,45,0.2578
+Data analyst,Power BI,45,0.1937
+Data analyst,Attention to detail,45,0.2180
+Data analyst,Mentoring,44,0.2227
+Data analyst,AI assistants,43,0.2389
+Data analyst,R,41,0.1892
+Data analyst,dbt,37,0.2334
+Data analyst,Forecasting,36,0.1554
+Data analyst,Process improvement,35,0.1756
+Data analyst,Excel,34,0.1677
+Data analyst,Critical thinking,34,0.1600
+Data analyst,Presentation,33,0.1783
+Data analyst,Ownership,29,0.1599
+Data analyst,Machine learning,29,0.1328
+Data analyst,Git,29,0.1462
+Data analyst,Snowflake,28,0.1695
+Data analyst,Data modeling,27,0.1601
+Data analyst,Product analytics,26,0.1414
+Data analyst,Time management,26,0.1356
+Data analyst,Spark,26,0.0984
+Data analyst,Project management,24,0.1037
+Data analyst,Databricks,23,0.1242
+Data analyst,Airflow,23,0.0851
+Data analyst,Accounting,23,0.1195
+Data analyst,Stakeholder management,22,0.0906
+Data analyst,LLMs,20,0.0923
+Data analyst,Supply chain,19,0.0722
+Data analyst,BigQuery,18,0.1041
+Data analyst,Salesforce,17,0.0991
+Data analyst,AWS,17,0.0794
+Data analyst,Data warehousing,17,0.0998
+Data analyst,AI coding tools,17,0.1021
+Data analyst,AI agents,16,0.0910
+Data analyst,Operations management,16,0.0791
+Data analyst,Compensation & benefits,16,0.0800
+Data analyst,CRM,15,0.0787
+Data analyst,Adaptability,13,0.0483
+Data analyst,Revenue operations,12,0.0724
+Data analyst,Logistics,12,0.0553
+Data analyst,Strategic planning,12,0.0478
+Data analyst,ERP,12,0.0609
+Data analyst,Product strategy,12,0.0630
+Data analyst,Jira,12,0.0577
+Data analyst,Agile,11,0.0611
+Data analyst,Generative AI,11,0.0424
+Data analyst,Growth marketing,10,0.0446
+Data analyst,Privacy regulation,10,0.0459
+Data analyst,Regulatory compliance,10,0.0466
+Data analyst,Prototyping,10,0.0486
+Data analyst,Causal inference,9,0.0304
+Data analyst,Redshift,9,0.0374
+Data analyst,NetSuite,9,0.0406
+Data analyst,Google Analytics,8,0.0524
+Data analyst,Market research,8,0.0345
+Data analyst,Google Cloud,8,0.0469
+Data analyst,FP&A,8,0.0497
+Data analyst,Attribution modeling,8,0.0421
+Data analyst,Digital marketing,8,0.0451
+Data analyst,Customer support,8,0.0529
+Data analyst,Code review,8,0.0412
+Data analyst,CAD,7,0.0386
+Data analyst,Root cause analysis,7,0.0374
+Data analyst,Accessibility,7,0.0370
+Data analyst,Pandas,7,0.0327
+Data analyst,Cloud infrastructure,6,0.0369
+Data analyst,Performance optimization,6,0.0393
+Data analyst,Quality assurance,6,0.0346
+Data analyst,Auditing,6,0.0235
+Data analyst,Roadmapping,5,0.0290
+Data analyst,Prompt engineering,5,0.0215
+Data analyst,Change management,5,0.0342
+Data analyst,HR management,5,0.0367
+Data analyst,Hadoop,5,0.0114
+Data analyst,Pricing strategy,5,0.0216
+Data analyst,Account management,5,0.0184
+Data analyst,Workday,5,0.0200
+Data engineer,Data pipelines,305,0.7423
+Data engineer,Python,300,0.7374
+Data engineer,SQL,232,0.5985
+Data engineer,Data governance,198,0.5040
+Data engineer,Collaboration,175,0.4175
+Data engineer,Communication,173,0.4346
+Data engineer,Spark,156,0.3490
+Data engineer,Cross-functional work,154,0.3803
+Data engineer,Data warehousing,153,0.3724
+Data engineer,Airflow,150,0.3766
+Data engineer,Observability,143,0.3620
+Data engineer,AWS,142,0.3575
+Data engineer,Mentoring,138,0.3525
+Data engineer,dbt,132,0.3731
+Data engineer,Machine learning,124,0.2813
+Data engineer,Data modeling,123,0.3363
+Data engineer,Distributed systems,121,0.2612
+Data engineer,Kafka,116,0.2714
+Data engineer,CI/CD,111,0.2614
+Data engineer,Java,109,0.2307
+Data engineer,Snowflake,102,0.2983
+Data engineer,Kubernetes,100,0.2571
+Data engineer,Leadership,94,0.2278
+Data engineer,Google Cloud,88,0.2110
+Data engineer,Decision making,88,0.2168
+Data engineer,AI agents,85,0.2169
+Data engineer,Git,85,0.2000
+Data engineer,Problem solving,84,0.2062
+Data engineer,Incident management,84,0.1945
+Data engineer,Code review,82,0.1966
+Data engineer,Go,81,0.1763
+Data engineer,Databricks,77,0.1843
+Data engineer,Cloud infrastructure,71,0.1816
+Data engineer,Data analysis,68,0.1581
+Data engineer,Iceberg,68,0.1551
+Data engineer,Scala,68,0.1390
+Data engineer,Flink,67,0.1507
+Data engineer,Terraform,65,0.1799
+Data engineer,LLMs,64,0.1583
+Data engineer,BigQuery,58,0.1505
+Data engineer,Docker,56,0.1436
+Data engineer,Infrastructure as code,52,0.1452
+Data engineer,C++,50,0.0946
+Data engineer,Azure,50,0.1118
+Data engineer,Performance optimization,50,0.1214
+Data engineer,AI assistants,49,0.1449
+Data engineer,Looker,49,0.1415
+Data engineer,PostgreSQL,49,0.1184
+Data engineer,Privacy regulation,43,0.1028
+Data engineer,Tableau,42,0.1080
+Data engineer,Data visualization,41,0.0963
+Data engineer,AI coding tools,38,0.1123
+Data engineer,Business intelligence,38,0.1110
+Data engineer,Statistics,36,0.0731
+Data engineer,Data structures & algorithms,36,0.0783
+Data engineer,A/B testing,35,0.0936
+Data engineer,Linux,35,0.0693
+Data engineer,Process improvement,33,0.0751
+Data engineer,Redshift,33,0.0852
+Data engineer,Test automation,32,0.0797
+Data engineer,Prometheus,31,0.0693
+Data engineer,Compensation & benefits,30,0.0605
+Data engineer,System design,29,0.0642
+Data engineer,Hadoop,29,0.0572
+Data engineer,Ownership,28,0.0776
+Data engineer,MCP,26,0.0686
+Data engineer,Prototyping,26,0.0461
+Data engineer,Time management,26,0.0629
+Data engineer,Forecasting,25,0.0508
+Data engineer,ClickHouse,24,0.0567
+Data engineer,Rust,24,0.0404
+Data engineer,Agile,23,0.0525
+Data engineer,Power BI,22,0.0453
+Data engineer,Attention to detail,22,0.0519
+Data engineer,Salesforce,21,0.0555
+Data engineer,Product analytics,21,0.0601
+Data engineer,CRM,21,0.0615
+Data engineer,C#,21,0.0347
+Data engineer,Root cause analysis,20,0.0477
+Data engineer,DevOps,20,0.0481
+Data engineer,MySQL,20,0.0523
+Data engineer,React,20,0.0442
+Data engineer,Pandas,17,0.0319
+Data engineer,Datadog,17,0.0439
+Data engineer,Supply chain,17,0.0310
+Data engineer,Generative AI,17,0.0486
+Data engineer,Revenue operations,16,0.0442
+Data engineer,EHR systems,16,0.0497
+Data engineer,TypeScript,16,0.0436
+Data engineer,Logistics,15,0.0300
+Data engineer,NoSQL,15,0.0386
+Data engineer,Adaptability,14,0.0289
+Data engineer,RAG,14,0.0334
+Data engineer,REST APIs,14,0.0319
+Data engineer,Robotics,14,0.0312
+Data engineer,JavaScript,14,0.0181
+Data engineer,Workday,13,0.0323
+Data engineer,Auditing,13,0.0306
+Data engineer,Bash / shell,13,0.0363
+Data engineer,gRPC,12,0.0331
+Data engineer,Accessibility,12,0.0284
+Data engineer,Accounting,12,0.0282
+Data engineer,Project management,12,0.0218
+Data engineer,CAD,12,0.0289
+Data engineer,HR management,11,0.0265
+Data engineer,Redis,11,0.0340
+Data engineer,Operations management,10,0.0220
+Data engineer,Jira,10,0.0294
+Data engineer,People management,10,0.0192
+Data engineer,DynamoDB,10,0.0237
+Data engineer,Kotlin,10,0.0256
+Data engineer,Quality assurance,9,0.0280
+Data engineer,Stakeholder management,9,0.0253
+Data engineer,Identity & access,9,0.0206
+Data engineer,Model evaluation,9,0.0259
+Data engineer,Site reliability,9,0.0294
+Data engineer,MLOps,9,0.0279
+Data engineer,Systems engineering,9,0.0185
+Data engineer,R,9,0.0191
+Data engineer,Elasticsearch,9,0.0242
+Data engineer,MongoDB,9,0.0221
+Data engineer,Vector databases,9,0.0178
+Data engineer,Ruby,9,0.0255
+Data engineer,Angular,9,0.0080
+Data engineer,Procurement,8,0.0130
+Data engineer,Prompt engineering,8,0.0162
+Data engineer,Electrical engineering,8,0.0249
+Data engineer,Change management,8,0.0154
+Data engineer,ERP,8,0.0168
+Data engineer,Quantitative trading,8,0.0182
+Data engineer,Microservices,8,0.0195
+Data engineer,C,7,0.0132
+Data engineer,Presentation,7,0.0193
+Data engineer,Solution engineering,7,0.0129
+Data engineer,Risk management,7,0.0184
+Data engineer,UX design,7,0.0096
+Data engineer,LangChain,7,0.0155
+Data engineer,Ansible,6,0.0147
+Data engineer,Critical thinking,6,0.0166
+Data engineer,FastAPI,6,0.0084
+Data engineer,High-performance computing,6,0.0094
+Data engineer,Customer support,6,0.0144
+Data engineer,Excel,6,0.0122
+Data engineer,Customer focus,6,0.0171
+Data engineer,PyTorch,6,0.0113
+Data engineer,FedRAMP,5,0.0170
+Data engineer,Growth marketing,5,0.0113
+Data engineer,Data center operations,5,0.0108
+Data engineer,Regulatory compliance,5,0.0164
+Data engineer,Technical writing,5,0.0108
+Data engineer,Helm,5,0.0137
+Data engineer,Deep learning,5,0.0091
+Data engineer,Embedded systems,5,0.0086
+Data scientist,Python,266,0.8622
+Data scientist,SQL,254,0.8346
+Data scientist,Statistics,221,0.7101
+Data scientist,Machine learning,199,0.6553
+Data scientist,A/B testing,181,0.5910
+Data scientist,Communication,162,0.5268
+Data scientist,Cross-functional work,143,0.4495
+Data scientist,Leadership,121,0.3936
+Data scientist,Causal inference,111,0.3419
+Data scientist,Mentoring,109,0.3677
+Data scientist,Collaboration,100,0.3450
+Data scientist,Data analysis,93,0.3004
+Data scientist,R,92,0.2679
+Data scientist,Decision making,91,0.3002
+Data scientist,Data pipelines,90,0.2807
+Data scientist,LLMs,75,0.2499
+Data scientist,Forecasting,67,0.2297
+Data scientist,Product analytics,53,0.1833
+Data scientist,Spark,51,0.1467
+Data scientist,AI assistants,49,0.1730
+Data scientist,dbt,43,0.1642
+Data scientist,Prototyping,42,0.1259
+Data scientist,Problem solving,41,0.1335
+Data scientist,AI agents,40,0.1386
+Data scientist,Data visualization,38,0.1354
+Data scientist,Presentation,36,0.1162
+Data scientist,Product strategy,35,0.1211
+Data scientist,Snowflake,35,0.1330
+Data scientist,Data governance,34,0.1274
+Data scientist,Looker,31,0.1288
+Data scientist,Time management,31,0.0919
+Data scientist,AWS,30,0.1061
+Data scientist,BigQuery,29,0.1073
+Data scientist,Deep learning,29,0.0932
+Data scientist,Airflow,28,0.0932
+Data scientist,Critical thinking,27,0.0838
+Data scientist,Tableau,26,0.1036
+Data scientist,PyTorch,26,0.0757
+Data scientist,scikit-learn,25,0.0861
+Data scientist,Attribution modeling,24,0.0695
+Data scientist,Roadmapping,24,0.0669
+Data scientist,Code review,23,0.0812
+Data scientist,AI coding tools,23,0.0998
+Data scientist,Databricks,22,0.0843
+Data scientist,Model evaluation,21,0.0736
+Data scientist,Pandas,20,0.0808
+Data scientist,Recommender systems,20,0.0607
+Data scientist,Generative AI,20,0.0670
+Data scientist,Strategic planning,19,0.0658
+Data scientist,Ownership,19,0.0638
+Data scientist,Process improvement,18,0.0732
+Data scientist,Business intelligence,18,0.0720
+Data scientist,Git,18,0.0706
+Data scientist,TensorFlow,18,0.0509
+Data scientist,Data warehousing,17,0.0715
+Data scientist,Digital marketing,17,0.0583
+Data scientist,Attention to detail,17,0.0515
+Data scientist,Google Cloud,15,0.0530
+Data scientist,Data modeling,15,0.0606
+Data scientist,MLOps,15,0.0633
+Data scientist,People management,15,0.0483
+Data scientist,Adaptability,14,0.0528
+Data scientist,Logistics,14,0.0409
+Data scientist,Observability,13,0.0476
+Data scientist,Growth marketing,13,0.0372
+Data scientist,Stakeholder management,12,0.0422
+Data scientist,CRM,12,0.0394
+Data scientist,Compensation & benefits,12,0.0508
+Data scientist,Cloud infrastructure,11,0.0460
+Data scientist,Fraud detection,11,0.0416
+Data scientist,Prompt engineering,10,0.0333
+Data scientist,System design,10,0.0367
+Data scientist,CAD,9,0.0297
+Data scientist,Power BI,9,0.0334
+Data scientist,Reinforcement learning,9,0.0229
+Data scientist,Data structures & algorithms,9,0.0287
+Data scientist,NLP,9,0.0285
+Data scientist,Revenue operations,8,0.0247
+Data scientist,RAG,8,0.0328
+Data scientist,Pricing strategy,8,0.0279
+Data scientist,Project management,8,0.0265
+Data scientist,Fine-tuning,8,0.0239
+Data scientist,Customer support,8,0.0289
+Data scientist,Risk management,8,0.0342
+Data scientist,Robotics,8,0.0228
+Data scientist,Root cause analysis,7,0.0213
+Data scientist,Supply chain,7,0.0257
+Data scientist,Operations management,7,0.0332
+Data scientist,Market research,7,0.0199
+Data scientist,Electrical engineering,7,0.0200
+Data scientist,CI/CD,6,0.0226
+Data scientist,Email marketing,6,0.0190
+Data scientist,Redshift,6,0.0247
+Data scientist,Computer vision,6,0.0143
+Data scientist,C++,6,0.0245
+Data scientist,Salesforce,5,0.0188
+Data scientist,LangChain,5,0.0185
+Data scientist,Bioinformatics,5,0.0175
+Data scientist,Privacy regulation,5,0.0250
+Data scientist,Docker,5,0.0187
+Data scientist,Threat modeling,5,0.0106
+Data scientist,Customer focus,5,0.0187
+Data scientist,Scala,5,0.0130
+Data scientist,Accessibility,5,0.0237
+Data scientist,Hadoop,5,0.0134
+Designer & UX researcher,Prototyping,332,0.5601
+Designer & UX researcher,Collaboration,310,0.5337
+Designer & UX researcher,Communication,307,0.5210
+Designer & UX researcher,Cross-functional work,284,0.4887
+Designer & UX researcher,Figma,227,0.4266
+Designer & UX researcher,Mentoring,216,0.3561
+Designer & UX researcher,Leadership,211,0.3787
+Designer & UX researcher,Design systems,206,0.4059
+Designer & UX researcher,UX design,186,0.3336
+Designer & UX researcher,Presentation,168,0.2933
+Designer & UX researcher,UI design,164,0.2818
+Designer & UX researcher,Adobe Creative Suite,146,0.2417
+Designer & UX researcher,AI assistants,144,0.2706
+Designer & UX researcher,User research,105,0.2072
+Designer & UX researcher,Problem solving,94,0.1488
+Designer & UX researcher,Product strategy,89,0.1586
+Designer & UX researcher,Attention to detail,80,0.1402
+Designer & UX researcher,Motion design,76,0.1368
+Designer & UX researcher,Accessibility,75,0.1297
+Designer & UX researcher,A/B testing,74,0.1213
+Designer & UX researcher,AI agents,53,0.1081
+Designer & UX researcher,Adaptability,51,0.0942
+Designer & UX researcher,AI coding tools,50,0.0972
+Designer & UX researcher,CSS,42,0.0767
+Designer & UX researcher,CAD,42,0.0583
+Designer & UX researcher,Decision making,42,0.0735
+Designer & UX researcher,Ownership,39,0.0726
+Designer & UX researcher,HTML,38,0.0703
+Designer & UX researcher,Time management,38,0.0605
+Designer & UX researcher,Generative AI,37,0.0599
+Designer & UX researcher,Unreal Engine,37,0.0391
+Designer & UX researcher,LLMs,34,0.0592
+Designer & UX researcher,3D modeling,34,0.0390
+Designer & UX researcher,Social media marketing,32,0.0636
+Designer & UX researcher,System design,30,0.0440
+Designer & UX researcher,Content marketing,26,0.0357
+Designer & UX researcher,Brand strategy,26,0.0476
+Designer & UX researcher,Compensation & benefits,26,0.0415
+Designer & UX researcher,Python,25,0.0221
+Designer & UX researcher,Privacy regulation,23,0.0292
+Designer & UX researcher,Agile,22,0.0454
+Designer & UX researcher,People management,22,0.0401
+Designer & UX researcher,Process improvement,21,0.0350
+Designer & UX researcher,Critical thinking,21,0.0238
+Designer & UX researcher,Logistics,20,0.0340
+Designer & UX researcher,Digital marketing,20,0.0364
+Designer & UX researcher,Video production,20,0.0375
+Designer & UX researcher,JavaScript,19,0.0322
+Designer & UX researcher,Machine learning,19,0.0427
+Designer & UX researcher,Project management,19,0.0347
+Designer & UX researcher,Manufacturing engineering,18,0.0169
+Designer & UX researcher,Git,15,0.0290
+Designer & UX researcher,Prompt engineering,15,0.0342
+Designer & UX researcher,Stakeholder management,15,0.0249
+Designer & UX researcher,Customer focus,15,0.0348
+Designer & UX researcher,Copywriting,14,0.0215
+Designer & UX researcher,iOS,14,0.0246
+Designer & UX researcher,Android,14,0.0246
+Designer & UX researcher,Electrical engineering,14,0.0102
+Designer & UX researcher,Quality assurance,14,0.0191
+Designer & UX researcher,Data visualization,13,0.0295
+Designer & UX researcher,Data analysis,13,0.0256
+Designer & UX researcher,TypeScript,12,0.0173
+Designer & UX researcher,React,12,0.0225
+Designer & UX researcher,Observability,12,0.0279
+Designer & UX researcher,Unity,11,0.0106
+Designer & UX researcher,PCB design,11,0.0081
+Designer & UX researcher,FPGA,11,0.0081
+Designer & UX researcher,Growth marketing,10,0.0210
+Designer & UX researcher,Embedded systems,10,0.0090
+Designer & UX researcher,Accounting,9,0.0161
+Designer & UX researcher,ASIC design,9,0.0093
+Designer & UX researcher,Control systems,9,0.0076
+Designer & UX researcher,Jira,9,0.0139
+Designer & UX researcher,Product analytics,8,0.0186
+Designer & UX researcher,Excel,8,0.0117
+Designer & UX researcher,Strategic planning,8,0.0141
+Designer & UX researcher,SQL,8,0.0119
+Designer & UX researcher,Supply chain,8,0.0139
+Designer & UX researcher,C++,8,0.0074
+Designer & UX researcher,Customer support,8,0.0107
+Designer & UX researcher,Market research,7,0.0167
+Designer & UX researcher,Swift,7,0.0120
+Designer & UX researcher,Model evaluation,7,0.0122
+Designer & UX researcher,Risk management,7,0.0107
+Designer & UX researcher,Data pipelines,7,0.0150
+Designer & UX researcher,Technical writing,7,0.0099
+Designer & UX researcher,SolidWorks,7,0.0076
+Designer & UX researcher,Recruiting,6,0.0156
+Designer & UX researcher,Data structures & algorithms,6,0.0085
+Designer & UX researcher,Procurement,6,0.0094
+Designer & UX researcher,AutoCAD,6,0.0081
+Designer & UX researcher,C#,6,0.0044
+Designer & UX researcher,HR management,5,0.0107
+Designer & UX researcher,Regulatory compliance,5,0.0066
+Designer & UX researcher,Linux,5,0.0040
+Designer & UX researcher,Cybersecurity,5,0.0136
+Designer & UX researcher,NX,5,0.0062
+Designer & UX researcher,Roadmapping,5,0.0100
+Designer & UX researcher,Bash / shell,5,0.0035
+DevOps & SRE,Python,293,0.6352
+DevOps & SRE,Incident management,262,0.6175
+DevOps & SRE,Kubernetes,254,0.5792
+DevOps & SRE,Terraform,246,0.5688
+DevOps & SRE,Site reliability,228,0.4996
+DevOps & SRE,Observability,228,0.5286
+DevOps & SRE,Problem solving,221,0.4634
+DevOps & SRE,Communication,211,0.4427
+DevOps & SRE,Linux,211,0.4055
+DevOps & SRE,AWS,210,0.5550
+DevOps & SRE,Infrastructure as code,209,0.5017
+DevOps & SRE,Go,178,0.3743
+DevOps & SRE,CI/CD,172,0.4055
+DevOps & SRE,Cloud infrastructure,159,0.4032
+DevOps & SRE,Networking,153,0.2674
+DevOps & SRE,Collaboration,143,0.3469
+DevOps & SRE,Ansible,136,0.2629
+DevOps & SRE,Google Cloud,131,0.3349
+DevOps & SRE,DevOps,129,0.2969
+DevOps & SRE,Distributed systems,126,0.3010
+DevOps & SRE,Docker,124,0.2451
+DevOps & SRE,Prometheus,121,0.3031
+DevOps & SRE,Mentoring,114,0.2820
+DevOps & SRE,Bash / shell,114,0.2431
+DevOps & SRE,Azure,112,0.2678
+DevOps & SRE,Data center operations,95,0.1707
+DevOps & SRE,Git,93,0.2343
+DevOps & SRE,Cross-functional work,82,0.2200
+DevOps & SRE,Leadership,77,0.1905
+DevOps & SRE,Root cause analysis,73,0.1650
+DevOps & SRE,C++,61,0.0890
+DevOps & SRE,Process improvement,57,0.1390
+DevOps & SRE,Java,51,0.1376
+DevOps & SRE,Identity & access,51,0.1446
+DevOps & SRE,Datadog,49,0.1595
+DevOps & SRE,Machine learning,49,0.1049
+DevOps & SRE,Compensation & benefits,49,0.0607
+DevOps & SRE,Helm,45,0.1081
+DevOps & SRE,PostgreSQL,44,0.0884
+DevOps & SRE,Code review,43,0.1164
+DevOps & SRE,System design,43,0.0949
+DevOps & SRE,Privacy regulation,43,0.0620
+DevOps & SRE,Performance optimization,41,0.0989
+DevOps & SRE,Systems engineering,39,0.0764
+DevOps & SRE,SQL,37,0.0830
+DevOps & SRE,AI agents,35,0.0890
+DevOps & SRE,Kafka,35,0.0988
+DevOps & SRE,Rust,35,0.0547
+DevOps & SRE,AI assistants,33,0.1073
+DevOps & SRE,Embedded systems,32,0.0444
+DevOps & SRE,LLMs,31,0.0782
+DevOps & SRE,ClickHouse,30,0.0561
+DevOps & SRE,Electrical engineering,29,0.0441
+DevOps & SRE,Ownership,28,0.0551
+DevOps & SRE,C,27,0.0354
+DevOps & SRE,FedRAMP,26,0.0450
+DevOps & SRE,High-performance computing,26,0.0456
+DevOps & SRE,Ruby,25,0.0763
+DevOps & SRE,Data modeling,25,0.0194
+DevOps & SRE,Cybersecurity,24,0.0493
+DevOps & SRE,Cloud security,24,0.0473
+DevOps & SRE,Test automation,24,0.0518
+DevOps & SRE,Redis,24,0.0670
+DevOps & SRE,Attention to detail,23,0.0377
+DevOps & SRE,Microservices,23,0.0608
+DevOps & SRE,Change management,23,0.0655
+DevOps & SRE,Agile,22,0.0565
+DevOps & SRE,CAD,22,0.0433
+DevOps & SRE,AI coding tools,21,0.0633
+DevOps & SRE,MySQL,21,0.0451
+DevOps & SRE,Data pipelines,20,0.0584
+DevOps & SRE,Splunk,20,0.0345
+DevOps & SRE,Elasticsearch,20,0.0493
+DevOps & SRE,Time management,18,0.0519
+DevOps & SRE,Adaptability,17,0.0487
+DevOps & SRE,Supply chain,17,0.0439
+DevOps & SRE,Zero trust,17,0.0484
+DevOps & SRE,TypeScript,16,0.0513
+DevOps & SRE,Forecasting,16,0.0321
+DevOps & SRE,Control systems,15,0.0238
+DevOps & SRE,SOC 2,14,0.0333
+DevOps & SRE,Prototyping,14,0.0293
+DevOps & SRE,C#,14,0.0346
+DevOps & SRE,Test engineering,14,0.0216
+DevOps & SRE,Vulnerability management,13,0.0280
+DevOps & SRE,JavaScript,13,0.0293
+DevOps & SRE,Procurement,12,0.0235
+DevOps & SRE,Logistics,12,0.0258
+DevOps & SRE,Jira,12,0.0387
+DevOps & SRE,Cassandra,12,0.0207
+DevOps & SRE,Data analysis,12,0.0176
+DevOps & SRE,Spark,11,0.0309
+DevOps & SRE,Project management,11,0.0245
+DevOps & SRE,Mechanical design,11,0.0160
+DevOps & SRE,REST APIs,11,0.0279
+DevOps & SRE,Customer support,11,0.0204
+DevOps & SRE,Manufacturing engineering,11,0.0155
+DevOps & SRE,Critical thinking,11,0.0310
+DevOps & SRE,GPU computing,10,0.0207
+DevOps & SRE,Decision making,10,0.0248
+DevOps & SRE,Technical writing,9,0.0195
+DevOps & SRE,Airflow,9,0.0315
+DevOps & SRE,Power systems,9,0.0163
+DevOps & SRE,MongoDB,8,0.0304
+DevOps & SRE,MATLAB,8,0.0126
+DevOps & SRE,Flink,8,0.0169
+DevOps & SRE,Data governance,7,0.0136
+DevOps & SRE,Node.js,7,0.0338
+DevOps & SRE,Threat modeling,7,0.0119
+DevOps & SRE,Auditing,7,0.0191
+DevOps & SRE,Stakeholder management,7,0.0151
+DevOps & SRE,AutoCAD,7,0.0139
+DevOps & SRE,Regulatory compliance,7,0.0135
+DevOps & SRE,Scala,7,0.0127
+DevOps & SRE,NoSQL,7,0.0251
+DevOps & SRE,FEA,7,0.0042
+DevOps & SRE,People management,6,0.0133
+DevOps & SRE,Vector databases,6,0.0099
+DevOps & SRE,iOS,6,0.0192
+DevOps & SRE,Solution engineering,6,0.0059
+DevOps & SRE,Data structures & algorithms,6,0.0111
+DevOps & SRE,Sensor fusion,6,0.0077
+DevOps & SRE,Program management,6,0.0072
+DevOps & SRE,Robotics,6,0.0188
+DevOps & SRE,Snowflake,6,0.0152
+DevOps & SRE,Product strategy,6,0.0163
+DevOps & SRE,PLC programming,6,0.0100
+DevOps & SRE,MCP,5,0.0179
+DevOps & SRE,Salesforce,5,0.0190
+DevOps & SRE,Strategic planning,5,0.0123
+DevOps & SRE,Data warehousing,5,0.0212
+DevOps & SRE,DynamoDB,5,0.0252
+DevOps & SRE,Android,5,0.0192
+DevOps & SRE,Risk management,5,0.0071
+DevOps & SRE,Roadmapping,5,0.0173
+DevOps & SRE,Hadoop,5,0.0062
+DevOps & SRE,CUDA,5,0.0122
+Embedded & firmware engineer,Embedded systems,179,0.6907
+Embedded & firmware engineer,Electrical engineering,128,0.4465
+Embedded & firmware engineer,C,128,0.4971
+Embedded & firmware engineer,Python,120,0.4561
+Embedded & firmware engineer,Communication,116,0.4591
+Embedded & firmware engineer,C++,116,0.4835
+Embedded & firmware engineer,Collaboration,87,0.3342
+Embedded & firmware engineer,FPGA,85,0.3296
+Embedded & firmware engineer,Test engineering,77,0.2462
+Embedded & firmware engineer,ASIC design,76,0.2963
+Embedded & firmware engineer,Linux,70,0.2533
+Embedded & firmware engineer,Problem solving,64,0.2364
+Embedded & firmware engineer,Cross-functional work,58,0.2749
+Embedded & firmware engineer,Privacy regulation,49,0.0970
+Embedded & firmware engineer,Mentoring,48,0.2337
+Embedded & firmware engineer,Ownership,44,0.1295
+Embedded & firmware engineer,Prototyping,44,0.2020
+Embedded & firmware engineer,Test automation,40,0.1741
+Embedded & firmware engineer,CI/CD,38,0.1701
+Embedded & firmware engineer,Leadership,35,0.1850
+Embedded & firmware engineer,Rust,32,0.1027
+Embedded & firmware engineer,Compensation & benefits,32,0.1156
+Embedded & firmware engineer,Git,28,0.1025
+Embedded & firmware engineer,Bash / shell,28,0.1037
+Embedded & firmware engineer,Go,26,0.1074
+Embedded & firmware engineer,Process improvement,23,0.0879
+Embedded & firmware engineer,Root cause analysis,22,0.0793
+Embedded & firmware engineer,Data analysis,22,0.0923
+Embedded & firmware engineer,System design,22,0.1037
+Embedded & firmware engineer,Control systems,22,0.0769
+Embedded & firmware engineer,Code review,21,0.0856
+Embedded & firmware engineer,PCB design,18,0.0774
+Embedded & firmware engineer,MATLAB,17,0.0523
+Embedded & firmware engineer,Networking,16,0.0649
+Embedded & firmware engineer,Perl,16,0.0427
+Embedded & firmware engineer,Robotics,16,0.0767
+Embedded & firmware engineer,Data structures & algorithms,15,0.0793
+Embedded & firmware engineer,Machine learning,14,0.1028
+Embedded & firmware engineer,Performance optimization,12,0.0427
+Embedded & firmware engineer,Critical thinking,12,0.0471
+Embedded & firmware engineer,SQL,10,0.0466
+Embedded & firmware engineer,Manufacturing engineering,10,0.0372
+Embedded & firmware engineer,Time management,9,0.0333
+Embedded & firmware engineer,Observability,9,0.0549
+Embedded & firmware engineer,Haskell,9,0.0277
+Embedded & firmware engineer,Distributed systems,8,0.0389
+Embedded & firmware engineer,Agile,8,0.0296
+Embedded & firmware engineer,Technical writing,8,0.0467
+Embedded & firmware engineer,Supply chain,8,0.0352
+Embedded & firmware engineer,Workplace safety,8,0.0171
+Embedded & firmware engineer,Data center operations,8,0.0378
+Embedded & firmware engineer,Systems engineering,7,0.0250
+Embedded & firmware engineer,Power systems,7,0.0348
+Embedded & firmware engineer,Project management,7,0.0212
+Embedded & firmware engineer,High-performance computing,6,0.0318
+Embedded & firmware engineer,AI assistants,6,0.0493
+Embedded & firmware engineer,People management,6,0.0216
+Embedded & firmware engineer,Android,6,0.0336
+Embedded & firmware engineer,Cloud infrastructure,6,0.0322
+Embedded & firmware engineer,Program management,5,0.0183
+Embedded & firmware engineer,Computer vision,5,0.0123
+Embedded & firmware engineer,AI coding tools,5,0.0197
+Embedded & firmware engineer,Thermal engineering,5,0.0167
+Embedded & firmware engineer,Decision making,5,0.0375
+Embedded & firmware engineer,Attention to detail,5,0.0214
+Embedded & firmware engineer,FP&A,5,0.0260
+Embedded & firmware engineer,Mechanical design,5,0.0144
+Finance & accounting,Accounting,588,0.7086
+Finance & accounting,Communication,535,0.6509
+Finance & accounting,Cross-functional work,381,0.4459
+Finance & accounting,Leadership,347,0.4365
+Finance & accounting,Excel,298,0.3577
+Finance & accounting,Auditing,291,0.3510
+Finance & accounting,Attention to detail,276,0.3508
+Finance & accounting,FP&A,275,0.3446
+Finance & accounting,Process improvement,266,0.3145
+Finance & accounting,Collaboration,242,0.3107
+Finance & accounting,ERP,241,0.2832
+Finance & accounting,Problem solving,219,0.2613
+Finance & accounting,Financial modeling,195,0.2315
+Finance & accounting,SQL,194,0.2188
+Finance & accounting,Forecasting,189,0.2314
+Finance & accounting,NetSuite,179,0.2380
+Finance & accounting,AI assistants,169,0.2345
+Finance & accounting,Financial analysis,154,0.1799
+Finance & accounting,Data analysis,147,0.1758
+Finance & accounting,Decision making,141,0.1733
+Finance & accounting,Mentoring,133,0.1588
+Finance & accounting,Critical thinking,114,0.1368
+Finance & accounting,Ownership,109,0.1359
+Finance & accounting,Time management,105,0.1322
+Finance & accounting,Procurement,101,0.1217
+Finance & accounting,Python,93,0.1098
+Finance & accounting,Tax,92,0.1233
+Finance & accounting,Presentation,90,0.1076
+Finance & accounting,Risk management,82,0.0951
+Finance & accounting,Mergers & acquisitions,75,0.0991
+Finance & accounting,Compensation & benefits,73,0.0756
+Finance & accounting,Supply chain,66,0.0568
+Finance & accounting,SAP,65,0.0696
+Finance & accounting,Privacy regulation,64,0.0475
+Finance & accounting,Project management,59,0.0714
+Finance & accounting,Regulatory compliance,58,0.0712
+Finance & accounting,Workday,58,0.0782
+Finance & accounting,Adaptability,51,0.0599
+Finance & accounting,Tableau,51,0.0555
+Finance & accounting,Data governance,49,0.0593
+Finance & accounting,Payroll,48,0.0725
+Finance & accounting,Data center operations,47,0.0379
+Finance & accounting,Stakeholder management,47,0.0534
+Finance & accounting,Logistics,47,0.0397
+Finance & accounting,AI agents,44,0.0648
+Finance & accounting,Cloud infrastructure,44,0.0462
+Finance & accounting,Salesforce,41,0.0528
+Finance & accounting,Negotiation,40,0.0439
+Finance & accounting,LLMs,40,0.0550
+Finance & accounting,Operations management,37,0.0500
+Finance & accounting,Business intelligence,37,0.0478
+Finance & accounting,Data pipelines,34,0.0374
+Finance & accounting,People management,32,0.0392
+Finance & accounting,Program management,32,0.0287
+Finance & accounting,Machine learning,31,0.0295
+Finance & accounting,Looker,31,0.0383
+Finance & accounting,Change management,31,0.0383
+Finance & accounting,Pricing strategy,30,0.0355
+Finance & accounting,Investment analysis,30,0.0318
+Finance & accounting,Power BI,30,0.0309
+Finance & accounting,Customer support,29,0.0373
+Finance & accounting,Root cause analysis,28,0.0299
+Finance & accounting,Strategic planning,28,0.0405
+Finance & accounting,Generative AI,28,0.0284
+Finance & accounting,Cybersecurity,27,0.0335
+Finance & accounting,Revenue operations,27,0.0342
+Finance & accounting,HR management,26,0.0307
+Finance & accounting,Statistics,25,0.0326
+Finance & accounting,Snowflake,25,0.0285
+Finance & accounting,Vendor management,24,0.0295
+Finance & accounting,Agile,24,0.0311
+Finance & accounting,Data visualization,24,0.0275
+Finance & accounting,CRM,23,0.0270
+Finance & accounting,R,17,0.0218
+Finance & accounting,Account management,17,0.0185
+Finance & accounting,Product strategy,17,0.0227
+Finance & accounting,Market research,17,0.0177
+Finance & accounting,Databricks,16,0.0174
+Finance & accounting,SOC 2,16,0.0212
+Finance & accounting,AWS,15,0.0175
+Finance & accounting,Jira,15,0.0184
+Finance & accounting,CAD,14,0.0177
+Finance & accounting,Inventory management,14,0.0154
+Finance & accounting,AML / KYC,14,0.0143
+Finance & accounting,Data warehousing,13,0.0187
+Finance & accounting,Quality assurance,12,0.0179
+Finance & accounting,BigQuery,12,0.0143
+Finance & accounting,FedRAMP,12,0.0168
+Finance & accounting,Contract negotiation,12,0.0124
+Finance & accounting,Google Cloud,12,0.0149
+Finance & accounting,AI coding tools,11,0.0165
+Finance & accounting,System design,11,0.0167
+Finance & accounting,Accessibility,11,0.0103
+Finance & accounting,Git,10,0.0134
+Finance & accounting,Business development,10,0.0122
+Finance & accounting,Cloud security,10,0.0153
+Finance & accounting,CI/CD,9,0.0121
+Finance & accounting,Roadmapping,9,0.0134
+Finance & accounting,Partnerships,8,0.0121
+Finance & accounting,dbt,8,0.0088
+Finance & accounting,Recruiting,8,0.0136
+Finance & accounting,B2B sales,7,0.0108
+Finance & accounting,Prototyping,7,0.0069
+Finance & accounting,Quantitative trading,7,0.0086
+Finance & accounting,A/B testing,6,0.0085
+Finance & accounting,Azure,6,0.0057
+Finance & accounting,Incident management,6,0.0058
+Finance & accounting,Zendesk,6,0.0054
+Finance & accounting,Test automation,5,0.0077
+Finance & accounting,Data modeling,5,0.0053
+Finance & accounting,Technical writing,5,0.0066
+Finance & accounting,Identity & access,5,0.0054
+Finance & accounting,Customer focus,5,0.0075
+Finance & accounting,Data structures & algorithms,5,0.0097
+Finance & accounting,Vulnerability management,5,0.0068
+Finance & accounting,Observability,5,0.0065
+Frontend engineer,React,116,0.8265
+Frontend engineer,TypeScript,107,0.7550
+Frontend engineer,Communication,64,0.4556
+Frontend engineer,JavaScript,61,0.4231
+Frontend engineer,Collaboration,57,0.4262
+Frontend engineer,Code review,53,0.3768
+Frontend engineer,Mentoring,49,0.3482
+Frontend engineer,CSS,41,0.3043
+Frontend engineer,Accessibility,34,0.2475
+Frontend engineer,AI coding tools,33,0.2383
+Frontend engineer,Leadership,33,0.2290
+Frontend engineer,Cross-functional work,32,0.2276
+Frontend engineer,Observability,31,0.1880
+Frontend engineer,Design systems,31,0.2207
+Frontend engineer,A/B testing,27,0.1768
+Frontend engineer,AI assistants,26,0.2050
+Frontend engineer,Problem solving,26,0.1944
+Frontend engineer,HTML,23,0.1688
+Frontend engineer,Prototyping,23,0.1632
+Frontend engineer,UX design,20,0.1486
+Frontend engineer,CI/CD,20,0.1467
+Frontend engineer,Next.js,19,0.1573
+Frontend engineer,AWS,19,0.1535
+Frontend engineer,Incident management,18,0.1141
+Frontend engineer,Vue,18,0.1333
+Frontend engineer,Git,18,0.1247
+Frontend engineer,Data visualization,17,0.1365
+Frontend engineer,Test automation,17,0.1084
+Frontend engineer,Performance optimization,17,0.1193
+Frontend engineer,AI agents,16,0.1138
+Frontend engineer,Node.js,15,0.1187
+Frontend engineer,Angular,15,0.1116
+Frontend engineer,GraphQL,15,0.1073
+Frontend engineer,Machine learning,13,0.0903
+Frontend engineer,React Native,13,0.0961
+Frontend engineer,Ownership,12,0.0751
+Frontend engineer,Playwright,12,0.0806
+Frontend engineer,Python,11,0.0948
+Frontend engineer,System design,10,0.0776
+Frontend engineer,CAD,10,0.0752
+Frontend engineer,Agile,10,0.0835
+Frontend engineer,Figma,9,0.0628
+Frontend engineer,LLMs,9,0.0762
+Frontend engineer,Android,9,0.0621
+Frontend engineer,Privacy regulation,9,0.0373
+Frontend engineer,Docker,8,0.0536
+Frontend engineer,REST APIs,8,0.0592
+Frontend engineer,iOS,8,0.0579
+Frontend engineer,Kubernetes,8,0.0603
+Frontend engineer,Java,8,0.0766
+Frontend engineer,Google Cloud,7,0.0510
+Frontend engineer,Process improvement,7,0.0473
+Frontend engineer,Attention to detail,7,0.0392
+Frontend engineer,Generative AI,7,0.0419
+Frontend engineer,Compensation & benefits,7,0.0601
+Frontend engineer,Go,6,0.0555
+Frontend engineer,Data structures & algorithms,6,0.0510
+Frontend engineer,Kotlin,6,0.0478
+Frontend engineer,Distributed systems,6,0.0460
+Frontend engineer,Identity & access,6,0.0358
+Frontend engineer,Azure,5,0.0351
+Frontend engineer,Adaptability,5,0.0407
+Frontend engineer,Salesforce,5,0.0372
+Frontend engineer,SEO,5,0.0403
+Frontend engineer,Supply chain,5,0.0286
+Frontend engineer,Cypress,5,0.0283
+Hardware & mechanical engineer,Communication,1316,0.4987
+Hardware & mechanical engineer,Problem solving,1062,0.3945
+Hardware & mechanical engineer,Python,966,0.3957
+Hardware & mechanical engineer,Cross-functional work,913,0.3810
+Hardware & mechanical engineer,Electrical engineering,864,0.2657
+Hardware & mechanical engineer,Privacy regulation,854,0.1024
+Hardware & mechanical engineer,Mechanical design,831,0.2163
+Hardware & mechanical engineer,Manufacturing engineering,756,0.2030
+Hardware & mechanical engineer,Collaboration,750,0.3196
+Hardware & mechanical engineer,Root cause analysis,744,0.2510
+Hardware & mechanical engineer,CAD,737,0.1931
+Hardware & mechanical engineer,Test engineering,695,0.1859
+Hardware & mechanical engineer,Leadership,692,0.2749
+Hardware & mechanical engineer,Prototyping,689,0.2207
+Hardware & mechanical engineer,Process improvement,642,0.1983
+Hardware & mechanical engineer,Data analysis,512,0.1359
+Hardware & mechanical engineer,Mentoring,487,0.2211
+Hardware & mechanical engineer,MATLAB,466,0.0853
+Hardware & mechanical engineer,Embedded systems,437,0.1721
+Hardware & mechanical engineer,Supply chain,434,0.1204
+Hardware & mechanical engineer,NX,422,0.0787
+Hardware & mechanical engineer,System design,400,0.1319
+Hardware & mechanical engineer,C++,398,0.1169
+Hardware & mechanical engineer,Control systems,384,0.0887
+Hardware & mechanical engineer,GD&T,377,0.0919
+Hardware & mechanical engineer,Robotics,363,0.1101
+Hardware & mechanical engineer,Power systems,342,0.1033
+Hardware & mechanical engineer,PCB design,340,0.1010
+Hardware & mechanical engineer,FEA,335,0.0800
+Hardware & mechanical engineer,Systems engineering,328,0.1472
+Hardware & mechanical engineer,Linux,299,0.1386
+Hardware & mechanical engineer,CNC machining,296,0.0559
+Hardware & mechanical engineer,Quality assurance,296,0.0856
+Hardware & mechanical engineer,Test automation,287,0.0988
+Hardware & mechanical engineer,Ownership,282,0.0830
+Hardware & mechanical engineer,Welding,265,0.0585
+Hardware & mechanical engineer,SolidWorks,243,0.0720
+Hardware & mechanical engineer,C,238,0.0742
+Hardware & mechanical engineer,Attention to detail,227,0.0926
+Hardware & mechanical engineer,SQL,218,0.1042
+Hardware & mechanical engineer,Project management,210,0.0612
+Hardware & mechanical engineer,ERP,191,0.0510
+Hardware & mechanical engineer,Materials science,190,0.0365
+Hardware & mechanical engineer,Blueprint reading,187,0.0455
+Hardware & mechanical engineer,Jira,183,0.0846
+Hardware & mechanical engineer,Risk management,182,0.0771
+Hardware & mechanical engineer,Procurement,178,0.0507
+Hardware & mechanical engineer,Compensation & benefits,173,0.0623
+Hardware & mechanical engineer,Thermal engineering,169,0.0523
+Hardware & mechanical engineer,Time management,164,0.0696
+Hardware & mechanical engineer,PLC programming,158,0.0511
+Hardware & mechanical engineer,Data center operations,155,0.0928
+Hardware & mechanical engineer,Git,150,0.0718
+Hardware & mechanical engineer,FPGA,146,0.0363
+Hardware & mechanical engineer,Additive manufacturing,145,0.0289
+Hardware & mechanical engineer,Critical thinking,139,0.0421
+Hardware & mechanical engineer,Decision making,139,0.0450
+Hardware & mechanical engineer,Technical writing,132,0.0561
+Hardware & mechanical engineer,AutoCAD,131,0.0353
+Hardware & mechanical engineer,Statistics,129,0.0467
+Hardware & mechanical engineer,Workplace safety,129,0.0361
+Hardware & mechanical engineer,Program management,125,0.0339
+Hardware & mechanical engineer,CI/CD,118,0.0785
+Hardware & mechanical engineer,Incident management,117,0.1104
+Hardware & mechanical engineer,Machine learning,114,0.0610
+Hardware & mechanical engineer,RF engineering,111,0.0239
+Hardware & mechanical engineer,Bash / shell,107,0.1040
+Hardware & mechanical engineer,Regulatory compliance,104,0.0347
+Hardware & mechanical engineer,Go,100,0.0591
+Hardware & mechanical engineer,CATIA,96,0.0279
+Hardware & mechanical engineer,Rust,94,0.0309
+Hardware & mechanical engineer,Sensor fusion,92,0.0197
+Hardware & mechanical engineer,ASIC design,86,0.0307
+Hardware & mechanical engineer,Kubernetes,85,0.0708
+Hardware & mechanical engineer,Logistics,85,0.0343
+Hardware & mechanical engineer,Change management,84,0.0525
+Hardware & mechanical engineer,Adaptability,83,0.0341
+Hardware & mechanical engineer,Presentation,80,0.0327
+Hardware & mechanical engineer,AI agents,77,0.0620
+Hardware & mechanical engineer,Observability,76,0.0841
+Hardware & mechanical engineer,AWS,75,0.0866
+Hardware & mechanical engineer,Excel,74,0.0304
+Hardware & mechanical engineer,R,73,0.0191
+Hardware & mechanical engineer,C#,71,0.0163
+Hardware & mechanical engineer,Cloud infrastructure,69,0.0865
+Hardware & mechanical engineer,Distributed systems,68,0.0575
+Hardware & mechanical engineer,JavaScript,67,0.0492
+Hardware & mechanical engineer,AI assistants,63,0.0877
+Hardware & mechanical engineer,Business development,62,0.0126
+Hardware & mechanical engineer,Docker,61,0.0350
+Hardware & mechanical engineer,Data governance,61,0.0335
+Hardware & mechanical engineer,Code review,59,0.0434
+Hardware & mechanical engineer,Data pipelines,58,0.0525
+Hardware & mechanical engineer,Agile,57,0.0516
+Hardware & mechanical engineer,HVAC,57,0.0195
+Hardware & mechanical engineer,Infrastructure as code,54,0.0748
+Hardware & mechanical engineer,Terraform,54,0.0783
+Hardware & mechanical engineer,Customer support,54,0.0269
+Hardware & mechanical engineer,Strategic planning,54,0.0254
+Hardware & mechanical engineer,TypeScript,53,0.0544
+Hardware & mechanical engineer,High-performance computing,53,0.0375
+Hardware & mechanical engineer,Performance optimization,53,0.0435
+Hardware & mechanical engineer,Design systems,52,0.0411
+Hardware & mechanical engineer,Data visualization,52,0.0135
+Hardware & mechanical engineer,Java,52,0.0380
+Hardware & mechanical engineer,Networking,51,0.0362
+Hardware & mechanical engineer,Stakeholder management,51,0.0157
+Hardware & mechanical engineer,Auditing,50,0.0373
+Hardware & mechanical engineer,Cybersecurity,49,0.0291
+Hardware & mechanical engineer,3D modeling,49,0.0155
+Hardware & mechanical engineer,Ansible,45,0.0432
+Hardware & mechanical engineer,Computer vision,45,0.0063
+Hardware & mechanical engineer,SAP,45,0.0120
+Hardware & mechanical engineer,People management,42,0.0236
+Hardware & mechanical engineer,PostgreSQL,41,0.0428
+Hardware & mechanical engineer,React,39,0.0398
+Hardware & mechanical engineer,Azure,39,0.0409
+Hardware & mechanical engineer,A/B testing,39,0.0242
+Hardware & mechanical engineer,Operations management,38,0.0131
+Hardware & mechanical engineer,REST APIs,37,0.0240
+Hardware & mechanical engineer,DevOps,37,0.0339
+Hardware & mechanical engineer,Negotiation,37,0.0161
+Hardware & mechanical engineer,NetSuite,34,0.0168
+Hardware & mechanical engineer,Accessibility,34,0.0344
+Hardware & mechanical engineer,Ruby,34,0.0188
+Hardware & mechanical engineer,Prometheus,33,0.0271
+Hardware & mechanical engineer,Google Cloud,32,0.0530
+Hardware & mechanical engineer,Power BI,32,0.0074
+Hardware & mechanical engineer,Identity & access,31,0.0634
+Hardware & mechanical engineer,AI coding tools,31,0.0307
+Hardware & mechanical engineer,LLMs,31,0.0305
+Hardware & mechanical engineer,Forecasting,30,0.0261
+Hardware & mechanical engineer,HR management,28,0.0176
+Hardware & mechanical engineer,Site reliability,28,0.0409
+Hardware & mechanical engineer,Roadmapping,26,0.0107
+Hardware & mechanical engineer,Tableau,26,0.0046
+Hardware & mechanical engineer,Data structures & algorithms,26,0.0146
+Hardware & mechanical engineer,Vendor management,25,0.0198
+Hardware & mechanical engineer,SEO,24,0.0124
+Hardware & mechanical engineer,FP&A,24,0.0107
+Hardware & mechanical engineer,.NET,23,0.0056
+Hardware & mechanical engineer,Salesforce,22,0.0379
+Hardware & mechanical engineer,CSS,20,0.0301
+Hardware & mechanical engineer,Solution engineering,20,0.0100
+Hardware & mechanical engineer,RAG,18,0.0086
+Hardware & mechanical engineer,gRPC,18,0.0048
+Hardware & mechanical engineer,Accounting,18,0.0157
+Hardware & mechanical engineer,UX design,17,0.0229
+Hardware & mechanical engineer,Partnerships,17,0.0039
+Hardware & mechanical engineer,Snowflake,16,0.0199
+Hardware & mechanical engineer,Kafka,16,0.0160
+Hardware & mechanical engineer,Intellectual property,16,0.0018
+Hardware & mechanical engineer,FedRAMP,15,0.0104
+Hardware & mechanical engineer,Redis,14,0.0224
+Hardware & mechanical engineer,NoSQL,14,0.0121
+Hardware & mechanical engineer,Mergers & acquisitions,14,0.0120
+Hardware & mechanical engineer,Recruiting,13,0.0122
+Hardware & mechanical engineer,MCP,13,0.0238
+Hardware & mechanical engineer,Data warehousing,13,0.0148
+Hardware & mechanical engineer,Generative AI,13,0.0176
+Hardware & mechanical engineer,CRM,12,0.0253
+Hardware & mechanical engineer,Revenue operations,12,0.0256
+Hardware & mechanical engineer,Figma,12,0.0272
+Hardware & mechanical engineer,MySQL,12,0.0178
+Hardware & mechanical engineer,Zero trust,12,0.0164
+Hardware & mechanical engineer,Angular,12,0.0015
+Hardware & mechanical engineer,Business intelligence,12,0.0071
+Hardware & mechanical engineer,Unity,12,0.0045
+Hardware & mechanical engineer,HTML,11,0.0104
+Hardware & mechanical engineer,Android,11,0.0258
+Hardware & mechanical engineer,Datadog,11,0.0172
+Hardware & mechanical engineer,Construction management,11,0.0029
+Hardware & mechanical engineer,Data modeling,11,0.0092
+Hardware & mechanical engineer,Inventory management,11,0.0084
+Hardware & mechanical engineer,GraphQL,10,0.0104
+Hardware & mechanical engineer,UI design,10,0.0118
+Hardware & mechanical engineer,SOC 2,10,0.0155
+Hardware & mechanical engineer,Databricks,10,0.0044
+Hardware & mechanical engineer,Unreal Engine,10,0.0011
+Hardware & mechanical engineer,Node.js,9,0.0093
+Hardware & mechanical engineer,Perl,9,0.0071
+Hardware & mechanical engineer,BigQuery,9,0.0124
+Hardware & mechanical engineer,iOS,9,0.0218
+Hardware & mechanical engineer,Product strategy,9,0.0066
+Hardware & mechanical engineer,Prompt engineering,8,0.0161
+Hardware & mechanical engineer,CUDA,8,0.0041
+Hardware & mechanical engineer,ClickHouse,8,0.0042
+Hardware & mechanical engineer,Scala,8,0.0010
+Hardware & mechanical engineer,Spark,7,0.0045
+Hardware & mechanical engineer,Haskell,7,0.0008
+Hardware & mechanical engineer,Market research,7,0.0008
+Hardware & mechanical engineer,Workday,7,0.0119
+Hardware & mechanical engineer,Marketing automation,6,0.0108
+Hardware & mechanical engineer,Elasticsearch,6,0.0088
+Hardware & mechanical engineer,Zendesk,6,0.0103
+Hardware & mechanical engineer,GPU computing,6,0.0073
+Hardware & mechanical engineer,Reinforcement learning,6,0.0011
+Hardware & mechanical engineer,dbt,6,0.0064
+Hardware & mechanical engineer,FDA regulation,6,0.0029
+Hardware & mechanical engineer,Contract negotiation,6,0.0039
+Hardware & mechanical engineer,MongoDB,6,0.0141
+Hardware & mechanical engineer,Deep learning,5,0.0045
+Hardware & mechanical engineer,Molecular biology,5,0.0058
+Hardware & mechanical engineer,Cryptography,5,0.0017
+Hardware & mechanical engineer,Pandas,5,0.0006
+Hardware & mechanical engineer,Playwright,5,0.0099
+Health & life sciences,Mentoring,303,0.3297
+Health & life sciences,Patient care,282,0.2574
+Health & life sciences,Communication,265,0.4812
+Health & life sciences,Collaboration,211,0.3895
+Health & life sciences,Therapy & counselling,176,0.1863
+Health & life sciences,Leadership,110,0.2658
+Health & life sciences,dbt,110,0.0869
+Health & life sciences,Process improvement,101,0.1402
+Health & life sciences,Problem solving,100,0.1659
+Health & life sciences,Privacy regulation,82,0.1498
+Health & life sciences,Cross-functional work,79,0.2335
+Health & life sciences,Quality assurance,67,0.0956
+Health & life sciences,Phlebotomy,67,0.0639
+Health & life sciences,EHR systems,59,0.1161
+Health & life sciences,Customer support,56,0.0682
+Health & life sciences,Data analysis,51,0.1211
+Health & life sciences,Attention to detail,46,0.0943
+Health & life sciences,Time management,43,0.0940
+Health & life sciences,C,42,0.0407
+Health & life sciences,Customer focus,39,0.0248
+Health & life sciences,Clinical research,35,0.0925
+Health & life sciences,Adaptability,33,0.0363
+Health & life sciences,Decision making,29,0.0793
+Health & life sciences,Compensation & benefits,27,0.0378
+Health & life sciences,Excel,26,0.0636
+Health & life sciences,Molecular biology,26,0.0529
+Health & life sciences,Presentation,26,0.0422
+Health & life sciences,Risk management,24,0.0633
+Health & life sciences,Ownership,23,0.0488
+Health & life sciences,Project management,23,0.0751
+Health & life sciences,Critical thinking,22,0.0544
+Health & life sciences,Python,19,0.0901
+Health & life sciences,Bioinformatics,19,0.0642
+Health & life sciences,Regulatory compliance,18,0.0496
+Health & life sciences,Logistics,17,0.0558
+Health & life sciences,People management,16,0.0645
+Health & life sciences,SQL,16,0.0542
+Health & life sciences,Salesforce,16,0.0379
+Health & life sciences,R,15,0.0446
+Health & life sciences,Root cause analysis,15,0.0188
+Health & life sciences,Statistics,15,0.0330
+Health & life sciences,Machine learning,14,0.0650
+Health & life sciences,FDA regulation,14,0.0334
+Health & life sciences,AI assistants,13,0.0677
+Health & life sciences,Business development,13,0.0376
+Health & life sciences,HR management,12,0.0458
+Health & life sciences,Prototyping,11,0.0472
+Health & life sciences,CRM,11,0.0147
+Health & life sciences,Product strategy,10,0.0315
+Health & life sciences,GMP / GLP,10,0.0230
+Health & life sciences,Forecasting,9,0.0433
+Health & life sciences,Data governance,9,0.0239
+Health & life sciences,Medical billing,8,0.0300
+Health & life sciences,Supply chain,8,0.0252
+Health & life sciences,Change management,7,0.0279
+Health & life sciences,Stakeholder management,7,0.0155
+Health & life sciences,Operations management,7,0.0161
+Health & life sciences,Incident management,6,0.0255
+Health & life sciences,Google Cloud,6,0.0217
+Health & life sciences,Auditing,6,0.0196
+Health & life sciences,Inventory management,6,0.0165
+Health & life sciences,Partnerships,6,0.0169
+Health & life sciences,Strategic planning,6,0.0111
+Health & life sciences,Tableau,6,0.0129
+Health & life sciences,AI agents,5,0.0183
+Health & life sciences,Roadmapping,5,0.0217
+Health & life sciences,Electrical engineering,5,0.0355
+Health & life sciences,Embedded systems,5,0.0308
+Health & life sciences,Program management,5,0.0187
+Health & life sciences,LLMs,5,0.0256
+Health & life sciences,A/B testing,5,0.0320
+Health & life sciences,Prospecting,5,0.0065
+Health & life sciences,Workplace safety,5,0.0129
+Legal & compliance,Communication,545,0.6452
+Legal & compliance,Cross-functional work,449,0.5240
+Legal & compliance,Collaboration,353,0.4003
+Legal & compliance,Leadership,285,0.3512
+Legal & compliance,Risk management,245,0.2670
+Legal & compliance,Negotiation,209,0.2665
+Legal & compliance,Regulatory compliance,200,0.2231
+Legal & compliance,Attention to detail,198,0.2450
+Legal & compliance,Problem solving,159,0.1753
+Legal & compliance,AI assistants,156,0.2030
+Legal & compliance,Process improvement,143,0.1472
+Legal & compliance,AML / KYC,140,0.1307
+Legal & compliance,Mergers & acquisitions,129,0.1489
+Legal & compliance,Privacy regulation,129,0.1820
+Legal & compliance,Mentoring,128,0.1548
+Legal & compliance,Ownership,124,0.1450
+Legal & compliance,Legal drafting,111,0.1323
+Legal & compliance,Procurement,100,0.1368
+Legal & compliance,SQL,97,0.0981
+Legal & compliance,Data analysis,92,0.0957
+Legal & compliance,Time management,89,0.1107
+Legal & compliance,Auditing,87,0.0954
+Legal & compliance,Decision making,81,0.0860
+Legal & compliance,Critical thinking,80,0.0946
+Legal & compliance,Cybersecurity,80,0.1011
+Legal & compliance,Intellectual property,77,0.1018
+Legal & compliance,Project management,74,0.0971
+Legal & compliance,Adaptability,73,0.0854
+Legal & compliance,Stakeholder management,72,0.0772
+Legal & compliance,Accounting,66,0.0753
+Legal & compliance,Machine learning,61,0.0806
+Legal & compliance,Therapy & counselling,60,0.0869
+Legal & compliance,Excel,58,0.0672
+Legal & compliance,Data governance,56,0.0679
+Legal & compliance,Python,55,0.0577
+Legal & compliance,Compensation & benefits,54,0.0588
+Legal & compliance,Logistics,53,0.0567
+Legal & compliance,Root cause analysis,53,0.0512
+Legal & compliance,Contract negotiation,52,0.0634
+Legal & compliance,AI agents,48,0.0572
+Legal & compliance,Cloud infrastructure,42,0.0492
+Legal & compliance,Incident management,42,0.0475
+Legal & compliance,Presentation,40,0.0511
+Legal & compliance,Fraud detection,39,0.0382
+Legal & compliance,Business development,37,0.0406
+Legal & compliance,Customer support,36,0.0417
+Legal & compliance,Supply chain,35,0.0451
+Legal & compliance,LLMs,34,0.0363
+Legal & compliance,Program management,34,0.0369
+Legal & compliance,Quality assurance,33,0.0322
+Legal & compliance,SOC 2,31,0.0429
+Legal & compliance,FedRAMP,31,0.0452
+Legal & compliance,Generative AI,31,0.0354
+Legal & compliance,Data center operations,31,0.0313
+Legal & compliance,People management,30,0.0353
+Legal & compliance,HR management,30,0.0393
+Legal & compliance,Jira,29,0.0391
+Legal & compliance,Salesforce,29,0.0464
+Legal & compliance,Strategic planning,29,0.0326
+Legal & compliance,Forecasting,26,0.0267
+Legal & compliance,Operations management,26,0.0235
+Legal & compliance,Partnerships,24,0.0306
+Legal & compliance,Change management,23,0.0230
+Legal & compliance,Agile,22,0.0304
+Legal & compliance,Account management,21,0.0207
+Legal & compliance,CAD,19,0.0231
+Legal & compliance,Revenue operations,19,0.0315
+Legal & compliance,Recruiting,18,0.0232
+Legal & compliance,CRM,16,0.0238
+Legal & compliance,B2B sales,16,0.0232
+Legal & compliance,ERP,15,0.0166
+Legal & compliance,Social media marketing,15,0.0173
+Legal & compliance,FP&A,15,0.0168
+Legal & compliance,Data visualization,15,0.0111
+Legal & compliance,Product strategy,15,0.0123
+Legal & compliance,Data pipelines,15,0.0160
+Legal & compliance,Roadmapping,14,0.0152
+Legal & compliance,Payroll,14,0.0202
+Legal & compliance,Tax,13,0.0188
+Legal & compliance,Looker,13,0.0120
+Legal & compliance,Statistics,13,0.0116
+Legal & compliance,Prototyping,13,0.0142
+Legal & compliance,Tableau,13,0.0130
+Legal & compliance,Ruby,12,0.0100
+Legal & compliance,Business intelligence,12,0.0104
+Legal & compliance,AWS,11,0.0122
+Legal & compliance,Vendor management,10,0.0139
+Legal & compliance,Technical writing,10,0.0113
+Legal & compliance,Prompt engineering,10,0.0126
+Legal & compliance,Threat modeling,10,0.0101
+Legal & compliance,Observability,10,0.0123
+Legal & compliance,Investment analysis,9,0.0094
+Legal & compliance,Financial analysis,9,0.0120
+Legal & compliance,Accessibility,9,0.0116
+Legal & compliance,NetSuite,8,0.0119
+Legal & compliance,R,8,0.0068
+Legal & compliance,Penetration testing,7,0.0080
+Legal & compliance,Git,7,0.0105
+Legal & compliance,SAP,7,0.0080
+Legal & compliance,Workplace safety,7,0.0100
+Legal & compliance,System design,7,0.0068
+Legal & compliance,Google Cloud,6,0.0082
+Legal & compliance,Azure,6,0.0059
+Legal & compliance,Clinical research,6,0.0121
+Legal & compliance,FDA regulation,6,0.0103
+Legal & compliance,CI/CD,6,0.0047
+Legal & compliance,Robotics,6,0.0073
+Legal & compliance,Systems engineering,6,0.0043
+Legal & compliance,Quantitative trading,6,0.0061
+Legal & compliance,Workday,6,0.0100
+Legal & compliance,Fine-tuning,5,0.0064
+Legal & compliance,Construction management,5,0.0041
+Legal & compliance,Model evaluation,5,0.0043
+Legal & compliance,A/B testing,5,0.0055
+Legal & compliance,Cloud security,5,0.0069
+Legal & compliance,Computer vision,5,0.0037
+Legal & compliance,Sensor fusion,5,0.0037
+Legal & compliance,Power BI,5,0.0062
+Legal & compliance,Public relations,5,0.0076
+Machine learning engineer,Machine learning,789,0.7491
+Machine learning engineer,Python,688,0.6640
+Machine learning engineer,LLMs,565,0.5582
+Machine learning engineer,Communication,396,0.3821
+Machine learning engineer,AI agents,364,0.3857
+Machine learning engineer,Collaboration,336,0.3303
+Machine learning engineer,Mentoring,329,0.3299
+Machine learning engineer,PyTorch,307,0.2954
+Machine learning engineer,Cross-functional work,290,0.2896
+Machine learning engineer,A/B testing,265,0.2640
+Machine learning engineer,Deep learning,262,0.2391
+Machine learning engineer,Prototyping,256,0.2545
+Machine learning engineer,Leadership,246,0.2308
+Machine learning engineer,Observability,205,0.2187
+Machine learning engineer,Fine-tuning,203,0.1881
+Machine learning engineer,C++,195,0.1610
+Machine learning engineer,AWS,194,0.2434
+Machine learning engineer,Data pipelines,192,0.2017
+Machine learning engineer,Cloud infrastructure,192,0.1915
+Machine learning engineer,Model evaluation,188,0.1807
+Machine learning engineer,TensorFlow,174,0.1635
+Machine learning engineer,Distributed systems,163,0.1536
+Machine learning engineer,Reinforcement learning,162,0.1286
+Machine learning engineer,Statistics,150,0.1457
+Machine learning engineer,Kubernetes,146,0.1659
+Machine learning engineer,Generative AI,143,0.1384
+Machine learning engineer,Go,126,0.1220
+Machine learning engineer,SQL,125,0.1508
+Machine learning engineer,RAG,124,0.1596
+Machine learning engineer,Problem solving,122,0.1204
+Machine learning engineer,AI assistants,114,0.1511
+Machine learning engineer,Spark,110,0.1212
+Machine learning engineer,CI/CD,107,0.1379
+Machine learning engineer,JAX,104,0.0761
+Machine learning engineer,MLOps,104,0.1277
+Machine learning engineer,Google Cloud,103,0.1318
+Machine learning engineer,System design,101,0.1129
+Machine learning engineer,Prompt engineering,100,0.1134
+Machine learning engineer,Logistics,98,0.0420
+Machine learning engineer,Java,96,0.1034
+Machine learning engineer,Incident management,95,0.0914
+Machine learning engineer,Recommender systems,95,0.0837
+Machine learning engineer,NLP,91,0.0965
+Machine learning engineer,Robotics,89,0.0670
+Machine learning engineer,Data governance,88,0.0854
+Machine learning engineer,Computer vision,85,0.0809
+Machine learning engineer,Decision making,84,0.0783
+Machine learning engineer,Docker,83,0.1070
+Machine learning engineer,TypeScript,82,0.0799
+Machine learning engineer,Code review,80,0.0896
+Machine learning engineer,AI coding tools,74,0.0868
+Machine learning engineer,Solution engineering,73,0.0369
+Machine learning engineer,MCP,72,0.0909
+Machine learning engineer,LangChain,67,0.0926
+Machine learning engineer,Azure,66,0.0931
+Machine learning engineer,Vector databases,64,0.0884
+Machine learning engineer,Rust,61,0.0463
+Machine learning engineer,Git,59,0.0744
+Machine learning engineer,CUDA,59,0.0594
+Machine learning engineer,Data analysis,57,0.0577
+Machine learning engineer,JavaScript,55,0.0409
+Machine learning engineer,Linux,52,0.0447
+Machine learning engineer,scikit-learn,52,0.0634
+Machine learning engineer,Privacy regulation,51,0.0556
+Machine learning engineer,Performance optimization,48,0.0360
+Machine learning engineer,Kafka,48,0.0636
+Machine learning engineer,Forecasting,46,0.0542
+Machine learning engineer,Airflow,46,0.0602
+Machine learning engineer,Electrical engineering,44,0.0446
+Machine learning engineer,Pandas,43,0.0480
+Machine learning engineer,Ownership,43,0.0391
+Machine learning engineer,Infrastructure as code,42,0.0542
+Machine learning engineer,C,39,0.0368
+Machine learning engineer,Test automation,39,0.0386
+Machine learning engineer,Causal inference,38,0.0337
+Machine learning engineer,Snowflake,38,0.0555
+Machine learning engineer,Time management,37,0.0315
+Machine learning engineer,Agile,37,0.0478
+Machine learning engineer,PostgreSQL,37,0.0507
+Machine learning engineer,Terraform,37,0.0523
+Machine learning engineer,High-performance computing,35,0.0377
+Machine learning engineer,React,35,0.0414
+Machine learning engineer,Compensation & benefits,35,0.0504
+Machine learning engineer,Sensor fusion,34,0.0263
+Machine learning engineer,Databricks,33,0.0500
+Machine learning engineer,Data structures & algorithms,33,0.0331
+Machine learning engineer,Root cause analysis,32,0.0343
+Machine learning engineer,BigQuery,31,0.0359
+Machine learning engineer,Adaptability,31,0.0274
+Machine learning engineer,Penetration testing,30,0.0244
+Machine learning engineer,Process improvement,30,0.0361
+Machine learning engineer,Data warehousing,28,0.0383
+Machine learning engineer,Accessibility,28,0.0180
+Machine learning engineer,Customer support,27,0.0276
+Machine learning engineer,Microservices,26,0.0351
+Machine learning engineer,Identity & access,25,0.0319
+Machine learning engineer,Scala,25,0.0275
+Machine learning engineer,Roadmapping,23,0.0202
+Machine learning engineer,GPU computing,22,0.0242
+Machine learning engineer,Fraud detection,22,0.0230
+Machine learning engineer,Hugging Face,21,0.0231
+Machine learning engineer,Kotlin,21,0.0228
+Machine learning engineer,Cybersecurity,21,0.0138
+Machine learning engineer,Systems engineering,20,0.0156
+Machine learning engineer,Critical thinking,20,0.0182
+Machine learning engineer,CAD,20,0.0233
+Machine learning engineer,Salesforce,19,0.0291
+Machine learning engineer,CRM,19,0.0287
+Machine learning engineer,Procurement,19,0.0114
+Machine learning engineer,ERP,18,0.0216
+Machine learning engineer,People management,18,0.0111
+Machine learning engineer,Technical writing,17,0.0187
+Machine learning engineer,Data modeling,17,0.0213
+Machine learning engineer,Threat modeling,17,0.0133
+Machine learning engineer,Accounting,17,0.0186
+Machine learning engineer,Intellectual property,17,0.0143
+Machine learning engineer,FastAPI,17,0.0220
+Machine learning engineer,Design systems,16,0.0174
+Machine learning engineer,Application security,16,0.0126
+Machine learning engineer,Risk management,16,0.0221
+Machine learning engineer,Site reliability,16,0.0170
+Machine learning engineer,DevOps,16,0.0209
+Machine learning engineer,Redis,16,0.0176
+Machine learning engineer,Supply chain,16,0.0252
+Machine learning engineer,Quality assurance,16,0.0148
+Machine learning engineer,Auditing,15,0.0191
+Machine learning engineer,Stakeholder management,15,0.0140
+Machine learning engineer,Presentation,15,0.0142
+Machine learning engineer,Customer focus,15,0.0124
+Machine learning engineer,Hadoop,15,0.0102
+Machine learning engineer,Data visualization,14,0.0139
+Machine learning engineer,Bioinformatics,14,0.0138
+Machine learning engineer,Embedded systems,14,0.0139
+Machine learning engineer,Flink,14,0.0169
+Machine learning engineer,REST APIs,14,0.0188
+Machine learning engineer,Data center operations,13,0.0125
+Machine learning engineer,dbt,13,0.0210
+Machine learning engineer,Next.js,13,0.0124
+Machine learning engineer,Ruby,12,0.0172
+Machine learning engineer,Control systems,12,0.0109
+Machine learning engineer,Product strategy,12,0.0121
+Machine learning engineer,Prometheus,12,0.0139
+Machine learning engineer,ClickHouse,11,0.0132
+Machine learning engineer,Workday,11,0.0168
+Machine learning engineer,Quantitative trading,11,0.0111
+Machine learning engineer,Node.js,10,0.0153
+Machine learning engineer,Elasticsearch,10,0.0129
+Machine learning engineer,SOC 2,10,0.0123
+Machine learning engineer,Cloud security,9,0.0043
+Machine learning engineer,FedRAMP,9,0.0102
+Machine learning engineer,gRPC,9,0.0115
+Machine learning engineer,HR management,8,0.0124
+Machine learning engineer,Vulnerability management,8,0.0028
+Machine learning engineer,Revenue operations,8,0.0128
+Machine learning engineer,Strategic planning,8,0.0078
+Machine learning engineer,Jira,8,0.0125
+Machine learning engineer,FPGA,7,0.0053
+Machine learning engineer,Content marketing,7,0.0041
+Machine learning engineer,Recruiting,7,0.0089
+Machine learning engineer,GraphQL,7,0.0106
+Machine learning engineer,CSS,7,0.0059
+Machine learning engineer,R,7,0.0083
+Machine learning engineer,Iceberg,7,0.0081
+Machine learning engineer,Attention to detail,7,0.0086
+Machine learning engineer,Datadog,7,0.0098
+Machine learning engineer,FP&A,7,0.0078
+Machine learning engineer,C#,7,0.0094
+Machine learning engineer,Bash / shell,7,0.0080
+Machine learning engineer,Account management,6,0.0035
+Machine learning engineer,Swift,6,0.0039
+Machine learning engineer,Workplace safety,6,0.0024
+Machine learning engineer,Product analytics,6,0.0050
+Machine learning engineer,Change management,6,0.0073
+Machine learning engineer,Networking,6,0.0031
+Machine learning engineer,Looker,6,0.0071
+Machine learning engineer,SIEM,6,0.0047
+Machine learning engineer,iOS,6,0.0058
+Machine learning engineer,Android,6,0.0045
+Machine learning engineer,Angular,6,0.0081
+Machine learning engineer,Attribution modeling,6,0.0076
+Machine learning engineer,Project management,6,0.0073
+Machine learning engineer,Tableau,5,0.0058
+Machine learning engineer,Regulatory compliance,5,0.0039
+Machine learning engineer,ASIC design,5,0.0036
+Machine learning engineer,Redshift,5,0.0100
+Machine learning engineer,DynamoDB,5,0.0048
+Machine learning engineer,Helm,5,0.0058
+Machine learning engineer,UX design,5,0.0056
+Machine learning engineer,MATLAB,5,0.0043
+Machine learning engineer,Operations management,5,0.0066
+Machine learning engineer,Mechanical design,5,0.0064
+Machine learning engineer,SAP,5,0.0068
+Machine learning engineer,MySQL,5,0.0080
+Machine learning engineer,Unreal Engine,5,0.0044
+Machine learning engineer,NetSuite,5,0.0067
+Marketing & content,Communication,737,0.5207
+Marketing & content,Cross-functional work,708,0.5064
+Marketing & content,Leadership,609,0.4351
+Marketing & content,Collaboration,548,0.3864
+Marketing & content,Growth marketing,367,0.2786
+Marketing & content,Digital marketing,303,0.2280
+Marketing & content,Presentation,297,0.2015
+Marketing & content,Attention to detail,242,0.1648
+Marketing & content,AI assistants,237,0.1989
+Marketing & content,Project management,233,0.1699
+Marketing & content,Salesforce,226,0.1831
+Marketing & content,Time management,206,0.1437
+Marketing & content,Mentoring,206,0.1472
+Marketing & content,A/B testing,203,0.1557
+Marketing & content,Problem solving,198,0.1343
+Marketing & content,CRM,197,0.1607
+Marketing & content,Social media marketing,179,0.1209
+Marketing & content,Logistics,174,0.1182
+Marketing & content,Marketing automation,169,0.1361
+Marketing & content,Content marketing,162,0.1150
+Marketing & content,Ownership,146,0.1028
+Marketing & content,Critical thinking,124,0.0866
+Marketing & content,Adaptability,123,0.0846
+Marketing & content,Excel,121,0.0819
+Marketing & content,Email marketing,116,0.0957
+Marketing & content,Negotiation,115,0.0758
+Marketing & content,SQL,114,0.0764
+Marketing & content,Data analysis,108,0.0716
+Marketing & content,Decision making,103,0.0747
+Marketing & content,Brand strategy,100,0.0707
+Marketing & content,Stakeholder management,97,0.0653
+Marketing & content,SEO,92,0.0714
+Marketing & content,Event management,90,0.0656
+Marketing & content,AI agents,89,0.0636
+Marketing & content,Attribution modeling,89,0.0631
+Marketing & content,Pipeline management,87,0.0620
+Marketing & content,Prospecting,84,0.0644
+Marketing & content,Process improvement,81,0.0516
+Marketing & content,Forecasting,81,0.0602
+Marketing & content,Business development,80,0.0544
+Marketing & content,Generative AI,79,0.0403
+Marketing & content,Revenue operations,66,0.0564
+Marketing & content,Public relations,65,0.0507
+Marketing & content,Account management,65,0.0432
+Marketing & content,People management,62,0.0442
+Marketing & content,Adobe Creative Suite,59,0.0360
+Marketing & content,HubSpot,58,0.0647
+Marketing & content,Compensation & benefits,58,0.0425
+Marketing & content,Strategic planning,57,0.0399
+Marketing & content,Privacy regulation,57,0.0401
+Marketing & content,Tableau,56,0.0424
+Marketing & content,Copywriting,54,0.0406
+Marketing & content,Machine learning,54,0.0364
+Marketing & content,Program management,54,0.0354
+Marketing & content,Video production,54,0.0374
+Marketing & content,Google Analytics,53,0.0393
+Marketing & content,B2B sales,52,0.0392
+Marketing & content,Google Ads,51,0.0378
+Marketing & content,Procurement,50,0.0310
+Marketing & content,Market research,49,0.0328
+Marketing & content,CAD,46,0.0328
+Marketing & content,Partnerships,46,0.0359
+Marketing & content,LLMs,46,0.0345
+Marketing & content,Vendor management,43,0.0296
+Marketing & content,Data governance,41,0.0321
+Marketing & content,Looker,39,0.0342
+Marketing & content,FP&A,38,0.0285
+Marketing & content,Technical writing,37,0.0207
+Marketing & content,Customer support,37,0.0244
+Marketing & content,Operations management,36,0.0242
+Marketing & content,MEDDIC,35,0.0196
+Marketing & content,Business intelligence,35,0.0254
+Marketing & content,Influencer marketing,34,0.0224
+Marketing & content,Cybersecurity,33,0.0272
+Marketing & content,Recruiting,33,0.0343
+Marketing & content,Agile,32,0.0218
+Marketing & content,Cloud infrastructure,31,0.0225
+Marketing & content,AWS,31,0.0159
+Marketing & content,Python,31,0.0214
+Marketing & content,Figma,31,0.0211
+Marketing & content,Data pipelines,31,0.0205
+Marketing & content,Performance optimization,31,0.0252
+Marketing & content,Product strategy,29,0.0188
+Marketing & content,Data visualization,29,0.0195
+Marketing & content,AI coding tools,28,0.0217
+Marketing & content,Roadmapping,28,0.0160
+Marketing & content,Supply chain,28,0.0165
+Marketing & content,HR management,27,0.0173
+Marketing & content,Motion design,27,0.0126
+Marketing & content,Quality assurance,26,0.0144
+Marketing & content,Customer focus,25,0.0200
+Marketing & content,Prototyping,24,0.0161
+Marketing & content,Google Cloud,23,0.0098
+Marketing & content,Solution engineering,22,0.0181
+Marketing & content,Jira,22,0.0152
+Marketing & content,Contract negotiation,22,0.0160
+Marketing & content,Pricing strategy,22,0.0106
+Marketing & content,HTML,20,0.0160
+Marketing & content,Data warehousing,20,0.0155
+Marketing & content,Change management,20,0.0152
+Marketing & content,Azure,19,0.0076
+Marketing & content,Product analytics,19,0.0159
+Marketing & content,Git,18,0.0103
+Marketing & content,Financial modeling,18,0.0115
+Marketing & content,Statistics,17,0.0155
+Marketing & content,CSS,17,0.0135
+Marketing & content,Accounting,17,0.0159
+Marketing & content,Regulatory compliance,17,0.0136
+Marketing & content,Accessibility,16,0.0104
+Marketing & content,User research,16,0.0112
+Marketing & content,Outreach tools,16,0.0119
+Marketing & content,R,15,0.0116
+Marketing & content,Go,14,0.0058
+Marketing & content,JavaScript,13,0.0078
+Marketing & content,Snowflake,13,0.0113
+Marketing & content,Auditing,12,0.0091
+Marketing & content,Data center operations,12,0.0080
+Marketing & content,Risk management,11,0.0076
+Marketing & content,Databricks,10,0.0096
+Marketing & content,Incident management,9,0.0050
+Marketing & content,Design systems,9,0.0056
+Marketing & content,Root cause analysis,8,0.0054
+Marketing & content,Financial analysis,8,0.0078
+Marketing & content,Prompt engineering,8,0.0066
+Marketing & content,Power BI,8,0.0044
+Marketing & content,Data structures & algorithms,7,0.0062
+Marketing & content,Observability,7,0.0062
+Marketing & content,BigQuery,7,0.0056
+Marketing & content,MCP,7,0.0039
+Marketing & content,System design,7,0.0042
+Marketing & content,Spark,7,0.0031
+Marketing & content,Quantitative trading,7,0.0033
+Marketing & content,Inventory management,7,0.0044
+Marketing & content,UI design,7,0.0054
+Marketing & content,Workplace safety,7,0.0057
+Marketing & content,Mergers & acquisitions,6,0.0071
+Marketing & content,Robotics,6,0.0055
+Marketing & content,DevOps,5,0.0029
+Marketing & content,Blueprint reading,5,0.0029
+Marketing & content,dbt,5,0.0025
+Marketing & content,Zero trust,5,0.0032
+Marketing & content,FedRAMP,5,0.0041
+Mobile engineer,Android,140,0.6905
+Mobile engineer,Kotlin,121,0.6008
+Mobile engineer,iOS,115,0.6006
+Mobile engineer,Collaboration,98,0.4778
+Mobile engineer,Communication,93,0.4675
+Mobile engineer,Cross-functional work,88,0.4099
+Mobile engineer,Mentoring,86,0.4322
+Mobile engineer,Swift,85,0.4339
+Mobile engineer,Code review,66,0.3334
+Mobile engineer,Test automation,60,0.3116
+Mobile engineer,CI/CD,49,0.2560
+Mobile engineer,Problem solving,47,0.2180
+Mobile engineer,Leadership,42,0.2324
+Mobile engineer,React Native,41,0.2191
+Mobile engineer,Java,40,0.1748
+Mobile engineer,TypeScript,37,0.2087
+Mobile engineer,AI coding tools,29,0.1538
+Mobile engineer,Performance optimization,29,0.1192
+Mobile engineer,AI agents,28,0.1426
+Mobile engineer,React,27,0.1465
+Mobile engineer,Prototyping,26,0.1127
+Mobile engineer,Observability,26,0.1324
+Mobile engineer,A/B testing,24,0.1167
+Mobile engineer,AI assistants,23,0.1195
+Mobile engineer,LLMs,22,0.0842
+Mobile engineer,Design systems,19,0.0978
+Mobile engineer,Compensation & benefits,19,0.0758
+Mobile engineer,Python,18,0.0760
+Mobile engineer,Git,18,0.1034
+Mobile engineer,C++,18,0.0753
+Mobile engineer,Machine learning,17,0.0751
+Mobile engineer,JavaScript,17,0.0967
+Mobile engineer,System design,16,0.0765
+Mobile engineer,Accessibility,15,0.0740
+Mobile engineer,C,15,0.0588
+Mobile engineer,Distributed systems,14,0.0619
+Mobile engineer,Embedded systems,14,0.0695
+Mobile engineer,Agile,13,0.0847
+Mobile engineer,Process improvement,13,0.0721
+Mobile engineer,Ownership,12,0.0626
+Mobile engineer,REST APIs,12,0.0751
+Mobile engineer,Incident management,12,0.0660
+Mobile engineer,CAD,12,0.0625
+Mobile engineer,UX design,11,0.0604
+Mobile engineer,Attention to detail,11,0.0501
+Mobile engineer,Adaptability,10,0.0523
+Mobile engineer,Go,10,0.0568
+Mobile engineer,Data structures & algorithms,10,0.0490
+Mobile engineer,Critical thinking,10,0.0410
+Mobile engineer,Generative AI,10,0.0367
+Mobile engineer,Objective-C,8,0.0442
+Mobile engineer,Electrical engineering,8,0.0336
+Mobile engineer,GraphQL,8,0.0547
+Mobile engineer,SQL,7,0.0382
+Mobile engineer,Logistics,7,0.0329
+Mobile engineer,Linux,7,0.0305
+Mobile engineer,Account management,7,0.0250
+Mobile engineer,Rust,6,0.0303
+Mobile engineer,Jira,6,0.0331
+Mobile engineer,Decision making,6,0.0313
+Mobile engineer,Prompt engineering,6,0.0249
+Mobile engineer,Test engineering,6,0.0150
+Mobile engineer,Ruby,5,0.0285
+Operations & strategy,Communication,1121,0.6265
+Operations & strategy,Cross-functional work,782,0.4420
+Operations & strategy,Leadership,767,0.4392
+Operations & strategy,Collaboration,607,0.3249
+Operations & strategy,Problem solving,534,0.2902
+Operations & strategy,Attention to detail,515,0.2731
+Operations & strategy,Process improvement,347,0.1901
+Operations & strategy,Logistics,340,0.1499
+Operations & strategy,Time management,334,0.2048
+Operations & strategy,SQL,309,0.1601
+Operations & strategy,Mentoring,302,0.1772
+Operations & strategy,Excel,277,0.1467
+Operations & strategy,Customer support,258,0.1213
+Operations & strategy,Project management,230,0.1248
+Operations & strategy,Data analysis,208,0.1093
+Operations & strategy,Adaptability,203,0.1000
+Operations & strategy,AI assistants,202,0.1449
+Operations & strategy,Operations management,196,0.1051
+Operations & strategy,Python,195,0.1050
+Operations & strategy,Critical thinking,193,0.1069
+Operations & strategy,Supply chain,189,0.0674
+Operations & strategy,Decision making,188,0.1113
+Operations & strategy,Ownership,172,0.0963
+Operations & strategy,Presentation,166,0.0901
+Operations & strategy,Workplace safety,163,0.0433
+Operations & strategy,Privacy regulation,154,0.0518
+Operations & strategy,Salesforce,142,0.1066
+Operations & strategy,Procurement,137,0.0615
+Operations & strategy,Forecasting,126,0.0762
+Operations & strategy,Negotiation,121,0.0627
+Operations & strategy,Jira,117,0.0660
+Operations & strategy,Stakeholder management,114,0.0707
+Operations & strategy,AI agents,111,0.0808
+Operations & strategy,Strategic planning,110,0.0603
+Operations & strategy,HR management,107,0.0554
+Operations & strategy,ERP,106,0.0446
+Operations & strategy,Incident management,104,0.0509
+Operations & strategy,Account management,102,0.0522
+Operations & strategy,People management,100,0.0569
+Operations & strategy,Program management,98,0.0555
+Operations & strategy,Data center operations,97,0.0421
+Operations & strategy,Change management,96,0.0653
+Operations & strategy,CRM,95,0.0674
+Operations & strategy,Compensation & benefits,89,0.0537
+Operations & strategy,Quality assurance,85,0.0439
+Operations & strategy,Accounting,81,0.0506
+Operations & strategy,Root cause analysis,81,0.0444
+Operations & strategy,Risk management,79,0.0464
+Operations & strategy,Tableau,79,0.0409
+Operations & strategy,Revenue operations,78,0.0648
+Operations & strategy,Business development,78,0.0360
+Operations & strategy,LLMs,73,0.0505
+Operations & strategy,Data governance,69,0.0450
+Operations & strategy,Machine learning,65,0.0394
+Operations & strategy,Market research,64,0.0440
+Operations & strategy,Regulatory compliance,62,0.0349
+Operations & strategy,Customer focus,62,0.0324
+Operations & strategy,Prototyping,60,0.0359
+Operations & strategy,Financial modeling,59,0.0346
+Operations & strategy,Vendor management,58,0.0371
+Operations & strategy,Data pipelines,58,0.0347
+Operations & strategy,Mergers & acquisitions,57,0.0324
+Operations & strategy,Cloud infrastructure,56,0.0352
+Operations & strategy,CAD,56,0.0284
+Operations & strategy,Auditing,55,0.0421
+Operations & strategy,Generative AI,55,0.0335
+Operations & strategy,Inventory management,54,0.0180
+Operations & strategy,Construction management,53,0.0182
+Operations & strategy,A/B testing,52,0.0369
+Operations & strategy,HVAC,50,0.0202
+Operations & strategy,Technical writing,50,0.0189
+Operations & strategy,FP&A,50,0.0297
+Operations & strategy,Data visualization,48,0.0266
+Operations & strategy,Product strategy,47,0.0253
+Operations & strategy,Roadmapping,46,0.0218
+Operations & strategy,Payroll,46,0.0253
+Operations & strategy,Accessibility,44,0.0195
+Operations & strategy,Agile,42,0.0253
+Operations & strategy,Business intelligence,42,0.0298
+Operations & strategy,B2B sales,41,0.0253
+Operations & strategy,System design,40,0.0163
+Operations & strategy,Manufacturing engineering,40,0.0119
+Operations & strategy,Google Cloud,40,0.0287
+Operations & strategy,Prompt engineering,40,0.0221
+Operations & strategy,Contract negotiation,39,0.0192
+Operations & strategy,Partnerships,39,0.0252
+Operations & strategy,Looker,38,0.0223
+Operations & strategy,Pricing strategy,37,0.0212
+Operations & strategy,R,37,0.0143
+Operations & strategy,Robotics,37,0.0123
+Operations & strategy,Prospecting,36,0.0215
+Operations & strategy,Power BI,36,0.0108
+Operations & strategy,Event management,35,0.0224
+Operations & strategy,AWS,34,0.0238
+Operations & strategy,Workday,34,0.0242
+Operations & strategy,Statistics,34,0.0238
+Operations & strategy,NetSuite,33,0.0179
+Operations & strategy,AI coding tools,32,0.0188
+Operations & strategy,Cybersecurity,31,0.0182
+Operations & strategy,Growth marketing,31,0.0214
+Operations & strategy,Recruiting,28,0.0211
+Operations & strategy,Git,28,0.0150
+Operations & strategy,SAP,28,0.0140
+Operations & strategy,Financial analysis,27,0.0141
+Operations & strategy,Solution engineering,27,0.0174
+Operations & strategy,Power systems,27,0.0104
+Operations & strategy,Mechanical design,27,0.0098
+Operations & strategy,Social media marketing,26,0.0142
+Operations & strategy,Observability,26,0.0175
+Operations & strategy,Linux,25,0.0109
+Operations & strategy,Pipeline management,24,0.0164
+Operations & strategy,MATLAB,24,0.0097
+Operations & strategy,Networking,22,0.0120
+Operations & strategy,Azure,22,0.0165
+Operations & strategy,RAG,22,0.0082
+Operations & strategy,FEA,22,0.0068
+Operations & strategy,High-performance computing,21,0.0093
+Operations & strategy,Snowflake,21,0.0177
+Operations & strategy,User research,20,0.0125
+Operations & strategy,Zendesk,19,0.0136
+Operations & strategy,JavaScript,18,0.0107
+Operations & strategy,Bash / shell,17,0.0074
+Operations & strategy,Content marketing,17,0.0141
+Operations & strategy,NX,17,0.0054
+Operations & strategy,Digital marketing,17,0.0110
+Operations & strategy,Marketing automation,16,0.0176
+Operations & strategy,Penetration testing,16,0.0078
+Operations & strategy,AML / KYC,16,0.0133
+Operations & strategy,AutoCAD,16,0.0047
+Operations & strategy,Model evaluation,15,0.0087
+Operations & strategy,Control systems,15,0.0070
+Operations & strategy,SOC 2,14,0.0117
+Operations & strategy,Investment analysis,14,0.0100
+Operations & strategy,Brand strategy,14,0.0098
+Operations & strategy,Welding,14,0.0037
+Operations & strategy,Site reliability,13,0.0086
+Operations & strategy,FedRAMP,13,0.0079
+Operations & strategy,Product analytics,13,0.0080
+Operations & strategy,Data modeling,13,0.0104
+Operations & strategy,dbt,13,0.0134
+Operations & strategy,Quantitative trading,13,0.0111
+Operations & strategy,Blueprint reading,13,0.0024
+Operations & strategy,Electrical engineering,13,0.0064
+Operations & strategy,GMP / GLP,12,0.0060
+Operations & strategy,Java,12,0.0058
+Operations & strategy,Databricks,12,0.0062
+Operations & strategy,Prometheus,12,0.0049
+Operations & strategy,Distributed systems,12,0.0075
+Operations & strategy,Google Analytics,12,0.0081
+Operations & strategy,Sensor fusion,11,0.0020
+Operations & strategy,Threat modeling,11,0.0040
+Operations & strategy,Identity & access,10,0.0095
+Operations & strategy,Vulnerability management,10,0.0036
+Operations & strategy,C++,10,0.0051
+Operations & strategy,Test automation,10,0.0058
+Operations & strategy,HubSpot,10,0.0095
+Operations & strategy,Data warehousing,10,0.0053
+Operations & strategy,CSS,10,0.0058
+Operations & strategy,Performance optimization,10,0.0059
+Operations & strategy,iOS,9,0.0055
+Operations & strategy,Systems engineering,9,0.0047
+Operations & strategy,HTML,9,0.0059
+Operations & strategy,SEO,9,0.0081
+Operations & strategy,Kubernetes,9,0.0071
+Operations & strategy,Molecular biology,8,0.0069
+Operations & strategy,Data structures & algorithms,8,0.0051
+Operations & strategy,C,8,0.0056
+Operations & strategy,DevOps,8,0.0075
+Operations & strategy,Test engineering,8,0.0043
+Operations & strategy,Datadog,8,0.0048
+Operations & strategy,Ruby,8,0.0040
+Operations & strategy,Legal drafting,7,0.0026
+Operations & strategy,BigQuery,7,0.0069
+Operations & strategy,Figma,7,0.0065
+Operations & strategy,Attribution modeling,7,0.0068
+Operations & strategy,SolidWorks,7,0.0025
+Operations & strategy,PLC programming,7,0.0028
+Operations & strategy,Email marketing,7,0.0069
+Operations & strategy,Microservices,7,0.0056
+Operations & strategy,Therapy & counselling,7,0.0069
+Operations & strategy,TypeScript,6,0.0033
+Operations & strategy,Code review,6,0.0038
+Operations & strategy,Go,6,0.0035
+Operations & strategy,Fraud detection,6,0.0037
+Operations & strategy,Ansible,6,0.0017
+Operations & strategy,REST APIs,6,0.0029
+Operations & strategy,Android,6,0.0038
+Operations & strategy,Influencer marketing,6,0.0045
+Operations & strategy,PostgreSQL,6,0.0046
+Operations & strategy,CI/CD,6,0.0046
+Operations & strategy,Clinical research,6,0.0016
+Operations & strategy,Spark,5,0.0034
+Operations & strategy,MCP,5,0.0033
+Operations & strategy,Cloud security,5,0.0030
+Operations & strategy,React,5,0.0030
+Operations & strategy,Computer vision,5,0.0018
+Operations & strategy,Splunk,5,0.0035
+Operations & strategy,Terraform,5,0.0015
+Operations & strategy,Public relations,5,0.0026
+Operations & strategy,Outreach tools,5,0.0041
+Other,Communication,1877,0.5392
+Other,Leadership,1629,0.4568
+Other,Cross-functional work,1274,0.3879
+Other,Collaboration,1190,0.3380
+Other,Mentoring,964,0.2822
+Other,Problem solving,831,0.2112
+Other,Customer support,674,0.1251
+Other,Process improvement,634,0.1640
+Other,Attention to detail,490,0.1309
+Other,Time management,396,0.1140
+Other,Ownership,380,0.0923
+Other,Project management,371,0.1077
+Other,Python,365,0.1138
+Other,Presentation,343,0.0975
+Other,Supply chain,339,0.0706
+Other,SQL,323,0.1010
+Other,Excel,301,0.0684
+Other,Logistics,299,0.0637
+Other,AI assistants,283,0.1151
+Other,Decision making,282,0.0898
+Other,Negotiation,279,0.0815
+Other,Privacy regulation,278,0.0591
+Other,Salesforce,274,0.0942
+Other,AI agents,269,0.0988
+Other,Data analysis,264,0.0775
+Other,Machine learning,264,0.0857
+Other,Procurement,260,0.0677
+Other,Stakeholder management,236,0.0704
+Other,Root cause analysis,235,0.0537
+Other,Inventory management,234,0.0298
+Other,People management,231,0.0709
+Other,Quality assurance,224,0.0544
+Other,Prototyping,219,0.0680
+Other,Critical thinking,205,0.0634
+Other,LLMs,203,0.0668
+Other,HR management,198,0.0577
+Other,Account management,195,0.0611
+Other,Incident management,194,0.0637
+Other,ERP,193,0.0451
+Other,Compensation & benefits,192,0.0505
+Other,Cloud infrastructure,187,0.0677
+Other,Change management,187,0.0578
+Other,Forecasting,185,0.0655
+Other,CRM,183,0.0640
+Other,Adaptability,182,0.0553
+Other,Risk management,182,0.0575
+Other,Workplace safety,180,0.0278
+Other,AWS,172,0.0621
+Other,Manufacturing engineering,162,0.0261
+Other,Program management,160,0.0428
+Other,Solution engineering,151,0.0526
+Other,CAD,151,0.0362
+Other,Business development,150,0.0401
+Other,Auditing,145,0.0483
+Other,Jira,143,0.0405
+Other,A/B testing,133,0.0584
+Other,Cybersecurity,129,0.0360
+Other,Regulatory compliance,129,0.0363
+Other,Linux,126,0.0321
+Other,Azure,121,0.0429
+Other,Google Cloud,119,0.0393
+Other,Accounting,118,0.0443
+Other,Agile,118,0.0348
+Other,Generative AI,117,0.0362
+Other,Data center operations,109,0.0259
+Other,System design,105,0.0299
+Other,Data pipelines,105,0.0366
+Other,Operations management,103,0.0271
+Other,Observability,103,0.0361
+Other,Strategic planning,100,0.0327
+Other,SAP,98,0.0231
+Other,B2B sales,97,0.0353
+Other,CI/CD,95,0.0343
+Other,Kubernetes,94,0.0332
+Other,Data governance,93,0.0367
+Other,Revenue operations,89,0.0378
+Other,Market research,88,0.0263
+Other,Identity & access,85,0.0341
+Other,Technical writing,85,0.0200
+Other,Git,84,0.0275
+Other,Roadmapping,83,0.0287
+Other,Product strategy,83,0.0310
+Other,Electrical engineering,83,0.0191
+Other,Systems engineering,83,0.0210
+Other,AI coding tools,81,0.0325
+Other,Statistics,80,0.0248
+Other,Partnerships,80,0.0294
+Other,Tableau,79,0.0269
+Other,Mechanical design,79,0.0165
+Other,Customer focus,78,0.0296
+Other,Distributed systems,76,0.0236
+Other,Workday,74,0.0268
+Other,DevOps,72,0.0248
+Other,C++,71,0.0168
+Other,Robotics,70,0.0138
+Other,Accessibility,68,0.0177
+Other,Vendor management,67,0.0196
+Other,Networking,67,0.0162
+Other,Prospecting,67,0.0207
+Other,Welding,66,0.0071
+Other,Blueprint reading,66,0.0081
+Other,Test engineering,65,0.0098
+Other,Docker,63,0.0205
+Other,Mergers & acquisitions,62,0.0223
+Other,Pipeline management,62,0.0173
+Other,Bash / shell,62,0.0187
+Other,Payroll,61,0.0228
+Other,Data visualization,61,0.0206
+Other,Growth marketing,60,0.0258
+Other,Power BI,59,0.0137
+Other,Control systems,57,0.0106
+Other,FedRAMP,56,0.0199
+Other,MEDDIC,55,0.0192
+Other,Go,54,0.0200
+Other,FP&A,54,0.0181
+Other,Business intelligence,54,0.0210
+Other,Recruiting,53,0.0167
+Other,Contract negotiation,52,0.0104
+Other,Java,51,0.0156
+Other,Infrastructure as code,51,0.0181
+Other,NetSuite,51,0.0205
+Other,Zendesk,49,0.0195
+Other,Embedded systems,48,0.0126
+Other,Threat modeling,48,0.0146
+Other,JavaScript,47,0.0157
+Other,Zero trust,46,0.0128
+Other,Test automation,45,0.0112
+Other,HVAC,44,0.0080
+Other,Digital marketing,44,0.0175
+Other,Looker,44,0.0185
+Other,PCB design,44,0.0063
+Other,CNC machining,44,0.0051
+Other,SOC 2,43,0.0220
+Other,GD&T,43,0.0059
+Other,Code review,42,0.0142
+Other,Financial modeling,42,0.0165
+Other,Terraform,42,0.0164
+Other,NX,42,0.0059
+Other,R,41,0.0134
+Other,MCP,41,0.0166
+Other,REST APIs,41,0.0143
+Other,Content marketing,40,0.0133
+Other,Prompt engineering,39,0.0147
+Other,Adobe Creative Suite,39,0.0120
+Other,Model evaluation,38,0.0120
+Other,Power systems,38,0.0071
+Other,Cloud security,37,0.0131
+Other,Snowflake,37,0.0164
+Other,Intellectual property,36,0.0106
+Other,Social media marketing,36,0.0141
+Other,Data warehousing,35,0.0137
+Other,Fine-tuning,34,0.0108
+Other,Deep learning,34,0.0084
+Other,RAG,34,0.0108
+Other,High-performance computing,33,0.0093
+Other,Performance optimization,33,0.0088
+Other,Pricing strategy,32,0.0139
+Other,Outreach tools,32,0.0109
+Other,SIEM,31,0.0105
+Other,Reinforcement learning,29,0.0088
+Other,Penetration testing,29,0.0102
+Other,dbt,29,0.0130
+Other,Ansible,29,0.0068
+Other,GMP / GLP,29,0.0054
+Other,Marketing automation,28,0.0143
+Other,C,28,0.0096
+Other,AML / KYC,28,0.0119
+Other,PyTorch,27,0.0067
+Other,TypeScript,26,0.0104
+Other,Site reliability,25,0.0096
+Other,UX design,25,0.0106
+Other,Microservices,24,0.0091
+Other,Vulnerability management,24,0.0080
+Other,Brand strategy,24,0.0088
+Other,Investment analysis,24,0.0096
+Other,Databricks,24,0.0076
+Other,Data modeling,24,0.0068
+Other,FEA,24,0.0056
+Other,Therapy & counselling,23,0.0069
+Other,Product analytics,23,0.0102
+Other,Financial analysis,23,0.0072
+Other,Application security,23,0.0101
+Other,SolidWorks,23,0.0042
+Other,Design systems,22,0.0090
+Other,PLC programming,22,0.0030
+Other,Splunk,22,0.0070
+Other,Ruby,22,0.0087
+Other,Spark,22,0.0098
+Other,Construction management,21,0.0042
+Other,MATLAB,21,0.0063
+Other,HTML,21,0.0075
+Other,Kafka,20,0.0078
+Other,Materials science,20,0.0037
+Other,Video production,20,0.0052
+Other,Datadog,19,0.0084
+Other,User research,19,0.0090
+Other,ASIC design,19,0.0044
+Other,Computer vision,19,0.0043
+Other,Sensor fusion,19,0.0030
+Other,Figma,18,0.0083
+Other,PostgreSQL,18,0.0068
+Other,FDA regulation,18,0.0041
+Other,Patient care,17,0.0057
+Other,Prometheus,17,0.0060
+Other,Public relations,17,0.0058
+Other,AutoCAD,17,0.0036
+Other,SEO,16,0.0057
+Other,React,16,0.0070
+Other,C#,16,0.0038
+Other,Node.js,16,0.0061
+Other,Additive manufacturing,15,0.0029
+Other,Thermal engineering,15,0.0031
+Other,Molecular biology,15,0.0039
+Other,FPGA,14,0.0023
+Other,MLOps,14,0.0047
+Other,iOS,14,0.0059
+Other,Attribution modeling,14,0.0062
+Other,Clinical research,14,0.0022
+Other,CSS,14,0.0041
+Other,TensorFlow,13,0.0030
+Other,Event management,13,0.0031
+Other,3D modeling,13,0.0033
+Other,Data structures & algorithms,13,0.0043
+Other,NoSQL,13,0.0031
+Other,Influencer marketing,13,0.0046
+Other,Google Analytics,12,0.0043
+Other,JAX,12,0.0026
+Other,BigQuery,12,0.0048
+Other,Android,12,0.0054
+Other,Email marketing,12,0.0052
+Other,Vector databases,12,0.0047
+Other,CATIA,12,0.0021
+Other,Rust,11,0.0031
+Other,Fraud detection,10,0.0043
+Other,HubSpot,10,0.0047
+Other,Gong,10,0.0042
+Other,Causal inference,10,0.0042
+Other,UI design,10,0.0031
+Other,MySQL,10,0.0030
+Other,Bioinformatics,10,0.0022
+Other,.NET,10,0.0018
+Other,Quantitative trading,9,0.0040
+Other,LangChain,9,0.0030
+Other,Redis,9,0.0028
+Other,NLP,8,0.0038
+Other,Airflow,7,0.0023
+Other,Motion design,7,0.0019
+Other,GPU computing,6,0.0017
+Other,Scala,6,0.0024
+Other,RF engineering,6,0.0014
+Other,React Native,6,0.0027
+Other,Unreal Engine,6,0.0016
+Other,Helm,5,0.0020
+Other,Spring,5,0.0014
+Other,Medical billing,5,0.0025
+Other,Cryptography,5,0.0017
+Other,GraphQL,5,0.0013
+Other,MongoDB,5,0.0023
+Other,PHP,5,0.0015
+Other,Pandas,5,0.0009
+Other,Next.js,5,0.0019
+Product manager,Communication,651,0.5790
+Product manager,Cross-functional work,646,0.5783
+Product manager,Leadership,498,0.4737
+Product manager,Product strategy,496,0.4441
+Product manager,Collaboration,367,0.3324
+Product manager,AI agents,287,0.2642
+Product manager,Time management,257,0.2349
+Product manager,Machine learning,245,0.2201
+Product manager,Prototyping,223,0.2087
+Product manager,A/B testing,214,0.2102
+Product manager,AI assistants,182,0.1890
+Product manager,Mentoring,181,0.1690
+Product manager,Roadmapping,174,0.1473
+Product manager,LLMs,152,0.1452
+Product manager,SQL,142,0.1257
+Product manager,Problem solving,132,0.1189
+Product manager,Decision making,129,0.1136
+Product manager,User research,118,0.1281
+Product manager,Critical thinking,114,0.1105
+Product manager,Data analysis,112,0.1084
+Product manager,Agile,110,0.0908
+Product manager,Observability,97,0.0880
+Product manager,Market research,95,0.0842
+Product manager,Customer focus,92,0.0866
+Product manager,Stakeholder management,84,0.0717
+Product manager,Cloud infrastructure,83,0.0694
+Product manager,Ownership,83,0.0700
+Product manager,Data pipelines,82,0.0666
+Product manager,Presentation,81,0.0766
+Product manager,Compensation & benefits,73,0.0634
+Product manager,Generative AI,67,0.0623
+Product manager,Process improvement,64,0.0625
+Product manager,Supply chain,61,0.0595
+Product manager,Data governance,61,0.0537
+Product manager,MCP,59,0.0582
+Product manager,CAD,57,0.0395
+Product manager,Adaptability,57,0.0492
+Product manager,Privacy regulation,57,0.0493
+Product manager,System design,56,0.0464
+Product manager,Distributed systems,54,0.0477
+Product manager,Identity & access,53,0.0476
+Product manager,Attention to detail,52,0.0444
+Product manager,Model evaluation,51,0.0496
+Product manager,Logistics,49,0.0473
+Product manager,Accounting,49,0.0428
+Product manager,Product analytics,47,0.0523
+Product manager,CRM,46,0.0319
+Product manager,Project management,45,0.0419
+Product manager,Python,44,0.0329
+Product manager,Regulatory compliance,43,0.0419
+Product manager,Strategic planning,41,0.0311
+Product manager,UX design,41,0.0288
+Product manager,Salesforce,40,0.0309
+Product manager,AI coding tools,40,0.0442
+Product manager,ERP,39,0.0361
+Product manager,AWS,39,0.0329
+Product manager,Solution engineering,38,0.0380
+Product manager,Customer support,37,0.0308
+Product manager,Change management,35,0.0302
+Product manager,Fine-tuning,35,0.0296
+Product manager,Prompt engineering,34,0.0221
+Product manager,Jira,32,0.0289
+Product manager,Procurement,32,0.0293
+Product manager,Program management,31,0.0248
+Product manager,Auditing,31,0.0232
+Product manager,People management,30,0.0311
+Product manager,RAG,30,0.0239
+Product manager,Business development,30,0.0274
+Product manager,Cybersecurity,29,0.0246
+Product manager,Data warehousing,29,0.0265
+Product manager,Figma,29,0.0303
+Product manager,Azure,29,0.0229
+Product manager,Ruby,29,0.0242
+Product manager,Account management,28,0.0222
+Product manager,Data modeling,27,0.0265
+Product manager,Statistics,27,0.0274
+Product manager,Accessibility,27,0.0207
+Product manager,Risk management,26,0.0235
+Product manager,Growth marketing,25,0.0258
+Product manager,SAP,24,0.0194
+Product manager,Forecasting,23,0.0182
+Product manager,Systems engineering,23,0.0210
+Product manager,Negotiation,23,0.0204
+Product manager,NetSuite,22,0.0181
+Product manager,Site reliability,22,0.0205
+Product manager,Incident management,22,0.0170
+Product manager,Snowflake,21,0.0245
+Product manager,Excel,20,0.0196
+Product manager,Pricing strategy,20,0.0161
+Product manager,Google Cloud,20,0.0149
+Product manager,Design systems,20,0.0183
+Product manager,CI/CD,19,0.0190
+Product manager,Embedded systems,19,0.0142
+Product manager,Payroll,18,0.0200
+Product manager,Robotics,18,0.0144
+Product manager,Attribution modeling,17,0.0135
+Product manager,Performance optimization,17,0.0164
+Product manager,Fraud detection,17,0.0170
+Product manager,Data center operations,17,0.0137
+Product manager,Revenue operations,17,0.0156
+Product manager,iOS,17,0.0166
+Product manager,Kubernetes,16,0.0156
+Product manager,FP&A,16,0.0142
+Product manager,Quality assurance,16,0.0100
+Product manager,Operations management,16,0.0138
+Product manager,Content marketing,16,0.0184
+Product manager,AML / KYC,16,0.0167
+Product manager,Databricks,15,0.0164
+Product manager,Digital marketing,15,0.0146
+Product manager,Android,15,0.0160
+Product manager,PostgreSQL,14,0.0122
+Product manager,Go,14,0.0157
+Product manager,Marketing automation,14,0.0111
+Product manager,Root cause analysis,14,0.0144
+Product manager,Recommender systems,14,0.0124
+Product manager,Zero trust,13,0.0097
+Product manager,Workday,13,0.0090
+Product manager,LangChain,13,0.0071
+Product manager,Electrical engineering,13,0.0090
+Product manager,Git,13,0.0134
+Product manager,Vector databases,13,0.0118
+Product manager,HR management,12,0.0115
+Product manager,FedRAMP,12,0.0111
+Product manager,TypeScript,12,0.0122
+Product manager,SIEM,12,0.0106
+Product manager,Looker,11,0.0162
+Product manager,Technical writing,11,0.0114
+Product manager,BigQuery,11,0.0105
+Product manager,Data visualization,11,0.0087
+Product manager,Recruiting,11,0.0112
+Product manager,React,11,0.0082
+Product manager,dbt,10,0.0102
+Product manager,SOC 2,10,0.0083
+Product manager,Threat modeling,10,0.0069
+Product manager,JavaScript,10,0.0084
+Product manager,DevOps,9,0.0078
+Product manager,SEO,9,0.0081
+Product manager,Vendor management,9,0.0094
+Product manager,Mergers & acquisitions,9,0.0094
+Product manager,Cloud security,9,0.0067
+Product manager,B2B sales,9,0.0063
+Product manager,EHR systems,9,0.0119
+Product manager,Quantitative trading,8,0.0085
+Product manager,Social media marketing,8,0.0081
+Product manager,High-performance computing,8,0.0062
+Product manager,Kafka,8,0.0099
+Product manager,Partnerships,8,0.0066
+Product manager,Email marketing,8,0.0073
+Product manager,Manufacturing engineering,8,0.0093
+Product manager,Brand strategy,8,0.0051
+Product manager,Microservices,8,0.0071
+Product manager,Infrastructure as code,7,0.0052
+Product manager,PyTorch,7,0.0078
+Product manager,Spark,7,0.0068
+Product manager,Business intelligence,7,0.0046
+Product manager,MLOps,7,0.0071
+Product manager,Linux,7,0.0070
+Product manager,Tableau,7,0.0088
+Product manager,Networking,7,0.0051
+Product manager,HTML,7,0.0076
+Product manager,Airflow,6,0.0077
+Product manager,Financial modeling,6,0.0063
+Product manager,Redshift,6,0.0066
+Product manager,Inventory management,6,0.0054
+Product manager,Computer vision,6,0.0044
+Product manager,Test automation,6,0.0074
+Product manager,Clinical research,6,0.0036
+Product manager,Reinforcement learning,5,0.0037
+Product manager,MySQL,5,0.0039
+Product manager,Data structures & algorithms,5,0.0048
+Product manager,Prometheus,5,0.0037
+Product manager,Deep learning,5,0.0050
+Product manager,Tax,5,0.0035
+Product manager,Prospecting,5,0.0040
+Product manager,Application security,5,0.0034
+Product manager,Causal inference,5,0.0044
+Product manager,NLP,5,0.0044
+Product manager,Java,5,0.0048
+Product marketing,Cross-functional work,124,0.6262
+Product marketing,Communication,102,0.5051
+Product marketing,Leadership,98,0.5024
+Product marketing,Growth marketing,66,0.3098
+Product marketing,Presentation,64,0.3600
+Product marketing,Market research,63,0.3397
+Product marketing,Collaboration,61,0.3130
+Product marketing,Product strategy,53,0.2518
+Product marketing,AI assistants,48,0.2615
+Product marketing,User research,41,0.1910
+Product marketing,Project management,28,0.1126
+Product marketing,Content marketing,26,0.1287
+Product marketing,A/B testing,26,0.1124
+Product marketing,Time management,25,0.1140
+Product marketing,AI agents,24,0.1295
+Product marketing,Attention to detail,21,0.0880
+Product marketing,Machine learning,20,0.1160
+Product marketing,Roadmapping,20,0.1086
+Product marketing,Ownership,18,0.1062
+Product marketing,Observability,18,0.0674
+Product marketing,Critical thinking,17,0.0802
+Product marketing,CRM,16,0.0898
+Product marketing,Social media marketing,16,0.0684
+Product marketing,Adaptability,15,0.0805
+Product marketing,Mentoring,15,0.0769
+Product marketing,Solution engineering,14,0.0834
+Product marketing,Cybersecurity,14,0.0697
+Product marketing,Compensation & benefits,14,0.0737
+Product marketing,Cloud infrastructure,13,0.0590
+Product marketing,Customer focus,10,0.0617
+Product marketing,Digital marketing,10,0.0521
+Product marketing,Email marketing,10,0.0520
+Product marketing,Prototyping,9,0.0342
+Product marketing,Data analysis,9,0.0497
+Product marketing,CAD,8,0.0440
+Product marketing,B2B sales,7,0.0434
+Product marketing,Data pipelines,7,0.0418
+Product marketing,Problem solving,7,0.0392
+Product marketing,SQL,7,0.0434
+Product marketing,Decision making,7,0.0441
+Product marketing,Model evaluation,7,0.0206
+Product marketing,Site reliability,7,0.0248
+Product marketing,Performance optimization,6,0.0354
+Product marketing,Business development,6,0.0357
+Product marketing,Procurement,6,0.0395
+Product marketing,People management,6,0.0288
+Product marketing,Customer support,6,0.0194
+Product marketing,Revenue operations,5,0.0308
+Product marketing,LLMs,5,0.0308
+Product marketing,Brand strategy,5,0.0286
+Product marketing,Process improvement,5,0.0219
+Product marketing,Strategic planning,5,0.0254
+Program & project manager,Communication,691,0.7207
+Program & project manager,Cross-functional work,682,0.7138
+Program & project manager,Leadership,610,0.6327
+Program & project manager,Program management,530,0.5174
+Program & project manager,Project management,380,0.4128
+Program & project manager,Collaboration,333,0.3456
+Program & project manager,Problem solving,245,0.2334
+Program & project manager,Process improvement,216,0.2174
+Program & project manager,Jira,187,0.2015
+Program & project manager,Time management,167,0.1984
+Program & project manager,Risk management,166,0.1375
+Program & project manager,Supply chain,157,0.1169
+Program & project manager,Decision making,157,0.1750
+Program & project manager,Stakeholder management,157,0.1628
+Program & project manager,Mentoring,152,0.1710
+Program & project manager,Privacy regulation,146,0.0663
+Program & project manager,Logistics,139,0.1041
+Program & project manager,Attention to detail,132,0.1548
+Program & project manager,Agile,126,0.1531
+Program & project manager,AI assistants,115,0.1522
+Program & project manager,Operations management,113,0.1014
+Program & project manager,Procurement,108,0.0984
+Program & project manager,Change management,101,0.1060
+Program & project manager,Ownership,96,0.1125
+Program & project manager,Machine learning,93,0.0927
+Program & project manager,SQL,87,0.0907
+Program & project manager,Critical thinking,86,0.0852
+Program & project manager,Presentation,84,0.0910
+Program & project manager,Excel,82,0.0821
+Program & project manager,Systems engineering,81,0.0580
+Program & project manager,Data analysis,76,0.0789
+Program & project manager,Prototyping,72,0.0645
+Program & project manager,Negotiation,71,0.0608
+Program & project manager,Forecasting,70,0.0636
+Program & project manager,LLMs,66,0.0804
+Program & project manager,Data center operations,66,0.0554
+Program & project manager,ERP,66,0.0427
+Program & project manager,Robotics,66,0.0390
+Program & project manager,Adaptability,65,0.0728
+Program & project manager,AI agents,61,0.0744
+Program & project manager,Compensation & benefits,61,0.0687
+Program & project manager,Regulatory compliance,60,0.0572
+Program & project manager,Strategic planning,59,0.0626
+Program & project manager,Cloud infrastructure,56,0.0536
+Program & project manager,Data pipelines,54,0.0669
+Program & project manager,Embedded systems,50,0.0435
+Program & project manager,Python,50,0.0445
+Program & project manager,Manufacturing engineering,50,0.0343
+Program & project manager,Incident management,49,0.0459
+Program & project manager,Salesforce,49,0.0727
+Program & project manager,AWS,49,0.0517
+Program & project manager,Electrical engineering,48,0.0390
+Program & project manager,Cybersecurity,48,0.0511
+Program & project manager,Construction management,47,0.0374
+Program & project manager,System design,47,0.0382
+Program & project manager,Azure,44,0.0439
+Program & project manager,Roadmapping,43,0.0394
+Program & project manager,Business development,42,0.0286
+Program & project manager,FP&A,42,0.0393
+Program & project manager,Revenue operations,41,0.0611
+Program & project manager,Root cause analysis,41,0.0349
+Program & project manager,Quality assurance,41,0.0332
+Program & project manager,Distributed systems,40,0.0339
+Program & project manager,Data governance,39,0.0443
+Program & project manager,Accounting,39,0.0369
+Program & project manager,Customer support,36,0.0421
+Program & project manager,Generative AI,36,0.0428
+Program & project manager,Vendor management,35,0.0336
+Program & project manager,Mechanical design,34,0.0237
+Program & project manager,CRM,34,0.0399
+Program & project manager,Tableau,30,0.0284
+Program & project manager,People management,29,0.0332
+Program & project manager,Google Cloud,29,0.0261
+Program & project manager,Auditing,29,0.0279
+Program & project manager,Product strategy,28,0.0356
+Program & project manager,HR management,28,0.0289
+Program & project manager,CAD,27,0.0324
+Program & project manager,Observability,27,0.0258
+Program & project manager,Business intelligence,26,0.0297
+Program & project manager,CI/CD,26,0.0248
+Program & project manager,Workplace safety,26,0.0223
+Program & project manager,Mergers & acquisitions,25,0.0258
+Program & project manager,Partnerships,24,0.0270
+Program & project manager,AutoCAD,24,0.0189
+Program & project manager,FedRAMP,24,0.0221
+Program & project manager,Kubernetes,23,0.0209
+Program & project manager,Model evaluation,23,0.0228
+Program & project manager,Accessibility,22,0.0198
+Program & project manager,Technical writing,22,0.0191
+Program & project manager,SAP,22,0.0158
+Program & project manager,Solution engineering,21,0.0290
+Program & project manager,Pricing strategy,21,0.0103
+Program & project manager,Investment analysis,20,0.0328
+Program & project manager,Data visualization,20,0.0179
+Program & project manager,Contract negotiation,19,0.0166
+Program & project manager,SOC 2,19,0.0201
+Program & project manager,A/B testing,19,0.0251
+Program & project manager,Test engineering,18,0.0126
+Program & project manager,Looker,17,0.0260
+Program & project manager,Site reliability,16,0.0198
+Program & project manager,AI coding tools,16,0.0226
+Program & project manager,Recruiting,16,0.0186
+Program & project manager,Customer focus,16,0.0178
+Program & project manager,Networking,15,0.0114
+Program & project manager,Power systems,15,0.0132
+Program & project manager,Power BI,15,0.0133
+Program & project manager,Workday,15,0.0174
+Program & project manager,Git,15,0.0144
+Program & project manager,Fine-tuning,14,0.0159
+Program & project manager,Control systems,14,0.0108
+Program & project manager,Identity & access,14,0.0139
+Program & project manager,Payroll,14,0.0124
+Program & project manager,Computer vision,14,0.0088
+Program & project manager,Account management,13,0.0164
+Program & project manager,Cloud security,13,0.0137
+Program & project manager,Vulnerability management,12,0.0122
+Program & project manager,DevOps,12,0.0194
+Program & project manager,Growth marketing,12,0.0183
+Program & project manager,High-performance computing,11,0.0100
+Program & project manager,Financial analysis,11,0.0074
+Program & project manager,AML / KYC,10,0.0123
+Program & project manager,Market research,10,0.0091
+Program & project manager,Data warehousing,10,0.0087
+Program & project manager,Sensor fusion,10,0.0045
+Program & project manager,Prompt engineering,9,0.0084
+Program & project manager,MCP,9,0.0089
+Program & project manager,Statistics,9,0.0109
+Program & project manager,Inventory management,9,0.0036
+Program & project manager,NetSuite,9,0.0089
+Program & project manager,Test automation,9,0.0073
+Program & project manager,Docker,8,0.0081
+Program & project manager,C,8,0.0082
+Program & project manager,Figma,8,0.0106
+Program & project manager,Content marketing,8,0.0099
+Program & project manager,Blueprint reading,8,0.0055
+Program & project manager,Spark,7,0.0046
+Program & project manager,Financial modeling,7,0.0090
+Program & project manager,dbt,7,0.0101
+Program & project manager,Reinforcement learning,7,0.0038
+Program & project manager,Terraform,7,0.0099
+Program & project manager,Snowflake,7,0.0133
+Program & project manager,Digital marketing,7,0.0094
+Program & project manager,RAG,6,0.0061
+Program & project manager,C++,6,0.0050
+Program & project manager,Databricks,6,0.0094
+Program & project manager,Threat modeling,6,0.0050
+Program & project manager,Application security,6,0.0057
+Program & project manager,Design systems,6,0.0070
+Program & project manager,Pipeline management,6,0.0109
+Program & project manager,PCB design,6,0.0050
+Program & project manager,Marketing automation,6,0.0092
+Program & project manager,Bash / shell,6,0.0051
+Program & project manager,Performance optimization,5,0.0050
+Program & project manager,GPU computing,5,0.0063
+Program & project manager,Infrastructure as code,5,0.0053
+Program & project manager,Linux,5,0.0070
+Program & project manager,Penetration testing,5,0.0035
+Program & project manager,UX design,5,0.0042
+Program & project manager,Code review,5,0.0039
+Program & project manager,Zendesk,5,0.0073
+Program & project manager,HVAC,5,0.0037
+QA engineer,Communication,51,0.6495
+QA engineer,Test automation,46,0.5854
+QA engineer,CI/CD,37,0.4591
+QA engineer,Mentoring,33,0.3858
+QA engineer,Collaboration,33,0.4243
+QA engineer,Quality assurance,29,0.3927
+QA engineer,Python,28,0.3502
+QA engineer,Cross-functional work,28,0.3946
+QA engineer,Problem solving,28,0.3742
+QA engineer,Agile,22,0.2598
+QA engineer,Leadership,21,0.2717
+QA engineer,Machine learning,19,0.2211
+QA engineer,Git,19,0.2052
+QA engineer,Jira,19,0.2318
+QA engineer,AI assistants,18,0.2366
+QA engineer,Selenium,18,0.1912
+QA engineer,Process improvement,16,0.1877
+QA engineer,Playwright,16,0.2073
+QA engineer,AWS,15,0.1658
+QA engineer,C++,13,0.1539
+QA engineer,Linux,13,0.1578
+QA engineer,Attention to detail,13,0.2005
+QA engineer,Ownership,13,0.1456
+QA engineer,Code review,12,0.1680
+QA engineer,SQL,12,0.1461
+QA engineer,Java,12,0.1126
+QA engineer,Distributed systems,11,0.1217
+QA engineer,LLMs,11,0.1123
+QA engineer,Time management,11,0.1236
+QA engineer,Kubernetes,11,0.1278
+QA engineer,Root cause analysis,11,0.1613
+QA engineer,TypeScript,11,0.1597
+QA engineer,Observability,10,0.0915
+QA engineer,Docker,10,0.1290
+QA engineer,AI coding tools,10,0.1648
+QA engineer,Cypress,10,0.1007
+QA engineer,JavaScript,10,0.1313
+QA engineer,Go,9,0.1104
+QA engineer,Bash / shell,9,0.1021
+QA engineer,DevOps,9,0.0890
+QA engineer,Cloud infrastructure,8,0.0865
+QA engineer,C,8,0.0945
+QA engineer,Microservices,7,0.1007
+QA engineer,Prometheus,7,0.0771
+QA engineer,C#,7,0.0956
+QA engineer,AI agents,6,0.1155
+QA engineer,Google Cloud,6,0.0760
+QA engineer,Customer support,6,0.0708
+QA engineer,Stakeholder management,6,0.0737
+QA engineer,Test engineering,5,0.0714
+QA engineer,GMP / GLP,5,0.0607
+QA engineer,CAD,5,0.0527
+Quant researcher & trader,Python,145,0.7277
+Quant researcher & trader,Statistics,108,0.5177
+Quant researcher & trader,Collaboration,98,0.4391
+Quant researcher & trader,Quantitative trading,90,0.4756
+Quant researcher & trader,Communication,81,0.4443
+Quant researcher & trader,C++,81,0.3670
+Quant researcher & trader,Machine learning,80,0.4199
+Quant researcher & trader,Data analysis,63,0.3125
+Quant researcher & trader,Problem solving,62,0.3309
+Quant researcher & trader,Mentoring,42,0.2277
+Quant researcher & trader,Risk management,35,0.2306
+Quant researcher & trader,Attention to detail,35,0.1729
+Quant researcher & trader,SQL,32,0.2377
+Quant researcher & trader,Forecasting,25,0.1737
+Quant researcher & trader,R,22,0.1015
+Quant researcher & trader,Ownership,21,0.1277
+Quant researcher & trader,Critical thinking,21,0.1033
+Quant researcher & trader,Linux,21,0.0882
+Quant researcher & trader,Decision making,17,0.0824
+Quant researcher & trader,Deep learning,15,0.0823
+Quant researcher & trader,Data pipelines,15,0.0720
+Quant researcher & trader,MATLAB,13,0.0471
+Quant researcher & trader,Electrical engineering,13,0.0551
+Quant researcher & trader,Cross-functional work,12,0.1303
+Quant researcher & trader,Prototyping,12,0.0702
+Quant researcher & trader,C,11,0.0398
+Quant researcher & trader,High-performance computing,10,0.0684
+Quant researcher & trader,LLMs,10,0.0759
+Quant researcher & trader,Pandas,10,0.0377
+Quant researcher & trader,Pricing strategy,9,0.0649
+Quant researcher & trader,Process improvement,9,0.0875
+Quant researcher & trader,Java,9,0.0370
+Quant researcher & trader,Market research,8,0.0378
+Quant researcher & trader,Investment analysis,8,0.0364
+Quant researcher & trader,Bash / shell,8,0.0309
+Quant researcher & trader,Data modeling,8,0.0311
+Quant researcher & trader,AI assistants,7,0.0759
+Quant researcher & trader,Data governance,7,0.0684
+Quant researcher & trader,Leadership,7,0.0556
+Quant researcher & trader,Strategic planning,6,0.0422
+Quant researcher & trader,Rust,6,0.0477
+Quant researcher & trader,Git,6,0.0281
+Quant researcher & trader,Data structures & algorithms,6,0.0283
+Quant researcher & trader,GPU computing,6,0.0442
+Quant researcher & trader,Excel,6,0.0414
+Quant researcher & trader,Performance optimization,5,0.0298
+Quant researcher & trader,PyTorch,5,0.0210
+Quant researcher & trader,Cloud infrastructure,5,0.0337
+Quant researcher & trader,CI/CD,5,0.0247
+Quant researcher & trader,System design,5,0.0245
+Quant researcher & trader,A/B testing,5,0.0262
+Quant researcher & trader,Materials science,5,0.0228
+Quant researcher & trader,Infrastructure as code,5,0.0179
+Quant researcher & trader,Agile,5,0.0337
+Recruiting & HR,Communication,495,0.6573
+Recruiting & HR,Leadership,339,0.4765
+Recruiting & HR,Recruiting,321,0.4207
+Recruiting & HR,Collaboration,260,0.3197
+Recruiting & HR,Cross-functional work,259,0.3509
+Recruiting & HR,Attention to detail,222,0.3070
+Recruiting & HR,HR management,210,0.3068
+Recruiting & HR,Process improvement,207,0.2706
+Recruiting & HR,Workday,180,0.2574
+Recruiting & HR,Mentoring,169,0.2318
+Recruiting & HR,Problem solving,169,0.2341
+Recruiting & HR,Compensation & benefits,167,0.2401
+Recruiting & HR,Payroll,147,0.2218
+Recruiting & HR,Time management,118,0.1641
+Recruiting & HR,Excel,115,0.1672
+Recruiting & HR,AI assistants,106,0.1645
+Recruiting & HR,Stakeholder management,87,0.1191
+Recruiting & HR,Decision making,85,0.1240
+Recruiting & HR,Adaptability,81,0.1098
+Recruiting & HR,Ownership,81,0.0956
+Recruiting & HR,Privacy regulation,76,0.0619
+Recruiting & HR,Logistics,74,0.0967
+Recruiting & HR,Project management,66,0.0888
+Recruiting & HR,Negotiation,66,0.0727
+Recruiting & HR,Critical thinking,65,0.1016
+Recruiting & HR,Presentation,65,0.0758
+Recruiting & HR,Accounting,59,0.0925
+Recruiting & HR,Change management,58,0.0893
+Recruiting & HR,Data analysis,53,0.0863
+Recruiting & HR,Auditing,51,0.0813
+Recruiting & HR,Market research,48,0.0616
+Recruiting & HR,Procurement,47,0.0512
+Recruiting & HR,Prospecting,46,0.0238
+Recruiting & HR,People management,43,0.0638
+Recruiting & HR,Customer support,42,0.0582
+Recruiting & HR,Strategic planning,41,0.0609
+Recruiting & HR,Machine learning,35,0.0453
+Recruiting & HR,Regulatory compliance,34,0.0538
+Recruiting & HR,AI agents,32,0.0488
+Recruiting & HR,Data governance,32,0.0543
+Recruiting & HR,Program management,26,0.0310
+Recruiting & HR,Git,26,0.0325
+Recruiting & HR,Jira,26,0.0358
+Recruiting & HR,Operations management,25,0.0248
+Recruiting & HR,Vendor management,25,0.0408
+Recruiting & HR,Supply chain,25,0.0180
+Recruiting & HR,CRM,23,0.0297
+Recruiting & HR,Mergers & acquisitions,22,0.0336
+Recruiting & HR,Agile,20,0.0201
+Recruiting & HR,Manufacturing engineering,20,0.0127
+Recruiting & HR,SQL,19,0.0298
+Recruiting & HR,FP&A,17,0.0256
+Recruiting & HR,Tax,16,0.0262
+Recruiting & HR,Robotics,15,0.0136
+Recruiting & HR,Generative AI,15,0.0228
+Recruiting & HR,Cloud infrastructure,14,0.0155
+Recruiting & HR,CAD,13,0.0205
+Recruiting & HR,Python,13,0.0173
+Recruiting & HR,Pipeline management,13,0.0246
+Recruiting & HR,Zendesk,13,0.0157
+Recruiting & HR,Tableau,13,0.0174
+Recruiting & HR,LLMs,12,0.0183
+Recruiting & HR,Risk management,12,0.0211
+Recruiting & HR,Accessibility,12,0.0136
+Recruiting & HR,Forecasting,11,0.0195
+Recruiting & HR,C++,11,0.0152
+Recruiting & HR,Cybersecurity,10,0.0111
+Recruiting & HR,Revenue operations,10,0.0170
+Recruiting & HR,Data center operations,10,0.0092
+Recruiting & HR,Systems engineering,10,0.0125
+Recruiting & HR,Statistics,10,0.0161
+Recruiting & HR,Business development,10,0.0137
+Recruiting & HR,Business intelligence,9,0.0110
+Recruiting & HR,Root cause analysis,8,0.0109
+Recruiting & HR,Social media marketing,8,0.0124
+Recruiting & HR,Data modeling,7,0.0089
+Recruiting & HR,A/B testing,7,0.0113
+Recruiting & HR,Financial modeling,7,0.0115
+Recruiting & HR,Customer focus,7,0.0109
+Recruiting & HR,Prototyping,6,0.0080
+Recruiting & HR,Roadmapping,6,0.0095
+Recruiting & HR,Quality assurance,6,0.0092
+Recruiting & HR,Salesforce,6,0.0090
+Recruiting & HR,Power BI,6,0.0085
+Recruiting & HR,Therapy & counselling,6,0.0113
+Recruiting & HR,Content marketing,5,0.0105
+Recruiting & HR,User research,5,0.0066
+Recruiting & HR,C,5,0.0050
+Recruiting & HR,Financial analysis,5,0.0060
+Recruiting & HR,Distributed systems,5,0.0083
+Recruiting & HR,Data visualization,5,0.0061
+Recruiting & HR,Partnerships,5,0.0079
+Recruiting & HR,Growth marketing,5,0.0061
+Research scientist,Machine learning,66,0.3944
+Research scientist,Communication,65,0.4853
+Research scientist,Cross-functional work,61,0.4534
+Research scientist,Python,55,0.3791
+Research scientist,Collaboration,49,0.3757
+Research scientist,LLMs,48,0.2981
+Research scientist,Mentoring,45,0.3521
+Research scientist,Prototyping,34,0.2496
+Research scientist,Statistics,32,0.2543
+Research scientist,Leadership,32,0.2817
+Research scientist,Fine-tuning,31,0.1603
+Research scientist,Deep learning,31,0.1795
+Research scientist,Quantitative trading,27,0.1913
+Research scientist,AI agents,27,0.1714
+Research scientist,User research,26,0.2442
+Research scientist,Decision making,25,0.1563
+Research scientist,Data analysis,24,0.2079
+Research scientist,Reinforcement learning,23,0.1202
+Research scientist,PyTorch,22,0.1382
+Research scientist,Problem solving,22,0.1663
+Research scientist,Presentation,21,0.1922
+Research scientist,AI assistants,18,0.1614
+Research scientist,A/B testing,17,0.1463
+Research scientist,Penetration testing,15,0.0717
+Research scientist,Logistics,15,0.0820
+Research scientist,SQL,14,0.1207
+Research scientist,TensorFlow,14,0.0814
+Research scientist,Model evaluation,13,0.0759
+Research scientist,Attention to detail,13,0.0722
+Research scientist,Product strategy,12,0.0988
+Research scientist,C++,11,0.0770
+Research scientist,Data pipelines,11,0.0606
+Research scientist,JAX,11,0.0502
+Research scientist,Critical thinking,10,0.0622
+Research scientist,R,10,0.0928
+Research scientist,NLP,10,0.0938
+Research scientist,Market research,10,0.1006
+Research scientist,Time management,10,0.0903
+Research scientist,Supply chain,10,0.0422
+Research scientist,Electrical engineering,9,0.0500
+Research scientist,Generative AI,8,0.0690
+Research scientist,Cybersecurity,8,0.0478
+Research scientist,Project management,8,0.0433
+Research scientist,Computer vision,7,0.0602
+Research scientist,Data governance,7,0.0580
+Research scientist,Threat modeling,7,0.0449
+Research scientist,Robotics,7,0.0350
+Research scientist,Adaptability,7,0.0292
+Research scientist,AWS,6,0.0448
+Research scientist,Data visualization,5,0.0413
+Research scientist,Google Cloud,5,0.0390
+Research scientist,Azure,5,0.0390
+Research scientist,Agile,5,0.0350
+Research scientist,AI coding tools,5,0.0407
+Research scientist,CUDA,5,0.0408
+Research scientist,Go,5,0.0420
+Research scientist,C,5,0.0420
+Research scientist,Distributed systems,5,0.0408
+Research scientist,Privacy regulation,5,0.0350
+Research scientist,Forecasting,5,0.0281
+Research scientist,Observability,5,0.0301
+Research scientist,Intellectual property,5,0.0257
+Research scientist,Ownership,5,0.0362
+Sales & account executive,Communication,2071,0.5396
+Sales & account executive,Cross-functional work,1561,0.4061
+Sales & account executive,Leadership,1367,0.3733
+Sales & account executive,Prospecting,1309,0.3291
+Sales & account executive,Collaboration,1293,0.3493
+Sales & account executive,Salesforce,1252,0.3204
+Sales & account executive,Negotiation,1120,0.2858
+Sales & account executive,B2B sales,1019,0.2596
+Sales & account executive,Pipeline management,998,0.2387
+Sales & account executive,Forecasting,871,0.2117
+Sales & account executive,Business development,808,0.2351
+Sales & account executive,Ownership,714,0.1751
+Sales & account executive,Mentoring,710,0.1803
+Sales & account executive,CRM,668,0.1954
+Sales & account executive,Presentation,592,0.1399
+Sales & account executive,MEDDIC,529,0.1209
+Sales & account executive,Account management,524,0.1413
+Sales & account executive,Revenue operations,522,0.1374
+Sales & account executive,Procurement,457,0.1170
+Sales & account executive,Problem solving,411,0.1134
+Sales & account executive,Time management,394,0.0990
+Sales & account executive,Solution engineering,391,0.1031
+Sales & account executive,AI assistants,375,0.1166
+Sales & account executive,Compensation & benefits,348,0.0657
+Sales & account executive,Decision making,327,0.0866
+Sales & account executive,Adaptability,320,0.0861
+Sales & account executive,Partnerships,297,0.0885
+Sales & account executive,Attention to detail,291,0.0906
+Sales & account executive,Process improvement,249,0.0708
+Sales & account executive,Outreach tools,240,0.0694
+Sales & account executive,Critical thinking,225,0.0675
+Sales & account executive,Excel,215,0.0642
+Sales & account executive,Logistics,207,0.0461
+Sales & account executive,SQL,201,0.0589
+Sales & account executive,Data analysis,200,0.0517
+Sales & account executive,Cloud infrastructure,195,0.0443
+Sales & account executive,Cybersecurity,179,0.0402
+Sales & account executive,Roadmapping,177,0.0410
+Sales & account executive,Contract negotiation,176,0.0352
+Sales & account executive,Growth marketing,173,0.0448
+Sales & account executive,AI agents,171,0.0437
+Sales & account executive,Machine learning,169,0.0400
+Sales & account executive,Tableau,160,0.0327
+Sales & account executive,Accounting,153,0.0471
+Sales & account executive,Customer focus,139,0.0362
+Sales & account executive,Customer support,138,0.0391
+Sales & account executive,Business intelligence,134,0.0326
+Sales & account executive,AWS,133,0.0269
+Sales & account executive,Operations management,129,0.0303
+Sales & account executive,Project management,125,0.0460
+Sales & account executive,Cloud security,116,0.0202
+Sales & account executive,LLMs,115,0.0253
+Sales & account executive,DevOps,112,0.0295
+Sales & account executive,Stakeholder management,112,0.0339
+Sales & account executive,Google Cloud,110,0.0208
+Sales & account executive,Recruiting,105,0.0293
+Sales & account executive,People management,101,0.0250
+Sales & account executive,Azure,101,0.0177
+Sales & account executive,Generative AI,98,0.0231
+Sales & account executive,Gong,97,0.0316
+Sales & account executive,Strategic planning,95,0.0303
+Sales & account executive,Market research,93,0.0297
+Sales & account executive,HR management,93,0.0259
+Sales & account executive,Supply chain,92,0.0290
+Sales & account executive,Accessibility,89,0.0144
+Sales & account executive,FP&A,88,0.0301
+Sales & account executive,Data governance,80,0.0224
+Sales & account executive,Observability,79,0.0182
+Sales & account executive,Privacy regulation,73,0.0258
+Sales & account executive,Financial modeling,72,0.0236
+Sales & account executive,Looker,71,0.0223
+Sales & account executive,Data pipelines,70,0.0158
+Sales & account executive,Program management,69,0.0215
+Sales & account executive,HubSpot,68,0.0278
+Sales & account executive,A/B testing,68,0.0185
+Sales & account executive,Data warehousing,68,0.0154
+Sales & account executive,CAD,64,0.0189
+Sales & account executive,Social media marketing,62,0.0245
+Sales & account executive,Data center operations,62,0.0124
+Sales & account executive,Change management,61,0.0140
+Sales & account executive,Agile,58,0.0156
+Sales & account executive,ERP,58,0.0181
+Sales & account executive,Pricing strategy,56,0.0161
+Sales & account executive,Auditing,56,0.0150
+Sales & account executive,Snowflake,52,0.0146
+Sales & account executive,Product strategy,50,0.0115
+Sales & account executive,NetSuite,49,0.0149
+Sales & account executive,Digital marketing,48,0.0188
+Sales & account executive,Spark,44,0.0054
+Sales & account executive,Python,42,0.0151
+Sales & account executive,Identity & access,40,0.0094
+Sales & account executive,Risk management,38,0.0105
+Sales & account executive,Mergers & acquisitions,37,0.0135
+Sales & account executive,Marketing automation,34,0.0108
+Sales & account executive,Kubernetes,33,0.0092
+Sales & account executive,MCP,32,0.0122
+Sales & account executive,Payroll,30,0.0097
+Sales & account executive,Financial analysis,30,0.0123
+Sales & account executive,SIEM,30,0.0049
+Sales & account executive,Zero trust,28,0.0042
+Sales & account executive,Regulatory compliance,28,0.0052
+Sales & account executive,Content marketing,27,0.0068
+Sales & account executive,dbt,26,0.0067
+Sales & account executive,Workday,25,0.0085
+Sales & account executive,Root cause analysis,24,0.0051
+Sales & account executive,AI coding tools,23,0.0065
+Sales & account executive,Application security,23,0.0032
+Sales & account executive,Power BI,22,0.0058
+Sales & account executive,SAP,22,0.0057
+Sales & account executive,BigQuery,21,0.0066
+Sales & account executive,Data visualization,21,0.0078
+Sales & account executive,Go,21,0.0056
+Sales & account executive,Databricks,20,0.0066
+Sales & account executive,FedRAMP,20,0.0048
+Sales & account executive,Prototyping,20,0.0059
+Sales & account executive,Email marketing,20,0.0053
+Sales & account executive,Investment analysis,20,0.0063
+Sales & account executive,Incident management,18,0.0069
+Sales & account executive,Quality assurance,18,0.0058
+Sales & account executive,Prompt engineering,18,0.0058
+Sales & account executive,Statistics,17,0.0059
+Sales & account executive,Jira,16,0.0064
+Sales & account executive,Fraud detection,16,0.0046
+Sales & account executive,Systems engineering,16,0.0056
+Sales & account executive,Legal drafting,15,0.0046
+Sales & account executive,Attribution modeling,15,0.0071
+Sales & account executive,Microservices,15,0.0017
+Sales & account executive,GMP / GLP,14,0.0041
+Sales & account executive,PostgreSQL,14,0.0029
+Sales & account executive,AML / KYC,14,0.0055
+Sales & account executive,Site reliability,14,0.0017
+Sales & account executive,RAG,13,0.0037
+Sales & account executive,CI/CD,13,0.0026
+Sales & account executive,Iceberg,13,0.0013
+Sales & account executive,NLP,12,0.0031
+Sales & account executive,Brand strategy,12,0.0049
+Sales & account executive,Splunk,11,0.0025
+Sales & account executive,Inventory management,11,0.0015
+Sales & account executive,MySQL,11,0.0012
+Sales & account executive,HVAC,11,0.0034
+Sales & account executive,Data modeling,10,0.0032
+Sales & account executive,System design,10,0.0030
+Sales & account executive,R,10,0.0048
+Sales & account executive,Threat modeling,10,0.0015
+Sales & account executive,Technical writing,9,0.0026
+Sales & account executive,Event management,9,0.0029
+Sales & account executive,Performance optimization,9,0.0035
+Sales & account executive,Therapy & counselling,9,0.0038
+Sales & account executive,Airflow,8,0.0030
+Sales & account executive,Medical billing,8,0.0037
+Sales & account executive,Zendesk,8,0.0029
+Sales & account executive,Git,8,0.0012
+Sales & account executive,Influencer marketing,8,0.0044
+Sales & account executive,UX design,8,0.0025
+Sales & account executive,Ruby,7,0.0029
+Sales & account executive,Quantitative trading,7,0.0044
+Sales & account executive,Networking,7,0.0010
+Sales & account executive,Elasticsearch,6,0.0016
+Sales & account executive,SOC 2,6,0.0027
+Sales & account executive,Clinical research,6,0.0025
+Sales & account executive,Product analytics,6,0.0021
+Sales & account executive,Vendor management,6,0.0024
+Sales & account executive,C,6,0.0010
+Sales & account executive,Computer vision,6,0.0019
+Sales & account executive,Fine-tuning,6,0.0028
+Sales & account executive,GPU computing,5,0.0028
+Sales & account executive,Intellectual property,5,0.0011
+Sales & account executive,Vector databases,5,0.0013
+Sales & account executive,Datadog,5,0.0009
+Sales & account executive,FDA regulation,5,0.0013
+Sales & account executive,Google Analytics,5,0.0022
+Sales & account executive,SEO,5,0.0015
+Security engineer,Communication,355,0.5660
+Security engineer,Python,334,0.5175
+Security engineer,Incident management,297,0.4856
+Security engineer,Threat modeling,293,0.4962
+Security engineer,Cybersecurity,261,0.3820
+Security engineer,AWS,242,0.4651
+Security engineer,Leadership,213,0.3514
+Security engineer,Cloud infrastructure,205,0.3690
+Security engineer,Go,200,0.2997
+Security engineer,Application security,196,0.3633
+Security engineer,Collaboration,190,0.3250
+Security engineer,Mentoring,185,0.3291
+Security engineer,Google Cloud,185,0.3491
+Security engineer,Cross-functional work,182,0.2903
+Security engineer,Identity & access,175,0.3113
+Security engineer,CI/CD,170,0.3146
+Security engineer,Vulnerability management,170,0.3163
+Security engineer,Kubernetes,163,0.2864
+Security engineer,AI agents,143,0.2440
+Security engineer,SIEM,137,0.2329
+Security engineer,Cloud security,137,0.2554
+Security engineer,Risk management,134,0.2321
+Security engineer,Azure,133,0.2210
+Security engineer,FedRAMP,131,0.2225
+Security engineer,Infrastructure as code,127,0.2250
+Security engineer,Penetration testing,122,0.1965
+Security engineer,LLMs,116,0.2096
+Security engineer,SOC 2,111,0.2241
+Security engineer,Linux,109,0.1519
+Security engineer,Terraform,107,0.2068
+Security engineer,Problem solving,104,0.1655
+Security engineer,Privacy regulation,92,0.1392
+Security engineer,Code review,90,0.1671
+Security engineer,C++,82,0.0903
+Security engineer,Bash / shell,78,0.1188
+Security engineer,Supply chain,76,0.1242
+Security engineer,Machine learning,76,0.1375
+Security engineer,AI assistants,74,0.1470
+Security engineer,Networking,73,0.0789
+Security engineer,Distributed systems,69,0.0851
+Security engineer,Git,65,0.1219
+Security engineer,Zero trust,62,0.1002
+Security engineer,Docker,61,0.1027
+Security engineer,Rust,61,0.0746
+Security engineer,Compensation & benefits,60,0.0697
+Security engineer,Time management,59,0.1092
+Security engineer,Process improvement,57,0.1059
+Security engineer,SQL,57,0.0882
+Security engineer,Auditing,55,0.1016
+Security engineer,Observability,54,0.0868
+Security engineer,JavaScript,53,0.0983
+Security engineer,TypeScript,52,0.1075
+Security engineer,Prototyping,52,0.0543
+Security engineer,Java,49,0.0786
+Security engineer,Cryptography,48,0.0632
+Security engineer,System design,48,0.0644
+Security engineer,DevOps,43,0.0874
+Security engineer,C,43,0.0530
+Security engineer,Splunk,42,0.0636
+Security engineer,AI coding tools,39,0.0882
+Security engineer,Decision making,38,0.0573
+Security engineer,Ownership,38,0.0530
+Security engineer,MCP,37,0.0809
+Security engineer,Root cause analysis,37,0.0623
+Security engineer,Data center operations,35,0.0406
+Security engineer,Logistics,35,0.0280
+Security engineer,Embedded systems,35,0.0377
+Security engineer,Regulatory compliance,35,0.0530
+Security engineer,Data pipelines,34,0.0449
+Security engineer,Agile,32,0.0443
+Security engineer,Ruby,31,0.0582
+Security engineer,Attention to detail,30,0.0481
+Security engineer,Critical thinking,25,0.0382
+Security engineer,Site reliability,24,0.0424
+Security engineer,Generative AI,23,0.0483
+Security engineer,Adaptability,23,0.0359
+Security engineer,Project management,21,0.0325
+Security engineer,Stakeholder management,21,0.0310
+Security engineer,Ansible,21,0.0268
+Security engineer,CAD,20,0.0330
+Security engineer,Jira,20,0.0401
+Security engineer,Procurement,19,0.0279
+Security engineer,Data analysis,18,0.0241
+Security engineer,Test automation,17,0.0263
+Security engineer,Microservices,17,0.0264
+Security engineer,REST APIs,16,0.0278
+Security engineer,Program management,15,0.0210
+Security engineer,Data governance,14,0.0218
+Security engineer,Intellectual property,13,0.0183
+Security engineer,iOS,13,0.0238
+Security engineer,Customer support,13,0.0176
+Security engineer,Data warehousing,13,0.0189
+Security engineer,C#,13,0.0105
+Security engineer,Technical writing,12,0.0146
+Security engineer,Android,12,0.0224
+Security engineer,HR management,12,0.0197
+Security engineer,Systems engineering,12,0.0117
+Security engineer,Change management,12,0.0104
+Security engineer,Solution engineering,11,0.0167
+Security engineer,Presentation,10,0.0197
+Security engineer,Negotiation,10,0.0226
+Security engineer,People management,10,0.0145
+Security engineer,Snowflake,9,0.0177
+Security engineer,RAG,9,0.0171
+Security engineer,Social media marketing,9,0.0133
+Security engineer,Scala,9,0.0155
+Security engineer,Prometheus,9,0.0146
+Security engineer,A/B testing,9,0.0082
+Security engineer,Mergers & acquisitions,9,0.0174
+Security engineer,Kotlin,9,0.0160
+Security engineer,Node.js,9,0.0205
+Security engineer,Vendor management,8,0.0128
+Security engineer,Operations management,8,0.0135
+Security engineer,Accounting,8,0.0110
+Security engineer,SAP,8,0.0047
+Security engineer,PHP,8,0.0128
+Security engineer,Accessibility,8,0.0109
+Security engineer,Databricks,8,0.0121
+Security engineer,React,7,0.0165
+Security engineer,R,7,0.0137
+Security engineer,Recruiting,7,0.0158
+Security engineer,Model evaluation,7,0.0107
+Security engineer,Strategic planning,7,0.0159
+Security engineer,PostgreSQL,6,0.0104
+Security engineer,Control systems,6,0.0046
+Security engineer,Design systems,6,0.0072
+Security engineer,Robotics,6,0.0072
+Security engineer,Spark,6,0.0062
+Security engineer,Event management,6,0.0063
+Security engineer,Elasticsearch,5,0.0110
+Security engineer,Datadog,5,0.0109
+Security engineer,Fraud detection,5,0.0129
+Security engineer,High-performance computing,5,0.0069
+Security engineer,Salesforce,5,0.0077
+Security engineer,Roadmapping,5,0.0074
+Security engineer,B2B sales,5,0.0096
+Security engineer,Electrical engineering,5,0.0046
+Security engineer,Prompt engineering,5,0.0073
+Software engineer,Communication,2717,0.4752
+Software engineer,Python,2320,0.3983
+Software engineer,Collaboration,2216,0.4065
+Software engineer,Mentoring,2145,0.4180
+Software engineer,Distributed systems,1854,0.3202
+Software engineer,Cross-functional work,1845,0.3229
+Software engineer,Leadership,1555,0.2860
+Software engineer,Kubernetes,1502,0.2767
+Software engineer,Go,1490,0.2580
+Software engineer,Observability,1421,0.2769
+Software engineer,AWS,1367,0.2769
+Software engineer,Problem solving,1354,0.2311
+Software engineer,C++,1247,0.1647
+Software engineer,Java,1219,0.2228
+Software engineer,Incident management,1154,0.2137
+Software engineer,CI/CD,1153,0.2173
+Software engineer,Cloud infrastructure,1107,0.2078
+Software engineer,Code review,1063,0.1958
+Software engineer,AI agents,1022,0.2040
+Software engineer,Machine learning,1019,0.1700
+Software engineer,TypeScript,915,0.1971
+Software engineer,React,904,0.1841
+Software engineer,LLMs,807,0.1565
+Software engineer,AI assistants,793,0.1755
+Software engineer,Google Cloud,792,0.1544
+Software engineer,SQL,791,0.1365
+Software engineer,System design,780,0.1434
+Software engineer,Docker,768,0.1408
+Software engineer,Prototyping,757,0.1223
+Software engineer,Linux,687,0.0952
+Software engineer,PostgreSQL,651,0.1291
+Software engineer,Azure,648,0.1136
+Software engineer,Data pipelines,608,0.1134
+Software engineer,Git,600,0.1091
+Software engineer,AI coding tools,597,0.1457
+Software engineer,Rust,588,0.0883
+Software engineer,Test automation,573,0.1090
+Software engineer,Privacy regulation,569,0.0560
+Software engineer,JavaScript,565,0.0941
+Software engineer,Terraform,560,0.1104
+Software engineer,Process improvement,548,0.0891
+Software engineer,Kafka,482,0.1016
+Software engineer,Agile,460,0.0997
+Software engineer,Infrastructure as code,445,0.0936
+Software engineer,Compensation & benefits,430,0.0571
+Software engineer,Microservices,415,0.0833
+Software engineer,CAD,412,0.0633
+Software engineer,Performance optimization,407,0.0684
+Software engineer,Data structures & algorithms,401,0.0762
+Software engineer,C,399,0.0512
+Software engineer,Identity & access,384,0.0753
+Software engineer,A/B testing,367,0.0776
+Software engineer,Ownership,364,0.0636
+Software engineer,Data analysis,363,0.0495
+Software engineer,Decision making,343,0.0620
+Software engineer,Root cause analysis,342,0.0513
+Software engineer,Supply chain,333,0.0395
+Software engineer,Ruby,332,0.0793
+Software engineer,Electrical engineering,330,0.0388
+Software engineer,C#,313,0.0479
+Software engineer,Kotlin,302,0.0596
+Software engineer,Robotics,294,0.0319
+Software engineer,Networking,282,0.0408
+Software engineer,Embedded systems,281,0.0350
+Software engineer,Node.js,278,0.0608
+Software engineer,Prometheus,273,0.0481
+Software engineer,Redis,272,0.0634
+Software engineer,Logistics,272,0.0354
+Software engineer,Site reliability,270,0.0482
+Software engineer,Adaptability,265,0.0512
+Software engineer,MySQL,259,0.0516
+Software engineer,Time management,256,0.0466
+Software engineer,DevOps,255,0.0560
+Software engineer,Attention to detail,243,0.0389
+Software engineer,Data center operations,243,0.0334
+Software engineer,Systems engineering,240,0.0320
+Software engineer,MCP,232,0.0501
+Software engineer,Data modeling,225,0.0480
+Software engineer,REST APIs,224,0.0491
+Software engineer,NoSQL,223,0.0458
+Software engineer,Scala,222,0.0319
+Software engineer,Test engineering,211,0.0193
+Software engineer,gRPC,207,0.0363
+Software engineer,Customer support,206,0.0382
+Software engineer,Project management,204,0.0336
+Software engineer,GraphQL,204,0.0444
+Software engineer,Data warehousing,200,0.0375
+Software engineer,Spark,198,0.0344
+Software engineer,Generative AI,198,0.0392
+Software engineer,Mechanical design,194,0.0193
+Software engineer,Risk management,193,0.0253
+Software engineer,Bash / shell,183,0.0306
+Software engineer,RAG,181,0.0366
+Software engineer,Data governance,178,0.0368
+Software engineer,Prompt engineering,176,0.0349
+Software engineer,Procurement,171,0.0163
+Software engineer,Technical writing,168,0.0321
+Software engineer,Ansible,166,0.0231
+Software engineer,Model evaluation,163,0.0348
+Software engineer,Statistics,163,0.0238
+Software engineer,Datadog,159,0.0391
+Software engineer,Jira,156,0.0257
+Software engineer,People management,156,0.0341
+Software engineer,Critical thinking,155,0.0263
+Software engineer,Presentation,155,0.0205
+Software engineer,Regulatory compliance,152,0.0241
+Software engineer,High-performance computing,151,0.0201
+Software engineer,Elasticsearch,150,0.0354
+Software engineer,Snowflake,149,0.0347
+Software engineer,Accessibility,147,0.0258
+Software engineer,Manufacturing engineering,144,0.0143
+Software engineer,DynamoDB,143,0.0351
+Software engineer,Salesforce,142,0.0296
+Software engineer,Forecasting,141,0.0222
+Software engineer,Android,138,0.0288
+Software engineer,Design systems,137,0.0278
+Software engineer,Angular,137,0.0176
+Software engineer,Data visualization,136,0.0227
+Software engineer,Cybersecurity,135,0.0232
+Software engineer,MATLAB,135,0.0110
+Software engineer,Control systems,134,0.0131
+Software engineer,Stakeholder management,131,0.0217
+Software engineer,Roadmapping,125,0.0201
+Software engineer,UX design,125,0.0159
+Software engineer,Quality assurance,124,0.0182
+Software engineer,.NET,122,0.0179
+Software engineer,PyTorch,122,0.0187
+Software engineer,HR management,120,0.0254
+Software engineer,ERP,120,0.0136
+Software engineer,iOS,119,0.0278
+Software engineer,CSS,113,0.0247
+Software engineer,Accounting,112,0.0214
+Software engineer,MongoDB,110,0.0259
+Software engineer,Workplace safety,110,0.0109
+Software engineer,Zero trust,108,0.0170
+Software engineer,Change management,108,0.0162
+Software engineer,Solution engineering,106,0.0191
+Software engineer,Spring,106,0.0248
+Software engineer,Customer focus,105,0.0186
+Software engineer,SOC 2,103,0.0222
+Software engineer,Product strategy,103,0.0182
+Software engineer,BigQuery,101,0.0236
+Software engineer,Fine-tuning,100,0.0164
+Software engineer,Sensor fusion,100,0.0069
+Software engineer,Excel,97,0.0121
+Software engineer,CRM,95,0.0224
+Software engineer,ClickHouse,95,0.0161
+Software engineer,Airflow,94,0.0244
+Software engineer,Program management,93,0.0099
+Software engineer,Threat modeling,92,0.0154
+Software engineer,Auditing,90,0.0160
+Software engineer,Vector databases,88,0.0159
+Software engineer,Power systems,87,0.0093
+Software engineer,LangChain,86,0.0162
+Software engineer,Vue,85,0.0178
+Software engineer,HTML,81,0.0168
+Software engineer,Next.js,80,0.0148
+Software engineer,Strategic planning,78,0.0129
+Software engineer,FedRAMP,78,0.0127
+Software engineer,Helm,77,0.0162
+Software engineer,Negotiation,77,0.0081
+Software engineer,Application security,75,0.0130
+Software engineer,dbt,75,0.0146
+Software engineer,Cloud security,75,0.0112
+Software engineer,Cassandra,72,0.0132
+Software engineer,GD&T,72,0.0070
+Software engineer,Databricks,70,0.0143
+Software engineer,MLOps,69,0.0134
+Software engineer,SAP,67,0.0083
+Software engineer,CUDA,66,0.0086
+Software engineer,NX,64,0.0054
+Software engineer,Flink,63,0.0112
+Software engineer,Unreal Engine,63,0.0101
+Software engineer,Deep learning,62,0.0107
+Software engineer,React Native,61,0.0157
+Software engineer,Swift,60,0.0152
+Software engineer,Operations management,60,0.0072
+Software engineer,PCB design,60,0.0063
+Software engineer,Reinforcement learning,59,0.0081
+Software engineer,Revenue operations,58,0.0120
+Software engineer,Recruiting,58,0.0168
+Software engineer,Power BI,57,0.0063
+Software engineer,Fraud detection,56,0.0095
+Software engineer,TensorFlow,55,0.0087
+Software engineer,Iceberg,54,0.0085
+Software engineer,FastAPI,54,0.0138
+Software engineer,AML / KYC,53,0.0108
+Software engineer,Pandas,52,0.0053
+Software engineer,Tableau,52,0.0081
+Software engineer,Business development,52,0.0090
+Software engineer,Django,50,0.0170
+Software engineer,FPGA,50,0.0062
+Software engineer,Computer vision,50,0.0056
+Software engineer,FEA,48,0.0042
+Software engineer,SolidWorks,48,0.0052
+Software engineer,CNC machining,48,0.0050
+Software engineer,Cryptography,47,0.0069
+Software engineer,Account management,47,0.0084
+Software engineer,GPU computing,47,0.0069
+Software engineer,Welding,47,0.0056
+Software engineer,ASIC design,46,0.0038
+Software engineer,Blueprint reading,45,0.0040
+Software engineer,Splunk,44,0.0065
+Software engineer,Business intelligence,44,0.0065
+Software engineer,Materials science,44,0.0041
+Software engineer,R,43,0.0055
+Software engineer,Vulnerability management,41,0.0074
+Software engineer,Recommender systems,40,0.0094
+Software engineer,PLC programming,39,0.0039
+Software engineer,NetSuite,38,0.0057
+Software engineer,Therapy & counselling,37,0.0072
+Software engineer,Content marketing,37,0.0061
+Software engineer,Workday,37,0.0060
+Software engineer,SEO,35,0.0072
+Software engineer,Looker,35,0.0053
+Software engineer,AutoCAD,34,0.0028
+Software engineer,Playwright,33,0.0060
+Software engineer,Inventory management,33,0.0040
+Software engineer,JAX,33,0.0056
+Software engineer,Pricing strategy,33,0.0065
+Software engineer,CATIA,33,0.0035
+Software engineer,RF engineering,33,0.0029
+Software engineer,Payroll,31,0.0067
+Software engineer,Mergers & acquisitions,30,0.0039
+Software engineer,Quantitative trading,30,0.0066
+Software engineer,Flask,29,0.0064
+Software engineer,PHP,25,0.0066
+Software engineer,Construction management,25,0.0029
+Software engineer,scikit-learn,25,0.0035
+Software engineer,FP&A,24,0.0027
+Software engineer,Penetration testing,24,0.0028
+Software engineer,Vendor management,23,0.0040
+Software engineer,User research,23,0.0054
+Software engineer,Redshift,23,0.0055
+Software engineer,Unity,23,0.0044
+Software engineer,Marketing automation,22,0.0053
+Software engineer,Product analytics,21,0.0056
+Software engineer,Growth marketing,21,0.0041
+Software engineer,SIEM,21,0.0047
+Software engineer,HVAC,21,0.0022
+Software engineer,Thermal engineering,20,0.0018
+Software engineer,Hadoop,20,0.0021
+Software engineer,Solidity,20,0.0031
+Software engineer,Social media marketing,19,0.0047
+Software engineer,UI design,19,0.0030
+Software engineer,Additive manufacturing,19,0.0016
+Software engineer,Selenium,19,0.0021
+Software engineer,Event management,18,0.0019
+Software engineer,Intellectual property,17,0.0026
+Software engineer,Partnerships,17,0.0028
+Software engineer,HubSpot,16,0.0046
+Software engineer,Zendesk,16,0.0033
+Software engineer,WebGL,16,0.0022
+Software engineer,NLP,15,0.0026
+Software engineer,Cypress,15,0.0027
+Software engineer,WebAssembly,14,0.0034
+Software engineer,Haskell,13,0.0030
+Software engineer,B2B sales,12,0.0031
+Software engineer,Hugging Face,12,0.0018
+Software engineer,Perl,12,0.0016
+Software engineer,Digital marketing,11,0.0034
+Software engineer,Patient care,11,0.0028
+Software engineer,Contract negotiation,11,0.0013
+Software engineer,Objective-C,11,0.0021
+Software engineer,Email marketing,10,0.0018
+Software engineer,Market research,10,0.0014
+Software engineer,EHR systems,10,0.0021
+Software engineer,Elixir,10,0.0029
+Software engineer,Prospecting,9,0.0028
+Software engineer,Bioinformatics,9,0.0021
+Software engineer,Figma,8,0.0035
+Software engineer,3D modeling,8,0.0011
+Software engineer,Pipeline management,8,0.0023
+Software engineer,Legal drafting,7,0.0008
+Software engineer,Molecular biology,7,0.0023
+Software engineer,Attribution modeling,7,0.0018
+Software engineer,Gong,6,0.0014
+Software engineer,GMP / GLP,6,0.0027
+Software engineer,Julia,6,0.0003
+Software engineer,FDA regulation,5,0.0015
+Software engineer,Causal inference,5,0.0006
+Software engineer,Financial analysis,5,0.0008
+Software engineer,Financial modeling,5,0.0007
+Software engineer,Investment analysis,5,0.0013
+Solutions engineer,Communication,1035,0.5917
+Solutions engineer,Solution engineering,909,0.4562
+Solutions engineer,Python,752,0.3436
+Solutions engineer,Collaboration,648,0.3524
+Solutions engineer,Cross-functional work,600,0.3273
+Solutions engineer,Leadership,575,0.2928
+Solutions engineer,Problem solving,551,0.3250
+Solutions engineer,AWS,484,0.2203
+Solutions engineer,Cloud infrastructure,467,0.2108
+Solutions engineer,Mentoring,456,0.2387
+Solutions engineer,Azure,428,0.1932
+Solutions engineer,SQL,420,0.1957
+Solutions engineer,Google Cloud,393,0.1798
+Solutions engineer,Machine learning,372,0.1367
+Solutions engineer,LLMs,319,0.1681
+Solutions engineer,Data pipelines,309,0.1199
+Solutions engineer,JavaScript,308,0.1520
+Solutions engineer,AI agents,300,0.1608
+Solutions engineer,Customer support,294,0.1720
+Solutions engineer,Presentation,260,0.1574
+Solutions engineer,Account management,252,0.1199
+Solutions engineer,AI assistants,246,0.1547
+Solutions engineer,Kubernetes,232,0.1357
+Solutions engineer,Data warehousing,226,0.0705
+Solutions engineer,Distributed systems,225,0.0919
+Solutions engineer,Prototyping,221,0.1256
+Solutions engineer,CI/CD,209,0.1003
+Solutions engineer,Java,204,0.0915
+Solutions engineer,Observability,202,0.0967
+Solutions engineer,Linux,202,0.1117
+Solutions engineer,Time management,182,0.0984
+Solutions engineer,Roadmapping,180,0.0949
+Solutions engineer,Networking,164,0.0647
+Solutions engineer,Process improvement,163,0.1044
+Solutions engineer,Generative AI,158,0.0622
+Solutions engineer,Ownership,154,0.0831
+Solutions engineer,Privacy regulation,148,0.0734
+Solutions engineer,REST APIs,148,0.0972
+Solutions engineer,Project management,145,0.0862
+Solutions engineer,B2B sales,143,0.0659
+Solutions engineer,Go,140,0.0614
+Solutions engineer,Incident management,138,0.0902
+Solutions engineer,TypeScript,137,0.0643
+Solutions engineer,Bash / shell,135,0.0714
+Solutions engineer,Data analysis,134,0.0616
+Solutions engineer,Spark,132,0.0260
+Solutions engineer,Stakeholder management,131,0.0557
+Solutions engineer,Adaptability,130,0.0722
+Solutions engineer,RAG,130,0.0482
+Solutions engineer,DevOps,129,0.0761
+Solutions engineer,Data governance,122,0.0433
+Solutions engineer,Prompt engineering,121,0.0563
+Solutions engineer,Identity & access,116,0.0848
+Solutions engineer,Snowflake,116,0.0508
+Solutions engineer,Infrastructure as code,110,0.0531
+Solutions engineer,Docker,109,0.0686
+Solutions engineer,System design,108,0.0560
+Solutions engineer,Compensation & benefits,107,0.0567
+Solutions engineer,Cybersecurity,107,0.0589
+Solutions engineer,Customer focus,104,0.0473
+Solutions engineer,Procurement,102,0.0604
+Solutions engineer,Systems engineering,102,0.0432
+Solutions engineer,Supply chain,102,0.0522
+Solutions engineer,Git,101,0.0623
+Solutions engineer,Terraform,99,0.0425
+Solutions engineer,Scala,96,0.0157
+Solutions engineer,Root cause analysis,92,0.0622
+Solutions engineer,Regulatory compliance,92,0.0372
+Solutions engineer,Salesforce,87,0.0608
+Solutions engineer,Zero trust,84,0.0278
+Solutions engineer,Cloud security,83,0.0299
+Solutions engineer,Logistics,81,0.0461
+Solutions engineer,Site reliability,79,0.0450
+Solutions engineer,MLOps,79,0.0166
+Solutions engineer,Attention to detail,78,0.0562
+Solutions engineer,C++,78,0.0365
+Solutions engineer,Ruby,76,0.0452
+Solutions engineer,Technical writing,74,0.0504
+Solutions engineer,Node.js,74,0.0414
+Solutions engineer,AI coding tools,74,0.0493
+Solutions engineer,Decision making,73,0.0478
+Solutions engineer,ERP,71,0.0492
+Solutions engineer,Jira,70,0.0479
+Solutions engineer,Data modeling,69,0.0359
+Solutions engineer,CRM,68,0.0494
+Solutions engineer,Pipeline management,68,0.0273
+Solutions engineer,MCP,67,0.0523
+Solutions engineer,React,65,0.0452
+Solutions engineer,PostgreSQL,64,0.0385
+Solutions engineer,CAD,60,0.0357
+Solutions engineer,SAP,60,0.0328
+Solutions engineer,Strategic planning,59,0.0194
+Solutions engineer,SOC 2,58,0.0235
+Solutions engineer,Critical thinking,58,0.0408
+Solutions engineer,Electrical engineering,58,0.0331
+Solutions engineer,Change management,57,0.0339
+Solutions engineer,Microservices,57,0.0302
+Solutions engineer,A/B testing,56,0.0291
+Solutions engineer,Kafka,56,0.0224
+Solutions engineer,Vector databases,52,0.0212
+Solutions engineer,Mechanical design,51,0.0262
+Solutions engineer,Business development,51,0.0359
+Solutions engineer,Agile,50,0.0298
+Solutions engineer,Performance optimization,48,0.0275
+Solutions engineer,Data structures & algorithms,48,0.0252
+Solutions engineer,C#,48,0.0248
+Solutions engineer,GraphQL,47,0.0216
+Solutions engineer,HR management,47,0.0347
+Solutions engineer,Fine-tuning,47,0.0232
+Solutions engineer,MEDDIC,46,0.0323
+Solutions engineer,BigQuery,45,0.0290
+Solutions engineer,dbt,42,0.0245
+Solutions engineer,Risk management,41,0.0228
+Solutions engineer,Business intelligence,40,0.0228
+Solutions engineer,Prometheus,40,0.0276
+Solutions engineer,Forecasting,40,0.0211
+Solutions engineer,Pricing strategy,40,0.0144
+Solutions engineer,Hadoop,39,0.0093
+Solutions engineer,People management,37,0.0205
+Solutions engineer,High-performance computing,37,0.0209
+Solutions engineer,Data center operations,37,0.0192
+Solutions engineer,Embedded systems,37,0.0233
+Solutions engineer,Accessibility,36,0.0172
+Solutions engineer,C,36,0.0189
+Solutions engineer,Iceberg,35,0.0065
+Solutions engineer,LangChain,34,0.0121
+Solutions engineer,Databricks,33,0.0216
+Solutions engineer,Redshift,33,0.0179
+Solutions engineer,Code review,33,0.0229
+Solutions engineer,Zendesk,32,0.0201
+Solutions engineer,Operations management,32,0.0179
+Solutions engineer,PyTorch,31,0.0132
+Solutions engineer,Ansible,31,0.0173
+Solutions engineer,Test automation,31,0.0265
+Solutions engineer,PHP,31,0.0174
+Solutions engineer,Product strategy,30,0.0215
+Solutions engineer,FedRAMP,30,0.0162
+Solutions engineer,R,29,0.0087
+Solutions engineer,Program management,29,0.0168
+Solutions engineer,HTML,29,0.0198
+Solutions engineer,Application security,28,0.0152
+Solutions engineer,MySQL,28,0.0168
+Solutions engineer,iOS,27,0.0233
+Solutions engineer,Control systems,27,0.0139
+Solutions engineer,Accounting,27,0.0190
+Solutions engineer,Market research,26,0.0133
+Solutions engineer,Threat modeling,26,0.0087
+Solutions engineer,Tableau,25,0.0141
+Solutions engineer,Model evaluation,25,0.0153
+Solutions engineer,Robotics,25,0.0125
+Solutions engineer,Revenue operations,24,0.0199
+Solutions engineer,Android,23,0.0205
+Solutions engineer,Excel,23,0.0180
+Solutions engineer,Splunk,23,0.0171
+Solutions engineer,Helm,22,0.0147
+Solutions engineer,Rust,22,0.0127
+Solutions engineer,.NET,22,0.0145
+Solutions engineer,scikit-learn,22,0.0065
+Solutions engineer,Pandas,22,0.0053
+Solutions engineer,NX,21,0.0101
+Solutions engineer,Manufacturing engineering,21,0.0121
+Solutions engineer,SIEM,20,0.0121
+Solutions engineer,Power systems,19,0.0120
+Solutions engineer,NetSuite,19,0.0148
+Solutions engineer,Growth marketing,18,0.0075
+Solutions engineer,Workday,18,0.0167
+Solutions engineer,GPU computing,18,0.0134
+Solutions engineer,Datadog,18,0.0132
+Solutions engineer,UX design,18,0.0098
+Solutions engineer,Recruiting,18,0.0150
+Solutions engineer,Test engineering,18,0.0124
+Solutions engineer,Statistics,18,0.0061
+Solutions engineer,Hugging Face,18,0.0061
+Solutions engineer,Vue,18,0.0111
+Solutions engineer,Data visualization,17,0.0085
+Solutions engineer,Inventory management,17,0.0060
+Solutions engineer,Partnerships,16,0.0071
+Solutions engineer,Perl,16,0.0082
+Solutions engineer,Next.js,15,0.0116
+Solutions engineer,Social media marketing,15,0.0109
+Solutions engineer,Deep learning,14,0.0063
+Solutions engineer,Quality assurance,14,0.0084
+Solutions engineer,Workplace safety,14,0.0072
+Solutions engineer,NoSQL,14,0.0068
+Solutions engineer,CSS,14,0.0105
+Solutions engineer,Power BI,13,0.0073
+Solutions engineer,Negotiation,13,0.0087
+Solutions engineer,Content marketing,13,0.0095
+Solutions engineer,MATLAB,13,0.0063
+Solutions engineer,Looker,12,0.0084
+Solutions engineer,Marketing automation,12,0.0120
+Solutions engineer,Auditing,12,0.0085
+Solutions engineer,Svelte,12,0.0055
+Solutions engineer,FEA,12,0.0069
+Solutions engineer,Payroll,11,0.0144
+Solutions engineer,Airflow,11,0.0105
+Solutions engineer,Prospecting,10,0.0077
+Solutions engineer,GMP / GLP,10,0.0038
+Solutions engineer,Elasticsearch,10,0.0056
+Solutions engineer,Design systems,10,0.0055
+Solutions engineer,EHR systems,10,0.0050
+Solutions engineer,Cassandra,10,0.0024
+Solutions engineer,TensorFlow,10,0.0047
+Solutions engineer,GD&T,10,0.0071
+Solutions engineer,Computer vision,10,0.0038
+Solutions engineer,Email marketing,9,0.0113
+Solutions engineer,FP&A,9,0.0080
+Solutions engineer,HubSpot,8,0.0065
+Solutions engineer,NLP,7,0.0048
+Solutions engineer,Redis,7,0.0077
+Solutions engineer,PCB design,7,0.0036
+Solutions engineer,Vulnerability management,7,0.0021
+Solutions engineer,Bioinformatics,6,0.0029
+Solutions engineer,Financial modeling,6,0.0037
+Solutions engineer,Medical billing,6,0.0017
+Solutions engineer,Thermal engineering,6,0.0067
+Solutions engineer,Sensor fusion,6,0.0029
+Solutions engineer,Therapy & counselling,6,0.0048
+Solutions engineer,Product analytics,6,0.0053
+Solutions engineer,SolidWorks,5,0.0027
+Solutions engineer,CUDA,5,0.0029
+Solutions engineer,Figma,5,0.0042
+Solutions engineer,React Native,5,0.0031
+Solutions engineer,Fraud detection,5,0.0028
+Solutions engineer,Blueprint reading,5,0.0025
+Solutions engineer,Welding,5,0.0027
+Solutions engineer,CNC machining,5,0.0035
+Solutions engineer,RF engineering,5,0.0015
+Solutions engineer,Mergers & acquisitions,5,0.0042
+Solutions engineer,Cryptography,5,0.0030
+Supply chain & procurement,Supply chain,459,0.5709
+Supply chain & procurement,Procurement,400,0.6302
+Supply chain & procurement,Communication,392,0.5931
+Supply chain & procurement,Cross-functional work,360,0.5349
+Supply chain & procurement,Negotiation,291,0.4631
+Supply chain & procurement,Leadership,262,0.3765
+Supply chain & procurement,Logistics,225,0.3209
+Supply chain & procurement,Process improvement,216,0.2989
+Supply chain & procurement,Problem solving,207,0.2550
+Supply chain & procurement,ERP,202,0.2370
+Supply chain & procurement,Attention to detail,201,0.2351
+Supply chain & procurement,Excel,189,0.2575
+Supply chain & procurement,Collaboration,179,0.3102
+Supply chain & procurement,SQL,162,0.1522
+Supply chain & procurement,Ownership,146,0.1217
+Supply chain & procurement,Contract negotiation,144,0.1714
+Supply chain & procurement,Time management,135,0.1437
+Supply chain & procurement,Data analysis,132,0.1829
+Supply chain & procurement,Manufacturing engineering,112,0.0840
+Supply chain & procurement,Privacy regulation,112,0.0756
+Supply chain & procurement,Mentoring,110,0.1982
+Supply chain & procurement,Vendor management,107,0.2456
+Supply chain & procurement,Power BI,106,0.0726
+Supply chain & procurement,Risk management,105,0.1449
+Supply chain & procurement,Inventory management,96,0.1058
+Supply chain & procurement,Project management,88,0.1545
+Supply chain & procurement,Forecasting,86,0.1280
+Supply chain & procurement,HR management,83,0.1102
+Supply chain & procurement,Critical thinking,75,0.1528
+Supply chain & procurement,Data center operations,70,0.1278
+Supply chain & procurement,SAP,68,0.0986
+Supply chain & procurement,Prototyping,68,0.0532
+Supply chain & procurement,Decision making,66,0.1494
+Supply chain & procurement,Quality assurance,62,0.0816
+Supply chain & procurement,Customer support,54,0.0516
+Supply chain & procurement,Market research,53,0.0681
+Supply chain & procurement,Root cause analysis,53,0.0756
+Supply chain & procurement,Compensation & benefits,50,0.0694
+Supply chain & procurement,Tableau,46,0.0596
+Supply chain & procurement,Operations management,46,0.0539
+Supply chain & procurement,Intellectual property,45,0.0393
+Supply chain & procurement,Agile,45,0.0404
+Supply chain & procurement,Program management,44,0.0739
+Supply chain & procurement,Stakeholder management,43,0.0956
+Supply chain & procurement,Presentation,42,0.0622
+Supply chain & procurement,NetSuite,41,0.0843
+Supply chain & procurement,CNC machining,37,0.0230
+Supply chain & procurement,Blueprint reading,36,0.0252
+Supply chain & procurement,People management,35,0.0671
+Supply chain & procurement,Mechanical design,34,0.0283
+Supply chain & procurement,AI assistants,33,0.0992
+Supply chain & procurement,Partnerships,32,0.0543
+Supply chain & procurement,Python,29,0.0385
+Supply chain & procurement,Salesforce,27,0.0333
+Supply chain & procurement,Product strategy,26,0.0198
+Supply chain & procurement,Accounting,26,0.0797
+Supply chain & procurement,Auditing,24,0.0626
+Supply chain & procurement,Change management,23,0.0275
+Supply chain & procurement,Workplace safety,22,0.0300
+Supply chain & procurement,PCB design,22,0.0112
+Supply chain & procurement,Data visualization,21,0.0416
+Supply chain & procurement,Electrical engineering,21,0.0271
+Supply chain & procurement,Jira,21,0.0273
+Supply chain & procurement,Cloud infrastructure,17,0.0566
+Supply chain & procurement,FP&A,17,0.0541
+Supply chain & procurement,Materials science,17,0.0111
+Supply chain & procurement,Regulatory compliance,17,0.0375
+Supply chain & procurement,Financial modeling,16,0.0289
+Supply chain & procurement,Account management,16,0.0343
+Supply chain & procurement,Technical writing,16,0.0113
+Supply chain & procurement,Business development,16,0.0195
+Supply chain & procurement,CRM,16,0.0222
+Supply chain & procurement,Incident management,15,0.0308
+Supply chain & procurement,GD&T,15,0.0105
+Supply chain & procurement,Construction management,15,0.0124
+Supply chain & procurement,Business intelligence,14,0.0301
+Supply chain & procurement,Power systems,14,0.0143
+Supply chain & procurement,Adaptability,14,0.0321
+Supply chain & procurement,Mergers & acquisitions,14,0.0518
+Supply chain & procurement,CAD,13,0.0141
+Supply chain & procurement,Machine learning,11,0.0303
+Supply chain & procurement,Data governance,11,0.0284
+Supply chain & procurement,Workday,11,0.0326
+Supply chain & procurement,High-performance computing,10,0.0215
+Supply chain & procurement,Strategic planning,10,0.0187
+Supply chain & procurement,Robotics,10,0.0110
+Supply chain & procurement,Growth marketing,10,0.0141
+Supply chain & procurement,Cybersecurity,9,0.0279
+Supply chain & procurement,Pricing strategy,9,0.0432
+Supply chain & procurement,Roadmapping,9,0.0166
+Supply chain & procurement,Statistics,9,0.0162
+Supply chain & procurement,AWS,8,0.0209
+Supply chain & procurement,Recruiting,8,0.0188
+Supply chain & procurement,Revenue operations,7,0.0101
+Supply chain & procurement,Financial analysis,7,0.0174
+Supply chain & procurement,Looker,7,0.0117
+Supply chain & procurement,A/B testing,7,0.0142
+Supply chain & procurement,Therapy & counselling,7,0.0146
+Supply chain & procurement,Google Cloud,6,0.0189
+Supply chain & procurement,Systems engineering,6,0.0094
+Supply chain & procurement,AI coding tools,6,0.0100
+Supply chain & procurement,Data modeling,6,0.0096
+Supply chain & procurement,Embedded systems,5,0.0059
+Supply chain & procurement,Welding,5,0.0044
+Supply chain & procurement,R,5,0.0078
+Supply chain & procurement,Data pipelines,5,0.0083
+Supply chain & procurement,Legal drafting,5,0.0112
+Supply chain & procurement,Networking,5,0.0039
+Supply chain & procurement,HVAC,5,0.0097
+Technician & production,Communication,594,0.5825
+Technician & production,Problem solving,551,0.4787
+Technician & production,Attention to detail,369,0.3170
+Technician & production,Process improvement,253,0.2267
+Technician & production,Collaboration,246,0.2608
+Technician & production,Welding,220,0.1270
+Technician & production,Leadership,215,0.2430
+Technician & production,Blueprint reading,213,0.1257
+Technician & production,Cross-functional work,172,0.1879
+Technician & production,Test engineering,153,0.1133
+Technician & production,Customer support,153,0.1483
+Technician & production,Manufacturing engineering,149,0.1030
+Technician & production,HVAC,148,0.0991
+Technician & production,Quality assurance,146,0.1230
+Technician & production,Compensation & benefits,143,0.0941
+Technician & production,Root cause analysis,142,0.1292
+Technician & production,Mentoring,140,0.1748
+Technician & production,Workplace safety,137,0.1073
+Technician & production,CNC machining,131,0.0745
+Technician & production,Privacy regulation,125,0.0773
+Technician & production,Excel,120,0.0959
+Technician & production,ERP,99,0.0620
+Technician & production,CAD,97,0.0979
+Technician & production,Ownership,92,0.0810
+Technician & production,Time management,85,0.1081
+Technician & production,Presentation,84,0.0463
+Technician & production,Logistics,80,0.1192
+Technician & production,Inventory management,78,0.0603
+Technician & production,Control systems,77,0.0525
+Technician & production,PLC programming,76,0.0507
+Technician & production,Supply chain,75,0.0821
+Technician & production,GD&T,75,0.0452
+Technician & production,Data center operations,70,0.0828
+Technician & production,Incident management,69,0.0756
+Technician & production,Prototyping,68,0.0763
+Technician & production,AWS,64,0.0284
+Technician & production,Robotics,63,0.0627
+Technician & production,Jira,58,0.0699
+Technician & production,Decision making,52,0.0559
+Technician & production,Materials science,50,0.0274
+Technician & production,Technical writing,48,0.0548
+Technician & production,Mechanical design,43,0.0358
+Technician & production,Power systems,40,0.0312
+Technician & production,PCB design,40,0.0268
+Technician & production,Regulatory compliance,35,0.0465
+Technician & production,Python,35,0.0535
+Technician & production,Electrical engineering,34,0.0271
+Technician & production,Linux,34,0.0480
+Technician & production,Procurement,33,0.0352
+Technician & production,Critical thinking,29,0.0446
+Technician & production,Additive manufacturing,25,0.0239
+Technician & production,Data analysis,24,0.0263
+Technician & production,Bash / shell,24,0.0347
+Technician & production,Adaptability,23,0.0384
+Technician & production,Project management,23,0.0286
+Technician & production,SQL,23,0.0272
+Technician & production,Embedded systems,23,0.0250
+Technician & production,System design,22,0.0104
+Technician & production,GMP / GLP,22,0.0223
+Technician & production,Machine learning,21,0.0205
+Technician & production,Auditing,18,0.0166
+Technician & production,RF engineering,17,0.0087
+Technician & production,R,15,0.0090
+Technician & production,SAP,13,0.0100
+Technician & production,Networking,13,0.0108
+Technician & production,NX,13,0.0129
+Technician & production,iOS,13,0.0260
+Technician & production,Risk management,10,0.0150
+Technician & production,Operations management,10,0.0132
+Technician & production,People management,10,0.0235
+Technician & production,SolidWorks,9,0.0133
+Technician & production,Account management,9,0.0189
+Technician & production,Ruby,8,0.0036
+Technician & production,Therapy & counselling,8,0.0177
+Technician & production,Agile,7,0.0058
+Technician & production,Forecasting,7,0.0106
+Technician & production,Cloud infrastructure,7,0.0153
+Technician & production,MATLAB,7,0.0042
+Technician & production,Test automation,7,0.0062
+Technician & production,Tableau,7,0.0107
+Technician & production,Change management,7,0.0082
+Technician & production,Cybersecurity,7,0.0147
+Technician & production,Solution engineering,7,0.0106
+Technician & production,Data governance,6,0.0104
+Technician & production,AI assistants,6,0.0249
+Technician & production,NetSuite,6,0.0034
+Technician & production,Mergers & acquisitions,6,0.0031
+Technician & production,Power BI,6,0.0091
+Technician & production,Spring,6,0.0043
+Technician & production,Construction management,6,0.0026
+Technician & production,High-performance computing,5,0.0108
+Technician & production,Vendor management,5,0.0099
+Technician & production,HR management,5,0.0121
+Technician & production,Event management,5,0.0028
+Technician & production,Strategic planning,5,0.0093
+Technician & production,Git,5,0.0066
+Technician & production,Accessibility,5,0.0042
