@@ -1,11 +1,16 @@
 // Ranking only: no DOM, so it can be tested in Node.
 
-/** Jobs for a role, each weighted so that large employers do not dominate. */
-export function jobsFor(data, role) {
+/**
+ * Jobs in scope, each weighted so that large employers do not dominate.
+ * A null role or country means any; remote limits the scope to remote jobs.
+ */
+export function jobsFor(data, { role = null, country = null, remote = false } = {}) {
   const jobs = [];
   const sizes = new Map();
   data.jobSkills.forEach((skills, i) => {
     if (role !== null && data.jobRole[i] !== role) return;
+    if (country !== null && !data.jobCountries[i].includes(country)) return;
+    if (remote && !data.jobRemote[i]) return;
     const company = data.jobCompany[i];
     sizes.set(company, (sizes.get(company) ?? 0) + 1);
     jobs.push({ company, role: data.jobRole[i], skills });
@@ -59,11 +64,12 @@ export function match(jobs, owned) {
   return total ? sum / total : 0;
 }
 
-/** Roles in which a skill is most demanded. */
-export function rolesFor(data, skill, roles, limit) {
+/** Roles in which a skill is most demanded, skipping roles with too few jobs in scope. */
+export function rolesFor(data, scope, skill, roles, minJobs, limit) {
   return roles
     .map((role) => {
-      const jobs = jobsFor(data, role);
+      const jobs = jobsFor(data, { ...scope, role });
+      if (jobs.length < minJobs) return { role, demand: 0 };
       const total = jobs.reduce((sum, job) => sum + job.weight, 0);
       const asking = jobs.reduce((sum, job) => sum + (job.skills.includes(skill) ? job.weight : 0), 0);
       return { role, demand: total ? asking / total : 0 };

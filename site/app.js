@@ -1,7 +1,7 @@
 import { jobsFor, match, pairedWith, rankSkills, rolesFor } from "./rank.js";
 
 const PAGE_SIZE = 20;
-const MIN_ROLE_JOBS = 100;
+const ENOUGH_JOBS = 100;
 const STORAGE_KEY = "skills-gps";
 
 const $ = (id) => document.getElementById(id);
@@ -9,7 +9,9 @@ const percent = (x) => (x > 0 && x < 0.01 ? "<1%" : `${Math.round(x * 100)}%`);
 const number = (x) => x.toLocaleString("en");
 
 let data, names, groups, rolesShown;
-const state = { role: null, group: "technical", search: "", owned: new Set(), open: null, shown: PAGE_SIZE };
+const state = {
+  role: null, country: null, remote: false, group: "technical", search: "", owned: new Set(), open: null, shown: PAGE_SIZE,
+};
 
 start().catch(() => {
   $("status").textContent = "The data could not be loaded. Reload the page to try again.";
@@ -38,14 +40,20 @@ function findRoles() {
   for (const role of data.jobRole) counts[role]++;
   return data.roles
     .map((name, id) => ({ name, id, count: counts[id] }))
-    .filter((r) => r.name !== "Other" && r.count >= MIN_ROLE_JOBS)
+    .filter((r) => r.name !== "Other" && r.count >= ENOUGH_JOBS)
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 function fillFilters() {
   $("role").append(
     new Option("All roles", ""),
-    ...rolesShown.map((r) => new Option(`${r.name} (${number(r.count)})`, r.id)),
+    ...rolesShown.map((r) => new Option(r.name, r.id)),
+  );
+  const countries = data.countries.map((name, id) => ({ name, id }));
+  countries.sort((a, b) => a.name.localeCompare(b.name));
+  $("country").append(
+    new Option("All locations", ""),
+    ...countries.map((c) => new Option(c.name, c.id)),
   );
   $("group").append(
     new Option("All except people skills", "technical"),
@@ -61,16 +69,23 @@ function restore() {
   const params = new URLSearchParams(saved);
   const role = rolesShown.find((r) => r.name === params.get("role"));
   state.role = role ? role.id : null;
+  const country = data.countries.indexOf(params.get("country"));
+  state.country = country >= 0 ? country : null;
+  state.remote = params.has("remote");
   state.owned = new Set(
     params.getAll("have").map((name) => names.indexOf(name)).filter((id) => id >= 0),
   );
   $("role").value = state.role ?? "";
+  $("country").value = state.country ?? "";
+  $("remote").checked = state.remote;
   $("group").value = state.group;
 }
 
 function persist() {
   const params = new URLSearchParams();
   if (state.role !== null) params.set("role", data.roles[state.role]);
+  if (state.country !== null) params.set("country", data.countries[state.country]);
+  if (state.remote) params.set("remote", "1");
   for (const skill of state.owned) params.append("have", names[skill]);
   const text = params.toString();
   history.replaceState(null, "", text ? `#${text}` : location.pathname + location.search);
@@ -89,13 +104,16 @@ function load() {
 
 function listen() {
   const change = (update) => (event) => {
-    update(event.target.value);
+    update(event.target.type === "checkbox" ? event.target.checked : event.target.value);
     state.shown = PAGE_SIZE;
     state.open = null;
     render();
   };
   $("filters").addEventListener("submit", (event) => event.preventDefault());
-  $("role").addEventListener("change", change((v) => (state.role = v === "" ? null : Number(v))));
+  const id = (value) => (value === "" ? null : Number(value));
+  $("role").addEventListener("change", change((v) => (state.role = id(v))));
+  $("country").addEventListener("change", change((v) => (state.country = id(v))));
+  $("remote").addEventListener("change", change((v) => (state.remote = v)));
   $("group").addEventListener("change", change((v) => (state.group = v)));
   $("search").addEventListener("input", change((v) => (state.search = v.trim().toLowerCase())));
   $("more").addEventListener("click", () => {
@@ -123,7 +141,7 @@ function render() {
 
   renderSummary(jobs, ranked[0]);
   $("measure").textContent = state.owned.size
-    ? "Priority: average of demand in this role and demand in jobs that use your skills."
+    ? "Priority: average of demand in these jobs and demand in those that use your skills."
     : "Demand: share of postings that ask for the skill.";
   $("owned").replaceChildren(...[...state.owned].map(ownedItem));
   const scale = ranked[0]?.priority ?? 1;
@@ -134,7 +152,7 @@ function render() {
 
 /** Hidden people skills must not count against the match score. */
 function visibleJobs() {
-  const jobs = jobsFor(data, state.role);
+  const jobs = jobsFor(data, state);
   if (state.group === "" || state.group === "People") return jobs;
   return jobs.map((job) => ({ ...job, skills: job.skills.filter((s) => !isPeople(s)) }));
 }
@@ -148,8 +166,10 @@ function inGroup(skill) {
 }
 
 function renderSummary(jobs, top) {
-  const role = state.role === null ? "all roles" : data.roles[state.role].toLowerCase();
-  const scope = `${number(jobs.length)} postings (${role})`;
+  const role = state.role === null ? "All roles" : data.roles[state.role];
+  const place = state.country === null ? "" : `, ${data.countries[state.country]}`;
+  const scope = `${number(jobs.length)} postings (${role}${place}${state.remote ? ", remote" : ""})`;
+  $("small").hidden = jobs.length >= ENOUGH_JOBS;
   if (!top) {
     $("summary").textContent = scope;
     return;
@@ -199,11 +219,12 @@ function skillItem(stat, scale, jobs) {
 }
 
 function detail(skill, jobs) {
-  const roles = rolesFor(data, skill, rolesShown.map((r) => r.id), 6);
+  const roles = rolesFor(data, state, skill, rolesShown.map((r) => r.id), ENOUGH_JOBS, 6);
   const pairs = pairedWith(jobs, skill, 6);
   const roleList = roles.map((r) =>
     element("li", "", data.roles[r.role], bar(r.demand, roles[0].demand)),
   );
+  if (!roles.length) roleList.push(element("li", "", "Too few postings here to compare roles."));
   const pairList = pairs.map((p) => element("li", "", `${names[p.skill]}: in ${percent(p.demand)} of these jobs`));
   return element(
     "div", "detail",

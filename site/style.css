@@ -35,14 +35,19 @@ button { padding: 0 .75rem; cursor: pointer; }
 button:hover { border-color: var(--ink); }
 :focus-visible { outline: 2px solid var(--bar); outline-offset: 2px; }
 
-#filters { display: grid; gap: .75rem; grid-template-columns: repeat(3, 1fr); }
+#filters { display: grid; gap: .75rem; grid-template-columns: repeat(2, 1fr); }
 #filters label { font-size: .875rem; color: var(--ink-2); }
 #filters :is(select, input) { display: block; margin-top: .25rem; font-size: 1rem; color: var(--ink); }
+
+#filters .check { display: flex; gap: .5rem; align-items: center; color: var(--ink); }
+#filters .check input { width: 1.125rem; min-height: 1.125rem; margin: 0; }
 
 #summary { margin: 1.5rem 0 .75rem; }
 
 #owned { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem; padding: 0; list-style: none; }
 #owned button { min-height: 2rem; font-size: .875rem; border-color: var(--bar); }
+
+#small { margin: 0 0 .75rem; padding-left: .75rem; border-left: 3px solid var(--control); }
 
 #measure { margin: 0 0 .5rem; color: var(--ink-2); font-size: .875rem; }
 

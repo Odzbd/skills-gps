@@ -18,11 +18,14 @@
   <main hidden>
     <form id="filters">
       <label>Target role <select id="role"></select></label>
+      <label>Location <select id="country"></select></label>
       <label>Skill type <select id="group"></select></label>
       <label>Find <input id="search" type="search" placeholder="Python, Figma, SQL"></label>
+      <label class="check"><input id="remote" type="checkbox"> Remote jobs only</label>
     </form>
 
     <p id="summary" aria-live="polite"></p>
+    <p id="small" hidden>Small sample: under 100 postings, so treat the order as a rough guide.</p>
     <ul id="owned" aria-label="Skills you have"></ul>
 
     <p id="measure"></p>
@@ -41,8 +44,12 @@
         skills are matched against a fixed dictionary.</p>
       <p><strong>Demand</strong> is the share of postings that ask for a skill. Large employers
         are damped so a few of them cannot decide the ranking.</p>
-      <p><strong>Priority</strong> is the average of two numbers: demand in the role, and demand
-        in jobs that already use your skills. With nothing ticked, it equals demand.</p>
+      <p><strong>Priority</strong> is the average of two numbers: demand in the jobs you chose, and
+        demand in those that already use your skills. With nothing ticked, it equals demand.</p>
+      <p><strong>Location</strong> is read from the posting. A job open in several countries counts
+        in each. Unclear locations count only under All locations. Remote
+        describes the job as a whole: it may be remote in one of its countries and not another. Countries with under 100
+        postings are not listed.</p>
       <p><strong>Limits.</strong> The employers are tech-forward and mostly in the US and Europe,
         and only English postings are read. This is not the whole labour market.</p>
       <p><strong>Privacy.</strong> Your choices stay in this browser and in the page link.

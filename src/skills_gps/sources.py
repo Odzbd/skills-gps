@@ -26,35 +26,55 @@ class Posting(NamedTuple):
     company: str
     title: str
     html: str
+    places: list[str]  # as written by the employer; "iso:XX" when a board gives a country code
 
 
 class FetchError(Exception):
     """A board could not be read after every attempt."""
 
 
-def greenhouse(token: str) -> Iterator[tuple[str, str]]:
+Job = tuple[str, str, list[str]]
+
+
+def greenhouse(token: str) -> Iterator[Job]:
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
     for job in _get_json(url)["jobs"]:
-        yield job["title"], job.get("content") or ""
+        places = [(job.get("location") or {}).get("name") or ""]
+        yield job["title"], job.get("content") or "", places
 
 
-def ashby(token: str) -> Iterator[tuple[str, str]]:
+def ashby(token: str) -> Iterator[Job]:
     url = f"https://api.ashbyhq.com/posting-api/job-board/{token}"
     for job in _get_json(url)["jobs"]:
-        if job.get("isListed", True):
-            yield job["title"], job.get("descriptionHtml") or ""
+        if not job.get("isListed", True):
+            continue
+        places = [_ashby_place(place) for place in [job, *(job.get("secondaryLocations") or [])]]
+        if job.get("workplaceType") == "Remote":  # isRemote is also true for hybrid jobs
+            places.append("Remote")
+        yield job["title"], job.get("descriptionHtml") or "", places
 
 
-def lever(token: str) -> Iterator[tuple[str, str]]:
+def _ashby_place(place: dict) -> str:
+    address = (place.get("address") or {}).get("postalAddress") or {}
+    return address.get("addressCountry") or place.get("location") or ""
+
+
+def lever(token: str) -> Iterator[Job]:
     for job in _get_json(f"https://api.lever.co/v0/postings/{token}?mode=json"):
         sections = [job.get("description") or ""]
         for item in job.get("lists", []):
             sections += [item.get("text") or "", item.get("content") or ""]
         sections.append(job.get("additional") or "")
-        yield job["text"], "<br>".join(sections)
+        categories = job.get("categories") or {}
+        places = categories.get("allLocations") or [categories.get("location") or ""]
+        if country := job.get("country"):
+            places = [*places, f"iso:{country}"]
+        if job.get("workplaceType") == "remote":
+            places = [*places, "Remote"]
+        yield job["text"], "<br>".join(sections), places
 
 
-BOARDS: dict[str, Callable[[str], Iterator[tuple[str, str]]]] = {
+BOARDS: dict[str, Callable[[str], Iterator[Job]]] = {
     "greenhouse": greenhouse,
     "ashby": ashby,
     "lever": lever,

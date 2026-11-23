@@ -1,0 +1,401 @@
+# Countries and the words that identify them, keyed by ISO code.
+#
+#   name          shown on the page
+#   aliases       other names, matched in any case
+#   codes         extra short codes, matched only in upper case
+#   regions       states and provinces
+#   region_codes  their codes, matched only in upper case
+#   cities        major cities, needed when a posting names only a city
+#
+# A word may appear under several countries; nearby words decide between them.
+
+[US]
+name = "United States"
+aliases = ["United States of America", "U.S.", "U.S.A.", "America", "AMER - US"]
+codes = ["USA"]
+regions = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "Washington State", "West Virginia", "Wisconsin", "Wyoming", "District of Columbia", "D.C.", "Puerto Rico", "Guam", "Silicon Valley", "Bay Area"]
+region_codes = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC", "PR"]
+cities = ["New York", "New York City", "NYC", "Manhattan", "Brooklyn", "San Francisco", "SF", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Jacksonville", "Fort Worth", "Columbus", "Charlotte", "Indianapolis", "Seattle", "Denver", "Boston", "Nashville", "Detroit", "Portland", "Las Vegas", "Memphis", "Louisville", "Baltimore", "Milwaukee", "Albuquerque", "Tucson", "Sacramento", "Kansas City", "Atlanta", "Miami", "Tampa", "Orlando", "Raleigh", "Durham", "Minneapolis", "Pittsburgh", "Cincinnati", "Cleveland", "St. Louis", "Salt Lake City", "Lehi", "Boulder", "Palo Alto", "Mountain View", "Menlo Park", "Sunnyvale", "Santa Clara", "Redwood City", "San Mateo", "South San Francisco", "Oakland", "Berkeley", "Fremont", "Foster City", "Costa Mesa", "Irvine", "Santa Monica", "El Segundo", "Hawthorne", "Long Beach", "Starbase", "Bellevue", "Redmond", "Scottsdale", "Tempe", "Reston", "Huntsville", "Cape Canaveral", "Newark", "Jersey City", "Hoboken", "Stamford", "Greenwich", "Plano", "Ann Arbor", "Burlingame", "Emeryville", "Waltham", "Somerville"]
+
+[CA]
+name = "Canada"
+regions = ["Alberta", "British Columbia", "Manitoba", "New Brunswick", "Newfoundland", "Nova Scotia", "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "GTA"]
+region_codes = ["AB", "BC", "MB", "NB", "NS", "ON", "QC", "SK"]
+cities = ["Toronto", "Montreal", "Vancouver", "Calgary", "Ottawa", "Edmonton", "Mississauga", "Winnipeg", "Quebec City", "Kitchener", "Markham", "Halifax"]
+
+[MX]
+name = "Mexico"
+cities = ["Mexico City", "CDMX", "Ciudad de Mexico", "Guadalajara", "Monterrey", "Tijuana", "Queretaro"]
+
+[BR]
+name = "Brazil"
+aliases = ["Brasil"]
+cities = ["Sao Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba", "Florianopolis", "Porto Alegre", "Campinas", "Brasilia"]
+
+[AR]
+name = "Argentina"
+cities = ["Buenos Aires"]
+
+[CL]
+name = "Chile"
+
+[CO]
+name = "Colombia"
+cities = ["Bogota", "Medellin"]
+
+[PE]
+name = "Peru"
+cities = ["Lima"]
+
+[UY]
+name = "Uruguay"
+cities = ["Montevideo"]
+
+[EC]
+name = "Ecuador"
+
+[CR]
+name = "Costa Rica"
+
+[PA]
+name = "Panama"
+
+[GT]
+name = "Guatemala"
+
+[DO]
+name = "Dominican Republic"
+
+[GB]
+name = "United Kingdom"
+aliases = ["Great Britain", "U.K."]
+codes = ["UK", "GBR"]
+regions = ["England", "Scotland", "Wales", "Northern Ireland"]
+cities = ["London", "Manchester", "Birmingham", "Edinburgh", "Glasgow", "Bristol", "Cambridge", "Leeds", "Liverpool", "Cardiff", "Belfast", "Nottingham", "Milton Keynes", "Brighton"]
+
+[IE]
+name = "Ireland"
+aliases = ["Republic of Ireland"]
+cities = ["Dublin", "Cork", "Galway", "Limerick"]
+
+[FR]
+name = "France"
+cities = ["Paris", "Lyon", "Marseille", "Toulouse", "Bordeaux", "Lille", "Nantes", "Nice", "Grenoble", "Rennes", "Strasbourg", "Montpellier", "Levallois-Perret"]
+
+[DE]
+name = "Germany"
+aliases = ["Deutschland"]
+codes = ["DEU"]
+cities = ["Berlin", "Munich", "Munchen", "Hamburg", "Frankfurt", "Cologne", "Koln", "Dusseldorf", "Stuttgart", "Leipzig", "Dresden", "Magdeburg", "Nuremberg"]
+
+[NL]
+name = "Netherlands"
+aliases = ["The Netherlands", "Holland"]
+codes = ["NLD"]
+cities = ["Amsterdam", "Rotterdam", "Utrecht", "Eindhoven", "The Hague", "Den Haag", "Delft"]
+
+[BE]
+name = "Belgium"
+cities = ["Brussels", "Antwerp", "Ghent"]
+
+[LU]
+name = "Luxembourg"
+
+[CH]
+name = "Switzerland"
+cities = ["Zurich", "Geneva", "Basel", "Lausanne", "Zug"]
+
+[AT]
+name = "Austria"
+cities = ["Vienna", "Wien"]
+
+[ES]
+name = "Spain"
+aliases = ["Espana"]
+cities = ["Madrid", "Barcelona", "Valencia", "Malaga", "Seville"]
+
+[PT]
+name = "Portugal"
+cities = ["Lisbon", "Lisboa", "Porto"]
+
+[IT]
+name = "Italy"
+aliases = ["Italia"]
+cities = ["Milan", "Milano", "Rome", "Roma", "Turin", "Bologna"]
+
+[SE]
+name = "Sweden"
+cities = ["Stockholm", "Gothenburg", "Malmo"]
+
+[NO]
+name = "Norway"
+cities = ["Oslo"]
+
+[DK]
+name = "Denmark"
+cities = ["Copenhagen", "Aarhus"]
+
+[FI]
+name = "Finland"
+cities = ["Helsinki", "Oulu", "Espoo"]
+
+[IS]
+name = "Iceland"
+cities = ["Reykjavik"]
+
+[EE]
+name = "Estonia"
+cities = ["Tallinn", "Tartu"]
+
+[LV]
+name = "Latvia"
+cities = ["Riga"]
+
+[LT]
+name = "Lithuania"
+cities = ["Vilnius", "Kaunas"]
+
+[PL]
+name = "Poland"
+aliases = ["Polska"]
+cities = ["Warsaw", "Warszawa", "Krakow", "Wroclaw", "Gdansk", "Poznan"]
+
+[CZ]
+name = "Czechia"
+aliases = ["Czech Republic"]
+cities = ["Prague", "Brno"]
+
+[SK]
+name = "Slovakia"
+cities = ["Bratislava"]
+
+[HU]
+name = "Hungary"
+cities = ["Budapest"]
+
+[RO]
+name = "Romania"
+cities = ["Bucharest", "Cluj-Napoca", "Cluj", "Iasi", "Timisoara"]
+
+[BG]
+name = "Bulgaria"
+cities = ["Sofia"]
+
+[GR]
+name = "Greece"
+cities = ["Athens", "Thessaloniki"]
+
+[HR]
+name = "Croatia"
+cities = ["Zagreb"]
+
+[SI]
+name = "Slovenia"
+cities = ["Ljubljana"]
+
+[RS]
+name = "Serbia"
+cities = ["Belgrade", "Novi Sad"]
+
+[BA]
+name = "Bosnia and Herzegovina"
+aliases = ["Bosnia"]
+cities = ["Sarajevo"]
+
+[MK]
+name = "North Macedonia"
+aliases = ["Macedonia"]
+
+[ME]
+name = "Montenegro"
+
+[AL]
+name = "Albania"
+cities = ["Tirana"]
+
+[XK]
+name = "Kosovo"
+
+[MT]
+name = "Malta"
+
+[CY]
+name = "Cyprus"
+cities = ["Limassol", "Nicosia"]
+
+[UA]
+name = "Ukraine"
+cities = ["Kyiv", "Kiev", "Lviv"]
+
+[MD]
+name = "Moldova"
+
+[RU]
+name = "Russia"
+cities = ["Moscow", "Saint Petersburg"]
+
+[GE]
+name = "Georgia"
+cities = ["Tbilisi", "Batumi"]
+
+[AM]
+name = "Armenia"
+cities = ["Yerevan"]
+
+[AZ]
+name = "Azerbaijan"
+cities = ["Baku"]
+
+[KZ]
+name = "Kazakhstan"
+cities = ["Almaty", "Astana"]
+
+[UZ]
+name = "Uzbekistan"
+cities = ["Tashkent"]
+
+[TR]
+name = "Turkey"
+aliases = ["Turkiye"]
+cities = ["Istanbul", "Ankara", "Izmir"]
+
+[IL]
+name = "Israel"
+cities = ["Tel Aviv", "Tel Aviv-Yafo", "Herzliya", "Jerusalem", "Haifa", "Ramat Gan"]
+
+[AE]
+name = "United Arab Emirates"
+codes = ["UAE"]
+cities = ["Dubai", "Abu Dhabi"]
+
+[SA]
+name = "Saudi Arabia"
+aliases = ["KSA"]
+cities = ["Riyadh", "Jeddah", "King Abdullah Economic City"]
+
+[QA]
+name = "Qatar"
+cities = ["Doha"]
+
+[KW]
+name = "Kuwait"
+
+[BH]
+name = "Bahrain"
+
+[OM]
+name = "Oman"
+
+[JO]
+name = "Jordan"
+cities = ["Amman"]
+
+[LB]
+name = "Lebanon"
+
+[IQ]
+name = "Iraq"
+
+[EG]
+name = "Egypt"
+cities = ["Cairo"]
+
+[MA]
+name = "Morocco"
+cities = ["Casablanca"]
+
+[NG]
+name = "Nigeria"
+cities = ["Lagos"]
+
+[KE]
+name = "Kenya"
+cities = ["Nairobi"]
+
+[GH]
+name = "Ghana"
+cities = ["Accra"]
+
+[ZA]
+name = "South Africa"
+cities = ["Johannesburg", "Cape Town"]
+
+[PK]
+name = "Pakistan"
+cities = ["Karachi", "Lahore", "Islamabad"]
+
+[IN]
+name = "India"
+codes = ["IND"]
+regions = ["Karnataka", "Maharashtra", "Telangana", "Tamil Nadu", "Haryana"]
+cities = ["Bengaluru", "Bangalore", "Mumbai", "Delhi", "New Delhi", "Gurugram", "Gurgaon", "Hyderabad", "Chennai", "Pune", "Noida", "Kolkata", "Ahmedabad"]
+
+[BD]
+name = "Bangladesh"
+cities = ["Dhaka"]
+
+[LK]
+name = "Sri Lanka"
+
+[CN]
+name = "China"
+aliases = ["Mainland China"]
+cities = ["Beijing", "Shanghai", "Shenzhen", "Guangzhou", "Hangzhou", "Suzhou", "Chengdu"]
+
+[HK]
+name = "Hong Kong"
+
+[MO]
+name = "Macau"
+
+[TW]
+name = "Taiwan"
+cities = ["Taipei", "Taoyuan", "Hsinchu", "Taichung", "Kaohsiung"]
+
+[JP]
+name = "Japan"
+codes = ["JPN"]
+cities = ["Tokyo", "Osaka", "Kyoto", "Fukuoka", "Nagoya"]
+
+[KR]
+name = "South Korea"
+aliases = ["Korea", "Republic of Korea"]
+codes = ["KOR"]
+cities = ["Seoul", "Busan", "Pangyo", "Incheon", "Daegu", "Gyeonggi"]
+
+[SG]
+name = "Singapore"
+codes = ["SGP"]
+
+[MY]
+name = "Malaysia"
+cities = ["Kuala Lumpur", "Penang", "Subang Jaya", "Shah Alam", "Petaling Jaya", "Johor Bahru", "Selangor"]
+
+[ID]
+name = "Indonesia"
+cities = ["Jakarta"]
+
+[TH]
+name = "Thailand"
+cities = ["Bangkok"]
+
+[VN]
+name = "Vietnam"
+aliases = ["Viet Nam"]
+cities = ["Ho Chi Minh City", "Ho Chi Minh", "Hanoi", "HCMC"]
+
+[PH]
+name = "Philippines"
+aliases = ["The Philippines"]
+cities = ["Manila", "Makati", "Makati City", "Taguig", "Cebu", "Quezon City"]
+
+[AU]
+name = "Australia"
+codes = ["AUS"]
+regions = ["New South Wales", "Queensland", "South Australia", "Western Australia", "Tasmania"]
+region_codes = ["NSW", "QLD", "VIC"]
+cities = ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Canberra"]
+
+[NZ]
+name = "New Zealand"
+cities = ["Auckland", "Wellington", "Christchurch"]

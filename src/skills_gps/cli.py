@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from .build import extract_jobs, write_history, write_site_data
+from .places import PlaceMatcher
 from .roles import RoleMatcher
 from .skills import SkillMatcher, tokenize
 from .sources import Posting, fetch_all, load_companies
@@ -14,6 +15,7 @@ from .text import is_english, to_lines
 COMPANIES = Path("data/companies.csv")
 SKILLS = Path("data/skills.toml")
 ROLES = Path("data/roles.toml")
+PLACES = Path("data/places.toml")
 HISTORY = Path("data/history")
 CACHE = Path(".cache/postings.jsonl")
 SITE_DATA = Path("site/data.json")
@@ -38,15 +40,20 @@ def fetch() -> None:
 
 def build() -> None:
     """Turn the cache into the site data and a history snapshot."""
-    skills, roles = SkillMatcher.load(SKILLS), RoleMatcher.load(ROLES)
-    jobs = extract_jobs(_cached(), load_companies(COMPANIES), skills, roles)
+    skills, roles, places = (
+        SkillMatcher.load(SKILLS),
+        RoleMatcher.load(ROLES),
+        PlaceMatcher.load(PLACES),
+    )
+    jobs = extract_jobs(_cached(), load_companies(COMPANIES), skills, roles, places)
     if not jobs:
         sys.exit("no usable postings in the cache")
     date = datetime.now(UTC).date().isoformat()
-    write_site_data(jobs, skills, roles, date, SITE_DATA)
+    write_site_data(jobs, skills, roles, places, date, SITE_DATA)
     write_history(jobs, skills, date, HISTORY)
-    matched = sum(bool(job.skills) for job in jobs)
-    print(f"{len(jobs):,} jobs; {matched / len(jobs):.0%} mention a known skill")
+    skilled = sum(bool(job.skills) for job in jobs) / len(jobs)
+    placed = sum(bool(job.countries) or job.remote for job in jobs) / len(jobs)
+    print(f"{len(jobs):,} jobs; {skilled:.0%} mention a known skill, {placed:.0%} have a place")
 
 
 def discover() -> None:

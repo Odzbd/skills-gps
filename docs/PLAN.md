@@ -29,7 +29,7 @@ an API server (nothing to serve).
 ```
 companies.csv ─> fetch ─> .cache/postings.jsonl ─> build ─> site/data.json ─> browser
                                                     │
-                         skills.toml, roles.toml ───┘└────> data/history/DATE.csv
+                        skills, roles, places.toml ─┘└────> data/history/DATE.csv
 ```
 
 | Module | Job |
@@ -38,6 +38,7 @@ companies.csv ─> fetch ─> .cache/postings.jsonl ─> build ─> site/data.js
 | `text.py` | HTML to lines, boilerplate removal, language check |
 | `skills.py` | Load the dictionary, extract skills |
 | `roles.py` | Map a job title to a role |
+| `places.py` | Map location text to countries and a remote flag |
 | `build.py` | De-duplicate, aggregate, write outputs |
 | `cli.py` | `fetch`, `build`, `discover` |
 | `site/` | The public page |
@@ -49,7 +50,8 @@ companies.csv ─> fetch ─> .cache/postings.jsonl ─> build ─> site/data.js
 1. *Company boilerplate.* "We build payments for..." appears in every posting of
    one employer. A line found in over 30% of an employer's postings is dropped.
 2. *Self-mentions.* Snowflake's own postings do not count as demand for Snowflake.
-3. *Duplicates.* Same employer, title and skills in five cities is one posting.
+3. *Duplicates.* Same employer, title and skills in five cities is one posting that
+   keeps all its countries.
 4. *Ambiguous words.* "Go", "R" and "Excel" need exact case and, where needed,
    another skill on the same line. Phrases like "go to market" and "R&D" are masked.
 
@@ -72,6 +74,16 @@ rejected: on real data it left the top of the list unchanged for every profile t
 
 **Match.** The average share of listed skills you already have, across the role.
 
+**Location.** Text is split into places, then matched against `data/places.toml`.
+Neighbouring words settle ambiguity: a state or country after a city overrides it, so
+"Dublin, OH" is in the US, and "CA" is California or Canada depending on what precedes it.
+Unclear text stays unknown and counts only under All locations. A country needs 100 jobs to
+be listed; a view with fewer than 100 is marked as a small sample.
+
+Checked on 2026-11-23: 98% of jobs have a country or are remote. In a random sample of 100
+postings, 1 was wrong and 2 were left unknown. Against Lever's own country codes, the text
+parser agreed on 3,729 of 3,736.
+
 ## How each field is used
 
 | Field | Now | Later |
@@ -79,7 +91,7 @@ rejected: on real data it left the top of the list unchanged for every profile t
 | Job title | Maps to a role; the main filter | Seniority (junior / senior / lead) |
 | Company name | Weighting, boilerplate and self-mention removal, "asked by N employers" | Industry filter |
 | Description | Skill extraction | Knowledge, experience |
-| Location | - | Region and remote filter; skills per market |
+| Location | Country and remote filter; snapshots per country | Salary comparison |
 | Salary | - | Median pay with vs. without a skill, *within* a role and region |
 
 Salary is last on purpose. Many postings omit it, and a raw "skill premium" mostly
@@ -90,11 +102,13 @@ measures seniority and city. It is only honest after those two are controlled.
 | Phase | Adds | Done when |
 |---|---|---|
 | **1. Skills (MVP)** | Ranked skills per role, personal priority, roles per skill | Public page, weekly refresh |
-| 2. Trend | Change against snapshots in `data/history/` | 8+ weekly snapshots exist |
-| 3. Location | Region and remote filter | Each shown cell has 100+ postings |
-| 4. Experience | Years required, seniority | Extractor is 90%+ precise on a labelled sample |
-| 5. Knowledge | Degrees, certifications, domains | Same bar |
-| 6. Salary | Controlled pay difference | Ranges are parsed for 30%+ of the role |
+| **2. Location** (done) | Country and remote filter | 90% mapped, 95% correct on a sample |
+| 3. Required vs. nice-to-have | Must-haves weigh more than bonuses | 90%+ precise on a labelled sample |
+| 4. Seniority | Junior, mid, senior and lead views | Same bar |
+| 5. Trend | Change against snapshots in `data/history/` | 8+ weekly snapshots exist |
+| 6. Experience | Years required | Same bar |
+| 7. Knowledge | Degrees, certifications, domains | Same bar |
+| 8. Salary | Controlled pay difference | Ranges are parsed for 30%+ of the role |
 
 History is recorded from the first run because it cannot be recovered later.
 
@@ -103,6 +117,8 @@ History is recorded from the first run because it cannot be recovered later.
 - Employers are tech-forward and mostly US or Europe. This is not the whole labour
   market. Government, small business and most blue-collar work are missing.
 - English postings only.
+- Remote is recorded per job, not per country. A job that is remote in Canada and on site
+  in London counts as remote in both.
 - A dictionary cannot see a skill it does not list. `skills-gps discover` surfaces
   frequent unknown phrases for review.
 - A posting shows what employers *write*, not what they test for or pay for.

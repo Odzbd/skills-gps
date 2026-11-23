@@ -3,8 +3,8 @@
 Which skill should you learn next?
 
 Skills GPS reads about 40,000 live job postings from about 300 employers each week and ranks the
-skills they ask for. Pick a target role, tick what you already know, and it shows what to
-learn next. It is a static page: no account, no server, no tracking.
+skills they ask for. Pick a target role and location, tick what you already know, and it
+shows what to learn next. It is a static page: no account, no server, no tracking.
 
 ## Run it
 
@@ -40,6 +40,7 @@ Everything that shapes the answer is data, not code:
 | `data/companies.csv` | Add or remove an employer |
 | `data/skills.toml` | Add a skill, an alias, or a phrase to ignore |
 | `data/roles.toml` | Change how titles map to roles |
+| `data/places.toml` | Add a country, state or city |
 
 `uv run skills-gps discover` lists frequent phrases the dictionary does not know.
 
